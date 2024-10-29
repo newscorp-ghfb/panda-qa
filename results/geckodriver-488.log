@@ -1,0 +1,62 @@
+1729838532549	geckodriver	INFO	Listening on 127.0.0.1:58094
+1729838535587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile1eKmqg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729838536290	Marionette	INFO	Marionette enabled
+1729838536573	Marionette	INFO	Listening on port 58102
+WebDriver BiDi listening on ws://127.0.0.1:58095
+Read port: 58102
+1729838536816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58095/devtools/browser/2741e92f-0248-469a-b836-305b4c305576
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2od7fph5mw4ibt7&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1729838544970&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2od7fz3x5q3azhy&ckp=m2od7fphhqfw05ak&glb=&cp_userState=anon&cp_testGroup=50&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=47&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729838547068	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nbFBA6X6-R6L-vgiwwUCSbgu-1WcfjEIvkEfffAnUGA.js line 2 > eval line 4266 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements6844.js, line 2: Script terminated by timeout at:
+serializeObjectToQueryString@https://cdn.doubleverify.com/dv-measurements6844.js:2:237086
+createEventCallUrl@https://cdn.doubleverify.com/dv-measurements6844.js:2:204309
+sendDataToServer@https://cdn.doubleverify.com/dv-measurements6844.js:2:204440
+registerEventCall@https://cdn.doubleverify.com/dv-measurements6844.js:2:202564
+sendWaitingMessages@https://cdn.doubleverify.com/dv-measurements6844.js:2:202942
+sendMessage@https://cdn.doubleverify.com/dv-measurements6844.js:2:200920
+report@https://cdn.doubleverify.com/dv-measurements6844.js:2:106435
+7360/mapToWrapperFunction/</t[e]@https://cdn.doubleverify.com/dv-measurements6844.js:2:197150
+runSafely@https://cdn.doubleverify.com/dv-measurements6844.js:2:197917
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements6844.js:2:197007
+publishEvents@https://cdn.doubleverify.com/dv-measurements6844.js:2:196989
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements6844.js:2:195571
+TrySendEngagementUnload@https://cdn.doubleverify.com/dv-measurements6844.js:2:71353
+7360/mapToWrapperFunction/</t[e]@https://cdn.doubleverify.com/dv-measurements6844.js:2:197150
+runSafely@https://cdn.doubleverify.com/dv-measurements6844.js:2:197917
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements6844.js:2:197007
+publishEvents@https://cdn.doubleverify.com/dv-measurements6844.js:2:196989
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements6844.js:2:195571
+processAdData@https://cdn.doubleverify.com/dv-measurements6844.js:2:285260
+processAdDataWrapper@https://cdn.doubleverify.com/dv-measurements6844.js:2:279966
+7360/mapToWrapperFunction/</t[e]@https://cdn.doubleverify.com/dv-measurements6844.js:2:197150
+runSafely@https://cdn.doubleverify.com/dv-measurements6844.js:2:197917
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements6844.js:2:197007
+publishEvents@https://cdn.doubleverify.com/dv-measurements6844.js:2:196989
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements6844.js:2:195571
+handleUnload@https://cdn.doubleverify.com/dv-measurements6844.js:2:286722
+131/e.wrapFunction/<@https://cdn.doubleverify.com/dv-measurements6844.js:2:343254
+
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: Script terminated by timeout at:
+8018/g/<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111956
+r@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111426
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js, line 1: Script terminated by timeout at:
+78018/y/<@https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js:1:118364
+r@https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js:1:117860
+
+1729840312678	Marionette	INFO	Stopped listening on port 58102
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

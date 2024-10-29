@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and accessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: newsroomdev.test.6@dowjones.com  #newsroomdevtest_xCBmjv
-accessKey: Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g  #s3c1cGNU2UpLq5iJzNzx
+userName: newsroomdev.test.6@dowjones.com  #jansisasikumar_XRKqk6  #newsroomdev.test.6@dowjones.com  #newsroomdevtest_xCBmjv
+accessKey: Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g  #ptazxpsTbsRFWhsEXpoM  #Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g  #s3c1cGNU2UpLq5iJzNzx
 # ======================
 # BrowserStack Reporting
 # ======================
@@ -44,7 +44,7 @@ platforms:
     networkLogs: true
     consoleLogs: info
     framework: robot
-    idleTimeout: 300
+    idleTimeout: 600
 # =======================
 # Parallels per Platform
 # =======================
@@ -73,7 +73,7 @@ browserstackLocal: true
 # ===================
 # Debugging features
 # ===================
-debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
+debug: true # <boolean> # Set to true if you need screenshots for every selenium command ran
 networkLogs: true # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)

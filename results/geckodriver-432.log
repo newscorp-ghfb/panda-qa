@@ -1,0 +1,17 @@
+1729836673278	geckodriver	INFO	Listening on 127.0.0.1:56353
+1729836676317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilenH7pNf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836677142	Marionette	INFO	Marionette enabled
+1729836677461	Marionette	INFO	Listening on port 62694
+WebDriver BiDi listening on ws://127.0.0.1:56354
+Read port: 62694
+1729836677745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56354/devtools/browser/9a29700f-d180-4295-a84d-b4412b01d116
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 263: NS_ERROR_OUT_OF_MEMORY: 
+1729836682595	Marionette	INFO	Stopped listening on port 62694
+Dynamically enable window occlusion 1

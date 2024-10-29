@@ -4,8 +4,8 @@ Library    JSONLibrary
 Resource  ../Resources/DefinedKeywords.robot
 
 *** Variables ***
-${BROWSERSTACK_USERNAME}=   jansisasikumar_XRKqk6  #newsroomdevtest_xCBmjv
-${BROWSERSTACK_ACCESS_KEY}=  ptazxpsTbsRFWhsEXpoM  #s3c1cGNU2UpLq5iJzNzx
+${BROWSERSTACK_USERNAME}=   newsroomdev.test.6@dowjones.com  #jansisasikumar_XRKqk6  #newsroomdevtest_xCBmjv
+${BROWSERSTACK_ACCESS_KEY}=  Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g  #ptazxpsTbsRFWhsEXpoM  #s3c1cGNU2UpLq5iJzNzx
 ${BROWSERSTACK_URL}=   https://automate.browserstack.com/dashboard/v2/builds/3263aa6a845e0b5e2d6e245b9107760e32c3105f?projectIds=2299596${BROWSERSTACK_USERNAME}:${BROWSERSTACK_ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub
 
 ${CookieValue1}=  x-dev-access-clientid

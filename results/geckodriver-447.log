@@ -1,0 +1,29 @@
+1729836937344	geckodriver	INFO	Listening on 127.0.0.1:50168
+1729836940388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile8xu1gZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836941083	Marionette	INFO	Marionette enabled
+1729836941358	Marionette	INFO	Listening on port 50177
+WebDriver BiDi listening on ws://127.0.0.1:50169
+Read port: 50177
+1729836941629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50169/devtools/browser/a8c26a97-f874-4191-a1ea-f96951e9b6d0
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2oc96o0wrue10kb&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1729836946948&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2oc96pm67h87246&ckp=m2oc96o05nqtp7il&glb=&cp_userState=anon&cp_testGroup=83&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europegb&cp_bucket=9&cp_ab_bucket=79&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://www.s.dev.penews.com/, line 22: ReferenceError: osdlfm is not defined
+[GFX1-]: wr_renderer_render: OutOfMemory
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://www.s.dev.penews.com/ line 2 > injectedScript, line 2: Script terminated by timeout at:
+@https://www.s.dev.penews.com/ line 2 > injectedScript:2:140
+@https://www.s.dev.penews.com/ line 2 > injectedScript:2:142
+N@https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV1327368&ctx=21055239&sadv=21603626&ord=3283290450&litm=6816442481&scrt=138494041751&splc=/2/Penews/pen_homepage&adu=21616161523&unit=300x250&dvp_qtpid=&dvp_qtsid=&btreg=6816442481138494041751&btadsrv=6816442481138494041751&gdpr=0&gdpr_consent=&c1=G&dvp_pubaap=0&dvp_uptbcid=1.1.0:2:3908
+A@https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV1327368&ctx=21055239&sadv=21603626&ord=3283290450&litm=6816442481&scrt=138494041751&splc=/2/Penews/pen_homepage&adu=21616161523&unit=300x250&dvp_qtpid=&dvp_qtsid=&btreg=6816442481138494041751&btadsrv=6816442481138494041751&gdpr=0&gdpr_consent=&c1=G&dvp_pubaap=0&dvp_uptbcid=1.1.0:2:5268
+loadScript@https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV1327368&ctx=21055239&sadv=21603626&ord=3283290450&litm=6816442481&scrt=138494041751&splc=/2/Penews/pen_homepage&adu=21616161523&unit=300x250&dvp_qtpid=&dvp_qtsid=&btreg=6816442481138494041751&btadsrv=6816442481138494041751&gdpr=0&gdpr_consent=&c1=G&dvp_pubaap=0&dvp_uptbcid=1.1.0:2:2276
+@https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV1327368&ctx=21055239&sadv=21603626&ord=3283290450&litm=6816442481&scrt=138494041751&splc=/2/Penews/pen_homepage&adu=21616161523&unit=300x250&dvp_qtpid=&dvp_qtsid=&btreg=6816442481138494041751&btadsrv=6816442481138494041751&gdpr=0&gdpr_consent=&c1=G&dvp_pubaap=0&dvp_uptbcid=1.1.0:2:8552
+@https://cdn.doubleverify.com/dvtp_src.js#t2te=0&seltag=1&adsrv=104&cmp=DV1327368&ctx=21055239&sadv=21603626&ord=3283290450&litm=6816442481&scrt=138494041751&splc=/2/Penews/pen_homepage&adu=21616161523&unit=300x250&dvp_qtpid=&dvp_qtsid=&btreg=6816442481138494041751&btadsrv=6816442481138494041751&gdpr=0&gdpr_consent=&c1=G&dvp_pubaap=0&dvp_uptbcid=1.1.0:2:8641
+
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+1729836948717	Marionette	INFO	Stopped listening on port 50177
+Dynamically enable window occlusion 1

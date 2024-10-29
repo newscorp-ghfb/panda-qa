@@ -1,0 +1,18 @@
+1729836685918	geckodriver	INFO	Listening on 127.0.0.1:62715
+1729836688958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62716" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilemPg7BL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836689713	Marionette	INFO	Marionette enabled
+1729836690006	Marionette	INFO	Listening on port 62724
+WebDriver BiDi listening on ws://127.0.0.1:62716
+Read port: 62724
+1729836690330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62716/devtools/browser/9ca4a678-24d6-472f-9d49-4e2fc13da6fa
+out of memory: 0x0000000000000000 bytes requested
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1343
+[GFX1-]: CompositorBridgeChild receives IPC clo[GsF[GFX1-]: CompositoX1-]: Ce with reason=AbnormalShutdown
+rBridgeChild receives IPC close with reason=AbnormalShutdown
+ompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
