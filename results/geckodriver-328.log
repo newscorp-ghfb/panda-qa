@@ -1,0 +1,15 @@
+1729772553343	geckodriver	INFO	Listening on 127.0.0.1:64095
+1729772556395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64096" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileVGJJGX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729772557117	Marionette	INFO	Marionette enabled
+1729772557376	Marionette	INFO	Listening on port 64103
+WebDriver BiDi listening on ws://127.0.0.1:64096
+Read port: 64103
+1729772557641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64096/devtools/browser/b080d377-2436-4e0b-95ff-bd0c5be96daf
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2n9xe5to6yft3r5&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Fwelcome-watchlist&new=1&arf=0&ltm=1729772571382&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2n9xe707u3pzfd3&ckp=m2n9xe5vjrlr41sg&glb=&cp_userState=anon&cp_testGroup=21&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Error&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=12&cp_pageContentSource=MarketWatch&cp_pageContentType=Errors&cp_pageContentTypeDetai=403&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729772584187	Marionette	INFO	Stopped listening on port 64103
+Dynamically enable window occlusion 1

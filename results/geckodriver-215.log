@@ -1,0 +1,46 @@
+1729670607168	geckodriver	INFO	Listening on 127.0.0.1:61461
+1729670610242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61462" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile8dbcs2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729670611082	Marionette	INFO	Marionette enabled
+1729670611340	Marionette	INFO	Listening on port 61471
+WebDriver BiDi listening on ws://127.0.0.1:61462
+Read port: 61471
+1729670611599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61462/devtools/browser/640d07c8-7b60-4ba5-94ae-c0c3a2ca8507
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2ll8882j2py0p1x&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1729670620389&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2ll88j3xk84rqxl&ckp=m2ll88821ck68qua&glb=&cp_userState=anon&cp_testGroup=89&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=4&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729670622343	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+or/o<@https://sc-static.net/scevent.min.js:2:14903
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 2528 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s0.2mdn.net/879366/dfa7banner_html_inpage_rendering_lib_200_268.js, line 39: Script terminated by timeout at:
+K@https://s0.2mdn.net/879366/dfa7banner_html_inpage_rendering_lib_200_268.js:39:2518
+Rd@https://s0.2mdn.net/879366/dfa7banner_html_inpage_rendering_lib_200_268.js:39:2629
+ie@https://s0.2mdn.net/879366/dfa7banner_html_inpage_rendering_lib_200_268.js:45:470
+ge/b<@https://s0.2mdn.net/879366/dfa7banner_html_inpage_rendering_lib_200_268.js:42:292
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: Script terminated by timeout at:
+8018/g/<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111956
+r@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111426
+
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.UWDcIBfNPfI.es5.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi.JuGyz1fvUGQ.L.F4.O/am=MBgwAw/d=1/exm=FCpbqb,LEikZe,P6sQOc,W93Wdc,WhJNk,Wt6vjf,_b,_tp,hhhU8/excm=_b,_tp,serviceiframeview/ed=1/wt=2/ujg=1/rs=ABXTjI6bLUSHN992hmgZ8pDf0DOumXKmJg/ee=EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:QIhFr;lOO0Vd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qafBPd:yDVVkb;qddgKe:xQtZb;wR5FRb:O1Gjze;xqZiqf:wmnU7d;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd, line 19: Script terminated by timeout at:
+ZJ@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.UWDcIBfNPfI.es5.O/ck=boq-subscribewithgoogle.SubscribewithgoogleClientUi.JuGyz1fvUGQ.L.F4.O/am=MBgwAw/d=1/exm=FCpbqb,LEikZe,P6sQOc,W93Wdc,WhJNk,Wt6vjf,_b,_tp,hhhU8/excm=_b,_tp,serviceiframeview/ed=1/wt=2/ujg=1/rs=ABXTjI6bLUSHN992hmgZ8pDf0DOumXKmJg/ee=EVNhjf:pw70Gc;EmZ2Bf:zr1jrb;JsbNhc:Xd8iUd;K5nYTd:ZDZcre;LBgRLc:SdcwHb;Me32dd:MEeYgc;NPKaK:SdcwHb;NSEoX:lazG7b;Pjplud:EEDORb;QGR0gd:Mlhmy;SNUn3:ZwDk9d;ScI3Yc:e7Hzgb;Uvc8o:VDovNc;YIZmRd:A1yn5d;a56pNe:JEfCwb;cEt90b:ws9Tlc;dIoSBb:SpsfSb;dowIGb:ebZ3mb;eBAeSb:zbML3c;iFQyKf:QIhFr;lOO0Vd:OTA3Ae;nAFL3:s39S4;oGtAuc:sOXFj;pXdRYb:MdUzUe;qafBPd:yDVVkb;qddgKe:xQtZb;wR5FRb:O1Gjze;xqZiqf:wmnU7d;yxTchf:KUM7Z;zxnPse:GkRiKb/m=RqjULd:19:1545
+
+1729670637664	Marionette	INFO	Stopped listening on port 61471
+JavaScript warning: https://pbcs.wsj.com/s/dj/wsj/pb.js, line 2547: Script terminated by timeout at:
+./src/common/Utils.js/setHbKeyValue/<@https://pbcs.wsj.com/s/dj/wsj/pb.js:2547:7
+
+Dynamically enable window occlusion 1

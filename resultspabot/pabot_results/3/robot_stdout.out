@@ -1,0 +1,154 @@
+
+18:30:34 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+18:30:35 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.API Autom...
+==============================================================================
+Validate get subscription API :: This test case validates theget s... 
+18:30:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:31:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:18
+    T:  Validate get subscription API    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:23
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Validate delete subscription API for Barrons Brand :: This test ca... 
+18:31:49 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:32:27 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:29
+    T:  Validate delete subscription API for Barrons Brand    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:34
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Validate delete subscription API for mansionglobal Brand :: This t... 
+18:32:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:33:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:43
+    T:  Validate delete subscription API for mansionglobal Brand    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:48
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Validate delete subscription API for Financial news Brand :: This ... 
+18:34:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:34:30 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:57
+    T:  Validate delete subscription API for Financial news Brand    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:62
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Validate delete subscription API for marketwatch Brand :: This tes... 
+18:35:02 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:35:36 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:71
+    T:  Validate delete subscription API for marketwatch Brand    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:76
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Validate delete subscription API for PENews Brand :: This test cas... 
+18:36:05 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:36:38 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:85
+    T:  Validate delete subscription API for PENews Brand    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot:90
+      Sign In Process for Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:756
+      Click Element    (//span[@title='Sign In'])[2]/..
+______________________________________________________________________________
+| FAIL |
+Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+------------------------------------------------------------------------------
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation                                            | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\3\output.xml
+
+18:37:04 [browserstack_sdk.__init__][INFO] - Handling session close
+
+18:37:16 [browserstack_sdk.__init__][INFO] - All done!

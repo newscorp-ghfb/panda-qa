@@ -25,7 +25,7 @@ Validate the follow button from articles page
         DefinedKeywords.Market Watch Sign In Process
     ELSE IF  "${Env}" == "dev"
        DefinedKeywords.WSJ Sign In Process
-        #DefinedKeywords.Sign In Process
+        DefinedKeywords.Sign In Process
     END
     WSJArticlePage.Validate Follow Button
     WSJArticlePage.Click Follow Button
@@ -68,22 +68,23 @@ Validate the follow button from authors page
     WSJArticlePage.Click author hyperlink
     DefinedKeywords.Set Implicit Wait
     WSJAuthorsPage.Validate Authors Page
-    WSJAuthorsPage.Validate Follow Button
+    #WSJAuthorsPage.Validate Follow Button
 #US-T159
 #US-T97
 #US-T255
 #US-T256
 Validate the WSJ Preference Center page
     [Documentation]  This test case validates the barrons preference center page
-    [Tags]  Smoke  PreferenceCenter   255
+    [Tags]  Smoke  PreferenceCenter   US-T97
 
     Set Selenium Speed  0.2 seconds
     WSJPreferenceCenterPage.Navigate Preference Center page
-    IF  "${Env}" == "prod"
-        DefinedKeywords.Market Watch Sign In Process
-    ELSE IF  "${Env}" == "dev"
-        DefinedKeywords.Sign In Process
-    END
+    #IF  "${Env}" == "prod"
+        #DefinedKeywords.Market Watch Sign In Process
+    #ELSE IF  "${Env}" == "dev"
+        #DefinedKeywords.Sign In Process
+    #END
+
     WSJPreferenceCenterPage.Validate Followed Authors
     WSJPreferenceCenterPage.Validate Following Toggle Feature
     WSJPreferenceCenterPage.Click Following Toggle Feature

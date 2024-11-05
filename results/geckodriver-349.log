@@ -1,0 +1,22 @@
+1729773163164	geckodriver	INFO	Listening on 127.0.0.1:58609
+1729773166193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58610" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2VQnNw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729773166951	Marionette	INFO	Marionette enabled
+1729773167252	Marionette	INFO	Listening on port 58617
+WebDriver BiDi listening on ws://127.0.0.1:58610
+Read port: 58617
+1729773167566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58610/devtools/browser/5da299d7-dbfe-4ef5-8718-674a5e981044
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2naaaxz7p32xvez&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1729773173740&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2naaazb97w66ccj&ckp=m2naaay0tsbclba6&glb=&cp_userState=anon&cp_testGroup=10&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europegb&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 2326 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 3369 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+out of memory: 0x0000000000000018 bytes requested
+JavaScript error: , line 0: uncaught exception: out of memory
+out of memory: 0x0000000000000018 bytes requested
+out of memory: 0x0000000000000800 bytes requested
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729773181167	Marionette	INFO	Stopped listening on port 58617
+Dynamically enable window occlusion 1

@@ -1,0 +1,58 @@
+1729772909724	geckodriver	INFO	Listening on 127.0.0.1:63299
+1729772912924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileupfFIf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729772913618	Marionette	INFO	Marionette enabled
+1729772913907	Marionette	INFO	Listening on port 63373
+WebDriver BiDi listening on ws://127.0.0.1:63301
+Read port: 63373
+1729772914186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63301/devtools/browser/68e454f5-b56e-46b3-beeb-c99c8007d52d
+JavaScript warning: https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js, line 20: Script terminated by timeout at:
+f.fn.extend@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:20:1733
+promise@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:24554
+Je@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:52478
+o@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:55932
+dequeue@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:29229
+queue/<@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:29694
+each@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:20:3062
+each@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:20:1046
+queue@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:29598
+animate@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:56047
+animate@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:8193
+animate@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:13736
+animate@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:122161
+e@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:446361
+T.wrap/t[e]@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:2570
+render@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:128494
+@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:209290
+T.wrap/t[e]@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:2570
+renderSeries/<@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:108291
+init/this.each<@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:6676
+renderSeries@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:108249
+render@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:109187
+firstRender@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:110708
+init@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:99217
+@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:194163
+T.wrap/t[e]@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:2570
+@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:202313
+T.wrap/t[e]@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:2570
+T.Chart@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:98583
+T.StockChart@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:203893
+HighstockRenderer</i.prototype.render@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:338575
+PresentationManager</e</r.prototype.render/u<@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:358753
+Deferred/then/</</<@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:24321
+c@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:23002
+fireWith@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:23763
+Deferred/</r[a[0]]@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:24751
+Fetcher</e.prototype.sendRequest/<@https://sts3.wsj.net/bucket-a/maggie/static/js/chart-69a43a7fa0.min.js:14:258914
+Deferred/then/</</<@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:24321
+c@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:23002
+fireWith@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:23763
+M@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:71794
+send/n/<@https://sts3.wsj.net/bucket-a/maggie/static/js/scripts-04cc576f91.min.js:31:74618
+nrWrapper@https://www.marketwatch.com/:358:17640
+
+1729772933383	Marionette	INFO	Stopped listening on port 63373
+Dynamically enable window occlusion 1

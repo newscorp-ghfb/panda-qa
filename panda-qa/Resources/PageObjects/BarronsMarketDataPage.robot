@@ -148,6 +148,8 @@ ${JSCreateListButtonBarronsPath}=  document.querySelector('dj-watchlist').shadow
     ...  .querySelector('div.watchlist')  #2
     ...  .querySelector('button')  #3
 
+${JSCreateListButtonBarronsPath1}=  document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(4) > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-4--ZPhiDfvL.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-4--3npTI-aZ.style--mdc-fixed-column--3NOKJKlR > div:nth-child(2) > dj-watchlist").shadowRoot.querySelector("div > section > div.header-container > div > div.default-watchlist-view-left > div > button:nth-child(2) > span")
+
 ${JSWatchListNameFieldBarronsPath}=  document.querySelector('dj-watchlist').shadowRoot  #1
     ...  .querySelector('div.watchlist')  #2
     ...  .querySelector('section')  #3
@@ -230,8 +232,8 @@ Validate Market Data Page
     Page Should Contain Element  //*[text()='Overview']  #//span[text()="Overview"]
 
 Click Create Button
-    Set Focus To Element  dom:${JSCreateListButtonBarronsPath}
-    Click Button  dom:${JSCreateListButtonBarronsPath}
+    Set Focus To Element  dom:${JSCreateListButtonBarronsPath1}
+    Click Button  dom:${JSCreateListButtonBarronsPath1}
 
 Validate Create Button
     Page Should Contain Element  dom:${JSCreateListButtonBarronsPath}

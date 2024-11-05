@@ -1,0 +1,40 @@
+1729599520298	geckodriver	INFO	Listening on 127.0.0.1:51087
+1729599523334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51088" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileB1Rt9I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729599524009	Marionette	INFO	Marionette enabled
+1729599524254	Marionette	INFO	Listening on port 51100
+WebDriver BiDi listening on ws://127.0.0.1:51088
+Read port: 51100
+1729599524527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51088/devtools/browser/98efd4de-dcfe-4ae3-ae35-7a7ebc5f94f7
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2kewirmxzgwrlzb&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1729599530246&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2kewist34eofxui&ckp=m2kewirm5txh1xj8&glb=&cp_userState=anon&cp_testGroup=60&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europegb&cp_bucket=9&cp_ab_bucket=59&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/icY1g6vuuJjaJEY7xrJYTSkfXHe6CkLx64UCzaLy73w.js line 2 > eval line 400 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1729599546239	Marionette	INFO	Stopped listening on port 51100
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js, line 46: Script terminated by timeout at:
+S<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:46:312
+h<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:450:434
+f<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:181:122
+e<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:299:267
+S<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:59:123
+r</this.sG@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:531:98
+k</V</<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:89:39
+k<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:84:154
+J</this.next@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:209:332
+J</l<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:214:345
+J<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:214:238
+f<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:173:207
+k</V<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:88:236
+U</V.K</V.V<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:502:88
+L<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:337:312
+r<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:560:315
+wD.prototype.C@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:766:82
+f<@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:135:317
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js, line 1111: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js:1111:277
+
+Dynamically enable window occlusion 1

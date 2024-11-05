@@ -1,0 +1,100 @@
+1729765829870	geckodriver	INFO	Listening on 127.0.0.1:63362
+1729765833146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileJf04EI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729765834059	Marionette	INFO	Marionette enabled
+1729765834451	Marionette	INFO	Listening on port 63400
+WebDriver BiDi listening on ws://127.0.0.1:63363
+Read port: 63400
+1729765834796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63363/devtools/browser/499b6c6e-8587-47ec-8a24-3ea9d02bbb14
+console.error: ({})
+console.error: ({})
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2n5x8btxi2g69n2&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2F&new=1&arf=0&ltm=1729765845363&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2n5x8nmdy97p6an&ckp=m2n5x8btt4h296x2&glb=&amo=1728052320&cp_userState=anon&cp_testGroup=83&cp_env=staging&cp_topDomain=barrons.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=10&cp_pwType=personalized&cp_type=&cp_template=preview&cp_access=PAID&cp_section=&cp_subsection=&cp_cms_name=Barron's%20Authoring%20QA&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=64&cp_pageContentSource=Barron's%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=STANDARD&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://ace.wsj.com/assets-staging/ace/uac.min.js, line 1: TypeError: o is null
+JavaScript error: https://ace.wsj.com/assets-staging/ace/uac.min.js, line 1: TypeError: o is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://instant.page/5.1.0, line 1: SyntaxError: redeclaration of var e
+JavaScript error: https://instant.page/5.1.0, line 1: SyntaxError: redeclaration of var e
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/7637-2e94b1403e8ac1b7.js, line 1: TypeError: IntersectionObserver.observe: Argument 1 is not an object.
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.UWDcIBfNPfI.es5.O/am=MBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI4n5r6d01qrlNES6XxsnIgUg1L34A/m=_b,_tp, line 299: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.UWDcIBfNPfI.es5.O/am=MBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI4n5r6d01qrlNES6XxsnIgUg1L34A/m=_b,_tp:299:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.UWDcIBfNPfI.es5.O/am=MBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI4n5r6d01qrlNES6XxsnIgUg1L34A/m=_b,_tp:290:48
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_269417342, line 449: Script terminated by timeout at:
+bC@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_269417342:449:310
+fC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_269417342:447:29
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 2682 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1729765862949	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1729765865151	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://cdn.parsely.com/keys/barrons.com/p.js, line 7: Script terminated by timeout at:
+t._deserialize@https://cdn.parsely.com/keys/barrons.com/p.js:7:32272
+t.get@https://cdn.parsely.com/keys/barrons.com/p.js:7:31173
+getVisitorInfo@https://cdn.parsely.com/keys/barrons.com/p.js:7:33929
+getSession@https://cdn.parsely.com/keys/barrons.com/p.js:7:35584
+beacon@https://cdn.parsely.com/keys/barrons.com/p.js:7:64086
+e.engagedTime.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:43415
+i.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:41440
+i._sendHeartbeats@https://cdn.parsely.com/keys/barrons.com/p.js:7:41594
+i._setUnloadListeners/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:41747
+value/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:22304
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:22277
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24351
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24771
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:9731
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:9748
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:14129
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:10976
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 703: Script terminated by timeout at:
+DH@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:703:386
+PH@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:719:363
+aa.Tm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:709:125
+aa.Sm/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:707:489
+dl@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:376:151
+Dl@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:381:432
+aa.Sm/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:707:475
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:518:411
+wu@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:519:237
+aa.Sm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:707:461
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:721:970
+en@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:397:1
+dn.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:399:336
+dn.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:397:403
+Xm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:394:785
+tI/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:722:187
+aa.bl/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:664:126
+aa.bl/c/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:663:420
+
+1729765882640	Marionette	INFO	Stopped listening on port 63400
+JavaScript warning: https://pbcs.barrons.com/s/dj/barrons/pb.js, line 11799: Script terminated by timeout at:
+./node_modules/core-js/internals/indexed-object.js@https://pbcs.barrons.com/s/dj/barrons/pb.js:11799:38
+__webpack_require__@https://pbcs.barrons.com/s/dj/barrons/pb.js:16722:42
+./node_modules/core-js/internals/to-indexed-object.js@https://pbcs.barrons.com/s/dj/barrons/pb.js:14052:40
+__webpack_require__@https://pbcs.barrons.com/s/dj/barrons/pb.js:16722:42
+./node_modules/core-js/internals/object-get-own-property-descriptor.js@https://pbcs.barrons.com/s/dj/barrons/pb.js:12958:42
+__webpack_require__@https://pbcs.barrons.com/s/dj/barrons/pb.js:16722:42
+./node_modules/core-js/internals/export.js@https://pbcs.barrons.com/s/dj/barrons/pb.js:11115:52
+__webpack_require__@https://pbcs.barrons.com/s/dj/barrons/pb.js:16722:42
+./node_modules/core-js/modules/es.array.filter.js@https://pbcs.barrons.com/s/dj/barrons/pb.js:14468:28
+__webpack_require__@https://pbcs.barrons.com/s/dj/barrons/pb.js:16722:42
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16787:111
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16824:12
+
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor

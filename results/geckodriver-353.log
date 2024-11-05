@@ -1,0 +1,31 @@
+1729773238401	geckodriver	INFO	Listening on 127.0.0.1:59081
+1729773241437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59082" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileOyXx87"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729773242130	Marionette	INFO	Marionette enabled
+1729773242394	Marionette	INFO	Listening on port 59089
+WebDriver BiDi listening on ws://127.0.0.1:59082
+Read port: 59089
+1729773242677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59082/devtools/browser/1e82d795-90fd-4593-9c09-ec6b7bf7078d
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2nabwp2pfdq631f&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1729773248591&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2nabwrd3iotnghv&ckp=m2nabwp2ikrgt7qc&glb=&cp_userState=anon&cp_testGroup=97&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europegb&cp_bucket=0&cp_ab_bucket=40&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 3188 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+out of memory: 0x0000000000020000 bytes requested
+out of memory: 0x0000000000000018 bytes requested
+[GFX1-]: wr_renderer_render: OutOfMemory
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1729773253915	Marionette	INFO	Stopped listening on port 59089
+Dynamically enable window occlusion 1
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback remains SW-WR
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=false
+[GFX1-]: IPC Channel is already torn down unexpectedly
+

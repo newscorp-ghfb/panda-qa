@@ -1,0 +1,19 @@
+1729836716747	geckodriver	INFO	Listening on 127.0.0.1:62856
+1729836719769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile4fGwDi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836720519	Marionette	INFO	Marionette enabled
+1729836720787	Marionette	INFO	Listening on port 62876
+WebDriver BiDi listening on ws://127.0.0.1:62857
+Read port: 62876
+1729836721022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62857/devtools/browser/b0af84ec-0900-4a2b-9c5f-b0e9b19854cf
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+out of memory: 0x0000000000000150 bytes requested
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729836729856	Marionette	INFO	Stopped listening on port 62876
+Dynamically enable window occlusion 1

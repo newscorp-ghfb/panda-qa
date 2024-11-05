@@ -1,0 +1,27 @@
+1729837415013	geckodriver	INFO	Listening on 127.0.0.1:58385
+1729837418385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileoKIqda"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837419082	Marionette	INFO	Marionette enabled
+1729837419354	Marionette	INFO	Listening on port 58413
+WebDriver BiDi listening on ws://127.0.0.1:58386
+Read port: 58413
+1729837419641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58386/devtools/browser/03abfd62-3148-4c6a-a6ef-de96d1896900
+out of memory: 0x0000000000000080 bytes requested
+out of memory: 0x0000000000000018 bytes requested
+out of memory: 0x0000000000000018 bytes requested
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+l<@https://cdn.cxense.com/cx.js:6:2021
+@https://cdn.cxense.com/cx.js:6:2022
+@https://cdn.cxense.com/cx.js:6:117539
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2367: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729837430553	Marionette	INFO	Stopped listening on port 58413
+Dynamically enable window occlusion 1
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0&page_url=https://www.dev.wsj.com/preference-center/alerts, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0&page_url=https://www.dev.wsj.com/preference-center/alerts, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

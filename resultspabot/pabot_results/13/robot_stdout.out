@@ -1,0 +1,843 @@
+
+19:08:03 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+19:08:04 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.WSJ Regre...
+==============================================================================
+Validate the multiple authors follow button from articles page :: ... 
+19:08:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:25
+    T:  Validate the multiple authors follow button from articles page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:33
+      Validate Follow Button    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJArticlePage.robot:52
+      Wait Until Element Is Visible    dom:${JSFollowButtonWSJPath}
+      |  dom:${JSFollowButtonWSJPath} = dom:document.querySelector("#__next > div > main > div.article-container.css-5u49c7.e1ja801i8 > article > div.crawler.css-j6808u.etunnkc9 > div.enimwd21.css-hb9xd5 > div > div > div > div.css-1mfi1zu > div > div > div > ufc-follow-author-widget").shadowRoot.querySelector("ufc-follow-widget > ufc-follow-button").shadowRoot.querySelector("button") (str)
+______________________________________________________________________________
+| FAIL |
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C9F39315+27685]
+	(No symbol) [0x00007FF6C9EA1780]
+	(No symbol) [0x00007FF6C9D4583A]
+	(No symbol) [0x00007FF6C9D4C31C]
+	(No symbol) [0x00007FF6C9D4E94F]
+	(No symbol) [0x00007FF6C9DDCC70]
+	(No symbol) [0x00007FF6C9DBBB1A]
+	(No symbol) [0x00007FF6C9DDB99C]
+	(No symbol) [0x00007FF6C9DBB8C3]
+	(No symbol) [0x00007FF6C9D87678]
+	(No symbol) [0x00007FF6C9D887E1]
+	GetHandleVerifier [0x00007FF6CA23672D+3162173]
+	GetHandleVerifier [0x00007FF6CA2880B0+3496384]
+	GetHandleVerifier [0x00007FF6CA27DEF3+3454979]
+	GetHandleVerifier [0x00007FF6CA000E9B+845739]
+	(No symbol) [0x00007FF6C9EACBEF]
+	(No symbol) [0x00007FF6C9EA8854]
+	(No symbol) [0x00007FF6C9EA89ED]
+	(No symbol) [0x00007FF6C9E97F09]
+	BaseThreadInitThunk [0x00007FF87A103034+20]
+	RtlUserThreadStart [0x00007FF87A751551+33]
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page Subscribe color :: This te... 
+19:08:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:08:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:09:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:54
+    T:  Validate the WSJ Preference Center page Subscribe color    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:66
+      Navigate Author Secetion    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJPreferenceCenterPage.robot:178
+      Page Should Contain Element    //*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[2]/button
+______________________________________________________________________________
+| FAIL |
+Page should have contained element '//*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[2]/button' but did not.
+------------------------------------------------------------------------------
+Validate the WSJ Follow Function :: This test case validates the W... 
+19:10:04 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:10:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:71
+    T:  Validate the WSJ Follow Function    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:81
+      Navigate to the Sections&Topics Prod    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJPreferenceCenterPage.robot:25
+      Wait Until Element Is Visible    //*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[4]/button/span
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[4]/button/span' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page :: This test case validate... 
+19:11:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:11:58 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:86
+    T:  Validate the WSJ Preference Center page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:90
+      WSJ Newsletters Page Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:409
+      Click Element    //*[@id="__next"]/div[1]/header/div/button
+______________________________________________________________________________
+| FAIL |
+Element with locator '//*[@id="__next"]/div[1]/header/div/button' not found.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page :: This test case validate... 
+19:12:23 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:12:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:98
+    T:  Validate the WSJ Preference Center page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:105
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:106
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:261
+      Wait Until Element Is Visible    //*[@id="input61"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="input61"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Authors for WSJ Article page without byline :: This test ... 
+19:13:16 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:13:29 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:146
+    T:  Validate Authors for WSJ Article page without byline    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:153
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:154
+      WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:243
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Letters breadcrumb from articles pa... 
+19:13:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:14:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:14:15 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:163
+    T:  Validate the follow button for Letters breadcrumb from articles page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:176
+      WSJ New Breadcrumbs Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:353
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Letters breadcrumb :: ... 
+19:14:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:209
+    T:  Validate the WSJ Preference Center page for Letters breadcrumb    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:217
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:218
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:261
+      Wait Until Element Is Visible    //*[@id="input61"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="input61"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Editorials breadcrumb from articles... 
+19:15:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:15:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:15:45 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:233
+    T:  Validate the follow button for Editorials breadcrumb from articles page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:245
+      WSJ New Breadcrumbs Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:353
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Commentary breadcrumb from articles... 
+19:16:17 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:16:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:16:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:271
+    T:  Validate the follow button for Commentary breadcrumb from articles page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:285
+      WSJ New Breadcrumbs Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:353
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Commentary breadcrumb ... 
+19:17:20 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:17:32 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:295
+    T:  Validate the WSJ Preference Center page for Commentary breadcrumb    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:304
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:305
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:259
+      Click Button    //input[@type='submit']
+______________________________________________________________________________
+| FAIL |
+Button with locator '//input[@type='submit']' not found.
+------------------------------------------------------------------------------
+Validate the follow button for Commentary breadcrumb from Commenta... 
+19:18:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:18:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:19:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:325
+    T:  Validate the follow button for Commentary breadcrumb from Commentary page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:338
+      WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:243
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Editorials breadcrumb from Editoria... 
+19:19:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:20:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:354
+    T:  Validate the follow button for Editorials breadcrumb from Editorials page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:361
+      WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:243
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Letters breadcrumb from Letters pag... 
+19:20:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:22:57 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:393
+    T:  Validate the follow button for Letters breadcrumb from Letters page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:398
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the follow button for Elections breadcrumb from Elections... 
+19:23:36 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:23:50 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:427
+    T:  Validate the follow button for Elections breadcrumb from Elections page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:434
+      WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:243
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Elections breadcrumb :... 
+19:24:16 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:466
+    T:  Validate the WSJ Preference Center page for Elections breadcrumb    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:474
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:475
+      Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:24
+      Wait Until Element Is Visible    //*[@id="emailOrUsername"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="emailOrUsername"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Elections breadcrumb from articles ... 
+19:24:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:24:55 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:490
+    T:  Validate the follow button for Elections breadcrumb from articles page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:495
+      Click Custom Follow Button    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJArticlePage.robot:87
+      Click Button    dom:${JSCustomFollowButtonWSJPath}
+      |  dom:${JSCustomFollowButtonWSJPath} = dom:document.querySelector("#__next > div > main > div.article-container.css-5u49c7.e1ja801i8 > article > div.crawler.css-j6808u.etunnkc9 > div.enimwd21.css-hb9xd5 > div > div > div > div.css-1mfi1zu > div > div > div > ufc-follow-author-widget").shadowRoot.querySelector("ufc-follow-widget > ufc-follow-button").shadowRoot.querySelector("button") (str)
+______________________________________________________________________________
+| FAIL |
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F7BD9315+27685]
+	(No symbol) [0x00007FF7F7B41780]
+	(No symbol) [0x00007FF7F79E583A]
+	(No symbol) [0x00007FF7F79EC31C]
+	(No symbol) [0x00007FF7F79EE94F]
+	(No symbol) [0x00007FF7F7A7CC70]
+	(No symbol) [0x00007FF7F7A5BB1A]
+	(No symbol) [0x00007FF7F7A7B99C]
+	(No symbol) [0x00007FF7F7A5B8C3]
+	(No symbol) [0x00007FF7F7A27678]
+	(No symbol) [0x00007FF7F7A287E1]
+	GetHandleVerifier [0x00007FF7F7ED672D+3162173]
+	GetHandleVerifier [0x00007FF7F7F280B0+3496384]
+	GetHandleVerifier [0x00007FF7F7F1DEF3+3454979]
+	GetHandleVerifier [0x00007FF7F7CA0E9B+845739]
+	(No symbol) [0x00007FF7F7B4CBEF]
+	(No symbol) [0x00007FF7F7B48854]
+	(No symbol) [0x00007FF7F7B489ED]
+	(No symbol) [0x00007FF7F7B37F09]
+	BaseThreadInitThunk [0x00007FFC2D547034+20]
+	RtlUserThreadStart [0x00007FFC2D8C2651+33]
+------------------------------------------------------------------------------
+Validate the Watchlist widget from Watchlist page :: This test cas... 
+19:25:12 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:522
+    T:  Validate the Watchlist widget from Watchlist page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:527
+      Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:24
+      Wait Until Element Is Visible    //*[@id="emailOrUsername"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="emailOrUsername"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ digest notification :: This test case validates t... 
+19:25:37 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:579
+    T:  Validate the WSJ digest notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:583
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Amazon to be added to New Preference C... 
+19:26:23 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:26:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:589
+    T:  Validate WSJ Legacy company Amazon to be added to New Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:595
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:596
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Tesla to be added to New Preference Ce... 
+19:26:53 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:27:05 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:608
+    T:  Validate WSJ Legacy company Tesla to be added to New Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:614
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:615
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Goldman Sachs to be added to New Prefe... 
+19:27:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:27:32 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:626
+    T:  Validate WSJ Legacy company Goldman Sachs to be added to New Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:632
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:633
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Facebook to be added to New Preference... 
+19:27:53 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:28:05 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:644
+    T:  Validate WSJ Legacy company Facebook to be added to New Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:650
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:651
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the WSJ real-time author notification :: This test case v... 
+19:28:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:662
+    T:  Validate the WSJ real-time author notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:666
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ real-time company notification :: This test case ... 
+19:29:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:672
+    T:  Validate the WSJ real-time company notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:676
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ real-time custom topic notification :: This test ... 
+19:30:06 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:682
+    T:  Validate the WSJ real-time custom topic notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:686
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ real-time custom topic video notification :: This... 
+19:30:51 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:693
+    T:  Validate the WSJ real-time custom topic video notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:697
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ real-time author video notification :: This test ... 
+19:31:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:704
+    T:  Validate the WSJ real-time author video notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:708
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ real-time campaign notification :: This test case... 
+19:32:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:715
+    T:  Validate the WSJ real-time campaign notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:719
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the alert button for Education :: This test case validate... 
+19:33:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:33:43 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:728
+    T:  Validate the alert button for Education    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:732
+      Click Education Button    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\WSJArticlePage.robot:125
+      Click Button    dom:${JSCustomFollowButtonWSJPath}
+      |  dom:${JSCustomFollowButtonWSJPath} = dom:document.querySelector("#__next > div > main > div.article-container.css-5u49c7.e1ja801i8 > article > div.crawler.css-j6808u.etunnkc9 > div.enimwd21.css-hb9xd5 > div > div > div > div.css-1mfi1zu > div > div > div > ufc-follow-author-widget").shadowRoot.querySelector("ufc-follow-widget > ufc-follow-button").shadowRoot.querySelector("button") (str)
+______________________________________________________________________________
+| FAIL |
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=130.0.6723.59)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74DA39315+27685]
+	(No symbol) [0x00007FF74D9A1780]
+	(No symbol) [0x00007FF74D84583A]
+	(No symbol) [0x00007FF74D84C31C]
+	(No symbol) [0x00007FF74D84E94F]
+	(No symbol) [0x00007FF74D8DCC70]
+	(No symbol) [0x00007FF74D8BBB1A]
+	(No symbol) [0x00007FF74D8DB99C]
+	(No symbol) [0x00007FF74D8BB8C3]
+	(No symbol) [0x00007FF74D887678]
+	(No symbol) [0x00007FF74D8887E1]
+	GetHandleVerifier [0x00007FF74DD3672D+3162173]
+	GetHandleVerifier [0x00007FF74DD880B0+3496384]
+	GetHandleVerifier [0x00007FF74DD7DEF3+3454979]
+	GetHandleVerifier [0x00007FF74DB00E9B+845739]
+	(No symbol) [0x00007FF74D9ACBEF]
+	(No symbol) [0x00007FF74D9A8854]
+	(No symbol) [0x00007FF74D9A89ED]
+	(No symbol) [0x00007FF74D997F09]
+	BaseThreadInitThunk [0x00007FFA6D7F7BD4+20]
+	RtlUserThreadStart [0x00007FFA6E0ECED1+33]
+------------------------------------------------------------------------------
+Validate the alert button for heard on the street :: This test cas... 
+19:33:58 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:34:08 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:759
+    T:  Validate the alert button for heard on the street    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:765
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:766
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the alert button for On Wine :: This test case validates ... 
+19:34:30 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:34:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:802
+    T:  Validate the alert button for On Wine    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:808
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:809
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the alert button for Personal Finance :: This test case v... 
+19:35:17 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:35:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:843
+    T:  Validate the alert button for Personal Finance    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:849
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:850
+      New WSJ Test User Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:299
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the alert button for Personal Technology :: This test cas... 
+19:38:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:38:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:882
+    T:  Validate the alert button for Personal Technology    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:888
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:889
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the alert button for Puzzles :: This test case validates ... 
+19:38:33 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:38:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:909
+    T:  Validate the alert button for Puzzles    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:915
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:916
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the alert button for Energy :: This test case validates t... 
+19:39:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:39:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:943
+    T:  Validate the alert button for Energy    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:949
+      "${Env}" == "dev"    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:950
+      New WSJ Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:258
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case validates... 
+19:39:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:967
+    T:  Validate Postback on Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot:973
+      WSJ Postback Page Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:38
+      Wait Until Element Is Visible    //*[@id="emailOrUsername"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="emailOrUsername"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Userservices-Qa-Automation                                            | FAIL |
+37 tests, 0 passed, 37 failed
+==============================================================================
+Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\13\output.xml
+
+19:40:16 [browserstack_sdk.__init__][INFO] - Handling session close
+
+19:40:49 [browserstack_sdk.__init__][INFO] - All done!

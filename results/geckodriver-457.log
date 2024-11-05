@@ -1,0 +1,21 @@
+1729837089438	geckodriver	INFO	Listening on 127.0.0.1:55858
+1729837092464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilew8mWiL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837093161	Marionette	INFO	Marionette enabled
+1729837093433	Marionette	INFO	Listening on port 55866
+WebDriver BiDi listening on ws://127.0.0.1:55859
+Read port: 55866
+1729837093692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55859/devtools/browser/b352733a-30e7-4324-9366-9f3e1809da75
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+[Parent 42088, IPC I/O Parent] WARNING: Failed to launch tab subprocess @SB::LA::SpawnTarget (Error:-2147023446): file /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:824
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1343
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: Script terminated by timeout at:
+8018/g/<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111956
+r@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111426
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729837101761	Marionette	INFO	Stopped listening on port 55866
+Dynamically enable window occlusion 1

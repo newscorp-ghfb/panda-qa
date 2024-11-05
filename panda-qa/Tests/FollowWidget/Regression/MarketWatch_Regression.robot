@@ -21,7 +21,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T93
 Validate the Market Watch Preference Center page
     [Documentation]  This test case validates the Market Watch preference center page
-    [Tags]  Regression  PreferenceCenter  Tagmwp
+    [Tags]  Regression  PreferenceCenter  US-T92
 
     MarketWatchPreferenceCenterPage.Add Author By Hotlink
     DefinedKeywords.MarketWatch PreferenceCenter User Sign In Process
@@ -54,6 +54,7 @@ Validate the Watchlist widget from Watchlist page
     [Tags]  Regression  Watchlist  218
 
     CommonFunctionality.Start MarketWatch for Watchlist page
+    Execute javascript  window.scrollTo(0,500)
     DefinedKeywords.MarketWatch Test User Sign In Process
     Set Selenium Speed  0.5 seconds
     Capture Page Screenshot    screenshot.png

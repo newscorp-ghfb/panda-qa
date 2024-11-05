@@ -1,0 +1,107 @@
+1729682663452	geckodriver	INFO	Listening on 127.0.0.1:62181
+1729682666528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileOL7rEu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729682667210	Marionette	INFO	Marionette enabled
+1729682667455	Marionette	INFO	Listening on port 62192
+Read port: 62192
+WebDriver BiDi listening on ws://127.0.0.1:62182
+1729682667618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62182/devtools/browser/78736ab9-0d2a-4a29-af80-11851d6e9451
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lsejbihnzqnk5u&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2F&new=1&arf=0&ltm=1729682671953&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lsejdch6i5nh6w&ckp=m2lsejbiqcospv8a&glb=&cp_userState=anon&cp_testGroup=29&cp_topDomain=barrons.com&cp_access=free&cp_section=US%20Home%20Page%20Weekday&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=71&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 14ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 2827 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1729682684263	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: Error: Error while loading plugin at URL: 'https://aswpsdkeu.com/notify/v1/ua-html-prompt.min.js'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8949533751107293%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8949533751107293%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8949533751107293%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3152
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8949533751107293%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_80678585, line 449: Script terminated by timeout at:
+bC@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_80678585:449:310
+fC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_80678585:447:29
+
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 348 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 14: Script terminated by timeout at:
+E@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:14:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:449
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lsf2kic08p8q8f&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2F&new=0&arf=0&ltm=1729682696906&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lsf2qaezh0oa60&ckp=m2lsejbiqcospv8a&glb=&amo=1728052320&cp_userState=anon&cp_testGroup=29&cp_env=staging&cp_topDomain=barrons.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=10&cp_pwType=personalized&cp_type=&cp_template=preview&cp_access=PAID&cp_section=&cp_subsection=&cp_cms_name=Barron's%20Authoring%20QA&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=71&cp_pageContentSource=Barron's%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=STANDARD&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://ace.wsj.com/assets-staging/ace/uac.min.js, line 1: TypeError: o is null
+JavaScript error: https://ace.wsj.com/assets-staging/ace/uac.min.js, line 1: TypeError: o is null
+console.error: ({})
+console.error: ({})
+JavaScript error: https://instant.page/5.1.0, line 1: SyntaxError: redeclaration of var e
+JavaScript error: https://instant.page/5.1.0, line 1: SyntaxError: redeclaration of var e
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 2476 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 1526 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 1476 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+1729682706831	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: ChunkLoadError: Loading chunk 92 failed.
+(error: https://cdn.gbqofs.com/sv/b/detector-lazy.min.js)
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1941769455, line 449: Script terminated by timeout at:
+bC@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1941769455:449:310
+fC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1941769455:447:29
+
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 587: Script terminated by timeout at:
+vA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:587:429
+wA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:587:129
+MA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:592:418
+KA/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:187
+z@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:200:203
+KA/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:167
+z@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:200:203
+KA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:134
+LA/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:111
+
+console.error: ({})
+console.error: ({})
+1729682727846	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://instant.page/5.1.0, line 1: SyntaxError: redeclaration of var e
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 3279 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.s.dev.barrons.com/_next/static/chunks/framework-1093784b1a58324b.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 7083 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 6162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/O8sEcXgCa466l54yXaTCnHuhcM3JDbR5gQBH2mnA7-c.js line 2 > eval line 1389 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1729682734475	Marionette	INFO	Stopped listening on port 62192
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements6844.js, line 2: Script terminated by timeout at:
+131/e.wrapFunction/<@https://cdn.doubleverify.com/dv-measurements6844.js:2:343198
+
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+$n@https://cdn.cxense.com/cx.js:6:40552
+io/window[a]@https://cdn.cxense.com/cx.js:6:53712
+@https://api.cxense.com/public/widget/data?json=%7B%22context%22%3A%7B%22referrer%22%3A%22https%3A%2F%2Fsso.int.accounts.dowjones.com%2F%22%2C%22categories%22%3A%7B%22subscriber%22%3A%22subscriber%22%2C%22edition%22%3A%22naus%22%2C%22bucket%22%3A%225%22%2C%22testgroup%22%3A%2229%22%7D%2C%22parameters%22%3A%5B%7B%22key%22%3A%22subscriber%22%2C%22value%22%3A%22subscriber%22%7D%2C%7B%22key%22%3A%22edition%22%2C%22value%22%3A%22naus%22%7D%2C%7B%22key%22%3A%22bucket%22%2C%22value%22%3A%225%22%7D%2C%7B%22key%22%3A%22userState%22%2C%22value%22%3A%22anon%22%7D%2C%7B%22key%22%3A%22testGroup%22%2C%22value%22%3A%2229%22%7D%2C%7B%22key%22%3A%22env%22%2C%22value%22%3A%22staging%22%7D%2C%7B%22key%22%3A%22topDomain%22%2C%22value%22%3A%22barrons.com%22%7D%2C%7B%22key%22%3A%22type%22%2C%22value%22%3A%22%22%7D%2C%7B%22key%22%3A%22template%22%2C%22value%22%3A%22preview%22%7D%2C%7B%22key%22%3A%22access%22%2C%22value%22%3A%22PAID%22%7D%2C%7B%22key%22%3A%22section%22%2C%22value%22%3A%22%22%7D%2C%7B%22key%22%3A%22subsection%22%2C%22value%22%3A%22%22%7D%2C%7B%22key%22%3A%22cms_name%22%2C%22value%22%3A%22Barron%27s%20Authoring%20QA%22%7D%2C%7B%22key%22%3A%22vix%22%2C%22value%22%3A%22%22%7D%2C%7B%22key%22%3A%22ab_bucket%22%2C%22value%22%3A%2255%22%7D%2C%7B%22key%22%3A%22pageContentSource%22%2C%22value%22%3A%22Barron%27s%20Online%22%7D%2C%7B%22key%22%3A%22pageContentType%22%2C%22value%22%3A%22Article%22%7D%2C%7B%22key%22%3A%22pageContentTypeDetai%22%2C%22value%22%3A%22STANDARD%22%7D%2C%7B%22key%22%3A%22pageSiteProduct%22%2C%22value%22%3A%22BOL%22%7D%2C%7B%22key%22%3A%22sessionState%22%2C%22value%22%3A%22ca%22%7D%2C%7B%22key%22%3A%22u_knownSubscriber%22%2C%22value%22%3A%221%22%7D%2C%7B%22key%22%3A%22testgroup%22%2C%22value%22%3A%2229%22%7D%5D%2C%22autoRefresh%22%3Afalse%2C%22url%22%3A%22https%3A%2F%2Fwww.s.dev.barrons.com%2F%22%7D%2C%22widgetId%22%3A%22be92dd6904f42fdf3a56f4ea17def44168cedcf3%22%2C%22user%22%3A%7B%22ids%22%3A%7B%22usi%22%3A%22m2lsejbiqcospv8a%22%2C%22wsj%22%3A%22e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123%22%7D%7D%2C%22prnd%22%3A%22m2lsfpp2vk9e4urj%22%7D&media=javascript&sid=9222325317970825875&widgetId=be92dd6904f42fdf3a56f4ea17def44168cedcf3&resizeToContentSize=true&useSecureUrls=true&usi=m2lsejbiqcospv8a&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&rnd=280509341&prnd=m2lsfpp2vk9e4urj&tzo=-330&callback=cXJsonpCB3:2:11
+
+Dynamically enable window occlusion 1

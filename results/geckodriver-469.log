@@ -1,0 +1,77 @@
+1729837386142	geckodriver	INFO	Listening on 127.0.0.1:58135
+1729837389176	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58136" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilemNu3Bi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837389912	Marionette	INFO	Marionette enabled
+1729837390159	Marionette	INFO	Listening on port 58144
+WebDriver BiDi listening on ws://127.0.0.1:58136
+Read port: 58144
+1729837390430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58136/devtools/browser/1cd58203-fe8b-4ebb-a7d5-5ecd00ab2376
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2ociugt44ur5mau&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1729837397702&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2ociujpj9pcdpjc&ckp=m2ociugtap6tsxt2&glb=&cp_userState=anon&cp_testGroup=38&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=53&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729837401342	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nbFBA6X6-R6L-vgiwwUCSbgu-1WcfjEIvkEfffAnUGA.js line 2 > eval line 7481 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: Script terminated by timeout at:
+8018/g/<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111956
+r@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111426
+
+JavaScript warning: https://static.adsafeprotected.com/main.19.8.544.js, line 1: Script terminated by timeout at:
+r@https://static.adsafeprotected.com/main.19.8.544.js:1:123934
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.stringify/<@https://static.adsafeprotected.com/main.19.8.544.js:1:25953
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.each@https://static.adsafeprotected.com/main.19.8.544.js:1:25645
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.stringify@https://static.adsafeprotected.com/main.19.8.544.js:1:25926
+output@https://static.adsafeprotected.com/main.19.8.544.js:1:124381
+__IASScope.__IntegralASExec["19.8.544"].initialize/Y.resolve@https://static.adsafeprotected.com/main.19.8.544.js:1:29197
+__IASScope.__IntegralASExec["19.8.544"].initialize/Fe/r/this.output@https://static.adsafeprotected.com/main.19.8.544.js:1:55283
+__IASScope.__IntegralASExec["19.8.544"].initialize/Fe/filterOutput/<@https://static.adsafeprotected.com/main.19.8.544.js:1:55787
+i@https://static.adsafeprotected.com/main.19.8.544.js:1:55409
+filterOutput@https://static.adsafeprotected.com/main.19.8.544.js:1:55743
+I@https://static.adsafeprotected.com/main.19.8.544.js:1:82850
+m@https://static.adsafeprotected.com/main.19.8.544.js:1:81194
+sendDt@https://static.adsafeprotected.com/main.19.8.544.js:1:83097
+__IASScope.__IntegralASExec["19.8.544"].initialize/_e/push/e[e.length]@https://static.adsafeprotected.com/main.19.8.544.js:1:53971
+__IASScope.__IntegralASExec["19.8.544"].initialize/_e/run/<@https://static.adsafeprotected.com/main.19.8.544.js:1:54054
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.each@https://static.adsafeprotected.com/main.19.8.544.js:1:25645
+run@https://static.adsafeprotected.com/main.19.8.544.js:1:54032
+r@https://static.adsafeprotected.com/main.19.8.544.js:1:52904
+trigger@https://static.adsafeprotected.com/main.19.8.544.js:1:53257
+__IASScope.__IntegralASExec["19.8.544"].initialize/Et/getTask/<@https://static.adsafeprotected.com/main.19.8.544.js:1:98667
+__IASScope.__IntegralASExec["19.8.544"].initialize/Me/doEligibleJobs/<@https://static.adsafeprotected.com/main.19.8.544.js:1:54231
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.each@https://static.adsafeprotected.com/main.19.8.544.js:1:25645
+doEligibleJobs@https://static.adsafeprotected.com/main.19.8.544.js:1:54152
+o@https://static.adsafeprotected.com/main.19.8.544.js:1:178082
+__IASScope.__IntegralASExec["19.8.544"].initialize/_e/push/e[e.length]@https://static.adsafeprotected.com/main.19.8.544.js:1:53971
+__IASScope.__IntegralASExec["19.8.544"].initialize/_e/run/<@https://static.adsafeprotected.com/main.19.8.544.js:1:54054
+__IASScope.__IntegralASExec["19.8.544"].initialize/X.prototype.each@https://static.adsafeprotected.com/main.19.8.544.js:1:25645
+run@https://static.adsafeprotected.com/main.19.8.544.js:1:54032
+r@https://static.adsafeprotected.com/main.19.8.544.js:1:52904
+trigger@https://static.adsafeprotected.com/main.19.8.544.js:1:53257
+I@https://static.adsafeprotected.com/main.19.8.544.js:1:180255
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 14: Script terminated by timeout at:
+E@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:14:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:449
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js, line 1: Script terminated by timeout at:
+a@https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js:1:121572
+78018/W/<@https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js:1:122043
+r@https://www.dev.wsj.com/_next/static/chunks/main-cd92e5a27ba2f238.js:1:117860
+
+1729838006418	Marionette	INFO	Stopped listening on port 58144
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1729838006566	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 47"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:47
+destroy()@Session.sys.mjs:280
+deleteSession()@WebDriverBiDi.sys.mjs:174
+stop()@WebDriverBiDi.sys.mjs:264
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:569

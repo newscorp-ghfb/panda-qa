@@ -196,13 +196,13 @@ Click on Load More button to load Enery related news
      Click Element  //html/body/div[3]/div/main/div[2]/div[4]/div[2]/div/div[2]/div[17]/div/button  #//*[text()='Load More']
 
 Validate author hyperlink
-    Page Should Contain Element  //*[text()='John West']
+    Page Should Contain Element  //*[text()='Dave Michaels']
 
 Validate Author
     Page Should Contain Element  //html/body/div[3]/div/main/div[2]/article/div[1]/div[1]/div/div/div/div[1]/div/div/a/span/span
 
 Click author hyperlink
-    Click Element  //*[text()='John West']
+    Click Element  //*[text()='Dave Michaels']
 
 Scroll Down
     IF  "${Env}" == "prod"

@@ -1,0 +1,30 @@
+1729773220788	geckodriver	INFO	Listening on 127.0.0.1:58988
+1729773223827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileaSpFX4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729773224531	Marionette	INFO	Marionette enabled
+1729773224817	Marionette	INFO	Listening on port 58996
+WebDriver BiDi listening on ws://127.0.0.1:58989
+Read port: 58996
+1729773225062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58989/devtools/browser/7cc8b6ef-9a10-4e08-8950-be2646fac5f8
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2nabj00lj5oct68&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1729773230836&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2nabj3hdpcf15o5&ckp=m2nabj005baoq0mw&glb=&cp_userState=anon&cp_testGroup=92&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europegb&cp_bucket=7&cp_ab_bucket=27&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1343
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 5846 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
+@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 5846 > eval line 1 > eval line 1 > eval:1:634
+@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 5846 > eval line 1 > eval:1:229
+@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 5846 > eval:1:102
+IH@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:30496
+Og@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:34276
+@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:50285
+NP@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:29196
+y@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:10660
+w4@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:19454
+y/<@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:12078
+S0</<@https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval:5846:48960
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729773234474	Marionette	INFO	Stopped listening on port 58996
+Dynamically enable window occlusion 1

@@ -1,0 +1,18 @@
+1729757558561	geckodriver	INFO	Listening on 127.0.0.1:49700
+1729757561738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileIOzrZ6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729757562571	Marionette	INFO	Marionette enabled
+1729757563294	Marionette	INFO	Listening on port 49721
+WebDriver BiDi listening on ws://127.0.0.1:49701
+Read port: 49721
+1729757563807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49701/devtools/browser/6eb4a5be-07c9-4bbb-9c0b-98adcde77a51
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0&page_url=https://www.dev.wsj.com/preference-center/alerts, line 1: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+JavaScript warning: https://rock.defybrick.com/placement_invocation?id=65349&idx=0&page_url=https://www.dev.wsj.com/preference-center/alerts, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2n0zwymeywrbwgy&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts&new=1&arf=0&ltm=1729757572514&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2n0zx34z37z2370&ckp=m2n0zwymokt8dfu6&glb=&cp_userState=anon&cp_testGroup=21&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729757573768	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1729757597746	Marionette	INFO	Stopped listening on port 49721
+Dynamically enable window occlusion 1

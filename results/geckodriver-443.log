@@ -1,0 +1,40 @@
+1729836878437	geckodriver	INFO	Listening on 127.0.0.1:49906
+1729836881463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilecn8DHh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836882157	Marionette	INFO	Marionette enabled
+1729836882437	Marionette	INFO	Listening on port 49915
+WebDriver BiDi listening on ws://127.0.0.1:49907
+Read port: 49915
+1729836882714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49907/devtools/browser/e2e4bec8-5528-4d84-a10f-b16e1cd44bbe
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://www.s.dev.penews.com/__CDN_PLACEHOLDER__/runtime.bf6e779d39c164.js, line 1: ChunkLoadError: Loading chunk 840 failed.
+(missing: https://www.s.dev.penews.com/__CDN_PLACEHOLDER__/f7bed304-924e-4fb3-b62d-452baa7aa37d.6b3b551d914b4f.js)
+out of memory: 0x0000000000000080 bytes requested
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414, line 4: Script terminated by timeout at:
+AppMeasurement/a.cookieRead@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:4:1805
+AppMeasurement/a.cookieWrite@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:4:2305
+u.extend</s.handlePPVevents@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:27:160
+u.extend</s.getPercentPageViewed@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:25:376
+s_doPlugins@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:27:574
+AppMeasurement/a.Da@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:6996
+AppMeasurement/a.p@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:6114
+AppMeasurement/a.Ab@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:4867
+z/n/e@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:13827
+qe/g._callCallback@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:43663
+qe/g._getRemoteField@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:51292
+qe/g.getAudienceManagerBlob@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:41595
+qe/</g[t]@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:56743
+z/<@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:13963
+z@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:13885
+qe/g.getVisitorValues@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.js:121:38592
+AppMeasurement/a.ob@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:5640
+AppMeasurement/a.isReadyToTrack@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:5098
+AppMeasurement/a.p@https://tags.tiqcdn.com/utag/wsjdn/penews/qa/utag.60.js?utv=ut4.44.202409161414:7:6042
+
+1729836889151	Marionette	INFO	Stopped listening on port 49915
+Dynamically enable window occlusion 1

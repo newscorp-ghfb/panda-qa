@@ -1,7 +1,7 @@
 
-01:10:43 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:30:34 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-01:10:44 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+18:30:35 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -13,34 +13,301 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
 ==============================================================================
-Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.Barrons R...
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MarketWat...
 ==============================================================================
-Validate the Barrons Preference Center page :: This test case vali... 
-01:10:47 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the Market Watch Preference Center page :: This test case... 
+18:30:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate Authors for MarketWatch Article page without byline :: Th... 
+18:31:38 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:32:17 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:42
+    T:  Validate Authors for MarketWatch Article page without byline    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:47
+      Validate author without byline    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchArticlePage.robot:100
+      Page Should Contain Element    //div[1]/div[1]/div[1]/div/header/h1[contains(., 'Catey Hill')]
+______________________________________________________________________________
 | FAIL |
-Setup failed:
-WebDriverException: Message: Automate testing time expired.
+Page should have contained element '//div[1]/div[1]/div[1]/div/header/h1[contains(., 'Catey Hill')]' but did not.
+------------------------------------------------------------------------------
+Validate the Watchlist widget from Watchlist page :: This test cas... 
+18:32:57 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:52
+    T:  Validate the Watchlist widget from Watchlist page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:58
+      MarketWatch Test User Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:215
+      Wait Until Element Is Visible    //*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MarketWatch price and volume on the alerts page :: Th... 
+18:33:39 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:76
+    T:  Validate the MarketWatch price and volume on the alerts page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:81
+      MarketWatch Alerts User Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
+      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+______________________________________________________________________________
+| FAIL |
+Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MarketWatch price and volume alert in Quote page :: T... 
+18:34:25 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:98
+    T:  Validate the MarketWatch price and volume alert in Quote page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:102
+      MarketWatch Alerts User Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
+      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+______________________________________________________________________________
+| FAIL |
+Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MarketWatch price and volume alert deletion on Quote ... 
+18:35:06 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:117
+    T:  Validate the MarketWatch price and volume alert deletion on Quote page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:121
+      MarketWatch Alerts User Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
+      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+______________________________________________________________________________
+| FAIL |
+Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MW digest notification :: This test case validates th... 
+18:35:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:129
+    T:  Validate the MW digest notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:133
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:36:33 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:36:52 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:140
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:144
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:37:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:37:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:154
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:158
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:38:30 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:38:57 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:169
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:173
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:40:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:40:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:184
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:188
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:40:50 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:41:08 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:199
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:203
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MarketWatch Newsletter :: This test case validates th... 
+18:41:27 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+18:41:48 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:214
+    T:  Validate the MarketWatch Newsletter    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:218
+      Market Watch Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:202
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the MW real-time author notification :: This test case va... 
+18:42:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:229
+    T:  Validate the MW real-time author notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:233
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the MW real-time company notification :: This test case v... 
+18:42:55 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:239
+    T:  Validate the MW real-time company notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:243
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchMailboxPage.robot:26
+      Wait Until Element Is Visible    //*[@id="acceptButton"]
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case validates... 
+18:43:37 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:249
+    T:  Validate Postback on Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:253
+      Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:27
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
 ------------------------------------------------------------------------------
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation                                            | FAIL |
-1 test, 0 passed, 1 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\0\output.xml
 
-01:10:48 [browserstack_sdk.__init__][INFO] - Handling session close
+18:43:58 [browserstack_sdk.__init__][INFO] - Handling session close
 
-01:10:48 [browserstack_sdk.__init__][INFO] - All done!
+18:44:07 [browserstack_sdk.__init__][INFO] - All done!

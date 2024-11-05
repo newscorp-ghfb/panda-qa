@@ -51,7 +51,7 @@ Add Author By Hotlink
     Go To  https://www.s.dev.marketwatch.com/follow?alert=author&id=15_MW
 
 Validate Author Name
-    Page Should Contain  Steve Goldstein
+    Page Should Contain  Jonathan Burton
 
 Validate Following Frequency
     Page Should Contain Element  //*[@id="root"]/div/div/div/div[2]/div/div/div/table[1]/tbody/tr[1]/td[4]/span
@@ -67,8 +67,8 @@ Validate All Tabs Displayed
     Page Should Contain  View All
 
 Validate Author On All Tab
-    Click Element  //*[@id="root"]/div/div/div/div[2]/div/ul/li[7]
-    Page Should Contain  William Davis
+    Click Element  //*[@id="root"]/div/div/div/div[2]/div/div/div/table[1]/tbody/tr[1]/td[1]/div/div/a  #//*[@id="root"]/div/div/div/div[2]/div/ul/li[7]
+    #Page Should Contain  Jonathan Burton
 
 Add Company By Hotlink
     IF  "${Env}" == "prod"

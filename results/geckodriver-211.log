@@ -1,0 +1,47 @@
+1729659519612	geckodriver	INFO	Listening on 127.0.0.1:61102
+1729659522675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileWgsQLO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729659523408	Marionette	INFO	Marionette enabled
+1729659523686	Marionette	INFO	Listening on port 61111
+Read port: 61111
+WebDriver BiDi listening on ws://127.0.0.1:61103
+1729659523820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61103/devtools/browser/9445eb75-2bc0-4dad-a375-e1fe209943ef
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lemmfw56n89lsl&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1729659534626&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lemmhsxb6m6kl4&ckp=m2lemmfwgl014ez1&glb=&cp_userState=anon&cp_testGroup=45&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=8&cp_ab_bucket=78&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+Ai@https://cdn.cxense.com/cx.js:6:48422
+eo@https://cdn.cxense.com/cx.js:6:53152
+aa@https://cdn.cxense.com/cx.js:6:70471
+ua/<@https://cdn.cxense.com/cx.js:6:70932
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 14: Script terminated by timeout at:
+E@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:14:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:449
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.47767413120995583%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.47767413120995583%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.47767413120995583%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 587: Script terminated by timeout at:
+vA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:587:429
+wA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:587:129
+MA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:592:418
+KA/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:187
+z@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:200:203
+KA/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:167
+z@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:200:203
+KA@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:134
+LA/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:591:111
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lemy0u7gk0klz8&sid=9222325317970825873&loc=https%3A%2F%2Fwww.s.dev.marketwatch.com%2Ffollow%3Falert%3Dauthor%26id%3D15_MW&new=0&arf=0&ltm=1729659549641&ref=https%3A%2F%2Fsso.int.accounts.dowjones.com%2F&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lemy1w7qnaotk2&ckp=m2lemmfwgl014ez1&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=45&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=mw&cp_cms_name=CAPS&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Follow&cp_pageContentTypeDetai=follow&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+1729659643602	Marionette	INFO	Stopped listening on port 61111
+Dynamically enable window occlusion 1

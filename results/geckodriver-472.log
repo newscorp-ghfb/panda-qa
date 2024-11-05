@@ -1,0 +1,27 @@
+1729837452066	geckodriver	INFO	Listening on 127.0.0.1:58694
+1729837455093	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58695" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileNCdg1w"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837455806	Marionette	INFO	Marionette enabled
+1729837456120	Marionette	INFO	Listening on port 58702
+Read port: 58702
+WebDriver BiDi listening on ws://127.0.0.1:58695
+1729837456262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58695/devtools/browser/224bde50-b6ae-4cb6-a360-d2aa8840aad7
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/framework-b759e809ec16812b.js, line 1: Script terminated by timeout at:
+Ko@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/framework-b759e809ec16812b.js:1:65556
+3373/h/n<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/899-d2249b494e5d35ca.js:1:214985
+
+JavaScript warning: https://cdn.parsely.com/keys/sandbox.wsj.com/p.js, line 7: Script terminated by timeout at:
+_typeof/_typeof<@https://cdn.parsely.com/keys/sandbox.wsj.com/p.js:7:141
+e/<@https://www.dev.wsj.com/:193:5640
+
+out of memory: 0x0000000000000000 bytes requested
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2367: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729837467551	Marionette	INFO	Stopped listening on port 58702
+Dynamically enable window occlusion 1

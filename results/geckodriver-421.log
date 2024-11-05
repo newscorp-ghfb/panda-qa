@@ -1,0 +1,29 @@
+1729836451799	geckodriver	INFO	Listening on 127.0.0.1:54387
+1729836454822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileGumva9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836455548	Marionette	INFO	Marionette enabled
+1729836455828	Marionette	INFO	Listening on port 54395
+WebDriver BiDi listening on ws://127.0.0.1:54388
+Read port: 54395
+1729836455996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54388/devtools/browser/9b0a64a7-7635-40a0-940d-b5014cf2358b
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2obyvbhm9y3eb1i&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1729836465682&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2obyvd7chn7agm5&ckp=m2obyvbhmoy8fc2b&glb=&cp_userState=anon&cp_testGroup=51&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=73&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+rr@https://cdn.cxense.com/cx.js:6:40904
+isAmpIFrame@https://cdn.cxense.com/cx.js:6:108624
+trackVisibility@https://cdn.cxense.com/cx.cce.js:1:7136
+_processResult@https://cdn.cxense.com/cx.cce.js:1:14534
+_renderFunction@https://cdn.cxense.com/cx.cce.js:1:18246
+run/widgetParams.renderFunction<@https://cdn.cxense.com/cx.cce.js:1:20213
+createDelegate/<@https://cdn.cxense.com/cx.js:6:105065
+ea/<@https://cdn.cxense.com/cx.js:6:69024
+io/window[a]@https://cdn.cxense.com/cx.js:6:53713
+@https://api.cxense.com/public/widget/data?json=%7B%22context%22%3A%7B%22referrer%22%3A%22%22%2C%22categories%22%3A%7B%22subscriber%22%3A%22nonsubscriber%22%2C%22edition%22%3A%22naus%22%2C%22bucket%22%3A%223%22%2C%22testgroup%22%3A%2251%22%7D%2C%22parameters%22%3A%5B%7B%22key%22%3A%22subscriber%22%2C%22value%22%3A%22nonsubscriber%22%7D%2C%7B%22key%22%3A%22edition%22%2C%22value%22%3A%22naus%22%7D%2C%7B%22key%22%3A%22bucket%22%2C%22value%22%3A%223%22%7D%2C%7B%22key%22%3A%22userState%22%2C%22value%22%3A%22anon%22%7D%2C%7B%22key%22%3A%22testGroup%22%2C%22value%22%3A%2251%22%7D%2C%7B%22key%22%3A%22env%22%2C%22value%22%3A%22staging%22%7D%2C%7B%22key%22%3A%22topDomain%22%2C%22value%22%3A%22marketwatch.com%22%7D%2C%7B%22key%22%3A%22template%22%2C%22value%22%3A%22full%22%7D%2C%7B%22key%22%3A%22access%22%2C%22value%22%3A%22free%22%7D%2C%7B%22key%22%3A%22section%22%2C%22value%22%3A%22Author%22%7D%2C%7B%22key%22%3A%22subsection%22%2C%22value%22%3A%22Catey%20Hill%22%7D%2C%7B%22key%22%3A%22cms_name%22%2C%22value%22%3A%22Peavey%22%7D%2C%7B%22key%22%3A%22ab_bucket%22%2C%22value%22%3A%2273%22%7D%2C%7B%22key%22%3A%22pageContentSource%22%2C%22value%22%3A%22MarketWatch%22%7D%2C%7B%22key%22%3A%22pageContentType%22%2C%22value%22%3A%22Summaries%22%7D%2C%7B%22key%22%3A%22pageContentTypeDetai%22%2C%22value%22%3A%22default%22%7D%2C%7B%22key%22%3A%22pageSiteProduct%22%2C%22value%22%3A%22MW%22%7D%2C%7B%22key%22%3A%22sessionState%22%2C%22value%22%3A%22none%22%7D%2C%7B%22key%22%3A%22testgroup%22%2C%22value%22%3A%2251%22%7D%5D%2C%22autoRefresh%22%3Afalse%2C%22url%22%3A%22https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill%22%7D%2C%22widgetId%22%3A%227494fd2c425fe9b12869e87d0897dda4687f0071%22%2C%22user%22%3A%7B%22ids%22%3A%7B%22usi%22%3A%22m2obyvbhmoy8fc2b%22%7D%7D%2C%22prnd%22%3A%22m2obyvbhm9y3eb1i%22%7D&media=javascript&sid=1138573015853471556&widgetId=7494fd2c425fe9b12869e87d0897dda4687f0071&resizeToContentSize=true&useSecureUrls=true&usi=m2obyvbhmoy8fc2b&rnd=1300331433&prnd=m2obyvbhm9y3eb1i&tzo=-330&callback=cXJsonpCB2:2:11
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729836468692	Marionette	INFO	Stopped listening on port 54395
+Dynamically enable window occlusion 1

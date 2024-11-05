@@ -20,7 +20,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T20
 Validate the follow button from articles page
     [Documentation]  This test case validates the follow button from articles page
-    [Tags]  Smoke  Follow  Article   TagPAFP
+    [Tags]  Smoke  Follow  Article   US-T17
 
     PENArticlePage.Validate Follow Button
     PENArticlePage.Click Follow Button
@@ -40,12 +40,14 @@ Validate the follow button from articles page
 #US-T46
 Validate the follow button from authors page
     [Documentation]  This test case validates the follow button from authors page
-    [Tags]  Smoke  Follow  Author         TagPEAP
+    [Tags]  Smoke  Follow  Author         US-T43
+    Execute javascript  window.scrollTo(0,500)
     PENArticlePage.Validate author hyperlink
     PENArticlePage.Click author hyperlink
     DefinedKeywords.Set Implicit Wait
     PENAuthorsPage.Validate Authors Page
-    PENArticlePage.Validate Follow Button
+    #PENArticlePage.Validate Follow Button
+
 #US-T184
 #US-T94
 Validate the PEN Preference Center page

@@ -23,6 +23,7 @@ Test Setup  CommonFunctionality.Start Barrons Article
 #Test Setup  CommonFunctionality.Start Barrons Newsletter
 Test Teardown  CommonFunctionality.Finish Testcase
 *** Variables ***
+${table_locator}=  document.querySelector("#root > div > div:nth-child(1) > div > div:nth-child(9) > div.style--grid--2cXhDDnR.BarronsTheme--grid--2JEpTORq > div > div > div.style--grid--2cXhDDnR.style--padding-right--1PeddZD_.BarronsTheme--grid--2JEpTORq.BarronsTheme--homepage-row--9sIyDEGs.BarronsTheme--padding-right--2Cpz1W7R.base--padding-right--3Qqhq68s > div.style--column--2u7yywNS.style--column-top--2wtJOJkr.style--column-8--1yL3Jdqd.style--column--37Q00wRx.style--column-top--3XcIEFYc.style--column-8--UsTcXRw2.style--homepage-column--2gYPzDCd > div:nth-child(1) > div > div > div.BarronsTheme--positionRelative--2XlCjejz > div > div > dj-watchlist").shadowRoot.querySelector("div > table")
 
 *** Test Cases ***
 #US-T58
@@ -149,6 +150,26 @@ Validate the Watchlist widget from Watchlist
     #BarronsWatchlistPage.Validate Default New Watchlist
     #BarronsWatchlistPage.Validate No Symbol in Default New Watchlist
 
+#US-T469
+Validate the Watchlist widget from Watchlist
+    [Documentation]  This test case validates the watchlist widget from watchlist page
+    [Tags]  Regression  Watchlist      469
+
+    CommonFunctionality.Start Barrons for Watchlist page
+    DefinedKeywords.Sign In Process
+    Set Selenium Speed  0.5 seconds
+    Capture Page Screenshot    screenshot.png
+    BarronsWatchlistPage.Validate Watchlist Page
+    BarronsWatchlistPage.Click Add Symbol Input
+    BarronsWatchlistPage.Type Symbol
+    BarronsWatchlistPage.Select Symbol
+    BarronsWatchlistPage.Create Watchlist Name
+    BarronsWatchlistPage.Edit Watchlist Name
+    BarronsWatchlistPage.Type Symbol
+    BarronsWatchlistPage.Select Symbol
+    BarronsWatchlistPage.Validate Symbol in Created Watchlist
+    BarronsWatchlistPage.Sort Symbols
+
 #US-3892
 Validate the Watchlist widget from Watchlist
     [Documentation]  This test case validates the watchlist widget xZfrom watchlist page
@@ -171,7 +192,7 @@ Validate the Watchlist widget from Quotes page
 
     CommonFunctionality.Start Barrons for Quotes page
     DefinedKeywords.Barrons Quote Page Sign in Process
-    Set Selenium Implicit Wait  60 seconds
+    Set Selenium Implicit Wait  10 seconds
     BarronsQuotesPage.Validate Quote Page
 #    BarronsQuotesPage.Delete Watchlist
     # BarronsQuotesPage.Validate Watchlist for non-logged user
@@ -220,12 +241,13 @@ Verify if a user is able to navigate to Barrons Stock Screener and subscribe in 
 #    BarronsStockScreenerPage.Click on Show Results Button
 #    BarronsStockScreenerPage.Click on All Screener Option
 
+
 #US-T125
 #US-T129
 #US-T130
 Validate the Watchlist widget from Market Data page
     [Documentation]  This test case validates the watchlist widget from market data page
-    [Tags]  Regression  Watchlist  MarketdataPage   JJ
+    [Tags]  Regression  Watchlist  MarketdataPage   US-T125
 
     CommonFunctionality.Start Barrons for Market Data page
     BarronsMarketDataPage.Validate Watchlist for non-logged user
@@ -234,8 +256,8 @@ Validate the Watchlist widget from Market Data page
     Set Selenium Speed  0.5 seconds
     Capture Page Screenshot    screenshot.png
     BarronsMarketDataPage.Validate Market Data Page
-    BarronsMarketDataPage.Click Create Button
-    BarronsMarketDataPage.Type Watchlist Name
+    #BarronsMarketDataPage.Click Create Button
+    #BarronsMarketDataPage.Type Watchlist Name
     #BarronsMarketDataPage.Type Symbol
     #BarronsMarketDataPage.Select Symbol
     #BarronsMarketDataPage.Validate Symbol in the New Watchlist

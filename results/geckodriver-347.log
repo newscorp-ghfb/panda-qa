@@ -1,0 +1,35 @@
+1729773086928	geckodriver	INFO	Listening on 127.0.0.1:52332
+1729773089972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52333" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile4HRGdH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729773091107	Marionette	INFO	Marionette enabled
+1729773091414	Marionette	INFO	Listening on port 52343
+WebDriver BiDi listening on ws://127.0.0.1:52333
+Read port: 52343
+1729773091788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback SW-WR + D3D11 to SW-WR
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+out of memory: 0x00000000000000A8 bytes requested
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: wr_renderer_render: OutOfMemory
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback remains SW-WR
+[GFX1-]: wr_renderer_render: OutOfMemory
+1729773098976	Marionette	INFO	Stopped listening on port 52343
+Dynamically enable window occlusion 1
+1729773098997	CDP	WARN	Failed to remove undefined (Could not remove `undefined': could not parse path (NS_ERROR_FILE_UNRECOGNIZED_PATH))
+console.error: "Failed to import bookmarks from chrome://browser/content/default-bookmarks.html:" ({})
+console.error: "Bookmarks.html file could be corrupt. " ({})
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 645: TypeError: this.browsingContext is null
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 645: TypeError: this.browsingContext is null
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+  main/query-stripping Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: ({})
+console.error: ({})

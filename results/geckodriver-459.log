@@ -1,0 +1,24 @@
+1729837133308	geckodriver	INFO	Listening on 127.0.0.1:56183
+1729837136344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56184" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileq0W2ry"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837137073	Marionette	INFO	Marionette enabled
+1729837137358	Marionette	INFO	Listening on port 56202
+WebDriver BiDi listening on ws://127.0.0.1:56184
+Read port: 56202
+1729837137644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56184/devtools/browser/c8e7279e-3582-4491-a95c-f39d7fbb0d3e
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1343
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2ocdjmbjcnm8zpo&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts&new=1&arf=0&ltm=1729837150391&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2ocdjzf48j5op1c&ckp=m2ocdjmb970io69n&glb=&cp_userState=anon&cp_testGroup=19&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=16&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.taboola.com/libtrc/unip/1331069/tfa.js, line 3: Script terminated by timeout at:
+t@https://cdn.taboola.com/libtrc/unip/1331069/tfa.js:3:37074
+e@https://cdn.taboola.com/scripts/cds-pips.js:1:963
+e@https://cdn.taboola.com/scripts/cds-pips.js:1:3257
+@https://cdn.taboola.com/scripts/cds-pips.js:1:3508
+@https://cdn.taboola.com/scripts/cds-pips.js:1:3559
+
+1729837152103	Marionette	INFO	Stopped listening on port 56202
+Dynamically enable window occlusion 1
+1729837152344	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.

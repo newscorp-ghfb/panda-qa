@@ -1,0 +1,20 @@
+1729836471909	geckodriver	INFO	Listening on 127.0.0.1:54534
+1729836474961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileWQFUsq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836475614	Marionette	INFO	Marionette enabled
+1729836475909	Marionette	INFO	Listening on port 54542
+WebDriver BiDi listening on ws://127.0.0.1:54535
+Read port: 54542
+1729836476210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54535/devtools/browser/4c0aa95e-4a07-4e86-adfb-68f6cbb2f9cb
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2obzapzfn8eayyr&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1729836485651&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2obzas6dvesgqv0&ckp=m2obzaq42o1a3hrm&glb=&cp_userState=anon&cp_testGroup=11&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=99&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://www.dianomi.com/js/contextfeed.js, line 1: Script terminated by timeout at:
+pf@https://www.dianomi.com/js/contextfeed.js:1:303181
+@https://www.dianomi.com/js/contextfeed.js:1:306879
+
+1729836489263	Marionette	INFO	Stopped listening on port 54542
+Dynamically enable window occlusion 1

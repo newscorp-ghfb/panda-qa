@@ -1,0 +1,38 @@
+1729837043366	geckodriver	INFO	Listening on 127.0.0.1:55657
+1729837046409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55658" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofiledDrSAM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837047185	Marionette	INFO	Marionette enabled
+1729837047448	Marionette	INFO	Listening on port 55665
+WebDriver BiDi listening on ws://127.0.0.1:55658
+Read port: 55665
+1729837047728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55658/devtools/browser/fbefd137-e68e-4272-a862-c1a2e35f3f3c
+JavaScript error: , line 0: uncaught exception: out of memory
+<jemalloc>: (malloc) Error initializing arena
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js, line 1: Script terminated by timeout at:
+s@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:129716
+36658/S/<@https://www.dev.wsj.com/_next/static/chunks/13c2348d-68404ed25d0ad4a4.js:23:685
+S@https://www.dev.wsj.com/_next/static/chunks/13c2348d-68404ed25d0ad4a4.js:23:527
+ad@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:58687
+ud@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:73017
+i@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:120549
+oF@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99306
+64448/oO/<@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99174
+oO@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99179
+oS@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:94218
+x@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:137808
+T@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:138337
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://cdn.privacy-mgmt.com/unified/4.25.3/gdpr-tcf.0b327789b5d246674c71.bundle.js, line 1: SyntaxError: expected expression, got '}'
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://sts3.wsj.net/iweb/static_html_files/cxense-candy-staging.js, line 1: SyntaxError: "" string literal contains an unescaped line break
+1729837055430	Marionette	INFO	Stopped listening on port 55665
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

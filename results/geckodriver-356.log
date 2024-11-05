@@ -1,0 +1,31 @@
+1729773297863	geckodriver	INFO	Listening on 127.0.0.1:59405
+1729773300887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59406" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileSyQhix"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729773301620	Marionette	INFO	Marionette enabled
+1729773301894	Marionette	INFO	Listening on port 59413
+WebDriver BiDi listening on ws://127.0.0.1:59406
+Read port: 59413
+1729773302147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59406/devtools/browser/df89d085-45fe-4f32-90b8-7150b327e44f
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js, line 1: Script terminated by timeout at:
+r@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:48470
+64448/lC/o/<@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:52077
+o@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:52285
+uu@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:71361
+i@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:121471
+oF@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99306
+64448/oO/<@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99174
+oO@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99179
+oS@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:94218
+x@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:137808
+T@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:138337
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+1729773310363	Marionette	INFO	Stopped listening on port 59413
+Dynamically enable window occlusion 1
+console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
+console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))

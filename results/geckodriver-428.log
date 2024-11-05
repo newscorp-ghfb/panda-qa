@@ -1,0 +1,29 @@
+1729836595364	geckodriver	INFO	Listening on 127.0.0.1:55840
+1729836598407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileyzxgGX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729836599140	Marionette	INFO	Marionette enabled
+1729836599416	Marionette	INFO	Listening on port 55848
+Read port: 55848
+WebDriver BiDi listening on ws://127.0.0.1:55841
+1729836599688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55841/devtools/browser/48b3606c-1b84-4075-9415-8095afef0322
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2oc1xdy5ttfjmew&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1729836608330&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2oc1xey20689juc&ckp=m2oc1xdybazp9dku&glb=&cp_userState=anon&cp_testGroup=63&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=10&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js, line 318: Script terminated by timeout at:
+jQuery.fn.extend@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:318:18
+jQuery.fn.extend@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:340:30
+ajaxExtend@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:8236:10
+ajaxSetup@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:8483:16
+ajax@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:8526:15
+ajax@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:11527:22
+ajaxAbort@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:11783:28
+abort@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:12186:28
+stop@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:11288:42
+module.exports/$.signalR.prototype.stop@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:14820:48
+start/initialize/</</<@https://section.maggie.dev.mktw.dowjones.io/static/js/scripts-dev-ac1d3ed88f.js:11002:48
+
+1729836611623	Marionette	INFO	Stopped listening on port 55848
+Dynamically enable window occlusion 1

@@ -21,7 +21,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T16
 Validate the follow button from articles page
     [Documentation]  These test cases validate the follow button from articles page
-    [Tags]  Smoke  Follow  Article   TagMWAF
+    [Tags]  Smoke  Follow  Article   US-T13
 
     MarketWatchArticlePage.Validate Follow Button
     MarketWatchArticlePage.Click Follow Button

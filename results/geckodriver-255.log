@@ -1,0 +1,81 @@
+1729764075388	geckodriver	INFO	Listening on 127.0.0.1:50317
+1729764078440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50318" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilelr8fxe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729764079109	Marionette	INFO	Marionette enabled
+1729764079359	Marionette	INFO	Listening on port 50327
+Read port: 50327
+WebDriver BiDi listening on ws://127.0.0.1:50318
+1729764079517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50318/devtools/browser/3f1af75a-ce39-45ac-b2d3-798c3c7ac6e7
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2n4vi22ukivxr4i&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2F&new=1&arf=0&ltm=1729764085039&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2n4vj22ngkse23g&ckp=m2n4vi22kualnxsf&glb=&cp_userState=anon&cp_testGroup=4&cp_topDomain=barrons.com&cp_access=free&cp_section=US%20Home%20Page%20Weekday&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=69&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005784, line 449: Script terminated by timeout at:
+bC@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005784:449:310
+fC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005784:447:29
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 3028 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 14: Script terminated by timeout at:
+E@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:14:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:449
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005785, line 449: Script terminated by timeout at:
+bC@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005785:449:310
+fC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.674.1_en.html#goog_1368005785:447:29
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6312871518908346%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6312871518908346%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6312871518908346%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2n4vy01f416oewp&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2Fmarket-data&new=0&arf=0&ltm=1729764105703&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2n4vy2z77iuxkqj&ckp=m2n4vi22kualnxsf&glb=&cp_userState=anon&cp_testGroup=4&cp_env=staging&cp_topDomain=barrons.com&cp_access=free&cp_section=Markets%20Data%20Center&cp_cms_name=MarketData&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=69&cp_pageContentSource=Barrons%20Online&cp_pageContentType=ResearchTools&cp_pageContentTypeDetai=data&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/j4vaIyDci7VQAjTQxVFU9Ni_FcKTEuDFjqUx7u6VMZk.js line 2 > eval line 3651 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1729764116405	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1729764120446	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1729764121055	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pbcs.barrons.com/s/dj/barrons/pb.js, line 16861: Script terminated by timeout at:
+2694/b.callHandler/</t<@https://pbcs.barrons.com/s/dj/barrons/pb.js:16861:4301
+2694/b.callHandler/<@https://pbcs.barrons.com/s/dj/barrons/pb.js:16861:4288
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:51:4767
+k@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:49:13806
+
+Marionette threw an error: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+
+console.error: "Marionette threw an error: [Exception... \"Data conversion failed because significant data would be lost\"  nsresult: \"0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)\"  location: \"<unknown>\"  data: no]\n"
+1729764136989	Marionette	INFO	Stopped listening on port 50327
+JavaScript warning: https://pbcs.barrons.com/s/dj/barrons/pb.js, line 16838: Script terminated by timeout at:
+5555/<@https://pbcs.barrons.com/s/dj/barrons/pb.js:16838:135040
+o@https://pbcs.barrons.com/s/dj/barrons/pb.js:16838:135182
+all@https://pbcs.barrons.com/s/dj/barrons/pb.js:16838:136084
+4836/oe<@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:13527
+4836/<@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:14234
+4836@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:14973
+n@https://pbcs.barrons.com/s/dj/barrons/pb.js:16837:4346
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:15245
+n.O@https://pbcs.barrons.com/s/dj/barrons/pb.js:16837:4634
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:15265
+t@https://pbcs.barrons.com/s/dj/barrons/pb.js:16837:5124
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16902:37
+@https://pbcs.barrons.com/s/dj/barrons/pb.js:16903:3
+
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

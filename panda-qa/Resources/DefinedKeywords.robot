@@ -69,6 +69,21 @@ FN Sign In Process
    Click Element  //html/body/div/section/div/div[2]/form/button  #//html/body/main/div[2]/section[16]/div/form/div[5]/button
    Set Selenium Implicit Wait  10
 
+Barrons Table Alignment Sign in Process
+   Wait Until Element is Visible  //*[@id="root"]/div/div[1]/div/div[1]/header/div/div[1]/div[3]/div/div[1]/a
+   Click Element  //*[@id="root"]/div/div[1]/div/div[1]/header/div/div[1]/div[3]/div/div[1]/a
+   Wait Until Element Is Visible  //*[@id="emailOrUsername"]
+   Click Element   //*[@id="emailOrUsername"]
+   Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #//*[@id=":r5:-form-item"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com
+   Set Selenium Implicit Wait  10
+   Click Button  //html/body/div/section/div/div[2]/form/button[1]
+   Set Selenium Implicit Wait  10s
+   Wait Until Element Is Visible  //*[@id="password"]
+   Input Text  //*[@id="password"]  password1  #AKpolarsxzi2594
+   Set Selenium Implicit Wait  10
+   Wait Until Element is Visible  //html/body/div/section/div/div[2]/form/button
+   Click Element  //html/body/div/section/div/div[2]/form/button  #//html/body/main/div[2]/section[16]/div/form/div[5]/button
+
 Barrons Quote Page Sign in Process
    Wait Until Element is Visible  //html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
    Click Element  //html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
@@ -169,8 +184,8 @@ Barrons Newsletter Sign in Process
    Click Element  //html/body/div/section/div/div[2]/form/button  #//html/body/main/div[2]/section[16]/div/form/div[5]/button
 
 Barrons Stock Pick Sign In Process
-   Wait Until Element is Visible  //html/body/div[1]/div/header/div/div[1]/div[3]/div/a  #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
-   Click Element  //html/body/div[1]/div/header/div/div[1]/div[3]/div/a   #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
+   Wait Until Element is Visible  //*[@id="__next"]/div/header/div/div[1]/div[3]/div/a  #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
+   Click Element  //*[@id="__next"]/div/header/div/div[1]/div[3]/div/a  #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
    Wait Until Element is Visible  //*[@id="emailOrUsername"]
    Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #//*[@id=":r5:-form-item"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com
    Set Selenium Implicit Wait  10s
@@ -194,11 +209,11 @@ Market Watch Sign In Process
    Click Element  //html/body/div/section/div/div[2]/form/button
 
 MarketWatch Test User Sign In Process
-    Click Button  //html/body/div[11]/div/div[2]/div[2]/button[1]
-    Wait Until Element is visible  //html/body/section/nav/header/div[4]/label
-    Click Element   //html/body/section/nav/header/div[4]/label
-    Wait Until Element is visible  //html/body/section/nav/header/div[4]/ul/li[2]/a
-    Click Element  //html/body/section/nav/header/div[4]/ul/li[2]/a
+    #Click Button  //html/body/div[11]/div/div[2]/div[2]/button[1]
+    #Wait Until Element is visible  //html/body/section/nav/header/div[4]/label
+    #Click Element   //html/body/section/nav/header/div[4]/label
+    Wait Until Element is visible  //*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a  #//html/body/section/nav/header/div[4]/ul/li[2]/a
+    Click Element  //*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a  #//html/body/section/nav/header/div[4]/ul/li[2]/a
     Click Button  //*[@id="emailOrUsername"]
     Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #isaias.iniguez@dowjones.com
     Set Selenium Implicit Wait  10s
@@ -335,8 +350,8 @@ WSJ Breadcrumbs Article Sign In Process
     Click Button  //html/body/div/section/div/div[2]/form/button  #//section[@id='password-login']/div/form/div[5]/button
 
 WSJ New Breadcrumbs Sign In Process
-   #Wait Until Element is Visible  //html/body/div[3]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
-   Click Element  //html/body/div[3]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+   Wait Until Element is Visible  //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
+   Click Element  //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]
    Click Button  //*[@id="emailOrUsername"]
    Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #//*[@id=":r5:-form-item"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com
    Set Selenium Implicit Wait  10s
@@ -436,11 +451,11 @@ MarketWatch PreferenceCenter User Sign In Process
     Click Button  //*[@id="signin-continue-btn"]
     #Click Button  //span[text()='Continue']/..
     Set Selenium Implicit Wait  10s
-    Wait Until Element Is Visible  //*[@id="password-login-password"]
-    Input Text  //*[@id="password-login-password"]  password1  #January2024  #Cuceis19841234!
+    Wait Until Element Is Visible  //*[@id="password"]  #//*[@id="password-login-password"]
+    Input Text  //*[@id="password"]  password1  #January2024  #Cuceis19841234!
     Set Selenium Implicit Wait  10s
-    Click Button  //section[@id='password-login']/div/form/div[5]/button
-    Wait Until Element Is Not Visible  //*[@id="password-login"]/div/form/div/div[5]/div[1]/button
+    Click Button  //*[@id="signin-pass-submit-btn"]  #//section[@id='password-login']/div/form/div[5]/button
+    Wait Until Element Is Not Visible  //*[@id="signin-pass-submit-btn"]  #//*[@id="password-login"]/div/form/div/div[5]/div[1]/button
 
 
 Test User Sign In Process

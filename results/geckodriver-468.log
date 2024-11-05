@@ -1,0 +1,38 @@
+1729837362271	geckodriver	INFO	Listening on 127.0.0.1:57959
+1729837365313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile8DKq0q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837366021	Marionette	INFO	Marionette enabled
+1729837366324	Marionette	INFO	Listening on port 57967
+WebDriver BiDi listening on ws://127.0.0.1:57960
+Read port: 57967
+1729837366561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57960/devtools/browser/8d82d406-6094-4b4b-ab0e-ad15d5492cdb
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2ocidcgd16gsgww&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1729837375515&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2ocidzko580rqdl&ckp=m2ocidch1zoenvxx&glb=&cp_userState=anon&cp_testGroup=60&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729837377376	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+<jemalloc>: (malloc) Error initializing arena
+<jemalloc>: (malloc) Error initializing arena
+<jemalloc>: (malloc) Error initializing arena
+JavaScript error: https://cache-ssl.celtra.com/api/creatives/11c13a27/compiled/safeframe.js?v=6-5213fe9b&secure=1&cachedVariantChoices=W10-&isPurposePreview=0&decreasePayloadWeight=1, line 29: uncaught exception: out of memory
+JavaScript error: https://2cb48f6744e724f2c98ff74d554c5599.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 29 > injectedScript, line 54: TypeError: creative is null
+JavaScript error: https://2cb48f6744e724f2c98ff74d554c5599.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html line 29 > injectedScript, line 1: TypeError: creative is null
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1679: Error: permitUnload is already running for this tab.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1729837382226	Marionette	INFO	Stopped listening on port 57967
+Dynamically enable window occlusion 1
+JavaScript error: resource:///modules/ContentCrashHandlers.sys.mjs, line 165: uncaught exception: undefined
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: ({})
+console.error: ({})

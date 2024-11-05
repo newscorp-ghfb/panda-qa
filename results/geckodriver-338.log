@@ -1,0 +1,24 @@
+1729772840069	geckodriver	INFO	Listening on 127.0.0.1:62862
+1729772843042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileqcgTQO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729772843789	Marionette	INFO	Marionette enabled
+1729772844085	Marionette	INFO	Listening on port 62944
+WebDriver BiDi listening on ws://127.0.0.1:62863
+Read port: 62944
+1729772844363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62863/devtools/browser/dc60ad7e-28fd-4154-81b5-e0a52d558f48
+JavaScript warning: https://www.marketwatch.com/, line 358: Script terminated by timeout at:
+i@https://www.marketwatch.com/:358:17747
+nrWrapper@https://www.marketwatch.com/:358:17700
+MJ@https://tagan.adlightning.com/newscorp-marketwatch-aps/op.js:1:11430
+loader@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/prod/utag.js:92:166
+AS@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/prod/utag.js:34:78
+WQ@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/prod/utag.js:30:37
+utag.loader.INIT/<@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/prod/utag.js:111:142
+nrWrapper@https://www.marketwatch.com/:358:17640
+
+1729772863711	Marionette	INFO	Stopped listening on port 62944
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

@@ -1,0 +1,45 @@
+1729669251422	geckodriver	INFO	Listening on 127.0.0.1:49700
+1729669254468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilePvcv2V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729669255166	Marionette	INFO	Marionette enabled
+1729669255412	Marionette	INFO	Listening on port 49714
+WebDriver BiDi listening on ws://127.0.0.1:49701
+Read port: 49714
+1729669255690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49701/devtools/browser/f6288aae-52af-4013-b59e-d2a213e0075f
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lkf5l3qpoqo6ef&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2F&new=1&arf=0&ltm=1729669263883&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lkf5mfc07dl9s7&ckp=m2lkf5l3f0tzl4v9&glb=&cp_userState=anon&cp_testGroup=81&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Error&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=32&cp_pageContentSource=MarketWatch&cp_pageContentType=Errors&cp_pageContentTypeDetai=403&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+s@https://cdn.cxense.com/cx.js:6:359
+n@https://cdn.cxense.com/cx.js:6:1207
+r@https://cdn.cxense.com/cx.js:6:1272
+qi@https://cdn.cxense.com/cx.js:6:52428
+uo@https://cdn.cxense.com/cx.js:6:54779
+aa@https://cdn.cxense.com/cx.js:6:70625
+ua/<@https://cdn.cxense.com/cx.js:6:70932
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:51:4767
+k@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:49:13806
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lkfk3buyguxegj&sid=9222325317970825873&loc=https%3A%2F%2Fwww.s.dev.marketwatch.com%2Ffollow&new=0&arf=0&ltm=1729669282683&ref=https%3A%2F%2Fsso.int.accounts.dowjones.com%2F&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lkfk6b4qs8urj4&ckp=m2lkf5l3f0tzl4v9&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=81&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=mw&cp_cms_name=CAPS&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Follow&cp_pageContentTypeDetai=follow&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2lkg0xgc0o41mx1&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Ftopics%2Fjournalists%2Fjonathan-burton%3F_gl%3D1*t6xcnd*_gcl_au*MTExNDg1NzM3Ni4xNzI5NjY5MjY0*_ga*NjI3MDQ3OTUuMTcyOTY2OTI2NQ..*_ga_GJ5S1GJYKT*MTcyOTY2OTI2NC4xLjEuMTcyOTY2OTI4MS4wLjAuMA..&new=0&arf=0&ltm=1729669304507&ref=https%3A%2F%2Fwww.s.dev.marketwatch.com%2Ffollow&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2lkg1311itvgm5f&ckp=m2lkf5l3f0tzl4v9&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=81&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Error&cp_cms_name=CAPS&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Errors&cp_pageContentTypeDetai=403&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+1729669387148	Marionette	INFO	Stopped listening on port 49714
+JavaScript warning: https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js, line 31: Script terminated by timeout at:
+remove@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:31:34090
+off/<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:31:39245
+each@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:20:3062
+each@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:20:1046
+off@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:31:39220
+unbind@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:31:79124
+stopMonitoringKeepAlive@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:47:20787
+stop@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:47:12768
+e.exports/i.signalR.prototype.stop@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:75:524
+start/o/</</<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-f8370fa0fd.min.js:47:9265
+
+Dynamically enable window occlusion 1

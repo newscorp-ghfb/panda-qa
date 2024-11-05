@@ -1,0 +1,94 @@
+1729833952168	geckodriver	INFO	Listening on 127.0.0.1:63488
+1729833955184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileM9YPuk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729833955934	Marionette	INFO	Marionette enabled
+1729833956213	Marionette	INFO	Listening on port 63497
+WebDriver BiDi listening on ws://127.0.0.1:63489
+Read port: 63497
+1729833956485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63489/devtools/browser/bd453a15-76a6-41e5-975e-4dad33849384
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.barrons.com/asset/dj-watchlist/v1.11.0/p-8e3b6675.entry.js, line 11: TypeError: Error.captureStackTrace is not a function
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2oahbu84wbr32p3&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2Farticles%2Fbuy-under-armour-stock-pick-51650672000&new=1&arf=0&ltm=1729833967669&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2oahbybdt89av2a&ckp=m2oahbu8n96f22oe&glb=&amo=1720048200&cp_userState=anon&cp_testGroup=11&cp_env=staging&cp_topDomain=barrons.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=10&cp_pwType=personalized&cp_type=Retail&cp_template=preview&cp_access=PAID&cp_section=Retail&cp_subsection=Sizing%20Up%20Small-Caps&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=97&cp_pageContentSource=Barron's%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=STANDARD&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nbFBA6X6-R6L-vgiwwUCSbgu-1WcfjEIvkEfffAnUGA.js line 2 > eval line 4656 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.s.dev.barrons.com/_next/static/chunks/main-fc8ea3f3c8e9e983.js, line 6: Script terminated by timeout at:
+78018/w/<@https://www.s.dev.barrons.com/_next/static/chunks/main-fc8ea3f3c8e9e983.js:6:16343
+t@https://www.s.dev.barrons.com/_next/static/chunks/main-fc8ea3f3c8e9e983.js:6:15839
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.wn-BM50GziE.es5.O/am=OBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI6GprX4smCHmWFLvqBt6vGQYZIvfA/m=_b,_tp, line 297: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.wn-BM50GziE.es5.O/am=OBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI6GprX4smCHmWFLvqBt6vGQYZIvfA/m=_b,_tp:297:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.wn-BM50GziE.es5.O/am=OBgwAw/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI6GprX4smCHmWFLvqBt6vGQYZIvfA/m=_b,_tp:288:48
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.5996084628499789%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.5996084628499789%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.5996084628499789%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:51:4767
+k@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/81d56fb5b0694b7770ec579357b07432/js/vendor.js:49:13806
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.barrons.com/" ({})
+1729834084987	Marionette	INFO	Stopped listening on port 63497
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 221: Script terminated by timeout at:
+Wc.prototype.getName@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:337
+Xc.prototype.getName@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:222:130
+HF@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:662:856
+Eg/c<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:282:187
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Xc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:222:72
+rd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:237:258
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:314
+od@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:236:429
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:314
+Hd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:243:293
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:314
+od@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:236:429
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:314
+Id/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:245:20
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+md@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:235:302
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Xc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:222:72
+rd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:237:258
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:314
+Id/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:245:20
+Wc.prototype.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:221:403
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:554
+aa.Zk@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:190:1074
+Be@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:255:782
+gA/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:584:350
+yf@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:265:92
+e@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:547:216
+Yx@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:548:847
+cy@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:553:208
+iz@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:571:272
+lz@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:574:7
+pz/b.push@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:578:320
+pz/<@https://www.googletagmanager.com/gtag/js?id=AW-716328806:503:299
+
+Dynamically enable window occlusion 1

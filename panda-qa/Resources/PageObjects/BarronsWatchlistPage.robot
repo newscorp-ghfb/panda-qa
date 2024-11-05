@@ -38,7 +38,7 @@ Create Watchlist Name
 
 Edit Watchlist Name
     Click Element  //*[text()="Watchlist Name"]/../button[@class="btn btn--icon i-edit u-floatRight"]
-    Input Text  //*[@value="Watchlist Name"]  Satz
+    Input Text  //*[@value="Watchlist Name"]  jan
     Click Element  //button[text()="Save"]
 
 Validate Symbol in Created Watchlist
@@ -77,3 +77,13 @@ Delete Watchlists
     Click Element  //button[text()="Delete"]
     Click Element  //button[@class="btn btn--icon i-close u-floatRight"]
     Click Element  //button[text()="Delete"]
+
+Add watchlist By Hotlink
+    IF  "${Env}" == "prod"
+        Go To  https://www.barrons.com/
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.s.dev.barrons.com/
+    END
+
+Validate Table Alignment
+     Page Should Contain Element  //*[@id="root"]/div/div[1]/div/div[9]/div[1]/div/div/div[3]/div[1]/div[1]/div/div/div[2]/div/div/dj-watchlist

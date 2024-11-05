@@ -1,0 +1,29 @@
+1729602696615	geckodriver	INFO	Listening on 127.0.0.1:52987
+1729602699694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileuhGJV5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729602700451	Marionette	INFO	Marionette enabled
+1729602700735	Marionette	INFO	Listening on port 52995
+WebDriver BiDi listening on ws://127.0.0.1:52988
+Read port: 52995
+1729602701013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52988/devtools/browser/57005475-2a68-4e63-83f7-fd313e58f49b
+JavaScript error: https://www.dev.wsj.com/, line 402: ReferenceError: getCurrentUser is not defined
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.dev.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s, line 457: ReferenceError: getCurrentUser is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: Script terminated by timeout at:
+8018/g/<@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111956
+r@https://int-replay-wsj-elections.ore.onservo.com/election/_next/static/chunks/main-c0569e4635de2e62.js:1:111426
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.673.0_en.html#goog_1401123908, line 448: Script terminated by timeout at:
+YB@https://imasdk.googleapis.com/js/core/bridge3.673.0_en.html#goog_1401123908:448:310
+bC/this.aa@https://imasdk.googleapis.com/js/core/bridge3.673.0_en.html#goog_1401123908:446:29
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.81&typ=pgv&rnd=m2kgssukixw1xqdh&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Fnews%2Fauthor%2Fdave-michaels&new=1&arf=0&ltm=1729602715921&ref=https%3A%2F%2Fwww.dev.wsj.com%2F&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2kgssvsosqur4g5&ckp=m2kgssuk118hkepj&glb=&cp_userState=anon&cp_testGroup=15&cp_topDomain=wsj.com&cp_access=free&cp_section=Collection&cp_subsection=Authors&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=59&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1729602718863	Marionette	INFO	Stopped listening on port 52995
+JavaScript error: https://www.wsj.com/news/author/dave-michaels line 1 > injectedScript, line 1: SyntaxError: redeclaration of const cxHandleCusomterNavSubscribeBtnUpdate
+Dynamically enable window occlusion 1

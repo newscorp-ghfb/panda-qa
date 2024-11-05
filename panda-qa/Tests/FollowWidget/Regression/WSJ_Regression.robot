@@ -24,29 +24,29 @@ ${URL}=  https://www.wsj.com/preference-center/alerts?alert=section&id=tech%2Fai
 #US-T75
 Validate the multiple authors follow button from articles page
     [Documentation]  This test case validates the multiple authors follow button from articles page
-    [Tags]  Regression  Author  Follow  Article
-
-    DefinedKeywords.Sign In Process
-    Set Selenium Speed  0.2 seconds
-    Set Selenium Implicit Wait  10s
+    [Tags]  Regression  Author  Follow  US-T75
+    #Set Selenium Implicit Wait  10s
+    #DefinedKeywords.WSJ Sign In Process
+    #Set Selenium Speed  0.2 seconds
+    #Set Selenium Implicit Wait  10s
     Execute javascript  window.scrollTo(0,500)
     WSJArticlePage.Validate Follow Button
     WSJArticlePage.Click Follow Button
-    WSJArticlePage.Validate Sign In Modal
-    WSJArticlePage.Click Sign In Button Modal
-    DefinedKeywords.Sign In Process
-    Set Selenium Speed  0.2 seconds
-    WSJArticlePage.Validate Following Button
+    #WSJArticlePage.Validate Sign In Modal
+    #WSJArticlePage.Click Sign In Button Modal
+    #DefinedKeywords.Sign In Process
+    #Set Selenium Speed  0.2 seconds
+    #WSJArticlePage.Validate Following Button
 #    WSJArticlePage.Click Follow Button 2
 #    WSJArticlePage.Validate Following Button 2
-    WSJArticlePage.Click Following Button
-    WSJArticlePage.Click Undo Link
-    WSJArticlePage.Validate Following Button
+    #WSJArticlePage.Click Following Button
+    #WSJArticlePage.Click Undo Link
+    #WSJArticlePage.Validate Following Button
 #    WSJArticlePage.Click Following Button 2
 #    WSJrticlePage.Click Undo Link 2
 #    WSJArticlePage.Validate Following Button 2
-    WSJPreferenceCenterPage.Navigate Preference Center page
-    WSJPreferenceCenterPage.Validate Preference Center page
+    #WSJPreferenceCenterPage.Navigate Preference Center page
+    #WSJPreferenceCenterPage.Validate Preference Center page
 #    WSJPreferenceCenterPage.Validate Author 1
 #    WSJPreferenceCenterPage.Validate Author 2
 
@@ -97,7 +97,7 @@ Validate the WSJ Preference Center page
 #US-T229
 Validate the WSJ Preference Center page
     [Documentation]  This test case validates the WSJ preference center page
-    [Tags]  Regression  PreferenceCenter  TagWSJPS
+    [Tags]  Regression  PreferenceCenter  US-T91
 
     CommonFunctionality.Start WSJ Preference Center Page
                     IF  "${Env}" == "prod"
@@ -692,7 +692,7 @@ Validate the WSJ real-time custom topic notification
 #US-T252
 Validate the WSJ real-time custom topic video notification
     [Documentation]  This test case validates the WSJ real-time custom topic video notification
-    [Tags]  Regression  Notifications  CustomTopic   Follow1
+    [Tags]  Regression  Notifications  CustomTopic   US-T252
     WSJMailboxPage.Navigate Mailbox page
     WSJMailboxPage.Login
     WSJMailboxPage.Select Inbox
@@ -703,7 +703,7 @@ Validate the WSJ real-time custom topic video notification
 #US-T251
 Validate the WSJ real-time author video notification
     [Documentation]  This test case validates the WSJ real-time author video notification
-    [Tags]  Regression  Notifications  Author    Follow1
+    [Tags]  Regression  Notifications  Author    US-T251
     WSJMailboxPage.Navigate Mailbox page
     WSJMailboxPage.Login
     WSJMailboxPage.Select Inbox

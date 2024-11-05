@@ -1,0 +1,32 @@
+1729837059495	geckodriver	INFO	Listening on 127.0.0.1:55722
+1729837062537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55723" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileEOcX48"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1729837063219	Marionette	INFO	Marionette enabled
+1729837063483	Marionette	INFO	Listening on port 55739
+WebDriver BiDi listening on ws://127.0.0.1:55723
+Read port: 55739
+1729837063774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55723/devtools/browser/ca922e98-22db-43f0-9b2b-4fa6488f86de
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/8896-d7e15300176f1bc5.js, line 1: Script terminated by timeout at:
+55319/e/</_<@https://www.dev.wsj.com/_next/static/chunks/8896-d7e15300176f1bc5.js:1:5733
+9570/l/<@https://www.dev.wsj.com/_next/static/chunks/pages/_app-9726cddf7a69e5b9.js:1:10251
+ad@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:58687
+uo@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:71442
+i@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:121737
+oF@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99306
+64448/oO/<@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99174
+oO@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:99179
+oS@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:94218
+x@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:137808
+T@https://www.dev.wsj.com/_next/static/chunks/framework-85b6536238798673.js:1:138337
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://cdn.privacy-mgmt.com/unified/4.25.3/usnat-uspapi.52a61f8a8a6d0bc6ea8e.bundle.js, line 1: SyntaxError: unexpected token: identifier
+1729837071001	Marionette	INFO	Stopped listening on port 55739
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
