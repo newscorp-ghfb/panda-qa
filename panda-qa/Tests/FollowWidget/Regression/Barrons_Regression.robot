@@ -150,6 +150,26 @@ Validate the Watchlist widget from Watchlist
     #BarronsWatchlistPage.Validate Default New Watchlist
     #BarronsWatchlistPage.Validate No Symbol in Default New Watchlist
 
+#US-T469
+Validate the Watchlist widget from Watchlist
+    [Documentation]  This test case validates the watchlist widget from watchlist page
+    [Tags]  Regression  Watchlist      469
+
+    CommonFunctionality.Start Barrons for Watchlist page
+    DefinedKeywords.Sign In Process
+    Set Selenium Speed  0.5 seconds
+    Capture Page Screenshot    screenshot.png
+    BarronsWatchlistPage.Validate Watchlist Page
+    BarronsWatchlistPage.Click Add Symbol Input
+    BarronsWatchlistPage.Type Symbol
+    BarronsWatchlistPage.Select Symbol
+    BarronsWatchlistPage.Create Watchlist Name
+    BarronsWatchlistPage.Edit Watchlist Name
+    BarronsWatchlistPage.Type Symbol
+    BarronsWatchlistPage.Select Symbol
+    BarronsWatchlistPage.Validate Symbol in Created Watchlist
+    BarronsWatchlistPage.Sort Symbols
+
 #US-3892
 Validate the Watchlist widget from Watchlist
     [Documentation]  This test case validates the watchlist widget xZfrom watchlist page

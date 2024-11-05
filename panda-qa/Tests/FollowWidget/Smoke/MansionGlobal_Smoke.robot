@@ -27,6 +27,7 @@ Validate the follow button from articles page
     CommonFunctionality.Start Mansion Global Article
     MansionGlobalArticlePage.Validate Follow Button
     MansionGlobalArticlePage.Click Follow Button
+    MansionGlobalArticlePage.Navigate to the homepage
     MansionGlobalArticlePage.Validate Sign In Modal
     MansionGlobalArticlePage.Click Sign In Button Modal
     DefinedKeywords.Sign In Process

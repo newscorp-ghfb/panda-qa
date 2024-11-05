@@ -1,0 +1,131 @@
+
+18:55:42 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+18:55:43 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MansionGl...
+==============================================================================
+Validate the Mansion GLobal Preference Center page :: This test ca... 
+18:55:45 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:20
+    T:  Validate the Mansion GLobal Preference Center page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:38
+      Click Following Toggle Alert Pop up    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MansionGlobalPreferenceCenterPage.robot:67
+      Click Button    //*[@id="root"]/div/div/div/div[3]/div/div/button
+______________________________________________________________________________
+| FAIL |
+Button with locator '//*[@id="root"]/div/div/div/div[3]/div/div/button' not found.
+------------------------------------------------------------------------------
+Validate Authors for Mansion Global Article page without byline ::... 
+19:00:40 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+19:01:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate the Mansion Global digest notification :: This test case ... 
+19:01:37 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:59
+    T:  Validate the Mansion Global digest notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:63
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MansionGlobalMailboxPage.robot:27
+      Wait Until Element Is Visible    //*[@id='declineButton']
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id='declineButton']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the Mansion Global real-time author notification :: This ... 
+19:03:23 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:69
+    T:  Validate the Mansion Global real-time author notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:73
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MansionGlobalMailboxPage.robot:27
+      Wait Until Element Is Visible    //*[@id='declineButton']
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id='declineButton']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the Mansion Global weekly saved search notification :: Th... 
+19:05:16 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:79
+    T:  Validate the Mansion Global weekly saved search notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:83
+      Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MansionGlobalMailboxPage.robot:27
+      Wait Until Element Is Visible    //*[@id='declineButton']
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id='declineButton']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case vabrlidat... 
+19:07:14 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:89
+    T:  Validate Postback on Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot:93
+      Sign In Process    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:27
+      Set Selenium Implicit Wait    10s
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Userservices-Qa-Automation                                            | FAIL |
+6 tests, 1 passed, 5 failed
+==============================================================================
+Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\9\output.xml
+
+19:08:00 [browserstack_sdk.__init__][INFO] - Handling session close
+
+19:08:01 [browserstack_sdk.__init__][INFO] - All done!

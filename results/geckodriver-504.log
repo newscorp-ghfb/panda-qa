@@ -1,0 +1,15 @@
+1730279378758	geckodriver	INFO	Listening on 127.0.0.1:60693
+1730279381783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilem2Cf8a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1730279382300	Marionette	INFO	Marionette enabled
+1730279382531	Marionette	INFO	Listening on port 60707
+WebDriver BiDi listening on ws://127.0.0.1:60694
+Read port: 60707
+1730279382736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60694/devtools/browser/1878d3ab-209d-42f9-9c82-08c98cd861a1
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.82&typ=pgv&rnd=m2vno9289gb8zluv&sid=1134007940894473081&loc=https%3A%2F%2Fwww.s.dev.mansionglobal.com%2F&new=1&arf=0&ltm=1730279388899&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m2vno93joqviu5fo&ckp=m2vno928cm5bkei5&glb=&cp_userState=anon&cp_testGroup=34&cp_env=staging&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=4&cp_ab_bucket=84&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nbFBA6X6-R6L-vgiwwUCSbgu-1WcfjEIvkEfffAnUGA.js line 2 > eval line 3770 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1730279402304	Marionette	INFO	Stopped listening on port 60707
+Dynamically enable window occlusion 1

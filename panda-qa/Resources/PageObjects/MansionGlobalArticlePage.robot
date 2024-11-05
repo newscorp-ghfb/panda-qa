@@ -3,10 +3,10 @@ Library  SeleniumLibrary
 Resource  ../../Resources/CommonFunctionality.robot
 
 *** Variables ***
-${JSFollowButtonGMPath}=  document.querySelector('ufc-follow-author-widget').shadowRoot  #1
-    ...  .querySelector('ufc-follow-button').shadowRoot  #2
-    ...  .querySelector('button')  #3
-
+${JSFollowButtonGMPath}=  document.querySelector("#mg-pre-body-article-wrap > div.clearfix.byline-wrap > div > div > ufc-follow-author-widget").shadowRoot.querySelector("ufc-follow-widget > ufc-follow-button").shadowRoot.querySelector("button")  #document.querySelector('ufc-follow-author-widget').shadowRoot  #1
+    #...  .querySelector('ufc-follow-button').shadowRoot  #2
+    #...  .querySelector('button')  #3
+${signinmodal}=  document.querySelector("#mg-article > div:nth-child(40) > ufc-portal > ufc-freereg-signup-modal").shadowRoot.querySelector("div > div.ufc-freereg--modal > focus-trap > div > div.ufc-freereg--modal-body.ufc-freereg--modal-signin > p > a")
 ${JSUndoButtonGlobalMansionPath}=  document.querySelector("#mg-article > ufc-snackbar").shadowRoot.querySelector("div > div > button")
 
 ${JSFollowSignInButtonPath}=  document.querySelector('ufc-portal')  #1
@@ -41,10 +41,13 @@ Validate Follow Button
 
 Validate Following Button
     Wait Until Element is Visible  dom:${JSFollowButtonGMPath}
-    Element Text Should Be  dom:${JSFollowButtonGMPath}  Following  timeout=60s
+    Element Text Should Be  dom:${JSFollowButtonGMPath}  Follow  timeout=60s
 
 Click Follow Button
     Click Button  dom:${JSFollowButtonGMPath}
+
+Navigate to the homepage
+    Go To  https://www.s.dev.mansionglobal.com/articles/article-long-text-01643043212
 
 Click Following Button
     Click Button  dom:${JSFollowButtonGMPath}
