@@ -1,7 +1,7 @@
 
-18:37:22 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:01:46 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-18:37:23 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+22:01:48 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,184 +16,636 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.Barrons R...
 ==============================================================================
 Validate the multiple authors follow button from articles page :: ... 
-18:37:26 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:01:52 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page :: This test case vali... 
-18:38:30 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:03:06 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:39:08 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:03:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:44
+    T:  Validate the Barrons Preference Center page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:49
+      Click Watchlist Button    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsNewslettersPage.robot:13
+      Wait Until Element Is Visible    //*[@id="__next"]/div/div/div[4]/div[1]/div[2]/div[1]/dj-add-to-watchlist
+______________________________________________________________________________
+| FAIL |
+Element '//*[@id="__next"]/div/div/div[4]/div[1]/div[2]/div[1]/dj-add-to-watchlist' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page watchlist logout :: Th... 
-18:40:24 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-18:40:47 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:05:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:54
+    T:  Validate the Barrons Preference Center page watchlist logout    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF755CB2775+28773]
+	(No symbol) [0x00007FF755C1AFB0]
+	(No symbol) [0x00007FF755AB552A]
+	(No symbol) [0x00007FF755ABC09F]
+	(No symbol) [0x00007FF755ABF0CF]
+	(No symbol) [0x00007FF755B50460]
+	(No symbol) [0x00007FF755B2EF9A]
+	(No symbol) [0x00007FF755B4F1A4]
+	(No symbol) [0x00007FF755B2ED43]
+	(No symbol) [0x00007FF755AFA548]
+	(No symbol) [0x00007FF755AFB6B1]
+	GetHandleVerifier [0x00007FF755FDF45D+3358029]
+	GetHandleVerifier [0x00007FF755FF430D+3443709]
+	GetHandleVerifier [0x00007FF755FE83FD+3394797]
+	GetHandleVerifier [0x00007FF755D7929B+842635]
+	(No symbol) [0x00007FF755C2654F]
+	(No symbol) [0x00007FF755C21FA4]
+	(No symbol) [0x00007FF755C2213D]
+	(No symbol) [0x00007FF755C11629]
+	BaseThreadInitThunk [0x00007FFFDF097034+20]
+	RtlUserThreadStart [0x00007FFFE0D82651+33]
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page :: This test case vali... 
-18:41:54 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:05:57 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:66
+    T:  Validate the Barrons Preference Center page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF600652775+28773]
+	(No symbol) [0x00007FF6005BAFB0]
+	(No symbol) [0x00007FF60045552A]
+	(No symbol) [0x00007FF60045C09F]
+	(No symbol) [0x00007FF60045F0CF]
+	(No symbol) [0x00007FF6004F0460]
+	(No symbol) [0x00007FF6004CEF9A]
+	(No symbol) [0x00007FF6004EF1A4]
+	(No symbol) [0x00007FF6004CED43]
+	(No symbol) [0x00007FF60049A548]
+	(No symbol) [0x00007FF60049B6B1]
+	GetHandleVerifier [0x00007FF60097F45D+3358029]
+	GetHandleVerifier [0x00007FF60099430D+3443709]
+	GetHandleVerifier [0x00007FF6009883FD+3394797]
+	GetHandleVerifier [0x00007FF60071929B+842635]
+	(No symbol) [0x00007FF6005C654F]
+	(No symbol) [0x00007FF6005C1FA4]
+	(No symbol) [0x00007FF6005C213D]
+	(No symbol) [0x00007FF6005B1629]
+	BaseThreadInitThunk [0x00007FFA152B7034+20]
+	RtlUserThreadStart [0x00007FFA15482651+33]
 ------------------------------------------------------------------------------
 Validate Authors for Barrons Article page without byline :: This t... 
-18:44:13 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-18:44:49 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:06:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:97
+    T:  Validate Authors for Barrons Article page without byline    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F9662775+28773]
+	(No symbol) [0x00007FF6F95CAFB0]
+	(No symbol) [0x00007FF6F946552A]
+	(No symbol) [0x00007FF6F946C09F]
+	(No symbol) [0x00007FF6F946F0CF]
+	(No symbol) [0x00007FF6F9500460]
+	(No symbol) [0x00007FF6F94DEF9A]
+	(No symbol) [0x00007FF6F94FF1A4]
+	(No symbol) [0x00007FF6F94DED43]
+	(No symbol) [0x00007FF6F94AA548]
+	(No symbol) [0x00007FF6F94AB6B1]
+	GetHandleVerifier [0x00007FF6F998F45D+3358029]
+	GetHandleVerifier [0x00007FF6F99A430D+3443709]
+	GetHandleVerifier [0x00007FF6F99983FD+3394797]
+	GetHandleVerifier [0x00007FF6F972929B+842635]
+	(No symbol) [0x00007FF6F95D654F]
+	(No symbol) [0x00007FF6F95D1FA4]
+	(No symbol) [0x00007FF6F95D213D]
+	(No symbol) [0x00007FF6F95C1629]
+	BaseThreadInitThunk [0x00007FFAF98E7034+20]
+	RtlUserThreadStart [0x00007FFAFB2E2651+33]
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist page :: This test cas... 
-18:45:53 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:06:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:107
+    T:  Validate the Watchlist widget from Watchlist page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF718E42775+28773]
+	(No symbol) [0x00007FF718DAAFB0]
+	(No symbol) [0x00007FF718C4552A]
+	(No symbol) [0x00007FF718C4C09F]
+	(No symbol) [0x00007FF718C4F0CF]
+	(No symbol) [0x00007FF718CE0460]
+	(No symbol) [0x00007FF718CBEF9A]
+	(No symbol) [0x00007FF718CDF1A4]
+	(No symbol) [0x00007FF718CBED43]
+	(No symbol) [0x00007FF718C8A548]
+	(No symbol) [0x00007FF718C8B6B1]
+	GetHandleVerifier [0x00007FF71916F45D+3358029]
+	GetHandleVerifier [0x00007FF71918430D+3443709]
+	GetHandleVerifier [0x00007FF7191783FD+3394797]
+	GetHandleVerifier [0x00007FF718F0929B+842635]
+	(No symbol) [0x00007FF718DB654F]
+	(No symbol) [0x00007FF718DB1FA4]
+	(No symbol) [0x00007FF718DB213D]
+	(No symbol) [0x00007FF718DA1629]
+	BaseThreadInitThunk [0x00007FF9E8843034+20]
+	RtlUserThreadStart [0x00007FF9E8A91551+33]
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist :: This test case val... 
-18:48:07 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:07:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:131
+    T:  Validate the Watchlist widget from Watchlist    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF78A592775+28773]
+	(No symbol) [0x00007FF78A4FAFB0]
+	(No symbol) [0x00007FF78A39552A]
+	(No symbol) [0x00007FF78A39C09F]
+	(No symbol) [0x00007FF78A39F0CF]
+	(No symbol) [0x00007FF78A430460]
+	(No symbol) [0x00007FF78A40EF9A]
+	(No symbol) [0x00007FF78A42F1A4]
+	(No symbol) [0x00007FF78A40ED43]
+	(No symbol) [0x00007FF78A3DA548]
+	(No symbol) [0x00007FF78A3DB6B1]
+	GetHandleVerifier [0x00007FF78A8BF45D+3358029]
+	GetHandleVerifier [0x00007FF78A8D430D+3443709]
+	GetHandleVerifier [0x00007FF78A8C83FD+3394797]
+	GetHandleVerifier [0x00007FF78A65929B+842635]
+	(No symbol) [0x00007FF78A50654F]
+	(No symbol) [0x00007FF78A501FA4]
+	(No symbol) [0x00007FF78A50213D]
+	(No symbol) [0x00007FF78A4F1629]
+	BaseThreadInitThunk [0x00007FFADCED3034+20]
+	RtlUserThreadStart [0x00007FFADD2C1551+33]
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist :: This test case val... 
-18:49:28 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-18:50:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:07:40 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:154
     T:  Validate the Watchlist widget from Watchlist    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:162
-      Click Search    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsWatchlistPage.robot:22
-      Click Element    //*[@id="__next"]/div/div[2]/div[2]/div/div[14]/div[2]
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
 ______________________________________________________________________________
 | FAIL |
-Element with locator '//*[@id="__next"]/div/div[2]/div[2]/div/div[14]/div[2]' not found.
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74A512775+28773]
+	(No symbol) [0x00007FF74A47AFB0]
+	(No symbol) [0x00007FF74A31552A]
+	(No symbol) [0x00007FF74A31C09F]
+	(No symbol) [0x00007FF74A31F0CF]
+	(No symbol) [0x00007FF74A3B0460]
+	(No symbol) [0x00007FF74A38EF9A]
+	(No symbol) [0x00007FF74A3AF1A4]
+	(No symbol) [0x00007FF74A38ED43]
+	(No symbol) [0x00007FF74A35A548]
+	(No symbol) [0x00007FF74A35B6B1]
+	GetHandleVerifier [0x00007FF74A83F45D+3358029]
+	GetHandleVerifier [0x00007FF74A85430D+3443709]
+	GetHandleVerifier [0x00007FF74A8483FD+3394797]
+	GetHandleVerifier [0x00007FF74A5D929B+842635]
+	(No symbol) [0x00007FF74A48654F]
+	(No symbol) [0x00007FF74A481FA4]
+	(No symbol) [0x00007FF74A48213D]
+	(No symbol) [0x00007FF74A471629]
+	BaseThreadInitThunk [0x00007FF95DD57BD4+20]
+	RtlUserThreadStart [0x00007FF95FA4CED1+33]
 ------------------------------------------------------------------------------
-Validate the Watchlist widget from Quotes page :: This test case v... 
-18:51:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the Watchlist widget from Watchlist :: This test case val... 
+22:07:55 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:169
-    T:  Validate the Watchlist widget from Quotes page    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:174
-      Barrons Quote Page Sign in Process    
+    T:  Validate the Watchlist widget from Watchlist    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:88
-      Wait Until Element Is Visible    //html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
 ______________________________________________________________________________
 | FAIL |
-Element '//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a' not visible after 5 seconds.
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C21A2775+28773]
+	(No symbol) [0x00007FF6C210AFB0]
+	(No symbol) [0x00007FF6C1FA552A]
+	(No symbol) [0x00007FF6C1FAC09F]
+	(No symbol) [0x00007FF6C1FAF0CF]
+	(No symbol) [0x00007FF6C2040460]
+	(No symbol) [0x00007FF6C201EF9A]
+	(No symbol) [0x00007FF6C203F1A4]
+	(No symbol) [0x00007FF6C201ED43]
+	(No symbol) [0x00007FF6C1FEA548]
+	(No symbol) [0x00007FF6C1FEB6B1]
+	GetHandleVerifier [0x00007FF6C24CF45D+3358029]
+	GetHandleVerifier [0x00007FF6C24E430D+3443709]
+	GetHandleVerifier [0x00007FF6C24D83FD+3394797]
+	GetHandleVerifier [0x00007FF6C226929B+842635]
+	(No symbol) [0x00007FF6C211654F]
+	(No symbol) [0x00007FF6C2111FA4]
+	(No symbol) [0x00007FF6C211213D]
+	(No symbol) [0x00007FF6C2101629]
+	BaseThreadInitThunk [0x00007FFBE3553034+20]
+	RtlUserThreadStart [0x00007FFBE5141551+33]
+------------------------------------------------------------------------------
+Validate the Watchlist widget from Quotes page :: This test case v... 
+22:08:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:189
+    T:  Validate the Watchlist widget from Quotes page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7845F2775+28773]
+	(No symbol) [0x00007FF78455AFB0]
+	(No symbol) [0x00007FF7843F552A]
+	(No symbol) [0x00007FF7843FC09F]
+	(No symbol) [0x00007FF7843FF0CF]
+	(No symbol) [0x00007FF784490460]
+	(No symbol) [0x00007FF78446EF9A]
+	(No symbol) [0x00007FF78448F1A4]
+	(No symbol) [0x00007FF78446ED43]
+	(No symbol) [0x00007FF78443A548]
+	(No symbol) [0x00007FF78443B6B1]
+	GetHandleVerifier [0x00007FF78491F45D+3358029]
+	GetHandleVerifier [0x00007FF78493430D+3443709]
+	GetHandleVerifier [0x00007FF7849283FD+3394797]
+	GetHandleVerifier [0x00007FF7846B929B+842635]
+	(No symbol) [0x00007FF78456654F]
+	(No symbol) [0x00007FF784561FA4]
+	(No symbol) [0x00007FF78456213D]
+	(No symbol) [0x00007FF784551629]
+	BaseThreadInitThunk [0x00007FFD85F87034+20]
+	RtlUserThreadStart [0x00007FFD863E2651+33]
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Market Data page :: This test c... 
-18:52:29 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
+22:08:27 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:248
+    T:  Validate the Watchlist widget from Market Data page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74AA72775+28773]
+	(No symbol) [0x00007FF74A9DAFB0]
+	(No symbol) [0x00007FF74A87552A]
+	(No symbol) [0x00007FF74A87C09F]
+	(No symbol) [0x00007FF74A87F0CF]
+	(No symbol) [0x00007FF74A910460]
+	(No symbol) [0x00007FF74A8EEF9A]
+	(No symbol) [0x00007FF74A90F1A4]
+	(No symbol) [0x00007FF74A8EED43]
+	(No symbol) [0x00007FF74A8BA548]
+	(No symbol) [0x00007FF74A8BB6B1]
+	GetHandleVerifier [0x00007FF74AD9F45D+3358029]
+	GetHandleVerifier [0x00007FF74ADB430D+3443709]
+	GetHandleVerifier [0x00007FF74ADA83FD+3394797]
+	GetHandleVerifier [0x00007FF74AB3929B+842635]
+	(No symbol) [0x00007FF74A9E654F]
+	(No symbol) [0x00007FF74A9E1FA4]
+	(No symbol) [0x00007FF74A9E213D]
+	(No symbol) [0x00007FF74A9D1629]
+	BaseThreadInitThunk [0x00007FFA070E7034+20]
+	RtlUserThreadStart [0x00007FFA090C2651+33]
 ------------------------------------------------------------------------------
 Validate the Barrons digest notification :: This test case validat... 
-18:54:23 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:258
-    T:  Validate the Barrons digest notification    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:262
-      Login    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsMailboxPage.robot:27
-      Wait Until Element Is Visible    //*[@id="acceptButton"]
-______________________________________________________________________________
-| FAIL |
-Element '//*[@id="acceptButton"]' not visible after 5 seconds.
-------------------------------------------------------------------------------
-Validate the Barrons real-time author notification :: This test ca... 
-18:56:40 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:268
-    T:  Validate the Barrons real-time author notification    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:272
-      Login    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsMailboxPage.robot:27
-      Wait Until Element Is Visible    //*[@id="acceptButton"]
-______________________________________________________________________________
-| FAIL |
-Element '//*[@id="acceptButton"]' not visible after 5 seconds.
-------------------------------------------------------------------------------
-Validate the Barrons real-time company notification :: This test c... 
-18:58:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:08:46 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:278
-    T:  Validate the Barrons real-time company notification    
+    T:  Validate the Barrons digest notification    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:282
-      Login    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsMailboxPage.robot:27
-      Wait Until Element Is Visible    //*[@id="acceptButton"]
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
 ______________________________________________________________________________
 | FAIL |
-Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF679592775+28773]
+	(No symbol) [0x00007FF6794FAFB0]
+	(No symbol) [0x00007FF67939552A]
+	(No symbol) [0x00007FF67939C09F]
+	(No symbol) [0x00007FF67939F0CF]
+	(No symbol) [0x00007FF679430460]
+	(No symbol) [0x00007FF67940EF9A]
+	(No symbol) [0x00007FF67942F1A4]
+	(No symbol) [0x00007FF67940ED43]
+	(No symbol) [0x00007FF6793DA548]
+	(No symbol) [0x00007FF6793DB6B1]
+	GetHandleVerifier [0x00007FF6798BF45D+3358029]
+	GetHandleVerifier [0x00007FF6798D430D+3443709]
+	GetHandleVerifier [0x00007FF6798C83FD+3394797]
+	GetHandleVerifier [0x00007FF67965929B+842635]
+	(No symbol) [0x00007FF67950654F]
+	(No symbol) [0x00007FF679501FA4]
+	(No symbol) [0x00007FF67950213D]
+	(No symbol) [0x00007FF6794F1629]
+	BaseThreadInitThunk [0x00007FF8156C7BD4+20]
+	RtlUserThreadStart [0x00007FF815E8CED1+33]
 ------------------------------------------------------------------------------
-Validate the Barrons real-time stock picks notification :: This te... 
-19:00:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the Barrons real-time author notification :: This test ca... 
+22:09:04 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:288
-    T:  Validate the Barrons real-time stock picks notification    
+    T:  Validate the Barrons real-time author notification    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:292
-      Login    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\BarronsMailboxPage.robot:27
-      Wait Until Element Is Visible    //*[@id="acceptButton"]
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
 ______________________________________________________________________________
 | FAIL |
-Element '//*[@id="acceptButton"]' not visible after 5 seconds.
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF791D12775+28773]
+	(No symbol) [0x00007FF791C7AFB0]
+	(No symbol) [0x00007FF791B1552A]
+	(No symbol) [0x00007FF791B1C09F]
+	(No symbol) [0x00007FF791B1F0CF]
+	(No symbol) [0x00007FF791BB0460]
+	(No symbol) [0x00007FF791B8EF9A]
+	(No symbol) [0x00007FF791BAF1A4]
+	(No symbol) [0x00007FF791B8ED43]
+	(No symbol) [0x00007FF791B5A548]
+	(No symbol) [0x00007FF791B5B6B1]
+	GetHandleVerifier [0x00007FF79203F45D+3358029]
+	GetHandleVerifier [0x00007FF79205430D+3443709]
+	GetHandleVerifier [0x00007FF7920483FD+3394797]
+	GetHandleVerifier [0x00007FF791DD929B+842635]
+	(No symbol) [0x00007FF791C8654F]
+	(No symbol) [0x00007FF791C81FA4]
+	(No symbol) [0x00007FF791C8213D]
+	(No symbol) [0x00007FF791C71629]
+	BaseThreadInitThunk [0x00007FFB9E287034+20]
+	RtlUserThreadStart [0x00007FFB9F7C2651+33]
 ------------------------------------------------------------------------------
-Validate Postback on Preference Center :: This test case validates... 
-19:02:48 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the Barrons real-time company notification :: This test c... 
+22:09:38 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:298
-    T:  Validate Postback on Preference Center    
+    T:  Validate the Barrons real-time company notification    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:302
-      Sign In Process    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:27
-      Set Selenium Implicit Wait    10s
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
 ______________________________________________________________________________
 | FAIL |
-WebDriverException: Message: Session not started or terminated
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EF572775+28773]
+	(No symbol) [0x00007FF7EF4DAFB0]
+	(No symbol) [0x00007FF7EF37552A]
+	(No symbol) [0x00007FF7EF37C09F]
+	(No symbol) [0x00007FF7EF37F0CF]
+	(No symbol) [0x00007FF7EF410460]
+	(No symbol) [0x00007FF7EF3EEF9A]
+	(No symbol) [0x00007FF7EF40F1A4]
+	(No symbol) [0x00007FF7EF3EED43]
+	(No symbol) [0x00007FF7EF3BA548]
+	(No symbol) [0x00007FF7EF3BB6B1]
+	GetHandleVerifier [0x00007FF7EF89F45D+3358029]
+	GetHandleVerifier [0x00007FF7EF8B430D+3443709]
+	GetHandleVerifier [0x00007FF7EF8A83FD+3394797]
+	GetHandleVerifier [0x00007FF7EF63929B+842635]
+	(No symbol) [0x00007FF7EF4E654F]
+	(No symbol) [0x00007FF7EF4E1FA4]
+	(No symbol) [0x00007FF7EF4E213D]
+	(No symbol) [0x00007FF7EF4D1629]
+	BaseThreadInitThunk [0x00007FFAC7117034+20]
+	RtlUserThreadStart [0x00007FFAC7502651+33]
+------------------------------------------------------------------------------
+Validate the Barrons real-time stock picks notification :: This te... 
+22:09:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:308
+    T:  Validate the Barrons real-time stock picks notification    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF783CE2775+28773]
+	(No symbol) [0x00007FF783C4AFB0]
+	(No symbol) [0x00007FF783AE552A]
+	(No symbol) [0x00007FF783AEC09F]
+	(No symbol) [0x00007FF783AEF0CF]
+	(No symbol) [0x00007FF783B80460]
+	(No symbol) [0x00007FF783B5EF9A]
+	(No symbol) [0x00007FF783B7F1A4]
+	(No symbol) [0x00007FF783B5ED43]
+	(No symbol) [0x00007FF783B2A548]
+	(No symbol) [0x00007FF783B2B6B1]
+	GetHandleVerifier [0x00007FF78400F45D+3358029]
+	GetHandleVerifier [0x00007FF78402430D+3443709]
+	GetHandleVerifier [0x00007FF7840183FD+3394797]
+	GetHandleVerifier [0x00007FF783DA929B+842635]
+	(No symbol) [0x00007FF783C5654F]
+	(No symbol) [0x00007FF783C51FA4]
+	(No symbol) [0x00007FF783C5213D]
+	(No symbol) [0x00007FF783C41629]
+	BaseThreadInitThunk [0x00007FF8C27B7034+20]
+	RtlUserThreadStart [0x00007FF8C39A2651+33]
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case validates... 
+22:10:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+  
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:318
+    T:  Validate Postback on Preference Center    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\Barrons_Regression.robot:22
+      Start Barrons Article    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\CommonFunctionality.robot:89
+      Wait Until Page Contains Element    dom:${JSFollowButtonBarronsPath}
+      |  dom:${JSFollowButtonBarronsPath} = dom:document.querySelector('ufc-follow-author-widget').shadowRoot .querySelector('ufc-follow-widget') .querySelector('ufc-follow-button').shadowRoot .querySelector('button') (str)
+______________________________________________________________________________
+| FAIL |
+Setup failed:
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=131.0.6778.70)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7551F2775+28773]
+	(No symbol) [0x00007FF75515AFB0]
+	(No symbol) [0x00007FF754FF552A]
+	(No symbol) [0x00007FF754FFC09F]
+	(No symbol) [0x00007FF754FFF0CF]
+	(No symbol) [0x00007FF755090460]
+	(No symbol) [0x00007FF75506EF9A]
+	(No symbol) [0x00007FF75508F1A4]
+	(No symbol) [0x00007FF75506ED43]
+	(No symbol) [0x00007FF75503A548]
+	(No symbol) [0x00007FF75503B6B1]
+	GetHandleVerifier [0x00007FF75551F45D+3358029]
+	GetHandleVerifier [0x00007FF75553430D+3443709]
+	GetHandleVerifier [0x00007FF7555283FD+3394797]
+	GetHandleVerifier [0x00007FF7552B929B+842635]
+	(No symbol) [0x00007FF75516654F]
+	(No symbol) [0x00007FF755161FA4]
+	(No symbol) [0x00007FF75516213D]
+	(No symbol) [0x00007FF755151629]
+	BaseThreadInitThunk [0x00007FFEF1ED3034+20]
+	RtlUserThreadStart [0x00007FFEF46D1551+33]
 ------------------------------------------------------------------------------
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Userservices-Qa-Automation                                            | FAIL |
-15 tests, 8 passed, 7 failed
+16 tests, 1 passed, 15 failed
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\5\output.xml
 
-19:03:26 [browserstack_sdk.__init__][INFO] - Handling session close
+22:10:23 [browserstack_sdk.__init__][INFO] - Handling session close
 
-19:03:30 [browserstack_sdk.__init__][INFO] - All done!
+22:10:25 [browserstack_sdk.__init__][INFO] - All done!

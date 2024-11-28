@@ -1,0 +1,28 @@
+1731579955959	geckodriver	INFO	Listening on 127.0.0.1:65129
+1731579959014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65130" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileHRDiRD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1731579959848	Marionette	INFO	Marionette enabled
+1731579960325	Marionette	INFO	Listening on port 65139
+WebDriver BiDi listening on ws://127.0.0.1:65130
+Read port: 65139
+1731579960511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65130/devtools/browser/e340d158-afe6-495c-b519-d09ec66a18cc
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.83&typ=pgv&rnd=m3h60ccbq5qank13&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Falerts&new=1&arf=0&ltm=1731579975804&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m3h60cfdhoa9uzsm&ckp=m3h60ccbq0bsnv8v&glb=&cp_userState=anon&cp_testGroup=52&cp_env=staging&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-articlecover&cp_pwCampaign=226&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Portfolio&cp_subsection=Alerts&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=42&cp_pageContentSource=MarketWatch&cp_pageContentType=ResearchTools&cp_pageContentTypeDetai=tools&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 2273 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.stg.marketwatch.com/alerts, line 96: Script terminated by timeout at:
+nrWrapper@https://www.stg.marketwatch.com/alerts:96:17139
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:51:4767
+k@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:49:13806
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 6914 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1731580015626	Marionette	INFO	Stopped listening on port 65139
+Dynamically enable window occlusion 1

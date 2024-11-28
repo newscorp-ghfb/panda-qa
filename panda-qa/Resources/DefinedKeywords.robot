@@ -227,17 +227,17 @@ MarketWatch Test User Sign In Process
     Click Element  //html/body/section/nav/header/ul/li[2]/a
 
 MarketWatch Alerts User Sign In Process
-    Wait Until Element is Visible  //html/body/div[2]/div[2]/div/div/div/div/a
-    Click Element  //html/body/div[2]/div[2]/div/div/div/div/a
-    Click Button  //input[@type='email']
-    Input Text  //input[@type='email']  QABARRONSONLY  #isaias.iniguez@dowjones.com
+    Wait Until Element is Visible  //*[@id="__next"]/div[2]/div/div/div/div/a/span  #//html/body/div[2]/div[2]/div/div/div/div/a
+    Click Element  //*[@id="__next"]/div[2]/div/div/div/div/a/span  #//html/body/div[2]/div[2]/div/div/div/div/a
+    Click Button  //*[@id="emailOrUsername"]  #//input[@type='email']
+    Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #isaias.iniguez@dowjones.com
     Set Selenium Implicit Wait  10s
-    Click Button  //span[text()='Continue']/..
+    Click Button  //*[@id="signin-continue-btn"]  #//span[text()='Continue']/..
     Set Selenium Implicit Wait  10s
-    Wait Until Element Is Visible  //*[@id="password-login-password"]
-    Input Text  //*[@id="password-login-password"]  password1  #January2024  #Cuceis19841234!
+    Wait Until Element Is Visible  //*[@id="password"]  #//*[@id="password-login-password"]
+    Input Text  //*[@id="password"]  password1  #January2024  #Cuceis19841234!
     Set Selenium Implicit Wait  10s
-    Click Button  //section[@id='password-login']/div/form/div[5]/button
+    Click Button  //*[@id="signin-pass-submit-btn"]  #//section[@id='password-login']/div/form/div[5]/button
 
 WSJ Sign In Process
     Wait Until Element is visible  //*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]

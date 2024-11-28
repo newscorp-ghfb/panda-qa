@@ -1,7 +1,7 @@
 
-18:30:34 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:54:34 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-18:30:36 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+21:54:35 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,52 +16,13 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MarketWat...
 ==============================================================================
 Validate the Market Watch Preference Center page :: This test case... 
-18:30:41 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:22
-    T:  Validate the Market Watch Preference Center page    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:27
-      MarketWatch PreferenceCenter User Sign In Process    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:458
-      Wait Until Element Is Not Visible    //*[@id="signin-pass-submit-btn"]
-______________________________________________________________________________
-| FAIL |
-Message: stale element reference: stale element not found
-  (Session info: chrome=130.0.6723.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-	GetHandleVerifier [0x00007FF6FC959315+27685]
-	(No symbol) [0x00007FF6FC8C1780]
-	(No symbol) [0x00007FF6FC76583A]
-	(No symbol) [0x00007FF6FC777D4B]
-	(No symbol) [0x00007FF6FC76CF54]
-	(No symbol) [0x00007FF6FC76D0D9]
-	(No symbol) [0x00007FF6FC76AE59]
-	(No symbol) [0x00007FF6FC76E94F]
-	(No symbol) [0x00007FF6FC7FCC70]
-	(No symbol) [0x00007FF6FC7DBB1A]
-	(No symbol) [0x00007FF6FC7FB99C]
-	(No symbol) [0x00007FF6FC7DB8C3]
-	(No symbol) [0x00007FF6FC7A7678]
-	(No symbol) [0x00007FF6FC7A87E1]
-	GetHandleVerifier [0x00007FF6FCC5672D+3162173]
-	GetHandleVerifier [0x00007FF6FCCA80B0+3496384]
-	GetHandleVerifier [0x00007FF6FCC9DEF3+3454979]
-	GetHandleVerifier [0x00007FF6FCA20E9B+845739]
-	(No symbol) [0x00007FF6FC8CCBEF]
-	(No symbol) [0x00007FF6FC8C8854]
-	(No symbol) [0x00007FF6FC8C89ED]
-	(No symbol) [0x00007FF6FC8B7F09]
-	BaseThreadInitThunk [0x00007FFDC8A77034+20]
-	RtlUserThreadStart [0x00007FFDC9482651+33]
+21:54:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate Authors for MarketWatch Article page without byline :: Th... 
-18:31:17 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:55:42 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:31:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:56:02 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,7 +39,7 @@ ______________________________________________________________________________
 Page should have contained element '//div[1]/div[1]/div[1]/div/header/h1[contains(., 'Catey Hill')]' but did not.
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist page :: This test cas... 
-18:32:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:56:39 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -95,7 +56,7 @@ ______________________________________________________________________________
 Element '//*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch price and volume on the alerts page :: Th... 
-18:33:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:57:28 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -106,13 +67,13 @@ Validate the MarketWatch price and volume on the alerts page :: Th...
       MarketWatch Alerts User Sign In Process    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
-      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+      Wait Until Element Is Visible    //*[@id="__next"]/div[2]/div/div/div/div/a/span
 ______________________________________________________________________________
 | FAIL |
-Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch price and volume alert in Quote page :: T... 
-18:33:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:58:01 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,13 +84,13 @@ Validate the MarketWatch price and volume alert in Quote page :: T...
       MarketWatch Alerts User Sign In Process    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
-      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+      Wait Until Element Is Visible    //*[@id="__next"]/div[2]/div/div/div/div/a/span
 ______________________________________________________________________________
 | FAIL |
-Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch price and volume alert deletion on Quote ... 
-18:34:33 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:58:32 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -140,13 +101,13 @@ Validate the MarketWatch price and volume alert deletion on Quote ...
       MarketWatch Alerts User Sign In Process    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\DefinedKeywords.robot:230
-      Wait Until Element Is Visible    //html/body/div[2]/div[2]/div/div/div/div/a
+      Wait Until Element Is Visible    //*[@id="__next"]/div[2]/div/div/div/div/a/span
 ______________________________________________________________________________
 | FAIL |
-Element '//html/body/div[2]/div[2]/div/div/div/div/a' not visible after 5 seconds.
+Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MW digest notification :: This test case validates th... 
-18:35:15 [browserstack_sdk.__init__][INFO] - Completed setup!
+21:59:20 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -163,241 +124,85 @@ ______________________________________________________________________________
 Element '//*[@id="acceptButton"]' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:35:56 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:00:08 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:36:12 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:140
-    T:  Validate the MarketWatch Newsletter    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:151
-      Validation of Unsubscripton of Mutual Funds Weekly newsletters    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:73
-      Wait Until Element Is Visible    //*[@id='newsletter-card-container-704']/div/div[2]/div/div[2]/button[1]
-______________________________________________________________________________
-| FAIL |
-Element '//*[@id='newsletter-card-container-704']/div/div[2]/div/div[2]/button[1]' not visible after 5 seconds.
+22:00:22 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:37:15 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:01:16 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:37:34 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:154
-    T:  Validate the MarketWatch Newsletter    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:164
-      Validation of subscription to Personal Finace newsletters    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:29
-      Wait Until Element Is Visible    dom:${PersonalFinance}
-      |  dom:${PersonalFinance} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(7)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--actions > div > ufc-follow-toggle").shadowRoot.querySelector("div") (str)
-______________________________________________________________________________
-| FAIL |
-JavascriptException: Message: javascript error: Cannot read properties of null (reading 'querySelector')
-  (Session info: chrome=130.0.6723.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF734E09315+27685]
-	(No symbol) [0x00007FF734D71780]
-	(No symbol) [0x00007FF734C1583A]
-	(No symbol) [0x00007FF734C1C31C]
-	(No symbol) [0x00007FF734C1E94F]
-	(No symbol) [0x00007FF734CACC70]
-	(No symbol) [0x00007FF734C8BB1A]
-	(No symbol) [0x00007FF734CAB99C]
-	(No symbol) [0x00007FF734C8B8C3]
-	(No symbol) [0x00007FF734C57678]
-	(No symbol) [0x00007FF734C587E1]
-	GetHandleVerifier [0x00007FF73510672D+3162173]
-	GetHandleVerifier [0x00007FF7351580B0+3496384]
-	GetHandleVerifier [0x00007FF73514DEF3+3454979]
-	GetHandleVerifier [0x00007FF734ED0E9B+845739]
-	(No symbol) [0x00007FF734D7CBEF]
-	(No symbol) [0x00007FF734D78854]
-	(No symbol) [0x00007FF734D789ED]
-	(No symbol) [0x00007FF734D67F09]
-	BaseThreadInitThunk [0x00007FFBC7E07034+20]
-	RtlUserThreadStart [0x00007FFBC8902651+33]
+22:01:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:38:39 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:02:53 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:38:56 [browserstack_sdk.__init__][INFO] - Completed setup!
-  
-  Traceback (most recent call last):
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:169
-    T:  Validate the MarketWatch Newsletter    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:179
-      Validation of subscription to Midday Report newsletters    
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:37
-      Wait Until Element Is Visible    dom:${MiddayReport}
-      |  dom:${MiddayReport} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(13)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--actions > div > ufc-follow-toggle").shadowRoot.querySelector("div") (str)
-______________________________________________________________________________
-| FAIL |
-JavascriptException: Message: javascript error: Cannot read properties of null (reading 'querySelector')
-  (Session info: chrome=130.0.6723.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF701249315+27685]
-	(No symbol) [0x00007FF7011B1780]
-	(No symbol) [0x00007FF70105583A]
-	(No symbol) [0x00007FF70105C31C]
-	(No symbol) [0x00007FF70105E94F]
-	(No symbol) [0x00007FF7010ECC70]
-	(No symbol) [0x00007FF7010CBB1A]
-	(No symbol) [0x00007FF7010EB99C]
-	(No symbol) [0x00007FF7010CB8C3]
-	(No symbol) [0x00007FF701097678]
-	(No symbol) [0x00007FF7010987E1]
-	GetHandleVerifier [0x00007FF70154672D+3162173]
-	GetHandleVerifier [0x00007FF7015980B0+3496384]
-	GetHandleVerifier [0x00007FF70158DEF3+3454979]
-	GetHandleVerifier [0x00007FF701310E9B+845739]
-	(No symbol) [0x00007FF7011BCBEF]
-	(No symbol) [0x00007FF7011B8854]
-	(No symbol) [0x00007FF7011B89ED]
-	(No symbol) [0x00007FF7011A7F09]
-	BaseThreadInitThunk [0x00007FFD998C7BD4+20]
-	RtlUserThreadStart [0x00007FFD9ADCCED1+33]
+22:03:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:40:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:04:59 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:40:29 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:05:17 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:184
     T:  Validate the MarketWatch Newsletter    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:194
-      Validation of subscription to After the Bell newsletters    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:196
+      Validation of Unsubscripton of After the Bell newsletters    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:45
-      Wait Until Element Is Visible    dom:${AftertheBell}
-      |  dom:${AftertheBell} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(15)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--actions > div > ufc-follow-toggle").shadowRoot.querySelector("div > div") (str)
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:49
+      Wait Until Element Is Visible    dom:${AftertheBellUS}    10S
+      |  dom:${AftertheBellUS} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(15)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button") (str)
 ______________________________________________________________________________
 | FAIL |
-JavascriptException: Message: javascript error: Cannot read properties of null (reading 'querySelector')
-  (Session info: chrome=130.0.6723.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF631EB9315+27685]
-	(No symbol) [0x00007FF631E21780]
-	(No symbol) [0x00007FF631CC583A]
-	(No symbol) [0x00007FF631CCC31C]
-	(No symbol) [0x00007FF631CCE94F]
-	(No symbol) [0x00007FF631D5CC70]
-	(No symbol) [0x00007FF631D3BB1A]
-	(No symbol) [0x00007FF631D5B99C]
-	(No symbol) [0x00007FF631D3B8C3]
-	(No symbol) [0x00007FF631D07678]
-	(No symbol) [0x00007FF631D087E1]
-	GetHandleVerifier [0x00007FF6321B672D+3162173]
-	GetHandleVerifier [0x00007FF6322080B0+3496384]
-	GetHandleVerifier [0x00007FF6321FDEF3+3454979]
-	GetHandleVerifier [0x00007FF631F80E9B+845739]
-	(No symbol) [0x00007FF631E2CBEF]
-	(No symbol) [0x00007FF631E28854]
-	(No symbol) [0x00007FF631E289ED]
-	(No symbol) [0x00007FF631E17F09]
-	BaseThreadInitThunk [0x00007FFB4E4B3034+20]
-	RtlUserThreadStart [0x00007FFB4F1C1551+33]
+Element 'dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(15)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button")' not visible after 10 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:42:29 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:06:26 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:42:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:06:42 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:199
     T:  Validate the MarketWatch Newsletter    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:209
-      Validation of subscription to Europe Daily newsletters    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:211
+      Validation of Unsubscription to Europe Daily newsletters    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:53
-      Wait Until Element Is Visible    dom:${EuropeDaily}
-      |  dom:${EuropeDaily} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(14)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--actions > div > ufc-follow-toggle").shadowRoot.querySelector("div > div") (str)
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:57
+      Wait Until Element Is Visible    dom:${EuropeDailyUS}
+      |  dom:${EuropeDailyUS} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(14)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button") (str)
 ______________________________________________________________________________
 | FAIL |
-JavascriptException: Message: javascript error: Cannot read properties of null (reading 'querySelector')
-  (Session info: chrome=130.0.6723.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF6B7339315+27685]
-	(No symbol) [0x00007FF6B72A1780]
-	(No symbol) [0x00007FF6B714583A]
-	(No symbol) [0x00007FF6B714C31C]
-	(No symbol) [0x00007FF6B714E94F]
-	(No symbol) [0x00007FF6B71DCC70]
-	(No symbol) [0x00007FF6B71BBB1A]
-	(No symbol) [0x00007FF6B71DB99C]
-	(No symbol) [0x00007FF6B71BB8C3]
-	(No symbol) [0x00007FF6B7187678]
-	(No symbol) [0x00007FF6B71887E1]
-	GetHandleVerifier [0x00007FF6B763672D+3162173]
-	GetHandleVerifier [0x00007FF6B76880B0+3496384]
-	GetHandleVerifier [0x00007FF6B767DEF3+3454979]
-	GetHandleVerifier [0x00007FF6B7400E9B+845739]
-	(No symbol) [0x00007FF6B72ACBEF]
-	(No symbol) [0x00007FF6B72A8854]
-	(No symbol) [0x00007FF6B72A89ED]
-	(No symbol) [0x00007FF6B7297F09]
-	BaseThreadInitThunk [0x00007FF882CD7BD4+20]
-	RtlUserThreadStart [0x00007FF88334CED1+33]
+Element 'dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(14)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button")' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MarketWatch Newsletter :: This test case validates th... 
-18:43:56 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:07:50 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-18:44:12 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:08:05 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:214
     T:  Validate the MarketWatch Newsletter    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:224
-      Validation of subscription to Tech Daily newsletters    
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MarketWatch_Regression.robot:226
+      Validation of Unsubscription to Tech Daily newsletters    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:65
-      Wait Until Element Is Visible    dom:${TechDaily}
-      |  dom:${TechDaily} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(8)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--actions > div > ufc-follow-toggle").shadowRoot.querySelector("div > div") (str)
+    File  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Resources\PageObjects\MarketWatchAlertsPage.robot:69
+      Wait Until Element Is Visible    dom:${TechDailyUS}
+      |  dom:${TechDailyUS} = dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(8)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button") (str)
 ______________________________________________________________________________
 | FAIL |
-JavascriptException: Message: javascript error: Cannot read properties of null (reading 'querySelector')
-  (Session info: chrome=130.0.6723.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF768579315+27685]
-	(No symbol) [0x00007FF7684E1780]
-	(No symbol) [0x00007FF76838583A]
-	(No symbol) [0x00007FF76838C31C]
-	(No symbol) [0x00007FF76838E94F]
-	(No symbol) [0x00007FF76841CC70]
-	(No symbol) [0x00007FF7683FBB1A]
-	(No symbol) [0x00007FF76841B99C]
-	(No symbol) [0x00007FF7683FB8C3]
-	(No symbol) [0x00007FF7683C7678]
-	(No symbol) [0x00007FF7683C87E1]
-	GetHandleVerifier [0x00007FF76887672D+3162173]
-	GetHandleVerifier [0x00007FF7688C80B0+3496384]
-	GetHandleVerifier [0x00007FF7688BDEF3+3454979]
-	GetHandleVerifier [0x00007FF768640E9B+845739]
-	(No symbol) [0x00007FF7684ECBEF]
-	(No symbol) [0x00007FF7684E8854]
-	(No symbol) [0x00007FF7684E89ED]
-	(No symbol) [0x00007FF7684D7F09]
-	BaseThreadInitThunk [0x00007FF8EA017BD4+20]
-	RtlUserThreadStart [0x00007FF8EBB6CED1+33]
+Element 'dom:document.querySelector("#root > div > div > div > div:nth-child(2) > div:nth-child(2) > ufc-follow-newsletter-widget:nth-child(8)").shadowRoot.querySelector("ufc-follow-widget > div > div > div.ufc-newsletter--confirmation > div > div.ufc-newsletter--confirmation-buttons > button.ufc-newsletter--unfollow-button")' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MW real-time author notification :: This test case va... 
-18:45:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:09:12 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -414,7 +219,7 @@ ______________________________________________________________________________
 Element '//*[@id="acceptButton"]' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the MW real-time company notification :: This test case v... 
-18:46:06 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:10:01 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -431,7 +236,7 @@ ______________________________________________________________________________
 Element '//*[@id="acceptButton"]' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate Postback on Preference Center :: This test case validates... 
-18:46:43 [browserstack_sdk.__init__][INFO] - Completed setup!
+22:10:39 [browserstack_sdk.__init__][INFO] - Completed setup!
   
   Traceback (most recent call last):
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -448,25 +253,25 @@ ______________________________________________________________________________
 Element '//*[@id="acceptButton"]' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Userservices-Qa-Automation                                            | FAIL |
-16 tests, 0 passed, 16 failed
+16 tests, 4 passed, 12 failed
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\1\output.xml
 
-18:48:29 [browserstack_sdk.__init__][INFO] - Handling session close
+22:12:28 [browserstack_sdk.__init__][INFO] - Handling session close
 
-18:48:38 [browserstack_sdk.__init__][INFO] - All done!
+22:12:36 [browserstack_sdk.__init__][INFO] - All done!
