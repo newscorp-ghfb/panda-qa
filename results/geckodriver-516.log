@@ -1,0 +1,38 @@
+1731578620581	geckodriver	INFO	Listening on 127.0.0.1:62948
+1731578623643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileRiU1Gx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1731578624868	Marionette	INFO	Marionette enabled
+1731578625158	Marionette	INFO	Listening on port 62958
+Read port: 62958
+WebDriver BiDi listening on ws://127.0.0.1:62949
+1731578625297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62949/devtools/browser/0aa61967-9015-4da0-82b0-2ff95bcb9d95
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.83&typ=pgv&rnd=m3h57rnptszohezd&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1731578642635&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m3h57rpauyc2wyvl&ckp=m3h57rnpg4yejf5d&glb=&cp_userState=anon&cp_testGroup=4&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=61&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6099415049268765%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6099415049268765%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6099415049268765%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 7349 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.83&typ=pgv&rnd=m3h580zdo4f5gsqu&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Falerts&new=0&arf=0&ltm=1731578654721&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m3h5812aou690hvj&ckp=m3h57rnpg4yejf5d&glb=&cp_userState=anon&cp_testGroup=4&cp_env=staging&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-articlecover&cp_pwCampaign=226&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Portfolio&cp_subsection=Alerts&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=61&cp_pageContentSource=MarketWatch&cp_pageContentType=ResearchTools&cp_pageContentTypeDetai=tools&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 4918 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1731578660837	Marionette	INFO	Stopped listening on port 62958
+JavaScript warning: https://www.stg.marketwatch.com/alerts, line 96: Script terminated by timeout at:
+W@https://www.stg.marketwatch.com/alerts:96:10739
+5592/Y/<@https://js-agent.newrelic.com/nr-spa-1.272.0.min.js:2:85673
+emit@https://www.stg.marketwatch.com/alerts:96:9151
+i@https://www.stg.marketwatch.com/alerts:96:17422
+nrWrapper@https://www.stg.marketwatch.com/alerts:96:17250
+
+Dynamically enable window occlusion 1
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.error: "Could not download new icon" ({})
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/nimbus-web-preview getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

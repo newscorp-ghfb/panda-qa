@@ -1,0 +1,65 @@
+1731581047364	geckodriver	INFO	Listening on 127.0.0.1:62747
+1731581050430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilehNxvND"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1731581051193	Marionette	INFO	Marionette enabled
+1731581051523	Marionette	INFO	Listening on port 62755
+WebDriver BiDi listening on ws://127.0.0.1:62748
+Read port: 62755
+1731581051799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62748/devtools/browser/d163f26d-3b93-4cf1-86d9-18c6a661a11a
+JavaScript warning: https://www.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.83&typ=pgv&rnd=m3h6nqz4wuuh8mp3&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1731581067860&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m3h6nr38j0svhugj&ckp=m3h6nqz4hso76sru&glb=&cp_userState=anon&cp_testGroup=12&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=81&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7545892419756285%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7545892419756285%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7545892419756285%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.83&typ=pgv&rnd=m3h6nz84y1x4deos&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Falerts&new=0&arf=0&ltm=1731581078554&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m3h6nzbs7fdxenio&ckp=m3h6nqz4hso76sru&glb=&cp_userState=anon&cp_testGroup=12&cp_env=staging&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-articlecover&cp_pwCampaign=226&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Portfolio&cp_subsection=Alerts&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=81&cp_pageContentSource=MarketWatch&cp_pageContentType=ResearchTools&cp_pageContentTypeDetai=tools&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 2145 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 2756 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+n@https://cdn.cxense.com/cx.js:6:1149
+r@https://cdn.cxense.com/cx.js:6:1272
+qi@https://cdn.cxense.com/cx.js:6:52428
+uo@https://cdn.cxense.com/cx.js:6:54779
+aa@https://cdn.cxense.com/cx.js:6:70623
+ua/<@https://cdn.cxense.com/cx.js:6:70930
+nrWrapper@https://www.stg.marketwatch.com/alerts:96:17289
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 780: Script terminated by timeout at:
+PH@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:780:386
+aI@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:797:428
+h.bn@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:786:215
+h.Zm/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:785:31
+fl@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:383:151
+Fl@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:388:434
+h.Zm/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:785:17
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:547:464
+Au@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:548:282
+h.Zm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:785:3
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:800:671
+gn@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:404:28
+fn.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:406:337
+fn.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:404:431
+Zm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:401:773
+FI/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:801:187
+h.sl/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:741:126
+h.sl/c/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:740:418
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 4495 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/x8aYmHGUBry3hNOZ_j_c-gEvpHt5aN5VUUsXrByjvd4.js line 2 > eval line 5935 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1731581114925	Marionette	INFO	Stopped listening on port 62755
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements6940.js, line 2: Script terminated by timeout at:
+131/e.wrapFunction/<@https://cdn.doubleverify.com/dv-measurements6940.js:2:343288
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
