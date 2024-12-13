@@ -73,6 +73,7 @@ Validate the Watchlist widget from Watchlist page
 
 
 #US-T276
+#US-T272
 Validate the MarketWatch price and volume on the alerts page
     [Documentation]  This test case validates the MarketWatch price and volume on the alerts page
     [Tags]  Regression  MarketWatch Price and Volume Alerts   US-T276
