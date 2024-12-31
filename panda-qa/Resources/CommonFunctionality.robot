@@ -5,7 +5,7 @@ Resource  ../Resources/DefinedKeywords.robot
 
 *** Variables ***
 ${BROWSERSTACK_USERNAME}=   newsroomdev.test.6@dowjones.com  #jansisasikumar_XRKqk6  #newsroomdevtest_xCBmjv
-${BROWSERSTACK_ACCESS_KEY}=  Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g  #ptazxpsTbsRFWhsEXpoM  #s3c1cGNU2UpLq5iJzNzx
+${BROWSERSTACK_ACCESS_KEY}=  iFzp4wb8qJpnUeL  #Lv2l3jg7pYbuCg2caMMgmfqVcsuv8g #ptazxpsTbsRFWhsEXpoM  #s3c1cGNU2UpLq5iJzNzx
 ${BROWSERSTACK_URL}=   https://automate.browserstack.com/dashboard/v2/builds/3263aa6a845e0b5e2d6e245b9107760e32c3105f?projectIds=2299596${BROWSERSTACK_USERNAME}:${BROWSERSTACK_ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub
 
 ${CookieValue1}=  x-dev-access-clientid
@@ -16,7 +16,7 @@ ${ExpectedCookieValue2}=   5Nnx9DUR7NQg8XPwvztud7o0OivfiKth
 
 ${Browser}=  ff  #headless, ff, chrome, edge, safari
 
-${Env}=  dev  #dev, prod, stg
+${Env}=  prod  #dev, prod, stg
 
 ${Email_prod}=  barronsadvisorcs@gmail.com
 
@@ -154,6 +154,18 @@ Start Market Watch Article
     Maximize Browser Window
 
 Start MarketWatch Newsletter
+    Set Selenium Speed  0.5 seconds
+    ${options} =  Set Browser Options
+    #IF  "${Env}" == "prod"
+        Open Browser  https://www.marketwatch.com  ${Browser}  options=${options}
+        Go To  https://www.marketwatch.com/follow
+    #ELSE IF  "${Env}" == "dev"
+        #Open Browser  https://www.dev.marketwatch.com  ${Browser}  options=${options}
+       # Go To  https://www.stg.marketwatch.com/picks/i-am-not-rich-by-any-means-im-63-and-on-a-limited-budget-but-in-great-need-of-a-financial-adviser-is-there-help-for-me-214a114c?mod=mw_latestnews
+    #END
+    Maximize Browser Window
+
+Start MarketWatch Newsletter Follow
     Set Selenium Speed  0.5 seconds
     ${options} =  Set Browser Options
     #IF  "${Env}" == "prod"

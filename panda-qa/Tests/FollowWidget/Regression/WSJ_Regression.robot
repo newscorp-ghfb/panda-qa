@@ -68,6 +68,7 @@ Validate the WSJ Preference Center page Subscribe color
     WSJPreferenceCenterPage.Validate the Selection color
 
 #US-T461
+#US-T403
 Validate the WSJ Follow Function
     [Documentation]  This test case validates the WSJ Follow Function
     [Tags]  Regression  Follow Function  461
@@ -131,7 +132,7 @@ Validate the WSJ Preference Center page
     WSJPreferenceCenterPage.Add Breaking News By Hotlink
     WSJPreferenceCenterPage.Validate Followed Breaking News
     ${val2}=  Get Element Count  //*[@id="root"]/div/div/div/div[3]/div/div/button
-    Run Keyword If  ${val2} > 0  WSJPreferenceCenterPage.Click Following Toggle Alert Pop up
+   , Run Keyword If  ${val2} > 0  WSJPreferenceCenterPage.Click Following Toggle Alert Pop up
     WSJPreferenceCenterPage.Validate Breaking News On All Tab
     WSJPreferenceCenterPage.Click WSJ tab
     WSJPreferenceCenterPage.Validate Breaking News Toggle Feature
@@ -588,14 +589,14 @@ Validate the WSJ digest notification
 #US-T406
 Validate WSJ Legacy company Amazon to be added to New Preference Center
     [Documentation]  This test case validates the WSJ legacy company as Amazon to be added to the Preference Center
-    [Tags]  Regression  Notifications     Follow1
-   CommonFunctionality.Start WSJ Preference Center Page
-                   IF  "${Env}" == "prod"
-        DefinedKeywords.New WSJ Sign In Process
-    ELSE IF  "${Env}" == "dev"
-        DefinedKeywords.New WSJ Sign In Process
-         END
-         Set Selenium Implicit Wait  50s
+    [Tags]  Regression  Notifications     4061
+   #CommonFunctionality.Start WSJ Preference Center Page
+                   #IF  "${Env}" == "prod"
+        #DefinedKeywords.New WSJ Sign In Process
+    #ELSE IF  "${Env}" == "dev"
+        #DefinedKeywords.New WSJ Sign In Process
+         #END
+         #Set Selenium Implicit Wait  50s
      DefinedKeywords.WSJ Preference Center Page Sign In Process
      Set Selenium Implicit Wait  20s
      WSJPreferenceCenterPage.Add Company By Hotlink
@@ -607,20 +608,19 @@ Validate WSJ Legacy company Amazon to be added to New Preference Center
 #US-T406
 Validate WSJ Legacy company Tesla to be added to New Preference Center
     [Documentation]  This test case validates the WSJ legacy company as Tesla to be added to the Preference Center
-    [Tags]  Regression  Notifications    Follow1
-   CommonFunctionality.Start WSJ Preference Center Page
-                   IF  "${Env}" == "prod"
-        DefinedKeywords.New WSJ Sign In Process
-    ELSE IF  "${Env}" == "dev"
-        DefinedKeywords.New WSJ Sign In Process
-         END
-         Set Selenium Implicit Wait  50s
-     DefinedKeywords.WSJ Preference Center Page Sign In Process
+    [Tags]  Regression  Notifications    US-T406
+     CommonFunctionality.Start WSJ Homepage
+     DefinedKeywords.WSJ Alerts Sign In Process  #WSJ Preference Center Page Sign In Process
      Set Selenium Implicit Wait  20s
      WSJPreferenceCenterPage.Add Tesla Company By Hotlink
-     Wait Until Element is Visible  //html/body/div[3]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[5]/button/span
-     Click Element  //html/body/div[3]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[5]/button/span
-     Set Selenium Implicit Wait  10s
+     WSJPreferenceCenterPage.Add Facebook Company By Hotlink
+     WSJPreferenceCenterPage.Add Goldman Sachs Company By Hotlink
+     WSJPreferenceCenterPage.Add Company By Hotlink
+     WSJPreferenceCenterPage.Add Company GE By Hotlink
+     #WSJPreferenceCenterPage.Validate Company On All Tab
+     #Wait Until Element is Visible  //html/body/div[3]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[5]/button/span
+     #Click Element  //html/body/div[3]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[5]/button/span
+     #Set Selenium Implicit Wait  10s
 
 #US-T406
 Validate WSJ Legacy company Goldman Sachs to be added to New Preference Center
@@ -658,6 +658,18 @@ Validate WSJ Legacy company Facebook to be added to New Preference Center
      Click Element  //html/body/div[3]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[5]/button/span
      Set Selenium Implicit Wait  10s
 
+#US-T452
+Validate WSJ Legacy company Tesla to be added to New Preference Center
+    [Documentation]  This test case validates the WSJ legacy company as Tesla to be added to the Preference Center
+    [Tags]  Regression  Notifications  US-T452
+     CommonFunctionality.Start WSJ Homepage
+     DefinedKeywords.WSJ Alerts Sign In Process  #WSJ Preference Center Page Sign In Process
+     Set Selenium Implicit Wait  20s
+     WSJPreferenceCenterPage.Add Personal Finance Company By Hotlink
+     WSJPreferenceCenterPage.Add Education Company By Hotlink
+     WSJPreferenceCenterPage.Add Energy Company By Hotlink
+     WSJPreferenceCenterPage.Add Personal Technology Company By Hotlink
+
 #US-T124
 Validate the WSJ real-time author notification
     [Documentation]  This test case validates the WSJ real-time author notification
@@ -671,7 +683,7 @@ Validate the WSJ real-time author notification
 #US-T154
 Validate the WSJ real-time company notification
     [Documentation]  This test case validates the WSJ real-time company notification
-    [Tags]  Regression  Notifications  Company           follow
+    [Tags]  Regression  Notifications  Company  US-T154
     WSJMailboxPage.Navigate Mailbox page
     WSJMailboxPage.Login
     WSJMailboxPage.Select Inbox
@@ -966,7 +978,7 @@ Validate the alert button for Energy
 #US-T361
 Validate Postback on Preference Center
     [Documentation]  This test case validates the WSJ Postback on Preference Center
-    [Tags]  Regression  Postback           Follow1
+    [Tags]  Regression  Postback           US-T361
     WSJPreferenceCenterPage.Add Breaking News By Hotlink
     WSJPreferenceCenterPage.Validate Sign in for Postback
     WSJPreferenceCenterPage.Click Sign In Button for Postback

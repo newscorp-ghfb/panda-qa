@@ -51,7 +51,7 @@ Validate Authors for MarketWatch Article page without byline
 #US-T220
 Validate the Watchlist widget from Watchlist page
     [Documentation]  This test case validates the watchlist widget from watchlist page
-    [Tags]  Regression  Watchlist  218
+    [Tags]  Regression  Watchlist  US-T218
 
     CommonFunctionality.Start MarketWatch for Watchlist page
     Execute javascript  window.scrollTo(0,500)
@@ -151,6 +151,19 @@ Validate the MarketWatch Newsletter
      MarketWatchAlertsPage.Validation of subscription to Mutual Funds Weekly newsletters
      MarketWatchAlertsPage.Validation of Unsubscripton of Mutual Funds Weekly newsletters
 
+#US-T404
+Validate the MarketWatch Newsletter MwTheMoneyist
+  [Documentation]  This test case validates the MarketWatch MwTheMoneyist
+  [Tags]  Regression  404
+     CommonFunctionality.Start MarketWatch Newsletter Follow
+     DefinedKeywords.Market Watch Sign In Process
+     Set Selenium Implicit Wait  20
+     MarketWatchAlertsPage.Validate Newsletters option on MW Preference Center
+     MarketWatchAlertsPage.Click Newsletters option on MW Preference Center
+     Execute javascript  window.scrollTo(0,500)
+     Set Selenium Implicit Wait  10
+     MarketWatchAlertsPage.Validation of subscription to MwTheMoneyist
+
 #US-T432
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Personal Finance
@@ -211,6 +224,7 @@ Validate the MarketWatch Newsletter
      Set Selenium Implicit Wait  10
      MarketWatchAlertsPage.Validation of Unsubscription to Europe Daily newsletters
 
+#US-T451
 #US-T435
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Tech Daily
@@ -229,7 +243,7 @@ Validate the MarketWatch Newsletter
 #US-T122
 Validate the MW real-time author notification
     [Documentation]  This test case validates the MW real-time author notification
-    [Tags]  Regression  Notifications  Author  Follow11
+    [Tags]  Regression  Notifications  Author  US-T122
     MarketWatchMailboxPage.Navigate Mailbox page
     MarketWatchMailboxPage.Login
     MarketWatchMailboxPage.Select Inbox

@@ -1,0 +1,87 @@
+1734522286676	geckodriver	INFO	Listening on 127.0.0.1:55274
+1734522289749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile7Tmxr1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1734522290467	Marionette	INFO	Marionette enabled
+1734522290728	Marionette	INFO	Listening on port 55289
+WebDriver BiDi listening on ws://127.0.0.1:55275
+Read port: 55289
+1734522290976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55275/devtools/browser/4360c89a-5ca8-45b7-8713-dbf7db2103af
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4ttsk8mimeyju6h&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2F&new=1&arf=0&ltm=1734522300113&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4ttskgg8f8s7par&ckp=m4ttsk8m35qqhm19&glb=&cp_userState=anon&cp_testGroup=95&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.20736655255663983%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.20736655255663983%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.20736655255663983%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: , line 0: uncaught exception: undefined
+1734522317450	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://video-api.wsj.com/api-video/audio/js/audioplayer.min.js, line 22: ChunkLoadError: Loading chunk 806 failed.
+(error: https://video-api.wsj.com/api-video/audio/js/chunks/806.7208548556f707dca6d5.min.js)
+JavaScript warning: https://interactives.ap.org/election-results/assets/microsite/layoutClient.js, line 2: Script terminated by timeout at:
+v@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:114450
+e@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:116787
+wu@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:134840
+_u@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:136539
+kl@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:182263
+bs@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170646
+gs@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170574
+ys@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170435
+ls@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:167599
+Ho@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:108801
+22551/Ss/<@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:173982
+Ss@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:173987
+os@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:166549
+x@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:211891
+T@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:212422
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4ttt0vtx2hqp3d2&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Fwelcome-watchlist&new=0&arf=0&ltm=1734522321602&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4ttt198srgtm38s&ckp=m4ttsk8m35qqhm19&glb=&cp_userState=anon&cp_testGroup=95&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Welcome%20Watchlist&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 17ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 2968 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-657800048, line 129: Script terminated by timeout at:
+Oc@https://www.googletagmanager.com/gtag/js?id=AW-657800048:129:124
+Rc@https://www.googletagmanager.com/gtag/js?id=AW-657800048:130:97
+qj@https://www.googletagmanager.com/gtag/js?id=AW-657800048:253:391
+Dy@https://www.googletagmanager.com/gtag/js?id=AW-657800048:524:363
+By@https://www.googletagmanager.com/gtag/js?id=AW-657800048:523:100
+Pz@https://www.googletagmanager.com/gtag/js?id=AW-657800048:541:273
+Sz@https://www.googletagmanager.com/gtag/js?id=AW-657800048:544:7
+Wz/b.push@https://www.googletagmanager.com/gtag/js?id=AW-657800048:548:320
+Wz/b.push@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:661:170
+Wz/b.push@https://www.googletagmanager.com/gtag/js?id=DC-13961696&l=dataLayer&cx=c&gtm=45be4cc1v9179846833za200:449:170
+Wz/b.push@https://www.googletagmanager.com/gtag/js?id=AW-11034350213&l=dataLayer&cx=c&gtm=45be4cc1v9179846833za200:537:170
+gtag@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.200.js?utv=ut4.44.202301201542:4:262
+u.send@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.207.js?utv=ut4.44.202401171622:41:29
+sendTag@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:81:175
+trigger@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:82:302
+track@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:395
+link@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:216
+MarketWatch.Tracking.makeTrackingCall/<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:101:201964
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 245: Script terminated by timeout at:
+rd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:245:270
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:230:314
+Ja@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Id/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:252:487
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:230:314
+r@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:233:19
+xB@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:677:149
+vB/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:189
+fb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+vB/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:168
+fb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+vB@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:135
+wB/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:111
+
+JavaScript warning: https://www.s.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4ttti4wk1piecu1&sid=9222325317970825873&loc=https%3A%2F%2Fwww.s.dev.marketwatch.com%2F&new=0&arf=0&ltm=1734522343962&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4tttidf5ynreoxt&ckp=m4ttsk8m35qqhm19&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=95&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-candybar&cp_pwCampaign=116&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Home%20Page&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=Home&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 706 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1734522354944	Marionette	INFO	Stopped listening on port 55289
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

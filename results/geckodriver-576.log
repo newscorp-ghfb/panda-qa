@@ -1,0 +1,110 @@
+1735204429590	geckodriver	INFO	Listening on 127.0.0.1:59110
+1735204432646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59111" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileK0f2Gk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735204433446	Marionette	INFO	Marionette enabled
+1735204433755	Marionette	INFO	Listening on port 59124
+WebDriver BiDi listening on ws://127.0.0.1:59111
+Read port: 59124
+1735204434047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59111/devtools/browser/26474cd7-ce17-44e3-997a-40b4bc8787c4
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m553xc5wt71huuvp&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1735204446938&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m553xcic5rmtayoj&ckp=m553xc5woym95ani&glb=&cp_userState=anon&cp_testGroup=80&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=59&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 72ms)
+1735204453309	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/pyMTr0nkmN6cL6IgtDyOeR9sHSfyHchE6TDXG14OT6s.js line 2 > eval line 6366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_508262223, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_508262223:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_508262223:442:29
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.1044861723927547%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.1044861723927547%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.1044861723927547%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp, line 303: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp:303:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp:294:48
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/8495-ab7a53d05431b970.js, line 1: Script terminated by timeout at:
+e@https://www.dev.wsj.com/_next/static/chunks/8495-ab7a53d05431b970.js:1:60579
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/0e618fe747035c12af1901a52a9dfeff/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/0e618fe747035c12af1901a52a9dfeff/js/vendor.js:51:4767
+k@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/0e618fe747035c12af1901a52a9dfeff/js/vendor.js:49:13806
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m553yai47l0j5rqb&sid=1134002947328204066&loc=https%3A%2F%2Fwww.s.dev.wsj.com%2F&new=0&arf=0&ltm=1735204491448&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m553ybgz2dzhvhjz&ckp=m553xc5woym95ani&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=80&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/pyMTr0nkmN6cL6IgtDyOeR9sHSfyHchE6TDXG14OT6s.js line 2 > eval line 3489 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://www.s.dev.wsj.com/ line 1 > injectedScript, line 1: SyntaxError: redeclaration of const cxHandleCusomterNavSubscribeBtnUpdate
+JavaScript error: https://www.s.dev.wsj.com/ line 1 > injectedScript, line 1: SyntaxError: redeclaration of const cxHandleRegCandybarClick
+1735204499653	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.s.dev.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.s.dev.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.s.dev.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.s.dev.wsj.com/" ({})
+[[GFX1-]: CompositorBridgeChild r[GFX1-]: CompositorBridgeChild receives IPC close[GF with reason=[[GFX1-]: CompX[GFX1-]: CompositorBr[[GFX1-]: CompositorBridgeCh[Gild[i[ recei[GFX1-][GFX[GFX1:[GF[G[GFX1-]:-]: CompositorBridgeChild receives  CompoIPC close with reassitorBridgeChild receives IPC close with reon=Abason=AbnormalShutnormadown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+GFX1-]: CompX1lShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+AExiting due to channel error.
+GoGFd

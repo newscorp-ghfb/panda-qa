@@ -1,0 +1,54 @@
+1735041856642	geckodriver	INFO	Listening on 127.0.0.1:56463
+1735041859798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56464" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileX2xWKL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735041860640	Marionette	INFO	Marionette enabled
+1735041861072	Marionette	INFO	Listening on port 56627
+WebDriver BiDi listening on ws://127.0.0.1:56464
+Read port: 56627
+1735041861279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56464/devtools/browser/5014b3dd-934e-48ba-b0ec-6ad111e958f8
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m52f4qy8z9tfbus3&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1735041869941&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m52f4rek4jlpr4je&ckp=m52f4qy8wk4t0nht&glb=&cp_userState=anon&cp_testGroup=98&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=40&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.wsj.com/, line 194: uncaught exception: undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS, line 627: Script terminated by timeout at:
+vz@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:627:227
+config@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:629:52
+Sz@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:640:469
+Uz@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:642:43
+nrWrapper@https://www.wsj.com/:194:17880
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:51:4767
+k@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:49:13806
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1735041895301	Marionette	INFO	Stopped listening on port 56627
+JavaScript warning: , line 0: Script terminated by timeout at:
+
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 127
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":127,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":425,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":425,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":425,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":425,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":425,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":719,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:127:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:127:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:719:54|
+  - prototype Object
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.error: ({details:{id:"2c2bcb35-b5f7-e015-b54f-3d60feccf26d", last_modified:1731438148174, bucket:"main", collection:"password-rules", host:"firefox.settings.services.mozilla.com"}})

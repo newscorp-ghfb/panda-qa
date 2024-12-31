@@ -61,6 +61,10 @@ Validation of subscription to Mutual Funds Weekly newsletters
   Wait Until Element is Visible  //*[@id="newsletter-card-container-704"]/div/div[2]/div/div/div[1]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]
   Click Element  //*[@id="newsletter-card-container-704"]/div/div[2]/div/div/div[1]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]
 
+Validation of subscription to MwTheMoneyist
+  Wait Until Element is Visible  //*[@id="newsletter-card-container-704"]/div/div[2]/div/div/div[1]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]
+  Click Element  //*[@id="newsletter-card-container-704"]/div/div[2]/div/div/div[1]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]  #//html/body/div[2]/div/div/div/div[2]/div[1]/ufc-follow-newsletter-widget[3]
+
 Validation of subscription to Tech Daily newsletters
   Wait Until Element is Visible  dom:${TechDaily}
   Click Element  dom:${TechDaily}

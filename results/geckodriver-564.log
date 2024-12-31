@@ -1,0 +1,39 @@
+1735200799943	geckodriver	INFO	Listening on 127.0.0.1:56662
+1735200803144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileyRaUgU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735200805190	Marionette	INFO	Marionette enabled
+1735200807141	Marionette	INFO	Listening on port 56795
+WebDriver BiDi listening on ws://127.0.0.1:56663
+Read port: 56795
+1735200807885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56663/devtools/browser/3857f9f7-4dab-4890-87d9-2d65bc3ff8fc
+1735200817585	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://www.marketwatch.com/, line 358: Script terminated by timeout at:
+nrWrapper@https://www.marketwatch.com/:358:17730
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:51:4767
+k@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:49:13806
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 50ms)
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+1735200844522	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1735200852391	Marionette	INFO	Stopped listening on port 56795
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:544:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:544:17\n"
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShut[GFX1Exiting due to channel error.

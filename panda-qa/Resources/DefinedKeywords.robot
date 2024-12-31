@@ -7,6 +7,7 @@ Resource  ../Resources/CommonFunctionality.robot
 *** Variables ***
 ${Email} =  Set Variable  ${EMPTY}
 ${Password} =  Set Variable  ${EMPTY}
+${Barrons} =  document.querySelector("body > section > nav > nav-hat").shadowRoot.querySelector("#barrons-link > span")
 
 *** Keywords ***
 
@@ -223,6 +224,7 @@ MarketWatch Test User Sign In Process
     Input Text  //*[@id="password"]  password1  #January2024  #Cuceis19841234!
     Set Selenium Implicit Wait  10s
     Click Button  //*[@id="signin-pass-submit-btn"]
+    Set Selenium Implicit Wait  10s
     Wait Until Element is visible  //html/body/section/nav/header/ul/li[2]/a
     Click Element  //html/body/section/nav/header/ul/li[2]/a
 

@@ -1,0 +1,44 @@
+1735025701790	geckodriver	INFO	Listening on 127.0.0.1:55503
+1735025704832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2rUtXG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735025705914	Marionette	INFO	Marionette enabled
+1735025706220	Marionette	INFO	Listening on port 55519
+WebDriver BiDi listening on ws://127.0.0.1:55504
+Read port: 55519
+1735025706527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55504/devtools/browser/b39a2341-18d7-4d08-aa88-14a9a12be9d8
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1735025720831	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m525ilg22rotenjo&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1735025719836&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m525ilnqs75wvixn&ckp=m525ilg2l7ryreg6&glb=&cp_userState=anon&cp_testGroup=29&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=2&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+1735025724617	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 6788 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9196552693122563%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9196552693122563%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9196552693122563%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_2050933265, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_2050933265:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_2050933265:442:29
+
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.dev.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.dev.wsj.com/" ({})
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js, line 1: Script terminated by timeout at:
+a@https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js:1:121622
+78018/W/<@https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js:1:122093
+r@https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js:1:117910
+
+1735025897195	Marionette	INFO	Stopped listening on port 55519
+Dynamically enable window occlusion 1
