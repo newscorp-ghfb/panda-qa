@@ -1,0 +1,28 @@
+1735285939250	geckodriver	INFO	Listening on 127.0.0.1:63877
+1735285942320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63878" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileDvqbmJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735285942900	Marionette	INFO	Marionette enabled
+1735285943126	Marionette	INFO	Listening on port 63889
+WebDriver BiDi listening on ws://127.0.0.1:63878
+Read port: 63889
+1735285943251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63878/devtools/browser/0718b757-ff25-4e8c-9e43-60fd313c0c6e
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m56gg8ssqg1ayfvc&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2F&new=1&arf=0&ltm=1735285950623&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m56gg8vewdett9qy&ckp=m56gg8sswsnkyt9w&glb=&cp_userState=anon&cp_testGroup=20&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=83&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 9ms)
+1735285953451	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js, line 1: Script terminated by timeout at:
+get@https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:1:37121
+g@https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:1:124066
+destroyMessages@https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:1:120130
+@https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:1:124850
+
+JavaScript warning: https://fpt.live.com/?session_id=4f885cb0a2d241a99d0b7069dd30dd32&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1735285966760	Marionette	INFO	Stopped listening on port 63889
+Dynamically enable window occlusion 1

@@ -1,0 +1,69 @@
+1734522812659	geckodriver	INFO	Listening on 127.0.0.1:54543
+1734522815729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54544" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileX5hz04"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1734522816565	Marionette	INFO	Marionette enabled
+1734522816865	Marionette	INFO	Listening on port 54557
+WebDriver BiDi listening on ws://127.0.0.1:54544
+Read port: 54557
+1734522817149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54544/devtools/browser/055d5c13-37a0-4c2f-97c0-bcf4491cf8ed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://interactives.ap.org/election-results/assets/2024-11-05/__cdn__/js/9246.ab7a9c5ba72a59aab673.js, line 1: Script terminated by timeout at:
+$i@https://interactives.ap.org/election-results/assets/2024-11-05/__cdn__/js/9246.ab7a9c5ba72a59aab673.js:1:10667
+c@https://interactives.ap.org/election-results/assets/2024-11-05/__cdn__/js/3044.ec745c9366a481670824.js:1:4411
+yi@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:122427
+_u@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:136478
+kl@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:182263
+bs@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170646
+gs@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170574
+ys@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:170435
+os@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:165598
+x@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:211891
+T@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:212422
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4tu3tsb6i2wzd77&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1734522825617&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4tu3txneuiqnsn8&ckp=m4tu3tsbwx5plthz&glb=&cp_userState=anon&cp_testGroup=22&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+1734522829962	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1734522831099	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4tu41hr6uq9zwu2&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Fwelcome-watchlist&new=0&arf=0&ltm=1734522835605&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4tu41kcybua27wg&ckp=m4tu3tsbwx5plthz&glb=&cp_userState=anon&cp_testGroup=22&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Welcome%20Watchlist&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 3599 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://secure-us.imrworldwide.com/v60.js, line 1: Script terminated by timeout at:
+NolTracker.prototype.pause@https://secure-us.imrworldwide.com/v60.js:1:23885
+NolTracker.prototype.postLinkTrack@https://secure-us.imrworldwide.com/v60.js:1:17653
+NolTracker.prototype.linkTrack@https://secure-us.imrworldwide.com/v60.js:1:18191
+u.send@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.81.js?utv=ut4.44.202301181941:7:180
+sendTag@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:81:175
+trigger@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:82:302
+track@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:395
+link@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:216
+MarketWatch.Tracking.makeTrackingCall/<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:101:201964
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/d48d75c2ba6d10db182f2504be8554b3/js/router.js, line 11: Script terminated by timeout at:
+Za@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/d48d75c2ba6d10db182f2504be8554b3/js/router.js:11:13174
+l@https://sso.int.accounts.dowjones.com/one_identity_login_pages/login/d48d75c2ba6d10db182f2504be8554b3/js/router.js:10:12548
+
+JavaScript warning: https://www.s.dev.marketwatch.com/_next/static/chunks/main-7c2c5b4ee7ae4ea0.js, line 1: unreachable code after return statement
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4tu4ix9tqqv9vcc&sid=9222325317970825873&loc=https%3A%2F%2Fwww.s.dev.marketwatch.com%2F&new=0&arf=0&ltm=1734522858195&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4tu4j46so0bxxue&ckp=m4tu3tsbwx5plthz&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=22&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-candybar&cp_pwCampaign=116&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Home%20Page&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=Home&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 201 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1734522870398	Marionette	INFO	Stopped listening on port 54557
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements7000.js, line 2: Script terminated by timeout at:
+getOffScreenViewportSize@https://cdn.doubleverify.com/dv-measurements7000.js:2:265779
+getAdCandidateAssets@https://cdn.doubleverify.com/dv-measurements7000.js:2:264832
+publishAdViewabilityData@https://cdn.doubleverify.com/dv-measurements7000.js:2:314988
+2478/runSafelyWhenInvoked/<@https://cdn.doubleverify.com/dv-measurements7000.js:2:244626
+131/e.wrapFunction/<@https://cdn.doubleverify.com/dv-measurements7000.js:2:348641
+
+Dynamically enable window occlusion 1
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

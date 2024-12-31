@@ -1,0 +1,85 @@
+1735624684538	geckodriver	INFO	Listening on 127.0.0.1:54833
+1735624687659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54834" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileKWJNYL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735624688268	Marionette	INFO	Marionette enabled
+1735624688598	Marionette	INFO	Listening on port 54853
+WebDriver BiDi listening on ws://127.0.0.1:54834
+Read port: 54853
+1735624689059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54834/devtools/browser/c7aba363-1467-4993-91d2-d3784a34a82e
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m5c24p8fa0tmpf18&sid=1134002947328204066&loc=https%3A%2F%2Fwww.s.dev.wsj.com%2F&new=1&arf=0&ltm=1735624694467&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m5c24pdi8c0cxtj9&ckp=m5c24p8fg3ayhau0&glb=&cp_userState=anon&cp_testGroup=75&cp_env=staging&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=97&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript error: https://www.s.dev.wsj.com/ line 1 > injectedScript, line 1: SyntaxError: redeclaration of const cxHandleCusomterNavSubscribeBtnUpdate
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1735624703507	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 3628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 5024 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 7744 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+$n@https://cdn.cxense.com/cx.js:6:40546
+aa/<@https://cdn.cxense.com/cx.js:6:70739
+aa@https://cdn.cxense.com/cx.js:6:70831
+ua/<@https://cdn.cxense.com/cx.js:6:70926
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1953336072, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1953336072:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1953336072:442:29
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14270351742270493%22,%22tld%22:%22www.s.dev.wsj.com%22,%22topUrl%22:%22www.s.dev.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14270351742270493%22,%22tld%22:%22www.s.dev.wsj.com%22,%22topUrl%22:%22www.s.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14270351742270493%22,%22tld%22:%22www.s.dev.wsj.com%22,%22topUrl%22:%22www.s.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 189: Script terminated by timeout at:
+ya@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:189:51
+r@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:232:807
+xB@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:677:149
+vB/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:189
+fb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+vB/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:168
+fb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+vB@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:135
+wB/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:675:111
+
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 6249 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 3738 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1735624741573	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m5c25oxk4lb72ciw&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts%3Falert%3Dsection%26id%3Dpersonal-finance&new=0&arf=0&ltm=1735624740732&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m5c25pejx1uhfgtf&ckp=m5c24p8fg3ayhau0&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=75&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+1735624753054	Marionette	INFO	Stopped listening on port 54853
+JavaScript warning: https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js, line 97: Script terminated by timeout at:
+loader@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:97:179
+u.send@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.573.js?utv=ut4.46.202404031844:13:432
+LOAD@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:66:385
+@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.573.js?utv=ut4.46.202404031844:14:55
+@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.573.js?utv=ut4.46.202404031844:14:65
+
+Dynamically enable window occlusion 1
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined
+JavaScript error: https://djcs-multi-region-assets-ohio.s3.us-east-2.amazonaws.com/dj-ufc/asset/dj-ufc/qa/v1.34.0-beta.217/p-5a49cb7f.js, line 1: TypeError: o is undefined

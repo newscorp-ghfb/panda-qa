@@ -1,0 +1,42 @@
+1734512748836	geckodriver	INFO	Listening on 127.0.0.1:51043
+1734512751893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile3wGO6I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1734512752848	Marionette	INFO	Marionette enabled
+1734512753127	Marionette	INFO	Listening on port 51060
+WebDriver BiDi listening on ws://127.0.0.1:51044
+Read port: 51060
+1734512753428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51044/devtools/browser/f71617e6-4078-4ca2-93dd-6d1a5b864f9b
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4to45k82pptv88t&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2F&new=1&arf=0&ltm=1734512763196&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4to45mgbh0fw9gl&ckp=m4to45kapp542n4e&glb=&cp_userState=anon&cp_testGroup=79&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=23&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 3459 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.dianomi.com/smartads.epl?id=9828&numAds=4&cf=220.1299.MWhome&url=https%3A%2F%2Fwww.dev.marketwatch.com%2F&unitId=dianomi-9828-Z2KQfSH-OgP6oaRhAxdNHAAAABQ0&responsiveHeight=1&contextfeedFrameId=1299-462&gdpr_consent=null&gdpr=null&canServeAds=true&canCookie=true&partner_tcf_status=2.0&partnerTcfStatus=2.0, line 132: NS_ERROR_UNEXPECTED: 
+JavaScript error: https://www.dianomi.com/smartads.epl?id=9823&numAds=4&cf=220.1295.mwhomep&url=https%3A%2F%2Fwww.dev.marketwatch.com%2F&unitId=dianomi-9823-Z2KQfTuNIGlPxXhLW9FB-AAAAEE0&responsiveHeight=1&contextfeedFrameId=1295-10&gdpr_consent=null&gdpr=null&canServeAds=true&canCookie=true&partner_tcf_status=2.0&partnerTcfStatus=2.0, line 136: NS_ERROR_UNEXPECTED: 
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+1734512782907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 7587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.86&typ=pgv&rnd=m4to4oy91i5krheh&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Fwelcome-watchlist&new=0&arf=0&ltm=1734512788313&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m4to4p0yycye14rx&ckp=m4to45kapp542n4e&glb=&cp_userState=anon&cp_testGroup=79&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Welcome%20Watchlist&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=23&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+1734512791548	Marionette	INFO	Stopped listening on port 51060
+JavaScript warning: https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js, line 20: Script terminated by timeout at:
+isEmptyObject@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:20:2563
+hasData@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:31:27497
+remove@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:31:34032
+off/<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:31:39245
+each@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:20:3062
+each@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:20:1046
+off@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:31:39220
+unbind@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:31:79124
+stopMonitoringKeepAlive@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:47:20787
+stop@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:47:12768
+e.exports/i.signalR.prototype.stop@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:75:524
+start/o/</</<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-04274bc9cd.min.js:47:9265
+
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

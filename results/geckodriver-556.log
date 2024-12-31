@@ -1,0 +1,47 @@
+1735042988999	geckodriver	INFO	Listening on 127.0.0.1:64190
+1735042992493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofiletdvdD8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735042996165	Marionette	INFO	Marionette enabled
+1735042997030	Marionette	INFO	Listening on port 49784
+WebDriver BiDi listening on ws://127.0.0.1:64191
+Read port: 49784
+1735042997573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64191/devtools/browser/64fdcbb1-7b12-40a4-931a-ed0c588d73fb
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m52ft78qlqk97r2r&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1735043010801&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m52ft7qoasbtrk1w&ckp=m52ft78q4oy2hjr7&glb=&cp_userState=anon&cp_testGroup=3&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=81&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 6307 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 4580 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1735043024533	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 5064 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1735043030316	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+JavaScript warning: https://cdn.parsely.com/keys/wsj.com/p.js, line 7: Script terminated by timeout at:
+value@https://cdn.parsely.com/keys/wsj.com/p.js:7:24307
+value@https://cdn.parsely.com/keys/wsj.com/p.js:7:24771
+nrWrapper@https://www.wsj.com/:194:17880
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/js/dv3.js, line 193: Script terminated by timeout at:
+Zj/<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:193:153
+Zj@https://pagead2.googlesyndication.com/pagead/js/dv3.js:193:124
+gk@https://pagead2.googlesyndication.com/pagead/js/dv3.js:193:1046
+rh/</<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:139:128
+ph@https://pagead2.googlesyndication.com/pagead/js/dv3.js:138:431
+rh/<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:139:105
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:198:420
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABLA~BVQqAAAAAgA.QA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7837910202993567%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABLA~BVQqAAAAAgA.QA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7837910202993567%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABLA~BVQqAAAAAgA.QA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7837910202993567%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+1735043037607	Marionette	INFO	Stopped listening on port 49784
+Dynamically enable window occlusion 1

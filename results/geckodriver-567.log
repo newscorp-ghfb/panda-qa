@@ -1,0 +1,81 @@
+1735201214415	geckodriver	INFO	Listening on 127.0.0.1:51992
+1735201217781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile3IRjHi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735201220315	Marionette	INFO	Marionette enabled
+1735201220874	Marionette	INFO	Listening on port 52117
+WebDriver BiDi listening on ws://127.0.0.1:51993
+Read port: 52117
+1735201221421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51993/devtools/browser/43a82275-be03-4187-be15-b5c8adbddc97
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m5520h84t7c3wyum&sid=9222325317970825873&loc=https%3A%2F%2Fwww.marketwatch.com%2F&new=1&arf=0&ltm=1735201234236&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m5520hf7vyj4um2m&ckp=m5520h84x1s2efu2&glb=&cp_userState=anon&cp_testGroup=59&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=2&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/pyMTr0nkmN6cL6IgtDyOeR9sHSfyHchE6TDXG14OT6s.js line 2 > eval line 1514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://a74292fe3f7d43482b7dd190f49d8383.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html, line 17: SecurityError: Permission denied to access property "addEventListener" on cross-origin object
+1735201247387	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.marketwatch.com/, line 358: Script terminated by timeout at:
+nrWrapper@https://www.marketwatch.com/:358:17730
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 77: Script terminated by timeout at:
+G@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:445
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:201
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:709
+L.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1262
+Wd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:96:1521
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:473
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+M/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:473
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+jh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:320
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:127
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+jh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:292
+vc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+rg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Ub/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+rg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+vc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+rg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Ub/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+rg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+vc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8522263589211988%22,%22tld%22:%22www.marketwatch.com%22,%22topUrl%22:%22www.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8522263589211988%22,%22tld%22:%22www.marketwatch.com%22,%22topUrl%22:%22www.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.8522263589211988%22,%22tld%22:%22www.marketwatch.com%22,%22topUrl%22:%22www.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://tags.tiqcdn.com/utag/wsjdn/oneidentity-consumer/prod/utag.17.js?utv=ut4.46.202405071405 line 22 > Function, line 3: Script terminated by timeout at:
+anonymous/W.s_PPVevent@https://tags.tiqcdn.com/utag/wsjdn/oneidentity-consumer/prod/utag.17.js?utv=ut4.46.202405071405 line 22 > Function:3:1253
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1735201278498	Marionette	INFO	Stopped listening on port 52117
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js, line 724: Script terminated by timeout at:
+eh@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:724:323
+C<@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:486:17
+X<@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:44:116
+W0@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:720:341
+F<@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:250:115
+p@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:322:506
+P</S</J</<@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:323:294
+AN@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:751:178
+a@https://www.gstatic.com/recaptcha/releases/zIriijn3uj5Vpknvt_LnfNbF/recaptcha__en.js:243:252
+nrWrapper@https://www.marketwatch.com/newsletters?mod=followUI:193:17880
+
+Dynamically enable window occlusion 1

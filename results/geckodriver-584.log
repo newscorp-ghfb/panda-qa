@@ -1,0 +1,23 @@
+1735572357005	geckodriver	INFO	Listening on 127.0.0.1:59941
+1735572360101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59942" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileapulhP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735572361498	Marionette	INFO	Marionette enabled
+1735572362043	Marionette	INFO	Listening on port 59963
+WebDriver BiDi listening on ws://127.0.0.1:59942
+Read port: 59963
+1735572362442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59942/devtools/browser/6c4a4f98-4dfd-413f-9821-349a61b03a0b
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m5b6z77dwqjle4p0&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts&new=1&arf=0&ltm=1735572369725&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m5b6z7h98aco37j9&ckp=m5b6z77dvkzv6u39&glb=&cp_userState=anon&cp_testGroup=28&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=93&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1735572370997	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+e@https://sc-static.net/scevent.min.js:2:1732
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+Mt/</c/<@https://sc-static.net/scevent.min.js:2:6916
+m@https://sc-static.net/scevent.min.js:2:2806
+c@https://sc-static.net/scevent.min.js:2:6893
+
+1735572399334	Marionette	INFO	Stopped listening on port 59963
+Dynamically enable window occlusion 1

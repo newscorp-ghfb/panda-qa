@@ -1,0 +1,43 @@
+1735041288386	geckodriver	INFO	Listening on 127.0.0.1:61915
+1735041291643	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilec4aEeU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735041294016	Marionette	INFO	Marionette enabled
+1735041294548	Marionette	INFO	Listening on port 51807
+WebDriver BiDi listening on ws://127.0.0.1:61916
+Read port: 51807
+1735041295086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61916/devtools/browser/20b52f69-bd4f-4ec0-8a66-a849bc3927ff
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m52esnpnooh1kcuk&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1735041305876&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m52esnu8esbgwp2y&ckp=m52esnpnbo6ax4pb&glb=&cp_userState=anon&cp_testGroup=46&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=81&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.wsj.com/, line 194: uncaught exception: undefined
+JavaScript warning: https://www.wsj.com/, line 194: Script terminated by timeout at:
+i@https://www.wsj.com/:194:13726
+h@https://www.wsj.com/:194:10342
+emit@https://www.wsj.com/:194:9700
+i@https://www.wsj.com/:194:18013
+nrWrapper@https://www.wsj.com/:194:17940
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS, line 202: Script terminated by timeout at:
+Ac@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:202:495
+JH@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:739:262
+LH.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:743:302
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:761:245
+eJ/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:774:210
+h.Bl/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:714:126
+h.Bl/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:713:418
+
+JavaScript error: , line 0: uncaught exception: undefined
+1735041328461	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1735041328527	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1735041328542	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1735041336446	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m52eta38k7agy3h6&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts%3Falert%3Dcompany%26fcode%3DTESLMI&new=0&arf=0&ltm=1735041334883&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m52etaf678eytu9m&ckp=m52esnpnbo6ax4pb&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=46&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=99&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1735041360073	Marionette	INFO	Stopped listening on port 51807
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

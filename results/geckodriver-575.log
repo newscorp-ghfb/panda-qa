@@ -1,0 +1,54 @@
+1735204261558	geckodriver	INFO	Listening on 127.0.0.1:58384
+1735204264608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileCx2Lyi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735204265295	Marionette	INFO	Marionette enabled
+1735204265536	Marionette	INFO	Listening on port 58397
+WebDriver BiDi listening on ws://127.0.0.1:58385
+Read port: 58397
+1735204265848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58385/devtools/browser/b8a672ab-4db8-4635-9614-717cc0584506
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m553tnf9jil5qh40&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1735204277179&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m553tpea5je5rcq7&ckp=m553tp6dxh7jvqrp&glb=&amo=1658316780&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=24&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=44&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/pyMTr0nkmN6cL6IgtDyOeR9sHSfyHchE6TDXG14OT6s.js line 2 > eval line 2271 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_688451618, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_688451618:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_688451618:442:29
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp, line 303: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp:303:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.CJhT2mhqo0E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI78BMlRNFJJrvqEhtLYM-QbsCr-5A/m=_b,_tp:294:48
+
+JavaScript warning: https://tagan.adlightning.com/newscorp-wsj-aps/bl-2f64429-a49afc2e.js, line 1: Script terminated by timeout at:
+L.prototype.insert@https://tagan.adlightning.com/newscorp-wsj-aps/bl-2f64429-a49afc2e.js:1:3146
+J@https://tagan.adlightning.com/newscorp-wsj-aps/bl-2f64429-a49afc2e.js:1:3638
+O.search<@https://tagan.adlightning.com/newscorp-wsj-aps/bl-2f64429-a49afc2e.js:1:203953
+O.search</O.search<@https://tagan.adlightning.com/newscorp-wsj-aps/bl-2f64429-a49afc2e.js:1:203402
+nt@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:37869
+t8@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:18455
+it/c<@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:39646
+it@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:41015
+en/</e/N3<@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:61505
+t8@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:18455
+e@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:59473
+Uj/<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:190:194
+Rf@https://pagead2.googlesyndication.com/pagead/js/dv3.js:126:579
+Uj@https://pagead2.googlesyndication.com/pagead/js/dv3.js:190:55
+hk@https://pagead2.googlesyndication.com/pagead/js/dv3.js:195:352
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:198:371
+rh/</<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:139:128
+ph@https://pagead2.googlesyndication.com/pagead/js/dv3.js:138:431
+rh/<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:139:105
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:198:452
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:199:4
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m553tx67xk3ap4my&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts%3Falert%3Dnews_alert%26id%3DNewsAlertEmailTechnology&new=0&arf=0&ltm=1735204287539&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m553txql16u04d8u&ckp=m553tp6dxh7jvqrp&glb=&cp_userState=anon&cp_testGroup=24&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=44&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1735204289246	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+1735204291981	Marionette	INFO	Stopped listening on port 58397
+Dynamically enable window occlusion 1

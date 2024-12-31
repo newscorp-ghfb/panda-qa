@@ -1,0 +1,39 @@
+1735027813734	geckodriver	INFO	Listening on 127.0.0.1:59329
+1735027816798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilen5mfXZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735027817453	Marionette	INFO	Marionette enabled
+1735027817723	Marionette	INFO	Listening on port 59342
+Read port: 59342
+WebDriver BiDi listening on ws://127.0.0.1:59330
+1735027817880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59330/devtools/browser/a98bdbd8-5de5-4115-9aab-91af31268765
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m526rpvgivm1ly9i&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1735027825088&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m526rpx9i0ewdtyj&ckp=m526rpvg4vfyokd5&glb=&cp_userState=anon&cp_testGroup=37&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=10&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWNzh5sZWPRb1IL5ZdUuRCoB42ZmFYdAoASdLB_GioQ.js line 2 > eval line 2623 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+1735027839258	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1735027844010	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1735027846466	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+c@https://sc-static.net/scevent.min.js:2:6882
+
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+t@https://cdn.cxense.com/cx.js:6:1107
+l<@https://cdn.cxense.com/cx.js:6:1755
+Yi@https://cdn.cxense.com/cx.js:6:52586
+uo@https://cdn.cxense.com/cx.js:6:54975
+aa@https://cdn.cxense.com/cx.js:6:70619
+ca@https://cdn.cxense.com/cx.js:6:70867
+ua/<@https://cdn.cxense.com/cx.js:6:70926
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17880
+
+1735027892748	Marionette	INFO	Stopped listening on port 59342
+Dynamically enable window occlusion 1
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

@@ -206,11 +206,46 @@ Add Company By Hotlink
         Go To  https://www.dev.wsj.com/preference-center/alerts?alert=company&fcode=AMZCOM  #https://www.dev.wsj.com/follow?alert=company&fcode=AMZCOM
     END
 
+Add Company GE By Hotlink
+    IF  "${Env}" == "prod"
+        Go To  https://www.wsj.com/preference-center/alerts?alert=company&fcode=GNELC&frequency=realtime  #https://www.dev.wsj.com/follow?alert=company&fcode=AMZCOM
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=company&fcode=GNELC&frequency=realtime  #https://www.dev.wsj.com/follow?alert=company&fcode=AMZCOM
+    END
+
 Add Tesla Company By Hotlink
     IF  "${Env}" == "prod"
-        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+        Go To  https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI&frequency=realtime  #https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
     ELSE IF  "${Env}" == "dev"
         Go To  https://www.dev.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    END
+
+Add Personal Finance Company By Hotlink
+    IF  "${Env}" == "prod"
+        Go To  https://www.wsj.com/preference-center/alerts?alert=section&id=personal-finance  #https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=section&id=personal-finance  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    END
+
+Add Education Company By Hotlink
+    IF  "${Env}" == "prod"
+        Go To  https://www.wsj.com/preference-center/alerts?alert=section&id=us-news/education  #https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=section&id=us-news/education #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    END
+
+Add Energy Company By Hotlink
+    IF  "${Env}" == "prod"
+        Go To   https://www.wsj.com/preference-center/alerts?alert=section&id=business/energy-oil  #https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=section&id=business/energy-oil  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    END
+
+Add Personal Technology Company By Hotlink
+    IF  "${Env}" == "prod"
+        Go To  https://www.wsj.com/preference-center/alerts?alert=section&id=personal-finance  #https://www.wsj.com/preference-center/alerts?alert=company&fcode=TESLMI  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
+    ELSE IF  "${Env}" == "dev"
+        Go To  https://www.dev.wsj.com/preference-center/alerts?alert=section&id=personal-finance  #https://www.dev.wsj.com/follow?alert=company&fcode=TESLMI&frequency=realtime
     END
 
 Add Facebook Company By Hotlink

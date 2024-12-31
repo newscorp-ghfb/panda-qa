@@ -1,0 +1,48 @@
+1735203554000	geckodriver	INFO	Listening on 127.0.0.1:56451
+1735203557291	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilevqCMEp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735203561187	Marionette	INFO	Marionette enabled
+1735203561601	Marionette	INFO	Listening on port 60063
+WebDriver BiDi listening on ws://127.0.0.1:56452
+Read port: 60063
+1735203562579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56452/devtools/browser/9c7dcfc9-ec9c-4eea-bd52-c3de93d749dd
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m553enw2s6yvqjn1&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1735203575671&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m553eo356x88mcz9&ckp=m553enw2y69a1raf&glb=&cp_userState=anon&cp_testGroup=9&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=42&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1735203585086	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/pyMTr0nkmN6cL6IgtDyOeR9sHSfyHchE6TDXG14OT6s.js line 2 > eval line 1086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1735203593886	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.wsj.com/, line 194: Script terminated by timeout at:
+D0@https://www.wsj.com/:194:1437
+_send@https://js-agent.newrelic.com/nr-spa-1.277.0.min.js:2:5771
+1140/runHarvest/a<@https://js-agent.newrelic.com/nr-spa-1.277.0.min.js:2:4218
+1140/runHarvest/<@https://js-agent.newrelic.com/nr-spa-1.277.0.min.js:2:4282
+runHarvest@https://js-agent.newrelic.com/nr-spa-1.277.0.min.js:2:4268
+store@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:182996
+audit@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:182040
+pc@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:172663
+z@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:173014
+8589/Vl/e.mutationCb@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:142107
+8589/Ml/<@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:133692
+8589/Ml/<@https://js-agent.newrelic.com/nr-spa-recorder-1.277.0.min.js:1:130673
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9590128552460468%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9590128552460468%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9590128552460468%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js, line 51: Script terminated by timeout at:
+WE@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:51:4767
+k@https://sso.accounts.dowjones.com/one_identity_login_pages/login/b4e24b869fb7aeaa842ca6c36c62139c/js/vendor.js:49:13806
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1735203622992	Marionette	INFO	Stopped listening on port 60063
+Dynamically enable window occlusion 1

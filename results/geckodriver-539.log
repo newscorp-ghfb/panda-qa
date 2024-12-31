@@ -1,0 +1,37 @@
+1735026322580	geckodriver	INFO	Listening on 127.0.0.1:58169
+1735026325638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2uayf6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1735026326347	Marionette	INFO	Marionette enabled
+1735026326589	Marionette	INFO	Listening on port 58182
+WebDriver BiDi listening on ws://127.0.0.1:58170
+Read port: 58182
+1735026326849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58170/devtools/browser/83df3351-2cb3-4edd-9399-2655aa4921fd
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.87&typ=pgv&rnd=m525vtg22ittjxax&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1735026336727&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m525vtn8mxoy6hga&ckp=m525vtg2dns3ki8d&glb=&cp_userState=anon&cp_testGroup=76&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=80&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1735026338312	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1735026341034	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/SdRCl8Z6_WVRBAVhWMC4YMFLTE-rpjUOyBziMPp71UQ.js line 2 > eval line 2821 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.31043124784780884%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.31043124784780884%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1YNN&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.31043124784780884%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_707698786, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_707698786:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_707698786:442:29
+
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js, line 1: Script terminated by timeout at:
+78018/y/<@https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js:1:118401
+r@https://www.dev.wsj.com/_next/static/chunks/main-dd42b5b1d95e8eb2.js:1:117910
+
+1735026395933	Marionette	INFO	Stopped listening on port 58182
+Dynamically enable window occlusion 1
