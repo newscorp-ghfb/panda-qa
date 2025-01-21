@@ -1,0 +1,57 @@
+1737359486191	geckodriver	INFO	Listening on 127.0.0.1:54651
+1737359489267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54652" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile9wTYW7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737359490084	Marionette	INFO	Marionette enabled
+1737359490399	Marionette	INFO	Listening on port 54668
+WebDriver BiDi listening on ws://127.0.0.1:54652
+Read port: 54668
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1737359490697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54652/devtools/browser/a2eae4d6-2b8c-4570-8d9a-026e938bf3de
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.88&typ=pgv&rnd=m64qzn6y769xrorh&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1737359501884&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m64qzog8w2koal3w&ckp=m64qzn6yw0j2fxi5&glb=&cp_userState=anon&cp_testGroup=76&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=92&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1737359507345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 1452 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1574748197, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1574748197:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1574748197:442:29
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.42648863493819344%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.42648863493819344%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.42648863493819344%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3163 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ib.3lift.com/rev/5233308efcd530a03558384f47000c23aebd99ee/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1737359522745	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://ib.3lift.com/rev/5233308efcd530a03558384f47000c23aebd99ee/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1737359523056	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3453 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 5514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 7732 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 4129 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+JavaScript error: https://www.wsj.com/static_html_files/bluegrass/2.2.119/bluegrass2.min.js, line 1: TypeError: e.xhrFields is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: Co[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdo[GFX1-]: Composito[rw[GFX1-]: CompositorBridgeChild receives IPC close with re[GFX1-]: CompositorBridgeChild receives IPC [as[GFX1-]: CclGFX1-][GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBri[GdgeChilFd [X1-]: CompGositFoX1-]rBridgeChild receives IPC close with reason=Abnorm[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+mpositorBridgeChild receives IPC close with reason=AbnormalShutdown
+on=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC cl[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+ Bo:or:a

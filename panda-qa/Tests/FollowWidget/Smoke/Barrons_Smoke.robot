@@ -1,4 +1,4 @@
-*** Settings ***
+99*** Settings ***
 Documentation  Barrons Smoke Tests
 Force Tags  Barrons  Smoke  TagBarrons
 Resource  ../../../Resources/CommonFunctionality.robot

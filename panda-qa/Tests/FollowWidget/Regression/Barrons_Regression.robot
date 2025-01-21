@@ -50,6 +50,8 @@ Validate the Barrons Preference Center page
     BarronsNewslettersPage.Barrons Signout Process
     BarronsNewslettersPage.Validate watchlist is present
 
+
+
 #US-T467
 Validate the Barrons Preference Center page watchlist logout
     [Documentation]  This test case validates the barrons preference center page Logout
@@ -273,6 +275,23 @@ Validate the Watchlist widget from Market Data page
     #BarronsMarketDataPage.Delete Watchlist
     #BarronsMarketDataPage.Delete Watchlist
 #    BarronsMarketDataPage.Validate Create Button
+
+#US-T466
+Validate the Watchlist widget from Market Data page
+    [Documentation]  This test case validates the watchlist widget from market data page
+    [Tags]  Regression  Watchlist  MarketdataPage   US-T125
+
+    CommonFunctionality.Start Barrons for Market Data page
+    BarronsMarketDataPage.Validate Watchlist for non-logged user
+    BarronsMarketDataPage.Watchlist Sign In
+    DefinedKeywords.Sign In Process
+    Set Selenium Speed  0.5 seconds
+    Capture Page Screenshot    screenshot.png
+    BarronsMarketDataPage.Validate Market Data Page
+    #BarronsMarketDataPage.Click Create Button
+    #BarronsMarketDataPage.Type Watchlist Name
+    #BarronsMarketDataPage.Type Symbol
+    #BarronsMarketDataPage.Select Symbol
 
 #US-T136
 Validate the Barrons digest notification

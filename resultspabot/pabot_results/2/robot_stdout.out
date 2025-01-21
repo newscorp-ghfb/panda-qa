@@ -1,7 +1,7 @@
 
-20:31:10 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:38:16 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-20:31:12 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+20:38:17 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,44 +16,42 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.API Autom...
 ==============================================================================
 Validate get subscription API :: This test case validates theget s... 
-20:31:15 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:38:22 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:32:08 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:39:06 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element with locator '(//span[@title='Sign In'])[2]/..' not found.
 ------------------------------------------------------------------------------
 Validate delete subscription API for Barrons Brand :: This test ca... 
-20:32:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:39:34 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:33:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:40:15 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element with locator '(//span[@title='Sign In'])[2]/..' not found.
 ------------------------------------------------------------------------------
 Validate delete subscription API for mansionglobal Brand :: This t... 
-20:33:46 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:34:19 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:40:40 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
-Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+Setup failed:
+TimeoutException: Message: A script did not complete before its timeout expired.
 ------------------------------------------------------------------------------
 Validate delete subscription API for Financial news Brand :: This ... 
-20:34:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:41:20 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:35:10 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:41:42 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element with locator '(//span[@title='Sign In'])[2]/..' not found.
 ------------------------------------------------------------------------------
 Validate delete subscription API for marketwatch Brand :: This tes... 
-20:35:37 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:36:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:42:10 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
-Element with locator '(//span[@title='Sign In'])[2]/..' not found.
+Setup failed:
+TimeoutException: Message: A script did not complete before its timeout expired.
 ------------------------------------------------------------------------------
 Validate delete subscription API for PENews Brand :: This test cas... 
-20:36:29 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:42:43 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:36:53 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:43:05 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element with locator '(//span[@title='Sign In'])[2]/..' not found.
 ------------------------------------------------------------------------------
@@ -77,6 +75,6 @@ Userservices-Qa-Automation                                            | FAIL |
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\2\output.xml
 
-20:37:24 [browserstack_sdk.__init__][INFO] - Handling session close
+20:43:31 [browserstack_sdk.__init__][INFO] - Handling session close
 
-20:37:32 [browserstack_sdk.__init__][INFO] - All done!
+20:43:37 [browserstack_sdk.__init__][INFO] - All done!

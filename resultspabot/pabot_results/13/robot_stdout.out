@@ -1,0 +1,252 @@
+
+21:05:34 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+21:05:35 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.WSJ Regre...
+==============================================================================
+Validate the multiple authors follow button from articles page :: ... 
+21:05:37 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=132.0.6834.84)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D63DFBE5+28741]
+	(No symbol) [0x00007FF7D6347890]
+	(No symbol) [0x00007FF7D61E4FDA]
+	(No symbol) [0x00007FF7D61EBC22]
+	(No symbol) [0x00007FF7D61EECD8]
+	(No symbol) [0x00007FF7D6281390]
+	(No symbol) [0x00007FF7D625FF0A]
+	(No symbol) [0x00007FF7D62800B4]
+	(No symbol) [0x00007FF7D625FCB3]
+	(No symbol) [0x00007FF7D6229FB3]
+	(No symbol) [0x00007FF7D622B331]
+	GetHandleVerifier [0x00007FF7D671A73D+3414941]
+	GetHandleVerifier [0x00007FF7D672E64A+3496618]
+	GetHandleVerifier [0x00007FF7D672413D+3454365]
+	GetHandleVerifier [0x00007FF7D64A848B+850155]
+	(No symbol) [0x00007FF7D63537FF]
+	(No symbol) [0x00007FF7D634F0C4]
+	(No symbol) [0x00007FF7D634F25D]
+	(No symbol) [0x00007FF7D633E079]
+	BaseThreadInitThunk [0x00007FFA2A847034+20]
+	RtlUserThreadStart [0x00007FFA2B442651+33]
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page Subscribe color :: This te... 
+21:05:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:06:05 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:07:04 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Page should have contained element '//*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[2]/button' but did not.
+------------------------------------------------------------------------------
+Validate the WSJ Follow Function :: This test case validates the W... 
+21:07:38 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:07:51 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div[2]/div/div[2]/main/div[2]/div/div[1]/div[2]/nav/ul/li[4]/button/span' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page :: This test case validate... 
+21:09:43 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:09:55 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element with locator '//*[@id="__next"]/div[1]/header/div/button' not found.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page :: This test case validate... 
+21:10:19 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:10:29 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="input86"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Authors for WSJ Article page without byline :: This test ... 
+21:11:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:11:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Letters breadcrumb from articles pa... 
+21:12:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:12:52 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:13:00 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Letters breadcrumb :: ... 
+21:13:46 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="input86"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Editorials breadcrumb from articles... 
+21:14:49 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:15:00 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:15:08 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Commentary breadcrumb from articles... 
+21:15:51 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:16:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:18:28 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Commentary breadcrumb ... 
+21:19:30 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:19:40 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the follow button for Commentary breadcrumb from Commenta... 
+21:20:06 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:20:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:20:26 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Editorials breadcrumb from Editoria... 
+21:20:51 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:21:09 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Letters breadcrumb from Letters pag... 
+21:21:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:21:45 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate the follow button for Elections breadcrumb from Elections... 
+21:22:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:22:15 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[2]/div[2]/div/div/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ Preference Center page for Elections breadcrumb :... 
+21:22:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="emailOrUsername"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the follow button for Elections breadcrumb from articles ... 
+21:23:12 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:23:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
+  (Session info: chrome=132.0.6834.84)
+Stacktrace:
+	GetHandleVerifier [0x00007FF70B61FBE5+28741]
+	(No symbol) [0x00007FF70B587890]
+	(No symbol) [0x00007FF70B424FDA]
+	(No symbol) [0x00007FF70B42BC22]
+	(No symbol) [0x00007FF70B42ECD8]
+	(No symbol) [0x00007FF70B4C1390]
+	(No symbol) [0x00007FF70B49FF0A]
+	(No symbol) [0x00007FF70B4C00B4]
+	(No symbol) [0x00007FF70B49FCB3]
+	(No symbol) [0x00007FF70B469FB3]
+	(No symbol) [0x00007FF70B46B331]
+	GetHandleVerifier [0x00007FF70B95A73D+3414941]
+	GetHandleVerifier [0x00007FF70B96E64A+3496618]
+	GetHandleVerifier [0x00007FF70B96413D+3454365]
+	GetHandleVerifier [0x00007FF70B6E848B+850155]
+	(No symbol) [0x00007FF70B5937FF]
+	(No symbol) [0x00007FF70B58F0C4]
+	(No symbol) [0x00007FF70B58F25D]
+	(No symbol) [0x00007FF70B57E079]
+	BaseThreadInitThunk [0x00007FFB15A57034+20]
+	RtlUserThreadStart [0x00007FFB16A42651+33]
+------------------------------------------------------------------------------
+Validate the Watchlist widget from Watchlist page :: This test cas... 
+21:23:54 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="emailOrUsername"]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the WSJ digest notification :: This test case validates t... 
+21:24:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Amazon to be added to New Preference C... 
+21:26:04 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//*[@id="__next"]/div/div[1]/div[3]/header[1]/div[1]/div/div[1]/a[2]' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Tesla to be added to New Preference Ce... 
+21:26:33 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:26:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.84); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BB23FBE5+28741]
+	(No symbol) [0x00007FF7BB1A7890]
+	(No symbol) [0x00007FF7BB044FDA]
+	(No symbol) [0x00007FF7BB04BC22]
+	(No symbol) [0x00007FF7BB04ECD8]
+	(No symbol) [0x00007FF7BB0E1390]
+	(No symbol) [0x00007FF7BB0BFF0A]
+	(No symbol) [0x00007FF7BB0E00B4]
+	(No symbol) [0x00007FF7BB0BFCB3]
+	(No symbol) [0x00007FF7BB089FB3]
+	(No symbol) [0x00007FF7BB08B331]
+	GetHandleVerifier [0x00007FF7BB57A73D+3414941]
+	GetHandleVerifier [0x00007FF7BB58E64A+3496618]
+	GetHandleVerifier [0x00007FF7BB58413D+3454365]
+	GetHandleVerifier [0x00007FF7BB30848B+850155]
+	(No symbol) [0x00007FF7BB1B37FF]
+	(No symbol) [0x00007FF7BB1AF0C4]
+	(No symbol) [0x00007FF7BB1AF25D]
+	(No symbol) [0x00007FF7BB19E079]
+	BaseThreadInitThunk [0x00007FF832907034+20]
+	RtlUserThreadStart [0x00007FF8348E2651+33]
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Goldman Sachs to be added to New Prefe... 
+21:27:33 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:27:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Facebook to be added to New Preference... 
+21:28:01 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:28:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate WSJ Legacy company Tesla to be added to New Preference Ce... 
+21:28:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:28:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:34:07 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:34:32 [browserstack_sdk.__init__][INFO] - All done!

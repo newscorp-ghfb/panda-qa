@@ -1,0 +1,44 @@
+1737359352309	geckodriver	INFO	Listening on 127.0.0.1:53412
+1737359355355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileXb1KFB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737359355945	Marionette	INFO	Marionette enabled
+1737359356196	Marionette	INFO	Listening on port 53426
+WebDriver BiDi listening on ws://127.0.0.1:53413
+Read port: 53426
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1737359356448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53413/devtools/browser/8825c928-838b-454f-964c-8e447a166fde
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.88&typ=pgv&rnd=m64qwoxy73wafhod&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1737359364170&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m64qwp3nqj0qh6cs&ckp=m64qwoxysqap5t7k&glb=&cp_userState=anon&cp_testGroup=65&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=86&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+1737359369152	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6893
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://www.dianomi.com/smartads.epl?id=6897&numAds=6&cf=1529.374.WSJ3&url=https%3A%2F%2Fwww.wsj.com%2F&unitId=dianomi-6897-Z44ACEiBQ7dhaiAb2PwCHAAAADQ0&responsiveHeight=1&contextfeedFrameId=374-273&gdpr_consent=null&gdpr=null&canServeAds=true&canCookie=true&partner_tcf_status=2.0&partnerTcfStatus=2.0, line 151: NS_ERROR_UNEXPECTED: 
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_419580192, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_419580192:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_419580192:442:29
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3323 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737359378319	Marionette	INFO	Stopped listening on port 53426
+JavaScript warning: https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s, line 246: Script terminated by timeout at:
+i@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17794
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17747
+QN@https://tagan.adlightning.com/newscorp-wsj-aps/op.js:1:12843
+displayResult@https://cdn.cxense.com/cx.cce.js:1:15762
+_renderFunction@https://cdn.cxense.com/cx.cce.js:1:18178
+run/widgetParams.renderFunction<@https://cdn.cxense.com/cx.cce.js:1:20213
+createDelegate/<@https://cdn.cxense.com/cx.js:6:105526
+ra/<@https://cdn.cxense.com/cx.js:6:69168
+co/window[a]@https://cdn.cxense.com/cx.js:6:53859
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17687
+@https://api.cxense.com/public/widget/data?json=%7B%22context%22%3A%7B%22referrer%22%3A%22%22%2C%22categories%22%3A%7B%22subscriber%22%3A%22nonsubscriber%22%2C%22edition%22%3A%22naus%22%2C%22pwcampaign%22%3A%2228324%22%2C%22navsource%22%3A%22WTRN%22%2C%22bucket%22%3A%226%22%2C%22testgroup%22%3A%2265%22%7D%2C%22parameters%22%3A%5B%7B%22key%22%3A%22subscriber%22%2C%22value%22%3A%22nonsubscriber%22%7D%2C%7B%22key%22%3A%22edition%22%2C%22value%22%3A%22naus%22%7D%2C%7B%22key%22%3A%22pwcampaign%22%2C%22value%22%3A%2228324%22%7D%2C%7B%22key%22%3A%22navsource%22%2C%22value%22%3A%22WTRN%22%7D%2C%7B%22key%22%3A%22bucket%22%2C%22value%22%3A%226%22%7D%2C%7B%22key%22%3A%22userState%22%2C%22value%22%3A%22anon%22%7D%2C%7B%22key%22%3A%22testId%22%2C%22value%22%3A%223%22%7D%2C%7B%22key%22%3A%22testVariant%22%2C%22value%22%3A%22cx_5%22%7D%2C%7B%22key%22%3A%22artPos%22%2C%22value%22%3A%226%22%7D%2C%7B%22key%22%3A%22testGroup%22%2C%22value%22%3A%2265%22%7D%2C%7B%22key%22%3A%22topDomain%22%2C%22value%22%3A%22wsj.com%22%7D%2C%7B%22key%22%3A%22pwTag%22%2C%22value%22%3A%22default%22%7D%2C%7B%22key%22%3A%22pwPlacement%22%2C%22value%22%3A%22cx-snippetad%22%7D%2C%7B%22key%22%3A%22pwCampaign%22%2C%22value%22%3A%2228324%22%7D%2C%7B%22key%22%3A%22pwType%22%2C%22value%22%3A%22personalized%22%7D%2C%7B%22key%22%3A%22navSource%22%2C%22value%22%3A%22WTRN%22%7D%2C%7B%22key%22%3A%22type%22%2C%22value%22%3A%22Technology%22%7D%2C%7B%22key%22%3A%22template%22%2C%22value%22%3A%22preview%22%7D%2C%7B%22key%22%3A%22access%22%2C%22value%22%3A%22paid%22%7D%2C%7B%22key%22%3A%22section%22%2C%22value%22%3A%22Tech%22%7D%2C%7B%22key%22%3A%22subsection%22%2C%22value%22%3A%22Tech%22%7D%2C%7B%22key%22%3A%22cms_name%22%2C%22value%22%3A%22Methode%22%7D%2C%7B%22key%22%3A%22vix%22%2C%22value%22%3A%22%22%7D%2C%7B%22key%22%3A%22ab_bucket%22%2C%22value%22%3A%2286%22%7D%2C%7B%22key%22%3A%22pageContentSource%22%2C%22value%22%3A%22WSJ%20Online%22%7D%2C%7B%22key%22%3A%22pageContentType%22%2C%22value%22%3A%22Article%22%7D%2C%7B%22key%22%3A%22pageContentTypeDetai%22%2C%22value%22%3A%22standard%22%7D%2C%7B%22key%22%3A%22pageSiteProduct%22%2C%22value%22%3A%22WSJ%22%7D%2C%7B%22key%22%3A%22sessionState%22%2C%22value%22%3A%22none%22%7D%2C%7B%22key%22%3A%22testgroup%22%2C%22value%22%3A%2265%22%7D%5D%2C%22autoRefresh%22%3Afalse%2C%22url%22%3A%22https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s%22%7D%2C%22widgetId%22%3A%22fc1f33b093085916ebb87b4e5db21630c3387c62%22%2C%22user%22%3A%7B%22ids%22%3A%7B%22usi%22%3A%22m64qwoxysqap5t7k%22%7D%7D%2C%22prnd%22%3A%22m64qww05w6jzis5u%22%7D&media=javascript&sid=9222318613852486900&widgetId=fc1f33b093085916ebb87b4e5db21630c3387c62&resizeToContentSize=true&useSecureUrls=true&usi=m64qwoxysqap5t7k&rnd=1014877759&prnd=m64qww05w6jzis5u&tzo=-330&callback=cXJsonpCB6:2:11
+
+Dynamically enable window occlusion 1
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

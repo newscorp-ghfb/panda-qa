@@ -210,6 +210,7 @@ Validate the MarketWatch Newsletter
      MarketWatchAlertsPage.Validation of Unsubscripton of After the Bell newsletters
 
 #US-T434
+#US-T450
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Europe Daily
   [Tags]  Regression  TagED
@@ -225,6 +226,7 @@ Validate the MarketWatch Newsletter
      MarketWatchAlertsPage.Validation of Unsubscription to Europe Daily newsletters
 
 #US-T451
+#US-T450
 #US-T435
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Tech Daily
