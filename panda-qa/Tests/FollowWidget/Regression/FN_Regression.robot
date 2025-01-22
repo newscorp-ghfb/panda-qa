@@ -89,7 +89,7 @@ Validate the FN real-time company notification
 #US T357
 Validate Postback on Preference Center
     [Documentation]  This test case validates the FN Postback on Preference Center
-    [Tags]  Regression  Postback          357
+    [Tags]  Regression  Postback  US-T35
     FNPreferenceCenterPage.Add Breaking News By Hotlink
     DefinedKeywords.FN Sign In Process
     Set Selenium Implicit Wait  15s

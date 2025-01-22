@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.5 on win32)" generated="20250122 10:05:56.074" rpa="false" schemaversion="4">
+<suite id="s1" name="Userservices-Qa-Automation" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation">
+<suite id="s1-s1" name="Panda-Qa" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa">
+<suite id="s1-s1-s1" name="Tests" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests">
+<suite id="s1-s1-s1-s1" name="FollowWidget" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget">
+<suite id="s1-s1-s1-s1-s1" name="Smoke" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Smoke">
+<suite id="s1-s1-s1-s1-s1-s1" name="Barrons Smoke" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Smoke\Barrons_Smoke.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Validate the follow button from authors page" line="47">
+<kw name="Set Selenium Speed">
+<arg>0.5 seconds</arg>
+<msg timestamp="20250122 10:05:56.138" level="FAIL">No keyword with name 'Set Selenium Speed' found.</msg>
+<status status="FAIL" starttime="20250122 10:05:56.138" endtime="20250122 10:05:56.138"/>
+</kw>
+<kw name="BarronsArticlePage.Validate author hyperlink">
+<status status="NOT RUN" starttime="20250122 10:05:56.139" endtime="20250122 10:05:56.139"/>
+</kw>
+<kw name="BarronsArticlePage.Click author hyperlink">
+<status status="NOT RUN" starttime="20250122 10:05:56.142" endtime="20250122 10:05:56.142"/>
+</kw>
+<kw name="BarronsAuthorsPage.Validate Authors Page">
+<status status="NOT RUN" starttime="20250122 10:05:56.143" endtime="20250122 10:05:56.143"/>
+</kw>
+<kw name="BarronsArticlePage.Validate Follow Button">
+<status status="NOT RUN" starttime="20250122 10:05:56.144" endtime="20250122 10:05:56.144"/>
+</kw>
+<kw name="BarronsArticlePage.Click Follow Button">
+<status status="NOT RUN" starttime="20250122 10:05:56.146" endtime="20250122 10:05:56.146"/>
+</kw>
+<doc>This test case validates the follow button from authors page</doc>
+<tag>Author</tag>
+<tag>Follow</tag>
+<tag>Smoke</tag>
+<tag>US-T31</tag>
+<status status="FAIL" starttime="20250122 10:05:56.135" endtime="20250122 10:05:56.146">No keyword with name 'Set Selenium Speed' found.</status>
+</test>
+<status status="FAIL" starttime="20250122 10:05:56.130" endtime="20250122 10:05:56.148"/>
+</suite>
+<status status="FAIL" starttime="20250122 10:05:56.127" endtime="20250122 10:05:56.151"/>
+</suite>
+<status status="FAIL" starttime="20250122 10:05:56.123" endtime="20250122 10:05:56.152"/>
+</suite>
+<status status="FAIL" starttime="20250122 10:05:56.121" endtime="20250122 10:05:56.153"/>
+</suite>
+<status status="FAIL" starttime="20250122 10:05:56.118" endtime="20250122 10:05:56.154"/>
+</suite>
+<status status="FAIL" starttime="20250122 10:05:56.077" endtime="20250122 10:05:56.155"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Author</stat>
+<stat pass="0" fail="1" skip="0">Follow</stat>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+<stat pass="0" fail="1" skip="0">US-T31</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Userservices-Qa-Automation">Userservices-Qa-Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Panda-Qa">Userservices-Qa-Automation.Panda-Qa</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tests">Userservices-Qa-Automation.Panda-Qa.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="FollowWidget">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Smoke">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Smoke</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1" name="Barrons Smoke">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Smoke.Barrons Smoke</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

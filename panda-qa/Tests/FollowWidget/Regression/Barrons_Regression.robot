@@ -98,7 +98,7 @@ Validate the Barrons Preference Center page
 #US-T26
 Validate Authors for Barrons Article page without byline
     [Documentation]  This test case validates authors without byline for barrons article page
-    [Tags]  Regression  Author  Article    Follow1
+    [Tags]  Regression  Author  Article    US-T26
 
     CommonFunctionality.Start Barrons Article without byline
     BarronsArticlePage.Validate author without byline
@@ -108,7 +108,7 @@ Validate Authors for Barrons Article page without byline
 #US-T217
 Validate the Watchlist widget from Watchlist page
     [Documentation]  This test case validates the watchlist widget from watchlist page
-    [Tags]  Regression  Watchlist      215
+    [Tags]  Regression  Watchlist   US-T215
 
     CommonFunctionality.Start Barrons for Watchlist page
     DefinedKeywords.Sign In Process

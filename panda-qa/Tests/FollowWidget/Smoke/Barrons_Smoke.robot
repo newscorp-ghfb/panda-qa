@@ -1,4 +1,4 @@
-99*** Settings ***
+*** Settings ***
 Documentation  Barrons Smoke Tests
 Force Tags  Barrons  Smoke  TagBarrons
 Resource  ../../../Resources/CommonFunctionality.robot
@@ -46,9 +46,9 @@ Validate the author follow button from articles page
 #US-T32
 Validate the follow button from authors page
     [Documentation]  This test case validates the follow button from authors page
-    [Tags]  Smoke  Follow  Author   TagBarronsFA
+    [Tags]  Smoke  Follow  Author   US-T31
 
-    Set Selenium Speed  0.5 seconds
+    #Set Selenium Speed  0.5 seconds
     BarronsArticlePage.Validate author hyperlink
     BarronsArticlePage.Click author hyperlink
     #IF  "${Env}" == "dev"
@@ -82,7 +82,7 @@ Validate the stock pick follow button from articles page
 #US-T254
 Validate the Barrons Preference Center page
     [Documentation]  This test case validates the barrons preference center page
-    [Tags]  Smoke  PreferenceCenter              TagBarronsPFS
+    [Tags]  Smoke  PreferenceCenter  US-T188
     Set Selenium Speed  0.2 seconds
     BarronsPreferenceCenterPage.Navigate Preference Center page
     DefinedKeywords.Sign In Process

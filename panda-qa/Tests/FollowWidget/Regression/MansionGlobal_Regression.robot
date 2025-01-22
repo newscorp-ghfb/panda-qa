@@ -50,9 +50,10 @@ Validate the Mansion GLobal Preference Center page
 #US-T27
 Validate Authors for Mansion Global Article page without byline
     [Documentation]  This test case validates authors without byline for Mansion Global article page
-    [Tags]  Regression  Author  Article  Follow1
+    [Tags]  Regression  Author  Article  US-T27
 
     CommonFunctionality.Start Mansion Global Article without byline
+    DefinedKeywords.Mansion Global Sign In Process
     MansionGlobalArticlePage.Validate author without byline
 
 #US-T148

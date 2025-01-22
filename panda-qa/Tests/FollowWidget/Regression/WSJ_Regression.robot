@@ -148,7 +148,7 @@ Validate the WSJ Preference Center page
 #US-T30
 Validate Authors for WSJ Article page without byline
     [Documentation]  This test case validates authors without byline for WSJ article page
-    [Tags]  Regression  Article  Author    WSJ
+    [Tags]  Regression  Article  Author    US-T30
 
     CommonFunctionality.Start WSJ Article without byline
                 IF  "${Env}" == "prod"
