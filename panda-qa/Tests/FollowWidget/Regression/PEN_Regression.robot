@@ -37,7 +37,7 @@ Validate the PEN Preference Center page
 #US-T29
 Validate Authors for PEN Article page without byline
     [Documentation]  This test case validates authors without byline for PEN article page
-    [Tags]  Regression  Article  Author   Follow1
+    [Tags]  Regression  Article  Author   US-T29
 
     CommonFunctionality.Start PEN Article without byline
     PENArticlePage.Validate author without byline

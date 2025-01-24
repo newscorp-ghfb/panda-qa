@@ -210,9 +210,9 @@ Market Watch Sign In Process
    Click Element  //html/body/div/section/div/div[2]/form/button
 
 MarketWatch Test User Sign In Process
-    #Click Button  //html/body/div[11]/div/div[2]/div[2]/button[1]
-    #Wait Until Element is visible  //html/body/section/nav/header/div[4]/label
-    #Click Element   //html/body/section/nav/header/div[4]/label
+    Click Button  //html/body/div[11]/div/div[2]/div[2]/button[1]
+    Wait Until Element is visible  //html/body/section/nav/header/div[4]/label
+    Click Element   //html/body/section/nav/header/div[4]/label
     Wait Until Element is visible  //*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a  #//html/body/section/nav/header/div[4]/ul/li[2]/a
     Click Element  //*[@id="maincontent"]/div/div/section/div[1]/div[3]/div/a  #//html/body/section/nav/header/div[4]/ul/li[2]/a
     Click Button  //*[@id="emailOrUsername"]

@@ -1,0 +1,19 @@
+1737520359921	geckodriver	INFO	Listening on 127.0.0.1:57040
+1737520362966	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilep1rzxl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737520363574	Marionette	INFO	Marionette enabled
+1737520363814	Marionette	INFO	Listening on port 57050
+WebDriver BiDi listening on ws://127.0.0.1:57041
+Read port: 57050
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1737520364066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57041/devtools/browser/5bd86ef3-e1ae-4134-bdff-ceeed2fc545c
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m67erld8w1r7ha4e&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1737520369394&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m67erlez3rbi97im&ckp=m67erld8c22amfdg&glb=&cp_userState=anon&cp_testGroup=81&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=2&cp_ab_bucket=42&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval line 224 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval line 5330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737520377668	Marionette	INFO	Stopped listening on port 57050
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 

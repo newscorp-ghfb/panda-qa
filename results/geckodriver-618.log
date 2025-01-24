@@ -1,0 +1,17 @@
+1737360595484	geckodriver	INFO	Listening on 127.0.0.1:58565
+1737360598496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilem9rCRh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737360599532	Marionette	INFO	Marionette enabled
+1737360599878	Marionette	INFO	Listening on port 58590
+WebDriver BiDi listening on ws://127.0.0.1:58566
+Read port: 58590
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1737360600290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58566/devtools/browser/5f505978-3f9d-4817-8196-e68308e6f1f6
+JavaScript error: https://www.wsj.com/_next/static/chunks/webpack-95b60953db86d3de.js, line 1: ChunkLoadError: Loading chunk 8352 failed.
+(timeout: https://www.wsj.com/_next/static/chunks/8352.f1bf7e114fdd0dbb.js)
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1346
+[

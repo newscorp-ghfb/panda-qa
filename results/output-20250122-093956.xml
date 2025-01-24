@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.5 on win32)" generated="20250122 09:39:56.888" rpa="false" schemaversion="4">
+<suite id="s1" name="Userservices-Qa-Automation" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation">
+<suite id="s1-s1" name="Panda-Qa" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa">
+<suite id="s1-s1-s1" name="Tests" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests">
+<suite id="s1-s1-s1-s1" name="FollowWidget" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget">
+<suite id="s1-s1-s1-s1-s1" name="Regression" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression">
+<suite id="s1-s1-s1-s1-s1-s1" name="MansionGlobal Regression" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\MansionGlobal_Regression.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Validate Authors for Mansion Global Article page without byline" line="51">
+<kw name="Start Mansion Global Article" library="CommonFunctionality" type="SETUP">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20250122 09:39:57.431" endtime="20250122 09:39:57.431"/>
+</kw>
+<kw name="Set Browser Options" library="CommonFunctionality">
+<var>${options}</var>
+<if>
+<branch type="IF" condition="&quot;${Browser}&quot; == &quot;firefox&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.FirefoxOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.432" endtime="20250122 09:39:57.432"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--CreateProfile</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.432" endtime="20250122 09:39:57.432"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.432" endtime="20250122 09:39:57.432"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.432" endtime="20250122 09:39:57.432"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.432" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.force-local</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.remote-enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.chrome.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.prompt-connection</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--browser.dom.window.dump.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.433"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250122 09:39:57.433" endtime="20250122 09:39:57.434"/>
+</return>
+<status status="NOT RUN" starttime="20250122 09:39:57.431" endtime="20250122 09:39:57.434"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Browser}&quot; == &quot;chrome&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.ChromeOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.434"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.434"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.434"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.434"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.434"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--ignore-certificate-errors</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-user-gesture-required</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-first-run</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-ui-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-device-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.435"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-sync</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.435" endtime="20250122 09:39:57.436"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250122 09:39:57.436" endtime="20250122 09:39:57.436"/>
+</return>
+<status status="NOT RUN" starttime="20250122 09:39:57.434" endtime="20250122 09:39:57.436"/>
+</branch>
+<status status="PASS" starttime="20250122 09:39:57.431" endtime="20250122 09:39:57.436"/>
+</if>
+<msg timestamp="20250122 09:39:57.436" level="INFO">${options} = None</msg>
+<status status="PASS" starttime="20250122 09:39:57.431" endtime="20250122 09:39:57.436"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.mansionglobal.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.436" endtime="20250122 09:39:57.436"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20250122 09:39:57.436" endtime="20250122 09:39:57.436"/>
+</kw>
+<status status="NOT RUN" starttime="20250122 09:39:57.436" endtime="20250122 09:39:57.436"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.stg.mansionglobal.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20250122 09:39:57.437" level="INFO">Opening browser 'ff' to base url 'https://www.stg.mansionglobal.com'.</msg>
+<status status="PASS" starttime="20250122 09:39:57.436" endtime="20250122 09:40:08.061"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.stg.mansionglobal.com/articles/article-long-text-01643043212</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20250122 09:40:08.062" level="INFO">Opening url 'https://www.stg.mansionglobal.com/articles/article-long-text-01643043212'</msg>
+<status status="PASS" starttime="20250122 09:40:08.061" endtime="20250122 09:40:09.225"/>
+</kw>
+<status status="PASS" starttime="20250122 09:39:57.436" endtime="20250122 09:40:09.225"/>
+</branch>
+<status status="PASS" starttime="20250122 09:39:57.436" endtime="20250122 09:40:09.225"/>
+</if>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>dom:${JSFollowButtonMGPath}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<msg timestamp="20250122 09:40:09.902" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-265.png"&gt;&lt;img src="selenium-screenshot-265.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20250122 09:40:09.902" level="FAIL">JavascriptException: Message: TypeError: document.querySelector(...) is null
+Stacktrace:
+@https://newscorp.okta.com/app/newscorp_mansionglobalstagingdj_1/exk142fwaxaG4bPyu0x8/sso/saml?SAMLRequest=nZRPj9owEMW%2FSuQ7%2BbfABgtYUVBbpG0bAe2hFzRxBkhx7NTjbLLfvkogiEoLB66e0byf3zx7%2FFLn0nlDQ5lWExa4PnuZjglyWfBZaQ9qhX9LJOvUuVTE28KElUZxDZQRV5AjcSv4evbtlYeuzwujrRZaMme5mLCtGIphlA5h4I%2BSMOqHz0mUPo2SFJPRQISD534kIiHSiDm%2FOojQ9ZmzJCpxqciCshMW%2BuGg5we9MNz4fR743I%2Fc8Cn8zZz4LPcpU2mm9vfZklMT8a%2BbTdyLf6w3zFkg2UyBbaUP1hbEPU9hRUKbwtVHC67QuQdFcTnd5qAa1L3UCUiysM%2FUPv2zDTysj0E%2F3FVQw5d%2BEr%2BXfh15RNprjGPOjAhNozTXisoczRrNWybw5%2Br1pM09r6oql%2Bze%2FU%2BjRejgbneI3ZYyi1so7aGV9ARImYA4stNSeWurudrmfcOgA2bTK7yLKR9dd%2BxdCXVR%2Bg45Lhexlpl4fyRKMyl1NTcIFifMmhKZ81mbHOztAYEbtCdZ2tu1rRxzyOQsTQ0SMa9DOwcc0zbuc60s1g%2FFfa7zAkxGTY6wBmE7z68HzyUQrXD3yAbutgkumtFIPAaiSpu0eRkoLKYbA4oKbex5NR%2FxTE%2B1G3ZcqtdfwvQf&amp;RelayState=https%3A%2F%2Fwww.stg.mansionglobal.com%2Farticles%2Farticle-long-text-01643043212:2:23
+@https://newscorp.okta.com/app/newscorp_mansionglobalstagingdj_1/exk142fwaxaG4bPyu0x8/sso/saml?SAMLRequest=nZRPj9owEMW%2FSuQ7%2BbfABgtYUVBbpG0bAe2hFzRxBkhx7NTjbLLfvkogiEoLB66e0byf3zx7%2FFLn0nlDQ5lWExa4PnuZjglyWfBZaQ9qhX9LJOvUuVTE28KElUZxDZQRV5AjcSv4evbtlYeuzwujrRZaMme5mLCtGIphlA5h4I%2BSMOqHz0mUPo2SFJPRQISD534kIiHSiDm%2FOojQ9ZmzJCpxqciCshMW%2BuGg5we9MNz4fR743I%2Fc8Cn8zZz4LPcpU2mm9vfZklMT8a%2BbTdyLf6w3zFkg2UyBbaUP1hbEPU9hRUKbwtVHC67QuQdFcTnd5qAa1L3UCUiysM%2FUPv2zDTysj0E%2F3FVQw5d%2BEr%2BXfh15RNprjGPOjAhNozTXisoczRrNWybw5%2Br1pM09r6oql%2Bze%2FU%2BjRejgbneI3ZYyi1so7aGV9ARImYA4stNSeWurudrmfcOgA2bTK7yLKR9dd%2BxdCXVR%2Bg45Lhexlpl4fyRKMyl1NTcIFifMmhKZ81mbHOztAYEbtCdZ2tu1rRxzyOQsTQ0SMa9DOwcc0zbuc60s1g%2FFfa7zAkxGTY6wBmE7z68HzyUQrXD3yAbutgkumtFIPAaiSpu0eRkoLKYbA4oKbex5NR%2FxTE%2B1G3ZcqtdfwvQf&amp;RelayState=https%3A%2F%2Fwww.stg.mansionglobal.com%2Farticles%2Farticle-long-text-01643043212:3:8
+</msg>
+<status status="FAIL" starttime="20250122 09:40:09.225" endtime="20250122 09:40:09.908"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20250122 09:40:09.908" endtime="20250122 09:40:09.908"/>
+</kw>
+<status status="FAIL" starttime="20250122 09:39:57.430" endtime="20250122 09:40:09.908"/>
+</kw>
+<kw name="Finish Testcase" library="CommonFunctionality" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20250122 09:40:09.909" endtime="20250122 09:40:13.891"/>
+</kw>
+<status status="PASS" starttime="20250122 09:40:09.908" endtime="20250122 09:40:13.891"/>
+</kw>
+<doc>This test case validates authors without byline for Mansion Global article page</doc>
+<tag>Article</tag>
+<tag>Author</tag>
+<tag>MansionGlobal</tag>
+<tag>Regression</tag>
+<tag>US-T27</tag>
+<status status="FAIL" starttime="20250122 09:39:57.429" endtime="20250122 09:40:13.891">Setup failed:
+JavascriptException: Message: TypeError: document.querySelector(...) is null
+Stacktrace:
+@https://newscorp.okta.com/app/newscorp_mansionglobalstagingdj_1/exk142fwaxaG4bPyu0x8/sso/saml?SAMLRequest=nZRPj9owEMW%2FSuQ7%2BbfABgtYUVBbpG0bAe2hFzRxBkhx7NTjbLLfvkogiEoLB66e0byf3zx7%2FFLn0nlDQ5lWExa4PnuZjglyWfBZaQ9qhX9LJOvUuVTE28KElUZxDZQRV5AjcSv4evbtlYeuzwujrRZaMme5mLCtGIphlA5h4I%2BSMOqHz0mUPo2SFJPRQISD534kIiHSiDm%2FOojQ9ZmzJCpxqciCshMW%2BuGg5we9MNz4fR743I%2Fc8Cn8zZz4LPcpU2mm9vfZklMT8a%2BbTdyLf6w3zFkg2UyBbaUP1hbEPU9hRUKbwtVHC67QuQdFcTnd5qAa1L3UCUiysM%2FUPv2zDTysj0E%2F3FVQw5d%2BEr%2BXfh15RNprjGPOjAhNozTXisoczRrNWybw5%2Br1pM09r6oql%2Bze%2FU%2BjRejgbneI3ZYyi1so7aGV9ARImYA4stNSeWurudrmfcOgA2bTK7yLKR9dd%2BxdCXVR%2Bg45Lhexlpl4fyRKMyl1NTcIFifMmhKZ81mbHOztAYEbtCdZ2tu1rRxzyOQsTQ0SMa9DOwcc0zbuc60s1g%2FFfa7zAkxGTY6wBmE7z68HzyUQrXD3yAbutgkumtFIPAaiSpu0eRkoLKYbA4oKbex5NR%2FxTE%2B1G3ZcqtdfwvQf&amp;RelayState=https%3A%2F%2Fwww.stg.mansionglobal.com%2Farticles%2Farticle-long-text-01643043212:2:23
+@https://newscorp.okta.com/app/newscorp_mansionglobalstagingdj_1/exk142fwaxaG4bPyu0x8/sso/saml?SAMLRequest=nZRPj9owEMW%2FSuQ7%2BbfABgtYUVBbpG0bAe2hFzRxBkhx7NTjbLLfvkogiEoLB66e0byf3zx7%2FFLn0nlDQ5lWExa4PnuZjglyWfBZaQ9qhX9LJOvUuVTE28KElUZxDZQRV5AjcSv4evbtlYeuzwujrRZaMme5mLCtGIphlA5h4I%2BSMOqHz0mUPo2SFJPRQISD534kIiHSiDm%2FOojQ9ZmzJCpxqciCshMW%2BuGg5we9MNz4fR743I%2Fc8Cn8zZz4LPcpU2mm9vfZklMT8a%2BbTdyLf6w3zFkg2UyBbaUP1hbEPU9hRUKbwtVHC67QuQdFcTnd5qAa1L3UCUiysM%2FUPv2zDTysj0E%2F3FVQw5d%2BEr%2BXfh15RNprjGPOjAhNozTXisoczRrNWybw5%2Br1pM09r6oql%2Bze%2FU%2BjRejgbneI3ZYyi1so7aGV9ARImYA4stNSeWurudrmfcOgA2bTK7yLKR9dd%2BxdCXVR%2Bg45Lhexlpl4fyRKMyl1NTcIFifMmhKZ81mbHOztAYEbtCdZ2tu1rRxzyOQsTQ0SMa9DOwcc0zbuc60s1g%2FFfa7zAkxGTY6wBmE7z68HzyUQrXD3yAbutgkumtFIPAaiSpu0eRkoLKYbA4oKbex5NR%2FxTE%2B1G3ZcqtdfwvQf&amp;RelayState=https%3A%2F%2Fwww.stg.mansionglobal.com%2Farticles%2Farticle-long-text-01643043212:3:8
+</status>
+</test>
+<doc>Mansion Global Regression Tests</doc>
+<status status="FAIL" starttime="20250122 09:39:56.948" endtime="20250122 09:40:13.893"/>
+</suite>
+<status status="FAIL" starttime="20250122 09:39:56.944" endtime="20250122 09:40:13.896"/>
+</suite>
+<status status="FAIL" starttime="20250122 09:39:56.940" endtime="20250122 09:40:13.897"/>
+</suite>
+<status status="FAIL" starttime="20250122 09:39:56.935" endtime="20250122 09:40:13.898"/>
+</suite>
+<status status="FAIL" starttime="20250122 09:39:56.932" endtime="20250122 09:40:13.899"/>
+</suite>
+<status status="FAIL" starttime="20250122 09:39:56.892" endtime="20250122 09:40:13.900"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Article</stat>
+<stat pass="0" fail="1" skip="0">Author</stat>
+<stat pass="0" fail="1" skip="0">MansionGlobal</stat>
+<stat pass="0" fail="1" skip="0">Regression</stat>
+<stat pass="0" fail="1" skip="0">US-T27</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Userservices-Qa-Automation">Userservices-Qa-Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Panda-Qa">Userservices-Qa-Automation.Panda-Qa</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tests">Userservices-Qa-Automation.Panda-Qa.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="FollowWidget">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Regression">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1" name="MansionGlobal Regression">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MansionGlobal Regression</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -16,7 +16,7 @@ ${ExpectedCookieValue2}=   5Nnx9DUR7NQg8XPwvztud7o0OivfiKth
 
 ${Browser}=  ff  #headless, ff, chrome, edge, safari
 
-${Env}=  prod  #dev, prod, stg
+${Env}=  dev  #dev, prod, stg
 
 ${Email_prod}=  barronsadvisorcs@gmail.com
 
@@ -96,8 +96,8 @@ Start Mansion Global Article
         Open Browser  https://www.mansionglobal.com  ${Browser}  options=${options}
         Go To  https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848
     ELSE IF  "${Env}" == "dev"
-        Open Browser  https://www.s.dev.mansionglobal.com  ${Browser}  options=${options}
-        Go To  https://www.s.dev.mansionglobal.com/articles/article-long-text-01643043212
+        Open Browser  https://www.stg.mansionglobal.com  ${Browser}  options=${options}
+        Go To  https://www.stg.mansionglobal.com/articles/article-long-text-01643043212
     END
     Wait Until Page Contains Element  dom:${JSFollowButtonMGPath}
     Maximize Browser Window
@@ -109,8 +109,8 @@ Start FN Article
         Open Browser  https://www.fnlondon.com  ${Browser}  options=${options}
         Go To  https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615
     ELSE IF  "${Env}" == "dev"
-        Open Browser  https://www.s.dev.fnlondon.com  ${Browser}  options=${options}
-        Go To  https://www.s.dev.fnlondon.com/articles/testing-article-timestamp-20231102
+        Open Browser  https://www.dev.fnlondon.com  ${Browser}  options=${options}
+        Go To  https://www.dev.fnlondon.com/articles/testing-article-timestamp-20231102
         Execute javascript  window.scrollTo(0,500)
     END
     Execute javascript  window.scrollTo(0,500)
@@ -236,8 +236,8 @@ Start Mansion Global Article without byline
         Open Browser  https://www.mansionglobal.com  ${Browser}  options=${options}
         Go To  https://www.mansionglobal.com/articles/what-property-tax-changes-are-in-store-for-luxury-home-owners-in-edmonton-canada-e0d92933
     ELSE IF  "${Env}" == "dev"
-        Open Browser  https://www.s.dev.mansionglobal.com  ${Browser}  options=${options}
-        Go To  https://www.s.dev.mansionglobal.com/articles/article-long-text-01643043212
+        Open Browser  https://www.stg.mansionglobal.com  ${Browser}  options=${options}
+        Go To  https://www.stg.mansionglobal.com/articles/article-long-text-01643043212
     END
     Maximize Browser Window
 

@@ -1,0 +1,67 @@
+1737358351019	geckodriver	INFO	Listening on 127.0.0.1:62007
+1737358354069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileDSbnI7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737358354977	Marionette	INFO	Marionette enabled
+1737358355274	Marionette	INFO	Listening on port 62026
+Read port: 62026
+WebDriver BiDi listening on ws://127.0.0.1:62008
+1737358355426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:62008/devtools/browser/0cf6cd13-13ed-4f3c-a617-316fe79d4f1f
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.88&typ=pgv&rnd=m64qb8xgacd52gb2&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2F&new=1&arf=0&ltm=1737358363640&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m64qbb282xqu5bsm&ckp=m64qb8xgzh9yl3eh&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
+P@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval:1:24
+@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval:1:168
+Ox@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval:1:205
+Rz@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 3330 > eval line 1 > eval line 1 > eval:1:114
+@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:51876
+rA@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:24443
+kv@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:483
+J@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:7697
+kv/<@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:1060
+Ut</<@https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval:3330:49047
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2832414307095611%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2832414307095611%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2832414307095611%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 2008 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://ib.3lift.com/rev/5233308efcd530a03558384f47000c23aebd99ee/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1737358382851	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xR82KW_WUHHdm8i8YwxCODk3K2LEadHlR59AMsWusFc.js line 2 > eval line 4989 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: Com[GFX[[GFX1-]: CompositorBridgeChild receives IPC cl[[GFX1-[][GFX1-]: CompositorBridgeChild[[G[GFX1-]: CompositorBridgeChild receives IPC close [GFwith reason=AbnormalShutdown
+X1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+positorBridgeChild receives IPC close with reason=AbnormalShutdown
+1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+ose with reason=AbnormalShutdown
+GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+ receives IPC close with reason=AbnormalShutdown
+GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+FX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

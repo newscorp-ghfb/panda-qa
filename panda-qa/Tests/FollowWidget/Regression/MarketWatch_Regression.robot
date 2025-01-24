@@ -41,7 +41,7 @@ Validate the Market Watch Preference Center page
 #US-T28
 Validate Authors for MarketWatch Article page without byline
     [Documentation]  This test case validates authors without byline for Market Watch article page
-    [Tags]  Regression  Author  Article
+    [Tags]  Regression  Author  US-T28
 
     CommonFunctionality.Start Market Watch Article without byline
     MarketWatchArticlePage.Validate author without byline
@@ -55,7 +55,7 @@ Validate the Watchlist widget from Watchlist page
 
     CommonFunctionality.Start MarketWatch for Watchlist page
     Execute javascript  window.scrollTo(0,500)
-    DefinedKeywords.MarketWatch Test User Sign In Process
+    DefinedKeywords.Market Watch Sign In Process  #MarketWatch Test User Sign In Process
     Set Selenium Speed  0.5 seconds
     Capture Page Screenshot    screenshot.png
     MarketWatchWatchlistPage.Validate Watchlist Page
@@ -210,6 +210,7 @@ Validate the MarketWatch Newsletter
      MarketWatchAlertsPage.Validation of Unsubscripton of After the Bell newsletters
 
 #US-T434
+#US-T450
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Europe Daily
   [Tags]  Regression  TagED
@@ -225,6 +226,7 @@ Validate the MarketWatch Newsletter
      MarketWatchAlertsPage.Validation of Unsubscription to Europe Daily newsletters
 
 #US-T451
+#US-T450
 #US-T435
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Tech Daily

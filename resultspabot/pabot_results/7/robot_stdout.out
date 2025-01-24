@@ -1,0 +1,76 @@
+
+20:50:36 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+20:50:37 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.FN Regres...
+==============================================================================
+Validate the FN Preference Center page :: This test case validates... 
+20:50:39 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Authors for FN Article page without byline :: This test c... 
+20:50:58 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the FN digest notification :: This test case validates th... 
+20:51:17 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the FN real-time author notification :: This test case va... 
+20:51:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate the FN real-time company notification :: This test case v... 
+20:51:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case validates... 
+20:52:18 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+Element '//ufc-follow-author-widget[@author-id='8680_FN']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Userservices-Qa-Automation                                            | FAIL |
+6 tests, 0 passed, 6 failed
+==============================================================================
+Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\7\output.xml
+
+20:52:43 [browserstack_sdk.__init__][INFO] - Handling session close
+
+20:52:43 [browserstack_sdk.__init__][INFO] - All done!

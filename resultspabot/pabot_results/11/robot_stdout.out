@@ -1,0 +1,78 @@
+
+20:57:42 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+20:57:43 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Userservices-Qa-Automation                                                    
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                           
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                                     
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                        
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.PEN Regre...
+==============================================================================
+Validate the PEN Preference Center page :: This test case validate... 
+20:57:44 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate Authors for PEN Article page without byline :: This test ... 
+20:59:50 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+21:00:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate the PEN digest notification :: This test case validates t... 
+21:00:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//div[@id="groupHeaderTop results"]/../div[2]' did not appear in 5 seconds.
+------------------------------------------------------------------------------
+Validate the PEN real-time author notification :: This test case v... 
+21:03:23 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate the PEN real-time company notification :: This test case ... 
+21:05:14 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate Postback on Preference Center :: This test case validates... 
+21:07:24 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate Private Equity News Capabilities Dashboard for Author :: ... 
+21:07:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Validate Private Equity News Capabilities Dashboard for Company ::... 
+21:08:32 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+WebDriverException: Message: Session not started or terminated
+------------------------------------------------------------------------------
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Userservices-Qa-Automation                                            | FAIL |
+8 tests, 4 passed, 4 failed
+==============================================================================
+Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\11\output.xml
+
+21:09:07 [browserstack_sdk.__init__][INFO] - Handling session close
+
+21:09:09 [browserstack_sdk.__init__][INFO] - All done!

@@ -1,0 +1,51 @@
+1737359402294	geckodriver	INFO	Listening on 127.0.0.1:53915
+1737359405974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53916" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileexQhAb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1737359408063	Marionette	INFO	Marionette enabled
+1737359408891	Marionette	INFO	Listening on port 54058
+WebDriver BiDi listening on ws://127.0.0.1:53916
+Read port: 54058
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1737359409670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53916/devtools/browser/ea196451-ac6f-4a78-b1a0-f840ec48c8eb
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.88&typ=pgv&rnd=m64qxuvewpcaevns&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1737359418510&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m64qxv124n4ra942&ckp=m64qxuveiwrskv10&glb=&cp_userState=anon&cp_testGroup=61&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=12&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1737359425640	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 6488 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1737359430914	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.wsj.com/, line 194: Script terminated by timeout at:
+nrWrapper@https://www.wsj.com/:194:17537
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1120942918, line 444: Script terminated by timeout at:
+LB@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1120942918:444:310
+PB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.679.0_en.html#goog_1120942918:442:29
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9227414875698581%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9227414875698581%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.9227414875698581%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://tags.tiqcdn.com/utag/wsjdn/oneidentity-consumer/prod/utag.17.js?utv=ut4.46.202501031632 line 22 > Function, line 3: Script terminated by timeout at:
+anonymous/s.s_PPVg@https://tags.tiqcdn.com/utag/wsjdn/oneidentity-consumer/prod/utag.17.js?utv=ut4.46.202501031632 line 22 > Function:3:456
+anonymous/W.s_PPVevent@https://tags.tiqcdn.com/utag/wsjdn/oneidentity-consumer/prod/utag.17.js?utv=ut4.46.202501031632 line 22 > Function:3:1310
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 1587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://www.wsj.com/ line 33 > injectedScript, line 43: TypeError: this.getContainer() is null
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+JavaScript error: https://www.wsj.com/static_html_files/bluegrass/2.2.119/bluegrass2.min.js, line 1: TypeError: e.xhrFields is undefined
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

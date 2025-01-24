@@ -1,7 +1,7 @@
 
-20:37:35 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:43:40 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-20:37:36 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+20:43:41 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,55 +16,8 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.Barrons R...
 ==============================================================================
 Validate the multiple authors follow button from articles page :: ... 
-20:37:38 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
-------------------------------------------------------------------------------
-Validate the Barrons Preference Center page :: This test case vali... 
-20:38:43 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:43:44 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:39:15 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
-------------------------------------------------------------------------------
-Validate the Barrons Preference Center page watchlist logout :: Th... 
-20:40:53 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:48:33 [browserstack_sdk.__init__][INFO] - Handling session close
 
-20:41:16 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the Barrons Preference Center page :: This test case vali... 
-20:42:41 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate Authors for Barrons Article page without byline :: This t... 
-20:43:45 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:44:17 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist page :: This test cas... 
-20:44:53 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist :: This test case val... 
-20:45:28 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist :: This test case val... 
-20:47:22 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist :: This test case val... 
-20:48:05 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:48:37 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Quotes page :: This test case v... 
-20:49:11 [browserstack_sdk.__init__][INFO] - Completed setup!
+20:48:34 [browserstack_sdk.__init__][INFO] - All done!

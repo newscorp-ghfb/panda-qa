@@ -1,0 +1,3 @@
+1737360507407	geckodriver	INFO	Listening on 127.0.0.1:58040
+1737360510752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileoLzdHo"
+Hit MOZ_CRASH([unhandlable oom] Failed to allocate new chunk during GC) at /builds/worker/checkouts/gecko/js/src/vm/JSContext.cpp:1346
