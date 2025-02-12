@@ -1,0 +1,75 @@
+1738933288622	geckodriver	INFO	Listening on 127.0.0.1:53517
+1738933291683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53518" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile8238Id"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738933292362	Marionette	INFO	Marionette enabled
+1738933292613	Marionette	INFO	Listening on port 53531
+WebDriver BiDi listening on ws://127.0.0.1:53518
+Read port: 53531
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738933292886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53518/devtools/browser/c797dcdb-5f88-42cd-9067-4b293f654b0b
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6urzmcr4y4395tj&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1738933302834&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6urznu9v5zli9wb&ckp=m6urznsb5bt6ccw7&glb=&amo=1658316780&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=36&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=77&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 7381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 58ms)
+1738933309300	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: https://ib.3lift.com/rev/ee7b16b9e186bb4216ceb6eab615bf4094d4c241/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738933310000	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1738933310020	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1738933310127	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-compressor-1.281.0.min.js, line 1: Script terminated by timeout at:
+B@https://js-agent.newrelic.com/nr-spa-compressor-1.281.0.min.js:1:3218
+N@https://js-agent.newrelic.com/nr-spa-compressor-1.281.0.min.js:1:4638
+S@https://js-agent.newrelic.com/nr-spa-compressor-1.281.0.min.js:1:5903
+H@https://js-agent.newrelic.com/nr-spa-compressor-1.281.0.min.js:1:6419
+makeHarvestPayload@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:44656
+triggerHarvestFor@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95757
+store@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:182995
+audit@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:181610
+pc@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:172663
+z@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:173014
+8589/Vl/e.mutationCb@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:142107
+8589/Ml/<@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:133692
+8589/Ml/<@https://js-agent.newrelic.com/nr-spa-recorder-1.281.0.min.js:1:130673
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js, line 1: NS_ERROR_UNEXPECTED
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_314524968, line 11: Script terminated by timeout at:
+v@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_314524968:11:289
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_314524968:454:52
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:173362
+Bc@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:201:286
+nJ@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:765:217
+pJ.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:770:116
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:788:243
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:802:210
+h.Jl/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:740:126
+h.Jl/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:739:418
+
+JavaScript error: https://ib.3lift.com/rev/ee7b16b9e186bb4216ceb6eab615bf4094d4c241/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 3299 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738933330770	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1738933330814	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 7088 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://ib.3lift.com/rev/ee7b16b9e186bb4216ceb6eab615bf4094d4c241/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738933337459	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1738933337487	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1738933338638	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 5520 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738933354367	Marionette	INFO	Stopped listening on port 53531
+Dynamically enable window occlusion 1

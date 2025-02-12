@@ -1,0 +1,37 @@
+1739266381815	geckodriver	INFO	Listening on 127.0.0.1:60121
+1739266384848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60122" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile1OVRhA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739266385477	Marionette	INFO	Marionette enabled
+1739266385748	Marionette	INFO	Listening on port 60134
+WebDriver BiDi listening on ws://127.0.0.1:60122
+Read port: 60134
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739266386038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60122/devtools/browser/5c6a0544-5ae2-4e7b-8d13-1d6fdb5a0f48
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m70aawy4sq986o16&sid=1133979867428110118&loc=https%3A%2F%2Fwww.penews.com%2F&new=1&arf=0&ltm=1739266391891&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m70aax0e6d2ix7vq&ckp=m70aawy4j7ad9nmb&glb=&cp_userState=anon&cp_testGroup=50&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=0&cp_ab_bucket=0&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 4155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622, line 124: Script terminated by timeout at:
+nrWrapper@https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622:124:14172
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS, line 182: Script terminated by timeout at:
+hb@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:182:159
+dg@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:269:375
+cg@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:269:199
+eg@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:268:60
+pJ.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:776:236
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:794:243
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:807:210
+h.Il/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:746:126
+h.Il/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:745:418
+
+console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown

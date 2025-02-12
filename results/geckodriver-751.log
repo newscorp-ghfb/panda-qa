@@ -1,0 +1,32 @@
+1738927671075	geckodriver	INFO	Listening on 127.0.0.1:50111
+1738927674108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50112" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileB8QO4N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738927674725	Marionette	INFO	Marionette enabled
+1738927674979	Marionette	INFO	Listening on port 50129
+WebDriver BiDi listening on ws://127.0.0.1:50112
+Read port: 50129
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738927675244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50112/devtools/browser/87cd1629-a165-4801-ae57-f8f695bfcd6c
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uon6vjhoqa7fpx&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1738927682195&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uon6zj3jcdtcxg&ckp=m6uon6vj159zxdb3&glb=&cp_userState=anon&cp_testGroup=99&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=5&cp_ab_bucket=25&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 2464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 1099 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js, line 971: Script terminated by timeout at:
+R@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:971:226
+@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:2018:52
+tm/<@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:950:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 7191 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 2905 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js, line 114: Script terminated by timeout at:
+i.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:4276
+C@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:1597
+i._initialize/<@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:4912
+d@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:30:158
+
+1738927715313	Marionette	INFO	Stopped listening on port 50129
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/2Od_BXY8Vjqn5MycIv0XMSA24h9E-qr9j5xv73dxnSQ.js line 2 > eval line 7602 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: !CanvasManagerChild::Get()

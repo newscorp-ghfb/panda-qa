@@ -24,6 +24,8 @@ Validate the follow button from articles page
 
     PENArticlePage.Validate Follow Button
     PENArticlePage.Click Follow Button
+    Set Selenium Implicit Wait  20
+    CommonFunctionality.Start PEN Article
     PENArticlePage.Validate Sign In Modal
     PENArticlePage.Click Sign In Button Modal
     DefinedKeywords.Sign In Process
@@ -52,7 +54,7 @@ Validate the follow button from authors page
 #US-T94
 Validate the PEN Preference Center page
     [Documentation]  This test case validates the barrons preference center page
-    [Tags]  Smoke  PreferenceCenter    TagPEPC
+    [Tags]  Smoke  PreferenceCenter    US-T94
 
     PENPreferenceCenterPage.Navigate Preference Center page
     DefinedKeywords.Sign In Process

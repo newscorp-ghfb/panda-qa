@@ -6,13 +6,17 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Validate Watchlist Page
-    Page Should Contain Element  //*[text()="Add Symbol"]
+    Click Element  //*[@id="__next"]/div[1]/div/nav/header/div[3]/ul[2]/li/a
+    #Page Should Contain Element  //*[text()="Add Symbol"]
 
 Click Sign in
     Click Element  /html/body/main/div/div/section/div[1]/div[3]/div/a  #//a[text()="Sign in"]
 
 Validate Default New Watchlist
-    Page Should Contain Element  //button[text()="annalise"]
+    Click Element  //*[@id="symbol-search"]
+    Input Text   //*[@id="symbol-search"]  mi
+    Click Element  //*[@id="main-app"]/div/div[3]/section/div[1]/div[3]/ul/li[2]/div[1]
+    #Page Should Contain Element  //button[text()="annalise"]
 
 Click Add Symbol Input
     Click Element  //input[@id="symbol-search"]

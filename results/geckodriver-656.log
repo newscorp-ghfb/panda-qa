@@ -1,0 +1,54 @@
+1738290755475	geckodriver	INFO	Listening on 127.0.0.1:52514
+1738290758514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileGt9gIS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738290759125	Marionette	INFO	Marionette enabled
+1738290759365	Marionette	INFO	Listening on port 52527
+WebDriver BiDi listening on ws://127.0.0.1:52515
+Read port: 52527
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738290759606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52515/devtools/browser/a0955118-8521-4da6-92e7-43c846b587ba
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 52ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k5fwp6wxc87df6&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2Fauthor%2FCatey-Hill&new=1&arf=0&ltm=1738290767951&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k5fwvzqfoxlvk8&ckp=m6k5fwp6s3f2onnn&glb=&cp_userState=anon&cp_testGroup=33&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Author&cp_subsection=Catey%20Hill&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=14&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1738290774314	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1738290774969	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 412 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738290779194	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://video-api.wsj.com/api-video/audio/js/audioplayer.min.js, line 22: ChunkLoadError: Loading chunk 806 failed.
+(error: https://video-api.wsj.com/api-video/audio/js/chunks/806.7208548556f707dca6d5.min.js)
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6151946099576637%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6151946099576637%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6151946099576637%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://interactives.ap.org/election-results/assets/microsite/layoutClient.js, line 2: Script terminated by timeout at:
+Hn@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:127112
+Un@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:126797
+22551/Bn/<@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:126974
+Bn@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:126907
+qu@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:177694
+ws@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:198191
+bs@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:197931
+ms@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:197800
+ys@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:197661
+ls@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:194825
+Ho@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:136027
+22551/Ss/<@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:201208
+Ss@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:201213
+os@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:193775
+x@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:239126
+T@https://interactives.ap.org/election-results/assets/microsite/layoutClient.js:2:239657
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=null&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3Dnull%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D, line 1: Script terminated by timeout at:
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=null&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3Dnull%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:13833
+t@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=null&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3Dnull%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:13850
+N@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=null&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3Dnull%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:18318
+B@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=null&us_privacy=&predirect=https%3A%2F%2Fserver.prebid.dianomi.com%2F%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3Dnull%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D:1:15082
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 2239 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k5g7vbds3krtp6&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2Fwelcome-watchlist&new=0&arf=0&ltm=1738290782440&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k5g84zxehrf8hb&ckp=m6k5fwp6s3f2onnn&glb=&cp_userState=anon&cp_testGroup=33&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Welcome%20Watchlist&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=4&cp_ab_bucket=14&cp_pageContentSource=MarketWatch&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1738290785210	Marionette	INFO	Stopped listening on port 52527
+Dynamically enable window occlusion 1

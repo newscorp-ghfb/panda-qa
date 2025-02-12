@@ -1,0 +1,74 @@
+1738932393628	geckodriver	INFO	Listening on 127.0.0.1:61481
+1738932396673	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61482" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileJvilZT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738932397291	Marionette	INFO	Marionette enabled
+1738932397539	Marionette	INFO	Listening on port 61496
+WebDriver BiDi listening on ws://127.0.0.1:61482
+Read port: 61496
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738932397795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61482/devtools/browser/1849ffb0-e7de-4e69-89fe-1a3fe0dd18db
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6urgf7hnd82a4yw&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1738932407059&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6urgh02gtjz7i7m&ckp=m6urgglmu65io5i0&glb=&amo=1658316780&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=31&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=93&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 7011 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ib.3lift.com/rev/ee7b16b9e186bb4216ceb6eab615bf4094d4c241/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738932410990	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1738932411011	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s, line 246: Script terminated by timeout at:
+i@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:13605
+h@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:10221
+emit@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:9579
+Me/i.prototype.then@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:53058
+f@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:162564
+aC/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:162585
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17759
+e@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:52209
+aC@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:162473
+_.Gg@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:162623
+KU.prototype.dispatchEvent@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:336046
+pz/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:147458
+Fn/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js:33:75581
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17759
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1731099790, line 456: Script terminated by timeout at:
+gD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1731099790:456:310
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1731099790:454:29
+
+JavaScript warning: https://29f8ffc99a6f5a05b951cd5600ffeff6.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html line 1 > injectedScript, line 2: Script terminated by timeout at:
+ba@https://29f8ffc99a6f5a05b951cd5600ffeff6.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html line 1 > injectedScript:2:709
+@https://29f8ffc99a6f5a05b951cd5600ffeff6.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html line 1 > injectedScript:2:719
+@https://29f8ffc99a6f5a05b951cd5600ffeff6.safeframe.googlesyndication.com/safeframe/1-0-41/html/container.html line 1 > injectedScript:2:39057
+en/</e/<@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:57878
+t8@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:18455
+e@https://tagan.adlightning.com/newscorp-wsj-aps/b-bde0e05-9cb7c1ed.js:1:57580
+@https://googleads.g.doubleclick.net/dbm/ad?dbm_c=AKAmf-AtBP6DJdJJo4iG_8esOAc7mMWjGX3nA_EMYAU_V7cRN74fZ1hYdaaJXGx4wO28WtrSFu0sy5btqhCPgWcNbHIoaU40kYUdlp9fPxcoNPwSzXTlmB_p06efV1q_sBskmk6BI9s66QPepk8H7WL3b69HnVrzb25kzKiZrLCPNbOdQqQv-p1Ca-RPzn1sjf3ycQqHJ0XqfQqL4DszbCQYu8TJLVPDS9NtsgVJS-tiJ7iH-O2ek08&dbm_d=AKAmf-An9KNy8e7Ct8a0hbu_-xLX2vKInGBxUHi-DkLkONWDbFBTJ67i2Kbmcaw4GRNCiKXsoSpeEO4_zYWlIR01SFpZydMBSZIUB8qqJ3QzGhkLj-CO9BrqoEXHFHV-jQ3RBCZhBrxrCcaCifyCI_O12HSrZT8l6TDDgxp7R6CWQWcDXyXkC7H2y4dhr0bWKVMUjDK78v5v2vwCrtFbbW7xkZuMQFJvX3aU6mHTfrqac_r64y1q-oWqj0NtotwXAfDqHPMK-ziel268aS3NoLoWgGxSyp0p6mUs_bhDSFVrnq1JMDNJ875YZmB4Xdc1-5TM3rFkJmXljJimLVMeiBY7VAf-M62xj7xCMbbJxcZpe5wsHEHL-GgyLIya1UDyfKsPEt4mkSXv5s7PUejCYG016Wq5yhPlt-cxSqG9_r8Ml3HXtUUoCXvILIR0zAfrzWRj6sQAKGt7SvU1uJTNZJsIHnV0KezGFoYZw7gQgBHx5C3QVSYvqrYpNVUd5dk7d3c3d7VSvjBs_AviQExLiUXLtdISXYDl3LeWWNx80Pb24KMwYe7f9-Z4_5W0Tamcri_Ax5tmxPoZfhes6x96d0kozpxWHfPhRVkZ9PBxlE3Bcqe3qhByLf8L2rpWXJ8uDx4Bo-XB9EqGS0r4WCyHhWILXStZyxXo-wZgqG4441BDrURkwn11ttjpNSS1IfSjK7txTV0vaA8l_NxCMNc9J7-MoSpaK8d3dOXPUoldJY2LroejO8OnSAZnH-0HWtBhIxVhyQZHhyec9tJuVTcu-w7nqClDLhLVa0iz6Q2FdzccCLMT7dU4Df8alC2UEq5n73oLKefPEHOj_Yi2qB6xYftJMcdIObzyLDWA-YsXg25BogU0hZPKa4BdL4bwUF9zrjYNyX7ikURlwUWTpXrypYPEM3gzWqrVtxqCu_3XiaaR198gZLemiZHO_nhmN0Ak7zz1t2vUzKzwspXn2QMHNmK3CsGoht4ywTcQjZTK9r9AqG3hMLuYyvOK03Br_ZKzjmICoU4EDA7A6l2aDVuvX3stqB7pTHS2Jp51Saw-Q0bZsyQiJJ8aCmKe5QGa6--p8NVgRVRx3KisCK2JWcnOoRSRw78GxPProw730Mxcpdj-ui-XnswKrdok1wDa8lECgjJ8hiHv4BQrZpDdFHrVCIKaNi3GrafRNwbQkdVcDjhXFxzM6KZjJ5sIj6301uCo8VGA0nfEmZLjyR4-_0_ViR8HcgAgkktLIxdctoLQFaCY6SFv4ID3ZaGNX_qQHGINBkG_NIrfbQbo_bOSgy7TAGI4WNpnx0ut6JgRhvNcg5b0WQ4XThUxs8rMnC8B3kCybcvgp6mRas0Q7uCrWX7-GIjS8n8iLTebgLyS4z36q4gosK_cMslUIucBohYfJPKzAbSZY6ODyzC2-lNcblSSZuMMC2E7-J1mhSRlyHZGNKdBBHUEyckm0e2XyIPu857A6fTJuTjaEBeIqnn1nqqrAg2Hw38h-ipS_TkA2YLwe2bqMeYxlZAqxz7m5IhfAig6CuaC1-qFr2MzO2_gwJYAUidRvtU9Oe2-udBR3m5zEomI4zvuzmTDnjWdjGGL8mqZAvYqAxD0UjVOL1tv3eWoaZzAz92f3Aj9PJiGy55JdzeySXRvjefcy4eUDWsE9FjZ3q-30jA6yeZCgDzOU1DIZP5RNz4FvbM4T3EG6qH3ZG-17Vs46hzzIgKXmT9fqcft09nMMiPKcwroyYGMIUbN-vGPrlgeY2tHL0EXoASSzPJwXrj1rA25weBK6hJ5-CeQsrq4kz64kZaHlSbQl7r00z4J-JJ-Xn7UR7Vggai2LMtrzkMW0Oa4MqSoz7RovvaDkGkzRS_e7Iq2wvjdrR09KHe6savyM12QgxUfpxAQECAwOTtr9s9UdgiFvUO3vL2sKhLsTRAXRPA4U85OnNDxY5vjfnW0FMV7Y8gplCsaxiLS5oMJUhb1Ebq8s1FZhfOe5PfXKOLFKzxMWfV3XBpOiZ_ZaGZAUxCqO4Xz7NTXSiC8OIXD9ZLbALiCQhvVdY8BOMbuiU8uejZkwTwmXuEEtv3ZOTxfq-7q63gmbIgB-0Blszx26FHy9QEaACdqqgAcpji4DtfbbJnHzI1SV1fvqDo8JlfJerdKVmD7tUfuQIrtOzY4--79LxjiHqDg4Lqk15jH72a-hI_HdPj6iMPXJgekUjWcxZlGI566b3o-wkVdPXR1ohcO9124abtbWsq29F4ye3AuOiO8ZEsIflFeXTAj0aXQdPJ3vpsrDrvx28OoGyoYzEUTAVOxP456Akpex5sJHitj2-FC1KDKiJuieTT84C3qlrYgO_VcTCOrq7MjPGZsTh0pHI-0_B3baiDeEaAaoMle5GrZ_CHfBYdCleCTS9-_HsNeI0CJB4tC55Wm3SL5eaOUoSbb81F9d46ltNEFUNQOIkaobl8tGOYNIjGLW6xaE4hxohqTo7AErgTHmgq3BLmafKVmxaMD82-rY1k9Di0oedfqnGg_nY5uejAMdyPkQURBvhDLijnDAmcYXnPvBlmLhl69HYOwdzi3dZ0w8ApcQSuWnkTOyRUZA53azKhW-iR62jUa18otqwcQBLN0Q-xC4vKlOeN_CwBI45oVqAZALBN_bTMmrA1FCvzyLGKi18TOtHjGmBkJ1oPlP5spxgyes-ogIbgjpzULA6uwzuQu3fYikFSac1-qq6Rk4p98pMfbbc2buZe257MQ24bKF-b-QGvVehKZRs060sOiMRyzxQqVkcYKwc7p6XK9ZmP1d6Mr77NoR0D6xEnBBsg04-2DUNGF5a43xEroN5VS_Xg5FnzJ8oNYW3wESRvcX7j_MR6wRTxFIf0BgeXNDJ6UEsfE_XWiW9XPuvhdNZe7mJzD-tL3Bmif3tISPOHSrABQbptnxjHKItH1-RgYpRD9979a9Co6IS7AWf9hcMGO3SnFedfxizQGIWlAK6uZA84pZWso9PpXoj3_0mRN2Z9806Yk3CfnxSSIF67gEEv0N4Un27N2-JqWB-XveJD3r9FFCRszSbO3DW5OLNVZbvT21gEx0VB2MXdgHa19aRdrvTo4Iz6vVCse2mxDDXgGfKAFnrLryULKGRWbVF6bhUQ0emUMrtIAXBl7zjpaAtgka8j99KXMJMbomjrmR0S8YQzfoh5k6KRLRYmRb1rxDZlxDe7lVhLSn1A9ZzLRPPtOBzmdSjI1ChROZNLs590iOBbrj9eA0bjvuSXj0YV76OOcXTzR8i3lDPn9H1vuwRyI4qw3XVJrpRWPDpSVSZDCOajidfr9TUrW9i0UwNi9yIl2x6YnjDu1l6tXY5qTEuHZmqBoRElOuRK7Aykk0dPfSKvc1LrwgERVh5DO5YDbOTQJh4uWB91GqH8_O59McUeTo1i_dCXl7O0ljXFPJezx8XpgKg_rj0uDtkwAVDHxVoCez9epH5r5mRuYNZaRX5h2VbyeEYmDIMnSXQ-fhS6cYXjyiV4IkQM37uBsQJVYjUimFF7RFj9IstTYpoJ4Uak8uTbjRDMDlZHZ_n1aHfIoOrnnI1JAVMOqu3hPi9x3GdLubH7jiSOPh5HpxG5fGnRlqW87A6ujaxQP7FvNnAZbIxlSw6kT109cn2FcGwdzmoY8xHqHErzzz31ndEuN8syqJC_lOGbv44e-awDOYqyU1GHE3P85y0DuCc78M0gwcXsEB8ygQqfWYODSTO979Dro9d-htP2avLpRJVFucfeqjyFgTXPhLNUWU-NuBNPOgyywEn8fbeSFbTYfcF_092w7dkQoObb3cok0K7XOWTkl2BCGWX0Z_7svK4wLrnehGVP1_wnwaL9fUT1M5KoruotH00XNTM8mjC57PBCLN0R6YqJqAbvisIk8e-MCh5X2f_7_mfrbh--jlkW8I5gFprRDmWmk_eqrNop9be1SHC9Mc_l2lhyulZRPXlbAOoqIgYfdx2XbwQD2CB9mzebO_OBt-mt3NwpoM_0Sq81KXcy3BuXBMF2JpmK0j8M19mKj_ankU-PyJlvVW7o4vChMGmLIVpCnmetYJlR_whBKm47iE4n8F0z0GNCLLN8JZCHduPwyYIMWpkjeDWVWWX09MhITnEtIfmu4YngPCi3U9T9UTIWJxH-nbjoMI8M2haMgM0kn2ZOmfAQ&pr=96%3A1.577&cid=CAQSSQCjtLzMXaXfYvov5wq2bNUHEKjLW-01TqC1AH3XD7qfVKwjccbOBX-SYcZTKG_8_nlUt7IxYXXHdrtXX5s_afw9pJPnX4_DojAYAQ&xfc=https%3A%2F%2Feb2.3lift.com%2Fec%3Finv_code%3DWSJ_970x250_OB%26aid%3D47029435623283431518440%26rev%3Dee7b16b%26pr%3DZ6YAuAAL930CDAV_AC2dJ5_DOus1gb1YhsJNQA%26bc%3D1.577%26bmid%3D5989%26biid%3D6021%26sid%3D29663%26did%3D45686%26brid%3D556654%26adid%3D406730953%26crid%3D1654290%26ts%3D1738932408%26bcud%3D1577%26ss%3D5%26unid%3D0%26cepos%3D0%26ceid%3D0%26cb%3D40477%26rdir%3D&dv3_ver=m202501210201&rfl=https%3A%2F%2Fwww.wsj.com%2F&ds=l&xdt=1&ct=76&iif=1&cor=14812128610323268000&adk=1176466889&idt=160&cac=0&dtd=162:1:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 379 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ib.3lift.com/rev/ee7b16b9e186bb4216ceb6eab615bf4094d4c241/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738932432753	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1738932432778	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1738932432846	Marionette	INFO	Stopped listening on port 61496
+JavaScript warning: https://imasdk.googleapis.com/js/sdkloader/ima3.js, line 585: Script terminated by timeout at:
+PP@https://imasdk.googleapis.com/js/sdkloader/ima3.js:585:540
+OP.prototype.D@https://imasdk.googleapis.com/js/sdkloader/ima3.js:587:42
+tw@https://imasdk.googleapis.com/js/sdkloader/ima3.js:315:159
+b@https://imasdk.googleapis.com/js/sdkloader/ima3.js:313:297
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001:246:17759
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/js/dv3.js, line 194: Script terminated by timeout at:
+bk@https://pagead2.googlesyndication.com/pagead/js/dv3.js:194:532
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:197:415
+lh/</<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:138:128
+jh@https://pagead2.googlesyndication.com/pagead/js/dv3.js:137:431
+lh/<@https://pagead2.googlesyndication.com/pagead/js/dv3.js:138:105
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:197:496
+@https://pagead2.googlesyndication.com/pagead/js/dv3.js:198:4
+
+Dynamically enable window occlusion 1

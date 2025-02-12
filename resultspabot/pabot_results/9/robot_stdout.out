@@ -1,7 +1,7 @@
 
-20:54:06 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:38:08 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-20:54:07 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+13:38:09 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,178 +16,178 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MansionGl...
 ==============================================================================
 Validate the Mansion GLobal Preference Center page :: This test ca... 
-20:54:09 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:38:11 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6BAB3FBE5+28741]
-	(No symbol) [0x00007FF6BAAA7890]
-	(No symbol) [0x00007FF6BA944FDA]
-	(No symbol) [0x00007FF6BA94BC22]
-	(No symbol) [0x00007FF6BA94ECD8]
-	(No symbol) [0x00007FF6BA9E1390]
-	(No symbol) [0x00007FF6BA9BFF0A]
-	(No symbol) [0x00007FF6BA9E00B4]
-	(No symbol) [0x00007FF6BA9BFCB3]
-	(No symbol) [0x00007FF6BA989FB3]
-	(No symbol) [0x00007FF6BA98B331]
-	GetHandleVerifier [0x00007FF6BAE7A73D+3414941]
-	GetHandleVerifier [0x00007FF6BAE8E64A+3496618]
-	GetHandleVerifier [0x00007FF6BAE8413D+3454365]
-	GetHandleVerifier [0x00007FF6BAC0848B+850155]
-	(No symbol) [0x00007FF6BAAB37FF]
-	(No symbol) [0x00007FF6BAAAF0C4]
-	(No symbol) [0x00007FF6BAAAF25D]
-	(No symbol) [0x00007FF6BAA9E079]
-	BaseThreadInitThunk [0x00007FFBF1A13034+20]
-	RtlUserThreadStart [0x00007FFBF3B41551+33]
+	GetHandleVerifier [0x00007FF6EE0CFBE5+28741]
+	(No symbol) [0x00007FF6EE037890]
+	(No symbol) [0x00007FF6EDED4FDA]
+	(No symbol) [0x00007FF6EDEDBC22]
+	(No symbol) [0x00007FF6EDEDECD8]
+	(No symbol) [0x00007FF6EDF71390]
+	(No symbol) [0x00007FF6EDF4FF0A]
+	(No symbol) [0x00007FF6EDF700B4]
+	(No symbol) [0x00007FF6EDF4FCB3]
+	(No symbol) [0x00007FF6EDF19FB3]
+	(No symbol) [0x00007FF6EDF1B331]
+	GetHandleVerifier [0x00007FF6EE40A73D+3414941]
+	GetHandleVerifier [0x00007FF6EE41E64A+3496618]
+	GetHandleVerifier [0x00007FF6EE41413D+3454365]
+	GetHandleVerifier [0x00007FF6EE19848B+850155]
+	(No symbol) [0x00007FF6EE0437FF]
+	(No symbol) [0x00007FF6EE03F0C4]
+	(No symbol) [0x00007FF6EE03F25D]
+	(No symbol) [0x00007FF6EE02E079]
+	BaseThreadInitThunk [0x00007FF9B9C67034+20]
+	RtlUserThreadStart [0x00007FF9BB0A2651+33]
 ------------------------------------------------------------------------------
 Validate Authors for Mansion Global Article page without byline ::... 
-20:54:19 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:38:28 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF72506FBE5+28741]
-	(No symbol) [0x00007FF724FD7890]
-	(No symbol) [0x00007FF724E74FDA]
-	(No symbol) [0x00007FF724E7BC22]
-	(No symbol) [0x00007FF724E7ECD8]
-	(No symbol) [0x00007FF724F11390]
-	(No symbol) [0x00007FF724EEFF0A]
-	(No symbol) [0x00007FF724F100B4]
-	(No symbol) [0x00007FF724EEFCB3]
-	(No symbol) [0x00007FF724EB9FB3]
-	(No symbol) [0x00007FF724EBB331]
-	GetHandleVerifier [0x00007FF7253AA73D+3414941]
-	GetHandleVerifier [0x00007FF7253BE64A+3496618]
-	GetHandleVerifier [0x00007FF7253B413D+3454365]
-	GetHandleVerifier [0x00007FF72513848B+850155]
-	(No symbol) [0x00007FF724FE37FF]
-	(No symbol) [0x00007FF724FDF0C4]
-	(No symbol) [0x00007FF724FDF25D]
-	(No symbol) [0x00007FF724FCE079]
-	BaseThreadInitThunk [0x00007FFA3C573034+20]
-	RtlUserThreadStart [0x00007FFA3E771551+33]
+	GetHandleVerifier [0x00007FF74A2CFBE5+28741]
+	(No symbol) [0x00007FF74A237890]
+	(No symbol) [0x00007FF74A0D4FDA]
+	(No symbol) [0x00007FF74A0DBC22]
+	(No symbol) [0x00007FF74A0DECD8]
+	(No symbol) [0x00007FF74A171390]
+	(No symbol) [0x00007FF74A14FF0A]
+	(No symbol) [0x00007FF74A1700B4]
+	(No symbol) [0x00007FF74A14FCB3]
+	(No symbol) [0x00007FF74A119FB3]
+	(No symbol) [0x00007FF74A11B331]
+	GetHandleVerifier [0x00007FF74A60A73D+3414941]
+	GetHandleVerifier [0x00007FF74A61E64A+3496618]
+	GetHandleVerifier [0x00007FF74A61413D+3454365]
+	GetHandleVerifier [0x00007FF74A39848B+850155]
+	(No symbol) [0x00007FF74A2437FF]
+	(No symbol) [0x00007FF74A23F0C4]
+	(No symbol) [0x00007FF74A23F25D]
+	(No symbol) [0x00007FF74A22E079]
+	BaseThreadInitThunk [0x00007FFA9D5E3034+20]
+	RtlUserThreadStart [0x00007FFA9FDE1551+33]
 ------------------------------------------------------------------------------
 Validate the Mansion Global digest notification :: This test case ... 
-20:54:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:38:44 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF63E60FBE5+28741]
-	(No symbol) [0x00007FF63E577890]
-	(No symbol) [0x00007FF63E414FDA]
-	(No symbol) [0x00007FF63E41BC22]
-	(No symbol) [0x00007FF63E41ECD8]
-	(No symbol) [0x00007FF63E4B1390]
-	(No symbol) [0x00007FF63E48FF0A]
-	(No symbol) [0x00007FF63E4B00B4]
-	(No symbol) [0x00007FF63E48FCB3]
-	(No symbol) [0x00007FF63E459FB3]
-	(No symbol) [0x00007FF63E45B331]
-	GetHandleVerifier [0x00007FF63E94A73D+3414941]
-	GetHandleVerifier [0x00007FF63E95E64A+3496618]
-	GetHandleVerifier [0x00007FF63E95413D+3454365]
-	GetHandleVerifier [0x00007FF63E6D848B+850155]
-	(No symbol) [0x00007FF63E5837FF]
-	(No symbol) [0x00007FF63E57F0C4]
-	(No symbol) [0x00007FF63E57F25D]
-	(No symbol) [0x00007FF63E56E079]
-	BaseThreadInitThunk [0x00007FFEECC17034+20]
-	RtlUserThreadStart [0x00007FFEEE6E2651+33]
+	GetHandleVerifier [0x00007FF795DAFBE5+28741]
+	(No symbol) [0x00007FF795D17890]
+	(No symbol) [0x00007FF795BB4FDA]
+	(No symbol) [0x00007FF795BBBC22]
+	(No symbol) [0x00007FF795BBECD8]
+	(No symbol) [0x00007FF795C51390]
+	(No symbol) [0x00007FF795C2FF0A]
+	(No symbol) [0x00007FF795C500B4]
+	(No symbol) [0x00007FF795C2FCB3]
+	(No symbol) [0x00007FF795BF9FB3]
+	(No symbol) [0x00007FF795BFB331]
+	GetHandleVerifier [0x00007FF7960EA73D+3414941]
+	GetHandleVerifier [0x00007FF7960FE64A+3496618]
+	GetHandleVerifier [0x00007FF7960F413D+3454365]
+	GetHandleVerifier [0x00007FF795E7848B+850155]
+	(No symbol) [0x00007FF795D237FF]
+	(No symbol) [0x00007FF795D1F0C4]
+	(No symbol) [0x00007FF795D1F25D]
+	(No symbol) [0x00007FF795D0E079]
+	BaseThreadInitThunk [0x00007FFC38467034+20]
+	RtlUserThreadStart [0x00007FFC391A2651+33]
 ------------------------------------------------------------------------------
 Validate the Mansion Global real-time author notification :: This ... 
-20:54:45 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:39:05 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6E905FBE5+28741]
-	(No symbol) [0x00007FF6E8FC7890]
-	(No symbol) [0x00007FF6E8E64FDA]
-	(No symbol) [0x00007FF6E8E6BC22]
-	(No symbol) [0x00007FF6E8E6ECD8]
-	(No symbol) [0x00007FF6E8F01390]
-	(No symbol) [0x00007FF6E8EDFF0A]
-	(No symbol) [0x00007FF6E8F000B4]
-	(No symbol) [0x00007FF6E8EDFCB3]
-	(No symbol) [0x00007FF6E8EA9FB3]
-	(No symbol) [0x00007FF6E8EAB331]
-	GetHandleVerifier [0x00007FF6E939A73D+3414941]
-	GetHandleVerifier [0x00007FF6E93AE64A+3496618]
-	GetHandleVerifier [0x00007FF6E93A413D+3454365]
-	GetHandleVerifier [0x00007FF6E912848B+850155]
-	(No symbol) [0x00007FF6E8FD37FF]
-	(No symbol) [0x00007FF6E8FCF0C4]
-	(No symbol) [0x00007FF6E8FCF25D]
-	(No symbol) [0x00007FF6E8FBE079]
-	BaseThreadInitThunk [0x00007FFE46187BD4+20]
-	RtlUserThreadStart [0x00007FFE4696CED1+33]
+	GetHandleVerifier [0x00007FF6917AFBE5+28741]
+	(No symbol) [0x00007FF691717890]
+	(No symbol) [0x00007FF6915B4FDA]
+	(No symbol) [0x00007FF6915BBC22]
+	(No symbol) [0x00007FF6915BECD8]
+	(No symbol) [0x00007FF691651390]
+	(No symbol) [0x00007FF69162FF0A]
+	(No symbol) [0x00007FF6916500B4]
+	(No symbol) [0x00007FF69162FCB3]
+	(No symbol) [0x00007FF6915F9FB3]
+	(No symbol) [0x00007FF6915FB331]
+	GetHandleVerifier [0x00007FF691AEA73D+3414941]
+	GetHandleVerifier [0x00007FF691AFE64A+3496618]
+	GetHandleVerifier [0x00007FF691AF413D+3454365]
+	GetHandleVerifier [0x00007FF69187848B+850155]
+	(No symbol) [0x00007FF6917237FF]
+	(No symbol) [0x00007FF69171F0C4]
+	(No symbol) [0x00007FF69171F25D]
+	(No symbol) [0x00007FF69170E079]
+	BaseThreadInitThunk [0x00007FFB749D7034+20]
+	RtlUserThreadStart [0x00007FFB75922651+33]
 ------------------------------------------------------------------------------
 Validate the Mansion Global weekly saved search notification :: Th... 
-20:54:58 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:39:21 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF7A5EEFBE5+28741]
-	(No symbol) [0x00007FF7A5E57890]
-	(No symbol) [0x00007FF7A5CF4FDA]
-	(No symbol) [0x00007FF7A5CFBC22]
-	(No symbol) [0x00007FF7A5CFECD8]
-	(No symbol) [0x00007FF7A5D91390]
-	(No symbol) [0x00007FF7A5D6FF0A]
-	(No symbol) [0x00007FF7A5D900B4]
-	(No symbol) [0x00007FF7A5D6FCB3]
-	(No symbol) [0x00007FF7A5D39FB3]
-	(No symbol) [0x00007FF7A5D3B331]
-	GetHandleVerifier [0x00007FF7A622A73D+3414941]
-	GetHandleVerifier [0x00007FF7A623E64A+3496618]
-	GetHandleVerifier [0x00007FF7A623413D+3454365]
-	GetHandleVerifier [0x00007FF7A5FB848B+850155]
-	(No symbol) [0x00007FF7A5E637FF]
-	(No symbol) [0x00007FF7A5E5F0C4]
-	(No symbol) [0x00007FF7A5E5F25D]
-	(No symbol) [0x00007FF7A5E4E079]
-	BaseThreadInitThunk [0x00007FFCAC633034+20]
-	RtlUserThreadStart [0x00007FFCAC7A1551+33]
+	GetHandleVerifier [0x00007FF63206FBE5+28741]
+	(No symbol) [0x00007FF631FD7890]
+	(No symbol) [0x00007FF631E74FDA]
+	(No symbol) [0x00007FF631E7BC22]
+	(No symbol) [0x00007FF631E7ECD8]
+	(No symbol) [0x00007FF631F11390]
+	(No symbol) [0x00007FF631EEFF0A]
+	(No symbol) [0x00007FF631F100B4]
+	(No symbol) [0x00007FF631EEFCB3]
+	(No symbol) [0x00007FF631EB9FB3]
+	(No symbol) [0x00007FF631EBB331]
+	GetHandleVerifier [0x00007FF6323AA73D+3414941]
+	GetHandleVerifier [0x00007FF6323BE64A+3496618]
+	GetHandleVerifier [0x00007FF6323B413D+3454365]
+	GetHandleVerifier [0x00007FF63213848B+850155]
+	(No symbol) [0x00007FF631FE37FF]
+	(No symbol) [0x00007FF631FDF0C4]
+	(No symbol) [0x00007FF631FDF25D]
+	(No symbol) [0x00007FF631FCE079]
+	BaseThreadInitThunk [0x00007FFFF1967BD4+20]
+	RtlUserThreadStart [0x00007FFFF1F8CED1+33]
 ------------------------------------------------------------------------------
 Validate Postback on Preference Center :: This test case vabrlidat... 
-20:55:09 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:39:36 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Setup failed:
 JavascriptException: Message: javascript error: Cannot read properties of null (reading 'shadowRoot')
   (Session info: chrome=132.0.6834.84)
 Stacktrace:
-	GetHandleVerifier [0x00007FF6E1EBFBE5+28741]
-	(No symbol) [0x00007FF6E1E27890]
-	(No symbol) [0x00007FF6E1CC4FDA]
-	(No symbol) [0x00007FF6E1CCBC22]
-	(No symbol) [0x00007FF6E1CCECD8]
-	(No symbol) [0x00007FF6E1D61390]
-	(No symbol) [0x00007FF6E1D3FF0A]
-	(No symbol) [0x00007FF6E1D600B4]
-	(No symbol) [0x00007FF6E1D3FCB3]
-	(No symbol) [0x00007FF6E1D09FB3]
-	(No symbol) [0x00007FF6E1D0B331]
-	GetHandleVerifier [0x00007FF6E21FA73D+3414941]
-	GetHandleVerifier [0x00007FF6E220E64A+3496618]
-	GetHandleVerifier [0x00007FF6E220413D+3454365]
-	GetHandleVerifier [0x00007FF6E1F8848B+850155]
-	(No symbol) [0x00007FF6E1E337FF]
-	(No symbol) [0x00007FF6E1E2F0C4]
-	(No symbol) [0x00007FF6E1E2F25D]
-	(No symbol) [0x00007FF6E1E1E079]
-	BaseThreadInitThunk [0x00007FFF2B187034+20]
-	RtlUserThreadStart [0x00007FFF2CF82651+33]
+	GetHandleVerifier [0x00007FF7A96DFBE5+28741]
+	(No symbol) [0x00007FF7A9647890]
+	(No symbol) [0x00007FF7A94E4FDA]
+	(No symbol) [0x00007FF7A94EBC22]
+	(No symbol) [0x00007FF7A94EECD8]
+	(No symbol) [0x00007FF7A9581390]
+	(No symbol) [0x00007FF7A955FF0A]
+	(No symbol) [0x00007FF7A95800B4]
+	(No symbol) [0x00007FF7A955FCB3]
+	(No symbol) [0x00007FF7A9529FB3]
+	(No symbol) [0x00007FF7A952B331]
+	GetHandleVerifier [0x00007FF7A9A1A73D+3414941]
+	GetHandleVerifier [0x00007FF7A9A2E64A+3496618]
+	GetHandleVerifier [0x00007FF7A9A2413D+3454365]
+	GetHandleVerifier [0x00007FF7A97A848B+850155]
+	(No symbol) [0x00007FF7A96537FF]
+	(No symbol) [0x00007FF7A964F0C4]
+	(No symbol) [0x00007FF7A964F25D]
+	(No symbol) [0x00007FF7A963E079]
+	BaseThreadInitThunk [0x00007FF834063034+20]
+	RtlUserThreadStart [0x00007FF834401551+33]
 ------------------------------------------------------------------------------
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
 6 tests, 0 passed, 6 failed
@@ -209,6 +209,6 @@ Userservices-Qa-Automation                                            | FAIL |
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\9\output.xml
 
-20:55:21 [browserstack_sdk.__init__][INFO] - Handling session close
+13:39:52 [browserstack_sdk.__init__][INFO] - Handling session close
 
-20:55:21 [browserstack_sdk.__init__][INFO] - All done!
+13:39:52 [browserstack_sdk.__init__][INFO] - All done!

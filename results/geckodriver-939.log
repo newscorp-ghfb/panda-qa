@@ -1,0 +1,28 @@
+1739113430591	geckodriver	INFO	Listening on 127.0.0.1:57957
+1739113433801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57958" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileub0beE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739113434950	Marionette	INFO	Marionette enabled
+1739113435360	Marionette	INFO	Listening on port 57979
+WebDriver BiDi listening on ws://127.0.0.1:57958
+Read port: 
+1739113435398	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 57979
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739113435683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57958/devtools/browser/41b8292a-1e30-4a85-9f99-670eaa54be86
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0XaOFjBKFoXDKL9VF6MVp869Uwh55gMl2rSabIW1nBU.js line 2 > eval line 1263 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xr8qmlghuxybhg&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Farticles%2Fwhat-the-board-needs-to-know-acec160b%3Fmod%3Dpanda_wsj_custom_topic_alert&new=1&arf=0&ltm=1739113446386&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xr8rk5m6wpotio&ckp=m6xr8rfwlkuz3rs0&glb=&amo=1695308760&cp_userState=anon&cp_testGroup=10&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-pro-snippetad&cp_pwCampaign=54322&cp_pwType=personalized&cp_navSource=panda_wsj_custom_topic_alert&cp_type=Board%20Pack%20Exclusive&cp_template=preview&cp_access=paid&cp_section=WSJ%20Pro&cp_subsection=Pro%20Cyber&cp_cms_name=WSJ%20Authoring%20Production&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=32&cp_pageContentSource=WSJProCS&cp_pageContentType=Article&cp_pageContentTypeDetai=pro&cp_pageSiteProduct=WSJProCS&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0XaOFjBKFoXDKL9VF6MVp869Uwh55gMl2rSabIW1nBU.js line 2 > eval line 6798 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739113450427	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1739113453339	Marionette	INFO	Stopped listening on port 57979
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 

@@ -1,0 +1,31 @@
+1738298322214	geckodriver	INFO	Listening on 127.0.0.1:53188
+1738298325441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile06jNE7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738298326447	Marionette	INFO	Marionette enabled
+1738298326817	Marionette	INFO	Listening on port 59658
+WebDriver BiDi listening on ws://127.0.0.1:53189
+Read port: 59658
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738298327171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53189/devtools/browser/b48897f8-6b0c-455b-8cac-5100f226f7b0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 7070 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.dev.wsj.com/ line 41 > injectedScript, line 39: Script terminated by timeout at:
+get@https://www.dev.wsj.com/ line 41 > injectedScript:39:606
+View.prototype.awake@https://www.dev.wsj.com/ line 41 > injectedScript:36:508
+CreativeUnitVariant.prototype.awake@https://www.dev.wsj.com/ line 41 > injectedScript:39:1246
+Freezer.unfreeze/<@https://www.dev.wsj.com/ line 41 > injectedScript:1:2309
+Freezer.unfreeze@https://www.dev.wsj.com/ line 41 > injectedScript:1:2278
+Creative@https://www.dev.wsj.com/ line 41 > injectedScript:31:461
+Creative.init@https://www.dev.wsj.com/ line 41 > injectedScript:31:1224
+@https://www.dev.wsj.com/ line 44 > injectedScript:45:26
+@https://www.dev.wsj.com/ line 44 > injectedScript:46:15
+IframePlacement.prototype.attachTo/<@https://www.dev.wsj.com/ line 33 > injectedScript:44:2846
+i@https://www.dev.wsj.com/ line 33 > injectedScript:1:5813
+
+JavaScript warning: https://newscorp.okta.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newscorp.okta.com."
+1738298382804	Marionette	INFO	Stopped listening on port 59658
+Dynamically enable window occlusion 1

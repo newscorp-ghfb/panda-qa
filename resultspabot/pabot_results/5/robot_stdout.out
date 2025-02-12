@@ -1,7 +1,7 @@
 
-20:44:19 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:35:06 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-20:44:20 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+13:35:07 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -16,112 +16,112 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.Barrons R...
 ==============================================================================
 Validate the multiple authors follow button from articles page :: ... 
-20:44:22 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: An unknown server-side error occurred while processing the command.
+13:35:09 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page :: This test case vali... 
-20:46:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:36:37 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:46:37 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-TimeoutException: Message: A script did not complete before its timeout expired.
+13:37:16 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page watchlist logout :: Th... 
-20:47:20 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:39:14 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:47:45 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-TimeoutException: Message: A script did not complete before its timeout expired.
+13:39:41 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons Preference Center page :: This test case vali... 
-20:48:44 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
-------------------------------------------------------------------------------
-Validate Authors for Barrons Article page without byline :: This t... 
-20:51:05 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:51:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:41:06 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
+Setup failed:
 TimeoutException: Message: A script did not complete before its timeout expired.
 ------------------------------------------------------------------------------
+Validate Authors for Barrons Article page without byline :: This t... 
+13:41:45 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+13:43:21 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist page :: This test cas... 
-20:52:38 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist :: This test case val... 
-20:54:36 [browserstack_sdk.__init__][INFO] - Completed setup!
-| PASS |
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist :: This test case val... 
-20:56:02 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:44:05 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element with locator '//div[text()="MSFT"]' not found.
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Watchlist :: This test case val... 
-20:57:57 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:58:20 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:46:35 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
+Setup failed:
 TimeoutException: Message: A script did not complete before its timeout expired.
 ------------------------------------------------------------------------------
+Validate the Watchlist widget from Watchlist :: This test case val... 
+13:47:42 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element with locator '//div[text()="MSFT"]' not found.
+------------------------------------------------------------------------------
+Validate the Watchlist widget from Watchlist :: This test case val... 
+13:50:07 [browserstack_sdk.__init__][INFO] - Completed setup!
+
+13:50:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Element '//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a' not visible after 5 seconds.
+------------------------------------------------------------------------------
 Validate the Watchlist widget from Quotes page :: This test case v... 
-20:59:05 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:54:30 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 Element '//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a' not visible after 5 seconds.
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Market Data page :: This test c... 
-21:00:58 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:57:58 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 WebDriverException: Message: Session not started or terminated
 ------------------------------------------------------------------------------
 Validate the Watchlist widget from Market Data page :: This test c... 
-21:01:56 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:59:10 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 WebDriverException: Message: Session not started or terminated
 ------------------------------------------------------------------------------
 Validate the Barrons digest notification :: This test case validat... 
-21:02:52 [browserstack_sdk.__init__][INFO] - Completed setup!
+14:00:14 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons real-time author notification :: This test ca... 
-21:04:49 [browserstack_sdk.__init__][INFO] - Completed setup!
+14:02:21 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons real-time company notification :: This test c... 
-21:06:13 [browserstack_sdk.__init__][INFO] - Completed setup!
+14:04:06 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
 Validate the Barrons real-time stock picks notification :: This te... 
-21:07:27 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Element '//span[@id="searchScopeButtonId-option"]' did not appear in 5 seconds.
+14:05:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
 ------------------------------------------------------------------------------
 Validate Postback on Preference Center :: This test case validates... 
-21:08:35 [browserstack_sdk.__init__][INFO] - Completed setup!
+14:06:58 [browserstack_sdk.__init__][INFO] - Completed setup!
 | FAIL |
 WebDriverException: Message: Session not started or terminated
 ------------------------------------------------------------------------------
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Userservices-Qa-Automation                                            | FAIL |
-17 tests, 6 passed, 11 failed
+17 tests, 8 passed, 9 failed
 ==============================================================================
 Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\5\output.xml
 
-21:09:10 [browserstack_sdk.__init__][INFO] - Handling session close
+14:08:05 [browserstack_sdk.__init__][INFO] - Handling session close
 
-21:09:15 [browserstack_sdk.__init__][INFO] - All done!
+14:08:09 [browserstack_sdk.__init__][INFO] - All done!

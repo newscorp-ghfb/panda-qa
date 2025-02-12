@@ -36,7 +36,8 @@ ${JSFollowSignInHeaderPath}=  document.querySelector("#fn_header > div > div > d
 
 *** Keywords ***
 Validate Follow Button
-    Wait Until Element is Visible   dom:${JSFollowButtonFNPath}
+    Set Selenium Implicit Wait  10s
+    Wait Until Element is Visible  /html/body/div[1]/layout/div[4]/div[1]/div[1]/div/div/div[2]/div/ufc-follow-author-widget    #dom:${JSFollowButtonFNPath}
 
 Scroll Down
     Execute javascript  window.scrollTo(0,500)
@@ -47,22 +48,23 @@ Validate Following Button
     Element Text Should Be  dom:${JSFollowingButtonFNPath}  Following  timeout=15
 
 Click Follow Button
-    Click Button  dom:${JSFollowButtonFNPath}
+
+    Click Button  /html/body/div[1]/layout/div[4]/div[1]/div[1]/div/div/div[2]/div/ufc-follow-author-widget   #dom:${JSFollowButtonFNPath}
 
 Click Following Button
     Click Button  dom:${JSFollowingButtonFNPath}
 
 Validate Sign In Modal
-    Wait Until Element is Visible  dom:${JSFollowSignInHeaderPath}
-    Page Should Contain Element  dom:${JSFollowSignInHeaderPath}
+    Wait Until Element is Visible  //*[@id="__next"]/layout/div[2]/div[1]/div/header/div[1]/div[2]/div/div[2]/a[1]  #dom:${JSFollowSignInHeaderPath}
+    Page Should Contain Element  //*[@id="__next"]/layout/div[2]/div[1]/div/header/div[1]/div[2]/div/div[2]/a[1]  #dom:${JSFollowSignInHeaderPath}
 
 Click Sign In Button Modal
-    Wait Until Element is Visible  dom:${JSFollowSignInHeaderPath}  20s
+    Wait Until Element is Visible  //*[@id="__next"]/layout/div[2]/div[1]/div/header/div[1]/div[2]/div/div[2]/a[1]  20s
     Set Selenium Speed  0.4 seconds
     IF  "${Env}" == "prod"
-       Click Element  dom:${JSFollowSignInHeaderPath}
+       Click Element  //*[@id="__next"]/layout/div[2]/div[1]/div/header/div[1]/div[2]/div/div[2]/a[1]  #dom:${JSFollowSignInHeaderPath}
     ELSE IF  "${Env}" == "dev"
-        Click Element  dom:${JSFollowSignInHeaderPath}
+        Click Element  //*[@id="__next"]/layout/div[2]/div[1]/div/header/div[1]/div[2]/div/div[2]/a[1]  #dom:${JSFollowSignInHeaderPath}
     END
     Set Selenium Speed  0.2 seconds
 

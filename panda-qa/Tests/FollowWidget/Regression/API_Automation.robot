@@ -28,7 +28,7 @@ Validate get subscription API
 
 Validate delete subscription API for Barrons Brand
     [Documentation]  This test case validates the delete subscription API Call and validdate the updated data
-    [Tags]  Regression  API
+    [Tags]  Regression  API1
     Set Selenium Speed  0.2 seconds
     CommonFunctionality.Start Preference Center
     DefinedKeywords.Sign In Process for Preference Center

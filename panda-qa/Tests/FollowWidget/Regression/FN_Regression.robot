@@ -20,7 +20,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 Validate the FN Preference Center page
 
     [Documentation]  This test case validates the FN London News preference center page
-    [Tags]  Regression  PreferenceCenter  Follow1
+    [Tags]  Regression  PreferenceCenter  US-T85
 
     FNPreferenceCenterPage.Add Author By Hotlink
     DefinedKeywords.Sign In Process
@@ -50,7 +50,7 @@ Validate the FN Preference Center page
 #US-T25
 Validate Authors for FN Article page without byline
     [Documentation]  This test case validates authors without byline for FN article page
-    [Tags]  Regression  Author  Article   Follow1
+    [Tags]  Regression  Author  Article   US-T25
 
     CommonFunctionality.Start FN Article without byline
     FNArticlePage.Validate author without byline
@@ -68,7 +68,7 @@ Validate the FN digest notification
 #US-T120
 Validate the FN real-time author notification
     [Documentation]  This test case validates the FN real-time author notification
-    [Tags]  Regression  Author  Notifications   Follow1
+    [Tags]  Regression  Author  Notifications   US-T120
     FNMailboxPage.Navigate Mailbox page
     FNMailboxPage.Login
     FNMailboxPage.Select Inbox
@@ -89,7 +89,7 @@ Validate the FN real-time company notification
 #US T357
 Validate Postback on Preference Center
     [Documentation]  This test case validates the FN Postback on Preference Center
-    [Tags]  Regression  Postback  US-T35
+    [Tags]  Regression  Postback  US-T358
     FNPreferenceCenterPage.Add Breaking News By Hotlink
     DefinedKeywords.FN Sign In Process
     Set Selenium Implicit Wait  15s

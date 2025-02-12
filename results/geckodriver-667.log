@@ -1,0 +1,79 @@
+1738297848170	geckodriver	INFO	Listening on 127.0.0.1:61678
+1738297851214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilepOehVN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738297851803	Marionette	INFO	Marionette enabled
+1738297852052	Marionette	INFO	Listening on port 61691
+WebDriver BiDi listening on ws://127.0.0.1:61679
+Read port: 61691
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738297852306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61679/devtools/browser/51380bb4-5d6f-4974-9d9e-6c2884702e08
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k9nvnkk9z2wpaj&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1738297858308&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k9nvtljrygpniv&ckp=m6k9nvnk4pkuicc1&glb=&cp_userState=anon&cp_testGroup=26&cp_env=staging&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=61&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 28ms)
+1738297861964	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 2281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js, line 1: Script terminated by timeout at:
+78018/y/<@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:120500
+r@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:119996
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_1397662881, line 445: Script terminated by timeout at:
+zB@https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_1397662881:445:310
+DB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_1397662881:443:29
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp:300:48
+
+JavaScript warning: https://fpt.live.com/?session_id=18bd48a226924145b0f18c9710c92a98&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1738297889538	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_de58183f036cd011a04a.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 5135 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1358
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript error: https://gum.criteo.com/sync?c=72&r=2&j=TRC.getRTUS&us_privacy=&gdpr=0&gdpr_consent=, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+JavaScript error: https://gum.criteo.com/sync?c=72&r=2&j=TRC.getRTUS&us_privacy=&gdpr=0&gdpr_consent=, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.B@https://cdn.adnxs.com/v/s/247/trk.js:560:3283
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22FvfgBV9HUDBsS1lXZlJhNWRyMkl5UU9ZcjVCTDZOdUV0a05FN2JUTiUyRk5VOHo0Y3dFUWdaMk1aJTJCJTJCaSUyRnBkMDNpTlVUcFFzbXJkWTMwVU16dUtQNXppSEhwTjM4JTJGU3d2TUhyaGYlMkI1ZG54ZkdHQlQlMkZHTDlJTFJSOEU0S2RkOGhJWGlqajlndHhIekQzclpVQUJnNkNna0tQWlMwQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.1021899391262776%22}, line 13: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22FvfgBV9HUDBsS1lXZlJhNWRyMkl5UU9ZcjVCTDZOdUV0a05FN2JUTiUyRk5VOHo0Y3dFUWdaMk1aJTJCJTJCaSUyRnBkMDNpTlVUcFFzbXJkWTMwVU16dUtQNXppSEhwTjM4JTJGU3d2TUhyaGYlMkI1ZG54ZkdHQlQlMkZHTDlJTFJSOEU0S2RkOGhJWGlqajlndHhIekQzclpVQUJnNkNna0tQWlMwQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.1021899391262776%22}:13:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22FvfgBV9HUDBsS1lXZlJhNWRyMkl5UU9ZcjVCTDZOdUV0a05FN2JUTiUyRk5VOHo0Y3dFUWdaMk1aJTJCJTJCaSUyRnBkMDNpTlVUcFFzbXJkWTMwVU16dUtQNXppSEhwTjM4JTJGU3d2TUhyaGYlMkI1ZG54ZkdHQlQlMkZHTDlJTFJSOEU0S2RkOGhJWGlqajlndHhIekQzclpVQUJnNkNna0tQWlMwQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.1021899391262776%22}:13:3152
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22FvfgBV9HUDBsS1lXZlJhNWRyMkl5UU9ZcjVCTDZOdUV0a05FN2JUTiUyRk5VOHo0Y3dFUWdaMk1aJTJCJTJCaSUyRnBkMDNpTlVUcFFzbXJkWTMwVU16dUtQNXppSEhwTjM4JTJGU3d2TUhyaGYlMkI1ZG54ZkdHQlQlMkZHTDlJTFJSOEU0S2RkOGhJWGlqajlndHhIekQzclpVQUJnNkNna0tQWlMwQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.1021899391262776%22}:13:3642
+
+JavaScript error: https://ib.3lift.com/rev/5233308efcd530a03558384f47000c23aebd99ee/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738297934612	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 486: Script terminated by timeout at:
+ld@https://cdn.adnxs.com/v/s/247/trk.js:486:201
+_.lb@https://cdn.adnxs.com/v/s/247/trk.js:560:16822
+nh@https://cdn.adnxs.com/v/s/247/trk.js:404:85
+Th@https://cdn.adnxs.com/v/s/247/trk.js:450:65
+uc@https://cdn.adnxs.com/v/s/247/trk.js:248:34
+oc@https://cdn.adnxs.com/v/s/247/trk.js:539:181
+_.L@https://cdn.adnxs.com/v/s/247/trk.js:560:3759
+Cc@https://cdn.adnxs.com/v/s/247/trk.js:449:27
+_.B@https://cdn.adnxs.com/v/s/247/trk.js:560:3303
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://ib.3lift.com/rev/5233308efcd530a03558384f47000c23aebd99ee/dist/bundle.js, line 1: SecurityError: Permission denied to access property "__gpp" on cross-origin object
+1738297944125	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_de58183f036cd011a04a.js, line 2: TypeError: this.fixClosingInSafari is not a function
+1738297947879	Marionette	INFO	Stopped listening on port 61691
+Dynamically enable window occlusion 1
+[GFX1-]: VideoBridgeParent receives IPC close with reason=AbnormalShutdown

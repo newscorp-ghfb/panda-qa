@@ -1,0 +1,57 @@
+1738955867178	geckodriver	INFO	Listening on 127.0.0.1:54197
+1738955870227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54198" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2H8VHA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738955870875	Marionette	INFO	Marionette enabled
+1738955871134	Marionette	INFO	Listening on port 54210
+Read port: 54210
+WebDriver BiDi listening on ws://127.0.0.1:54198
+1738955871274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:54198/devtools/browser/26b50bcd-f066-430b-aa90-025c56e0d81e
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v5fjv82sv8zg14&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1738955879255&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v5fjwt860zo4cb&ckp=m6v5fjv8ne4lv2jc&glb=&cp_userState=anon&cp_testGroup=98&cp_env=staging&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=56&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v5fqv0gxv2qwpp&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Fnews%2Fauthor%2Fdave-michaels%3F_gl%3D1*1h4yyfo*_ga*MTczMDE3OTA0NC4xNzM4OTU1ODg2*_ga_GJ5S1GJYKT*MTczODk1NTg4Ni4xLjAuMTczODk1NTg4Ni4wLjAuMA..&new=0&arf=0&ltm=1738955888321&ref=https%3A%2F%2Fwww.dev.wsj.com%2F&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v5fqwvv2do1z1o&ckp=m6v5fjv8ne4lv2jc&glb=&cp_userState=anon&cp_testGroup=98&cp_topDomain=wsj.com&cp_access=free&cp_section=Collection&cp_subsection=Authors&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=56&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_191876661, line 456: Script terminated by timeout at:
+gD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_191876661:456:310
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_191876661:454:29
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 50ms)
+JavaScript error: https://www.wsj.com/news/author/dave-michaels?_gl=1*1h4yyfo*_ga*MTczMDE3OTA0NC4xNzM4OTU1ODg2*_ga_GJ5S1GJYKT*MTczODk1NTg4Ni4xLjAuMTczODk1NTg4Ni4wLjAuMA.. line 1 > injectedScript, line 1: SyntaxError: redeclaration of const cxHandleCusomterNavSubscribeBtnUpdate
+1738955892623	Marionette	INFO	Stopped listening on port 54210
+JavaScript warning: https://static.ads-twitter.com/uwt.js, line 1: Script terminated by timeout at:
+m@https://static.ads-twitter.com/uwt.js:1:18619
+5494@https://static.ads-twitter.com/uwt.js:1:19166
+n@https://static.ads-twitter.com/uwt.js:1:58267
+3532@https://static.ads-twitter.com/uwt.js:1:55515
+n@https://static.ads-twitter.com/uwt.js:1:58267
+6575@https://static.ads-twitter.com/uwt.js:1:44288
+n@https://static.ads-twitter.com/uwt.js:1:58267
+4654@https://static.ads-twitter.com/uwt.js:1:48860
+n@https://static.ads-twitter.com/uwt.js:1:58267
+1952@https://static.ads-twitter.com/uwt.js:1:32828
+n@https://static.ads-twitter.com/uwt.js:1:58267
+6057@https://static.ads-twitter.com/uwt.js:1:25596
+n@https://static.ads-twitter.com/uwt.js:1:58267
+6527@https://static.ads-twitter.com/uwt.js:1:24379
+n@https://static.ads-twitter.com/uwt.js:1:58267
+2735@https://static.ads-twitter.com/uwt.js:1:44072
+n@https://static.ads-twitter.com/uwt.js:1:58267
+@https://static.ads-twitter.com/uwt.js:1:58863
+@https://static.ads-twitter.com/uwt.js:1:58871
+@https://static.ads-twitter.com/uwt.js:1:58874
+
+Dynamically enable window occlusion 1
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=false
+[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=false

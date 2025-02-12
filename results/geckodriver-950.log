@@ -1,0 +1,66 @@
+1739263955790	geckodriver	INFO	Listening on 127.0.0.1:63908
+1739263958855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63909" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileFtmyu3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739263959485	Marionette	INFO	Marionette enabled
+1739263959850	Marionette	INFO	Listening on port 63920
+WebDriver BiDi listening on ws://127.0.0.1:63909
+Read port: 63920
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739263960162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63909/devtools/browser/f9e82ee6-62e3-46d9-ab84-ad07a23f1c70
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m708v0n6x88l0fiu&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2F&new=1&arf=0&ltm=1739263970569&ref=&tzo=-330&wsz=1278x497&res=1278x622&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m708v10ilc8e0tis&ckp=m708v0n67zizik2d&glb=&cp_userState=anon&cp_testGroup=72&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=3&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1739263972274	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1739263975746	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_1921527912, line 11: Script terminated by timeout at:
+v@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_1921527912:11:289
+jD/this.T@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_1921527912:454:37
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1---&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2989609433007263%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_30_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1---&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2989609433007263%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_30_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.wsj.com&us_privacy=1---&gpp=#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.2989609433007263%22,%22tld%22:%22www.dev.wsj.com%22,%22topUrl%22:%22www.dev.wsj.com%22,%22version%22:%229_30_0%22}:13:3642
+
+JavaScript warning: https://fpt.live.com/?session_id=913c44a85d024ceaad8d9d1f03969c80&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1739264001276	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_44cd24035cb31cfc94c2.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 4195 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1358
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+JavaScript error: https://gum.criteo.com/sync?c=72&r=2&j=TRC.getRTUS&us_privacy=&gdpr=0&gdpr_consent=, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+JavaScript warning: https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js, line 40: Script terminated by timeout at:
+Q@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:55508
+w@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:60203
+qn@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:418319
+e6/<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:419645
+9454/emit/</<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:282656
+9454/emit/<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:282637
+emit@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:282574
+mn/<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:409032
+mn@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:409054
+Mn/<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:416073
+Ln/<@https://cdn.taboola.com/libtrc/msft-outlookdisplay/loader.js:40:416363
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22AdqH6V9KaEt1YVBqUmJIWlNScnlxR3E1b09ZM2VLa0Jzd1ZsdGpGWmU0Q0JVdUpNbFNmUmJxRmN2ZmdNZUtHJTJCSSUyQldLOVB3R0pVaUNsMHpHa2R4bjVWVUt5MnQ4bEkwRUY4eGZwSWpjMTlGc25aWW94Y3BDYzduTUJjVUxtMFhMemI0OXNFSzNINGtYZFdCem1pM0xvSXpQUEtBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.33881948836701414%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22AdqH6V9KaEt1YVBqUmJIWlNScnlxR3E1b09ZM2VLa0Jzd1ZsdGpGWmU0Q0JVdUpNbFNmUmJxRmN2ZmdNZUtHJTJCSSUyQldLOVB3R0pVaUNsMHpHa2R4bjVWVUt5MnQ4bEkwRUY4eGZwSWpjMTlGc25aWW94Y3BDYzduTUJjVUxtMFhMemI0OXNFSzNINGtYZFdCem1pM0xvSXpQUEtBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.33881948836701414%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:%22AdqH6V9KaEt1YVBqUmJIWlNScnlxR3E1b09ZM2VLa0Jzd1ZsdGpGWmU0Q0JVdUpNbFNmUmJxRmN2ZmdNZUtHJTJCSSUyQldLOVB3R0pVaUNsMHpHa2R4bjVWVUt5MnQ4bEkwRUY4eGZwSWpjMTlGc25aWW94Y3BDYzduTUJjVUxtMFhMemI0OXNFSzNINGtYZFdCem1pM0xvSXpQUEtBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:72,%22requestId%22:%220.33881948836701414%22}:13:3642
+
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 1824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739264057695	Marionette	INFO	Stopped listening on port 63920
+JavaScript warning: https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.PostSharedBoot.m.29f54a44.js, line 9: Script terminated by timeout at:
+ty@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.PostSharedBoot.m.29f54a44.js:9:16761
+
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: AbortError: The operation was aborted. 

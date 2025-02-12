@@ -1,0 +1,43 @@
+1739265856619	geckodriver	INFO	Listening on 127.0.0.1:64969
+1739265859668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileX23a6k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739265860308	Marionette	INFO	Marionette enabled
+1739265860571	Marionette	INFO	Listening on port 64982
+WebDriver BiDi listening on ws://127.0.0.1:64970
+Read port: 
+1739265860637	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 64982
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739265860975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64970/devtools/browser/60f6ac65-f3f9-46d0-9f2e-adc5a45ea5d9
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 2721 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-1.281.0.min.js, line 2: Script terminated by timeout at:
+n@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:2264
+3922/triggerHarvestFor/</m<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:96700
+3922/triggerHarvestFor/</<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:97225
+3922/triggerHarvestFor/<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:98167
+triggerHarvestFor@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95802
+3922/C/t/<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95089
+t@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95072
+2843/i/<@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:15847
+nrWrapper@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:17759
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:173362
+Bc@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:201:286
+nJ@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:771:217
+pJ.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:776:256
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:794:243
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:807:210
+h.Il/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:746:126
+h.Il/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:745:418
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m70a02xdmu6wegw5&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Ffollow&new=1&arf=0&ltm=1739265886422&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m70a02z0bz6uojgy&ckp=m70a02xdrz0hdfl1&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=96&cp_topDomain=barrons.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=&cp_cms_name=&cp_subscriber=registered&cp_edition=naus&cp_bucket=8&cp_ab_bucket=48&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+1739266020776	Marionette	INFO	Stopped listening on port 64982
+Dynamically enable window occlusion 1

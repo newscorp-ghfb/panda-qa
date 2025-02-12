@@ -63,12 +63,12 @@ Navigate to WSJ Preference Center page
         Go To  https://www.s.dev.wsj.com/
     Click WSJ Sign In With Google Button  dom:${JSWSJSignInWithGoogleButton}
     Click Button  //input[@type='text']
-    Input Text  //input[@type='text']  akhilesh.khanduri@dowjones.com
+    Input Text  //input[@type='text']  jansi.sasikumar@dowjones.com  #akhilesh.khanduri@dowjones.com
     Set Selenium Implicit Wait  10s
     Click Button  //*[@id="basic-login"]/div[1]/form/div[5]/div[1]/button[2]/span  #//*[@id="basic-login"]/div[1]/form/div[2]/div[6]/div[1]/button[2]
     Set Selenium Implicit Wait  10s
     Wait Until Element Is Visible  //input[@type='password']  #//*[@id="password-login-password"]
-    Input Text  //input[@type='password']  AKpolarzx@2594  #VTdnnCgCnny100g61 #//*[@id="password-login-password"]  #Cuceis19841234!
+    Input Text  //input[@type='password'] Yamuna@281297  #AKpolarzx@2594  #VTdnnCgCnny100g61 #//*[@id="password-login-password"]  #Cuceis19841234!
     Set Selenium Implicit Wait  10s
     Click Button  //*[@id="password-login"]/div/form/div[5]/button
      Open Browser  https://www.s.dev.wsj.com  ${Browser}  options=${options}

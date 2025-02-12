@@ -1,0 +1,25 @@
+1739092755815	geckodriver	INFO	Listening on 127.0.0.1:53735
+1739092758852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53736" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofiles0SIjl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739092759496	Marionette	INFO	Marionette enabled
+1739092759753	Marionette	INFO	Listening on port 53747
+WebDriver BiDi listening on ws://127.0.0.1:53736
+Read port: 53747
+1739092759889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:53736/devtools/browser/2b11492b-32c1-4131-b474-7c52e18e92c3
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xexlds1qsrs14h&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Feconomy%2Fglobal%2Fdollars-rise-spells-trouble-for-global-economies-38d3d986%3Fmod%3Dworld_lead_pos1&new=1&arf=0&ltm=1739092771618&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xexmq53ksmk02e&ckp=m6xexmotxkp6c0xe&glb=&amo=1695305100&cp_userState=anon&cp_testGroup=13&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=world_lead_pos1&cp_type=World%20News&cp_template=preview&cp_access=paid&cp_section=World&cp_subsection=World&cp_cms_name=WSJ%20Authoring%20QA&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=8&cp_ab_bucket=98&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0XaOFjBKFoXDKL9VF6MVp869Uwh55gMl2rSabIW1nBU.js line 2 > eval line 2173 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
+1739092778260	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1739092779103	Marionette	INFO	Stopped listening on port 53747
+Dynamically enable window occlusion 1
+JavaScript error: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: : 

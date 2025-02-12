@@ -1,0 +1,55 @@
+1738298152481	geckodriver	INFO	Listening on 127.0.0.1:52683
+1738298155549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileyeJii6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738298156144	Marionette	INFO	Marionette enabled
+1738298156389	Marionette	INFO	Listening on port 52696
+WebDriver BiDi listening on ws://127.0.0.1:52684
+Read port: 52696
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738298156653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52684/devtools/browser/b558aadd-7003-40d5-90b7-46bb319471e4
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k9ufv46yeyjnfz&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1738298166509&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k9uhi0742lmrig&ckp=m6k9uhgngs7genno&glb=&amo=1720057500&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=27&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=23&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200, line 132: Script terminated by timeout at:
+Vc@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:132:592
+Jd/<@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:160:477
+h.invoke@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:136:314
+lL/<@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:631:1078
+Kt@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:428:281
+sw@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:470:215
+HF@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:611:350
+f@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:613:21
+JF/<@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:615:52
+yl@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:295:151
+um@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:303:434
+JF@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:615:40
+w@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:318:370
+eo@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:318:470
+co.prototype.flush@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:321:162
+co.prototype.push@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:319:338
+config@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:557:112
+jB@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:566:469
+lB@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:568:45
+@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:695:255
+c@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:684:130
+@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:686:382
+@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:686:387
+@https://www.googletagmanager.com/gtag/js?id=AW-10814942520&l=dataLayer&cx=c&gtm=45je51u0v9178341488za200:697:3
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_117308790, line 445: Script terminated by timeout at:
+zB@https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_117308790:445:310
+DB/this.aa@https://imasdk.googleapis.com/js/core/bridge3.683.1_en.html#goog_117308790:443:29
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.39zA2nhERW0.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI7CzuYBfDo-lV5JH3JHlPNS1JxNqA/m=_b,_tp:300:48
+
+1738298177237	Marionette	INFO	Stopped listening on port 52696
+Dynamically enable window occlusion 1

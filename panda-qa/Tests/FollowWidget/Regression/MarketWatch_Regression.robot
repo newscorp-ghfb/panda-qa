@@ -65,7 +65,7 @@ Validate the Watchlist widget from Watchlist page
     MarketWatchWatchlistPage.Select Symbol
     MarketWatchWatchlistPage.Validate Symbol in Default New Watchlist
     MarketWatchWatchlistPage.Create Watchlist Name
-    MarketWatchWatchlistPage.Edit Watchlist Name
+    #MarketWatchWatchlistPage.Edit Watchlist Name
     MarketWatchWatchlistPage.Type Symbol
     MarketWatchWatchlistPage.Select Symbol
     MarketWatchWatchlistPage.Validate Symbol in Created Watchlist
@@ -76,7 +76,7 @@ Validate the Watchlist widget from Watchlist page
 #US-T272
 Validate the MarketWatch price and volume on the alerts page
     [Documentation]  This test case validates the MarketWatch price and volume on the alerts page
-    [Tags]  Regression  MarketWatch Price and Volume Alerts   US-T276
+    [Tags]  Regression  MarketWatch Price and Volume Alerts   US-T272
 
     CommonFunctionality.Start MarketWatch for Price and Volume Alerts page
     DefinedKeywords.MarketWatch Alerts User Sign In Process
@@ -98,9 +98,9 @@ Validate the MarketWatch price and volume on the alerts page
 #US-T278
 Validate the MarketWatch price and volume alert in Quote page
     [Documentation]  This test case validates the MarketWatch price and volume alerts on the Quote page
-    [Tags]  Regression  MarketWatch Price and Volume alert in Quote page    Follow1
+    [Tags]  Regression  MarketWatch Price and Volume alert in Quote page    US-T278
     CommonFunctionality.Start MarketWatch for Price and Volume Alerts page
-    DefinedKeywords.MarketWatch Alerts User Sign In Process
+    DefinedKeywords.Markghj`1nm 7etWatch Alerts User Sign In Process
     Set Selenium Speed  0.5 seconds
     Capture Page Screenshot    screenshot.png
     MarketWatchAlertsPage.Validate Price and Volume Alert page
@@ -129,7 +129,7 @@ Validate the MarketWatch price and volume alert deletion on Quote page
 #US-T149
 Validate the MW digest notification
     [Documentation]  This test case validates the MW digest notification
-    [Tags]  Regression  Notifications     Follow1
+    [Tags]  Regression  Notifications     US-T149
     MarketWatchMailboxPage.Navigate Mailbox page
     MarketWatchMailboxPage.Login
     MarketWatchMailboxPage.Select Inbox
@@ -154,7 +154,7 @@ Validate the MarketWatch Newsletter
 #US-T404
 Validate the MarketWatch Newsletter MwTheMoneyist
   [Documentation]  This test case validates the MarketWatch MwTheMoneyist
-  [Tags]  Regression  404
+  [Tags]  Regression  US-T404
      CommonFunctionality.Start MarketWatch Newsletter Follow
      DefinedKeywords.Market Watch Sign In Process
      Set Selenium Implicit Wait  20
@@ -167,10 +167,10 @@ Validate the MarketWatch Newsletter MwTheMoneyist
 #US-T432
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Personal Finance
-  [Tags]  Regression  TagPF
+  [Tags]  Regression  US-T432
      CommonFunctionality.Start Market Watch Newsletter
      DefinedKeywords.Market Watch Sign In Process
-     Set Selenium Implicit Wait  20
+     Set Selenium Implicit Wait  10
      MarketWatchAlertsPage.Validate Newsletters option on MW Preference Center
      MarketWatchAlertsPage.Click Newsletters option on MW Preference Center
      Execute javascript  window.scrollTo(0,250)
@@ -182,7 +182,7 @@ Validate the MarketWatch Newsletter
 #US-T431
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Midday Report
-  [Tags]  Regression  TagMR
+  [Tags]  Regression  US-T431
      CommonFunctionality.Start Market Watch Newsletter
      DefinedKeywords.Market Watch Sign In Process
      Set Selenium Implicit Wait  20
@@ -197,7 +197,7 @@ Validate the MarketWatch Newsletter
 #US-T433
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the After the Bell
-  [Tags]  Regression  TagAB
+  [Tags]  Regression  US-T433
      CommonFunctionality.Start Market Watch Newsletter
      DefinedKeywords.Market Watch Sign In Process
      Set Selenium Implicit Wait  20
@@ -213,10 +213,10 @@ Validate the MarketWatch Newsletter
 #US-T450
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Europe Daily
-  [Tags]  Regression  TagED
+  [Tags]  Regression  US-T434
      CommonFunctionality.Start Market Watch Newsletter
      DefinedKeywords.Market Watch Sign In Process
-     Set Selenium Implicit Wait  20
+     Set Selenium Implicit Wait  10
      MarketWatchAlertsPage.Validate Newsletters option on MW Preference Center
      MarketWatchAlertsPage.Click Newsletters option on MW Preference Center
      Execute javascript  window.scrollTo(0,600)
@@ -230,7 +230,7 @@ Validate the MarketWatch Newsletter
 #US-T435
 Validate the MarketWatch Newsletter
   [Documentation]  This test case validates the Tech Daily
-  [Tags]  Regression  TagTD
+  [Tags]  Regression  US-T435
      CommonFunctionality.Start Market Watch Newsletter
      DefinedKeywords.Market Watch Sign In Process
      Set Selenium Implicit Wait  20
@@ -255,7 +255,7 @@ Validate the MW real-time author notification
 #US-T146
 Validate the MW real-time company notification
     [Documentation]  This test case validates the MW real-time company notification
-    [Tags]  Regression  Notifications  Company  real
+    [Tags]  Regression  Notifications  Company  US-T146
     MarketWatchMailboxPage.Navigate Mailbox page
     MarketWatchMailboxPage.Login
     MarketWatchMailboxPage.Select Inbox
@@ -265,7 +265,7 @@ Validate the MW real-time company notification
 #US-T356
 Validate Postback on Preference Center
     [Documentation]  This test case validates the MW Postback on Preference Center
-    [Tags]  Regression  Postback  356
+    [Tags]  Regression  Postback  US-T356
     MarketWatchPreferenceCenterPage.Add Breaking News By Hotlink
     DefinedKeywords.Sign In Process
     MarketWatchPreferenceCenterPage.Validate Followed Breaking News

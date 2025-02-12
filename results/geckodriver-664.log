@@ -1,0 +1,64 @@
+1738296888662	geckodriver	INFO	Listening on 127.0.0.1:57106
+1738296891705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57107" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilejBQZAL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738296892314	Marionette	INFO	Marionette enabled
+1738296892552	Marionette	INFO	Listening on port 57120
+WebDriver BiDi listening on ws://127.0.0.1:57107
+Read port: 57120
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738296892799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57107/devtools/browser/6530bcad-24d9-4ec0-8268-8f3fb7648c49
+1738296901342	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k93fcgw0mx3vbi&sid=1138573015853471556&loc=https%3A%2F%2Fwww.stg.marketwatch.com%2F&new=1&arf=0&ltm=1738296904058&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k93gn57sf1h8jn&ckp=m6k93fcgj3yw382a&glb=&cp_userState=anon&cp_testGroup=79&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=5&cp_ab_bucket=65&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 7133 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://secure-us.imrworldwide.com/v60.js, line 1: Script terminated by timeout at:
+NolTracker.prototype.pause@https://secure-us.imrworldwide.com/v60.js:1:23885
+NolTracker.prototype.postLinkTrack@https://secure-us.imrworldwide.com/v60.js:1:17653
+NolTracker.prototype.linkTrack@https://secure-us.imrworldwide.com/v60.js:1:18191
+u.send@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.81.js?utv=ut4.44.202301181941:7:180
+sendTag@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:81:175
+trigger@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:82:302
+track@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:395
+link@https://tags.tiqcdn.com/utag/wsjdn/marketwatch/qa/utag.js:72:216
+MarketWatch.Tracking.makeTrackingCall/<@https://sts3.wsj.net/bucket-a/maggie/dev/static/js/scripts-stg-1f76bd300c.min.js:101:201964
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.int.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript error: https://www.s.dev.marketwatch.com/_next/static/chunks/webpack-7a9b495f7f56829b.js, line 1: ChunkLoadError: Loading chunk 8196 failed.
+(error: https://www.s.dev.marketwatch.com/_next/static/chunks/8196.0751c0ae8b9e42bd.js)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://ats-wrapper.privacymanager.io/ats-modules/a2d2f543-7d16-413e-b7c0-7fc163090b73/ats.js, line 1: TypeError: e is undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k93x1bc7dlq924&sid=9222325317970825873&loc=https%3A%2F%2Fwww.s.dev.marketwatch.com%2F&new=0&arf=0&ltm=1738296928697&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k93ye5zhi2r0qe&ckp=m6k93fcgj3yw382a&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=79&cp_topDomain=marketwatch.com&cp_pwTag=default&cp_pwPlacement=cx-candybar&cp_pwCampaign=116&cp_pwType=free&cp_template=preview&cp_access=free&cp_section=Home%20Page&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=Home&cp_pageSiteProduct=MW&cp_userTags=BARRONS-SUB&cp_sessionState=ca, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 1810 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738296936546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1738296941128	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1738296954672	Marionette	INFO	Stopped listening on port 57120
+JavaScript warning: https://js.datadome.co/tags.js, line 2: Script terminated by timeout at:
+@https://js.datadome.co/tags.js:2:173362
+ajaxAbort@https://www.stg.marketwatch.com/watchlist/public/js/chunks/watchlist-client.f06170f52eb7973d2ead.js:20372:24
+abort@https://www.stg.marketwatch.com/watchlist/public/js/chunks/watchlist-client.f06170f52eb7973d2ead.js:20774:28
+stop@https://www.stg.marketwatch.com/watchlist/public/js/chunks/watchlist-client.f06170f52eb7973d2ead.js:19882:42
+738/module.exports/$.signalR.prototype.stop@https://www.stg.marketwatch.com/watchlist/public/js/chunks/bluegrass2-client.3cea33b53b341ff864e4.js:2789:47
+512/start/initialize/</</<@https://www.stg.marketwatch.com/watchlist/public/js/chunks/watchlist-client.f06170f52eb7973d2ead.js:19534:48
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: The operation was aborted. 

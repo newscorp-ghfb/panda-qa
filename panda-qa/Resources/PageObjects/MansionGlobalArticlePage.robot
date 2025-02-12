@@ -47,7 +47,8 @@ Click Follow Button
     Click Button  dom:${JSFollowButtonGMPath}
 
 Navigate to the homepage
-    Go To  https://www.s.dev.mansionglobal.com/articles/article-long-text-01643043212
+    Go To   https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848
+    #https://www.s.dev.mansionglobal.com/articles/article-long-text-01643043212
 
 Click Following Button
     Click Button  dom:${JSFollowButtonGMPath}
@@ -57,11 +58,11 @@ Validate Sign In Modal
     Page Should Contain Element  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInHeaderPath}
 
 Click Sign In Button Modal
-    Wait Until Element is Visible  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInHeaderPath}
+    Wait Until Element is Visible  //a[text()='SIGN IN']  #//*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInHeaderPath}
     IF  "${Env}" == "prod"
-        Click Button  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInButtonPath}
+        Click Button  //a[text()='SIGN IN']  #//*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInButtonPath}
     ELSE IF  "${Env}" == "dev"
-        Click Element  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInButton2Path}
+        Click Element  //a[text()='SIGN IN']  #//*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a  #dom:${JSFollowSignInButton2Path}
     END
 
 

@@ -1,0 +1,38 @@
+1738921246624	geckodriver	INFO	Listening on 127.0.0.1:60423
+1738921249667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileyv5tjz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738921250353	Marionette	INFO	Marionette enabled
+1738921250657	Marionette	INFO	Listening on port 60438
+WebDriver BiDi listening on ws://127.0.0.1:60424
+Read port: 60438
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738921250944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60424/devtools/browser/d768a0d9-c665-46ad-a8ff-cd0f83702209
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 377: TypeError: can't access dead object
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 425: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uktlivfuox9u8m&sid=1144071410389139719&loc=https%3A%2F%2Fwww.mansionglobal.com%2Farticles%2Fare-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848&new=1&arf=0&ltm=1738921262658&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uktll4miunlnfk&ckp=m6uktliv898p6opa&glb=&amo=1648119840&cp_userState=anon&cp_testGroup=73&cp_topDomain=mansionglobal.com&cp_type=Mansion%20Global%20Article&cp_template=full&cp_access=free&cp_section=subject_subject-ask-tax&cp_subsection=subject_subject-ask-tax&cp_cms_name=METHODE&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=36&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Article&cp_pageContentTypeDetai=continuous&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 932 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 7829 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2095675169, line 456: Script terminated by timeout at:
+gD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2095675169:456:310
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2095675169:454:29
+
+JavaScript warning: https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js, line 971: Script terminated by timeout at:
+R@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:971:226
+@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:2018:52
+tm/<@https://www.youtube-nocookie.com/s/player/9c6dfc4a/www-embed-player.vflset/www-embed-player.js:950:63
+
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js, line 114: Script terminated by timeout at:
+i.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:4276
+C@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:1597
+i._initialize/<@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:114:4912
+d@https://static.cdninstagram.com/rsrc.php/v4iy674/yM/l/en_US/f8BU-fMqxkd.js:30:158
+
+1738921279841	Marionette	INFO	Stopped listening on port 60438
+Dynamically enable window occlusion 1
+1738921280904	addons.xpi	ERROR	System addon update list error [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no]
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", "resource://gre/modules/Region.sys.mjs", 738))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))

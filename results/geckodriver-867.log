@@ -1,0 +1,69 @@
+1739033705132	geckodriver	INFO	Listening on 127.0.0.1:54412
+1739033708177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileyrjLMF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739033708833	Marionette	INFO	Marionette enabled
+1739033709109	Marionette	INFO	Listening on port 54425
+WebDriver BiDi listening on ws://127.0.0.1:54413
+Read port: 54425
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739033709406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54413/devtools/browser/e54a07ca-0eb9-40b5-96f2-e5421fb5f3d4
+console.error: ({})
+console.error: ({})
+console.error: ({})
+console.error: ({})
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wfrx1m4na7c03a&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Farticles%2Fwendys-wen-stock-earnings-51652268634&new=1&arf=0&ltm=1739033718543&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wfrxbieja4dtys&ckp=m6wfrx1mky7zwjle&glb=&amo=1652281620&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 2909 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 6633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739033734592	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: https://register.barrons.com/static-new/3c37d7b1-1b9b-472e-9ad8-b0e5cc945f15/bundler.js, line 409: TypeError: this.config.cssAttributes is undefined
+JavaScript error: https://register.barrons.com/static-new/3c37d7b1-1b9b-472e-9ad8-b0e5cc945f15/bundler.js, line 408: TypeError: e.data is undefined
+JavaScript warning: https://static.adsafeprotected.com/main.19.8.569.js, line 1: Script terminated by timeout at:
+__IASScope.__IntegralASExec["19.8.569"].initialize/K.prototype.each@https://static.adsafeprotected.com/main.19.8.569.js:1:27614
+__IASScope.__IntegralASExec["19.8.569"].initialize/K.prototype.mapToObj@https://static.adsafeprotected.com/main.19.8.569.js:1:28815
+__IASScope.__IntegralASExec["19.8.569"].initialize/xe/send/</r<@https://static.adsafeprotected.com/main.19.8.569.js:1:56885
+__IASScope.__IntegralASExec["19.8.569"].initialize/xe/send/<@https://static.adsafeprotected.com/main.19.8.569.js:1:56958
+__IASScope.__IntegralASExec["19.8.569"].initialize/K.prototype.each@https://static.adsafeprotected.com/main.19.8.569.js:1:27587
+send@https://static.adsafeprotected.com/main.19.8.569.js:1:56792
+sendToOtherTags@https://static.adsafeprotected.com/main.19.8.569.js:1:239566
+
+1739033735094	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.899605391357798%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.899605391357798%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.899605391357798%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:173362
+Bc@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:201:286
+nJ@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:762:217
+pJ.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:767:116
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:785:243
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:799:210
+h.Jl/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:737:126
+h.Jl/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:736:418
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1739033753101	Marionette	INFO	Stopped listening on port 54425
+JavaScript warning: https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067154206/?random=1739033752798&cv=11&fst=1739033752798&bg=ffffff&guid=ON&async=1&gtm=45be5240v887436810za200&gcd=13t3t3t3t5l1&dma=0&tcfd=10648&tag_exp=102015666~102067808~102081485~102123608~102482432~102539968~102558064~102587591~102605417&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&hn=www.googleadservices.com&frm=0&tiba=Market%20Data%20Center%20%7C%20Barron%27s&npa=0&us_privacy=1YNN&gdpr=0&gdpr_consent=tcempty&pscdl=noapi&auid=1118083100.1739033720&fdr=QA&data=event%3Dgtag.config&rfmt=3&fmt=4, line 1: Script terminated by timeout at:
+l@https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067154206/?random=1739033752798&cv=11&fst=1739033752798&bg=ffffff&guid=ON&async=1&gtm=45be5240v887436810za200&gcd=13t3t3t3t5l1&dma=0&tcfd=10648&tag_exp=102015666~102067808~102081485~102123608~102482432~102539968~102558064~102587591~102605417&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&hn=www.googleadservices.com&frm=0&tiba=Market%20Data%20Center%20%7C%20Barron%27s&npa=0&us_privacy=1YNN&gdpr=0&gdpr_consent=tcempty&pscdl=noapi&auid=1118083100.1739033720&fdr=QA&data=event%3Dgtag.config&rfmt=3&fmt=4:1:458
+@https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067154206/?random=1739033752798&cv=11&fst=1739033752798&bg=ffffff&guid=ON&async=1&gtm=45be5240v887436810za200&gcd=13t3t3t3t5l1&dma=0&tcfd=10648&tag_exp=102015666~102067808~102081485~102123608~102482432~102539968~102558064~102587591~102605417&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&hn=www.googleadservices.com&frm=0&tiba=Market%20Data%20Center%20%7C%20Barron%27s&npa=0&us_privacy=1YNN&gdpr=0&gdpr_consent=tcempty&pscdl=noapi&auid=1118083100.1739033720&fdr=QA&data=event%3Dgtag.config&rfmt=3&fmt=4:1:467
+@https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067154206/?random=1739033752798&cv=11&fst=1739033752798&bg=ffffff&guid=ON&async=1&gtm=45be5240v887436810za200&gcd=13t3t3t3t5l1&dma=0&tcfd=10648&tag_exp=102015666~102067808~102081485~102123608~102482432~102539968~102558064~102587591~102605417&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&hn=www.googleadservices.com&frm=0&tiba=Market%20Data%20Center%20%7C%20Barron%27s&npa=0&us_privacy=1YNN&gdpr=0&gdpr_consent=tcempty&pscdl=noapi&auid=1118083100.1739033720&fdr=QA&data=event%3Dgtag.config&rfmt=3&fmt=4:1:3542
+@https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1067154206/?random=1739033752798&cv=11&fst=1739033752798&bg=ffffff&guid=ON&async=1&gtm=45be5240v887436810za200&gcd=13t3t3t3t5l1&dma=0&tcfd=10648&tag_exp=102015666~102067808~102081485~102123608~102482432~102539968~102558064~102587591~102605417&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&hn=www.googleadservices.com&frm=0&tiba=Market%20Data%20Center%20%7C%20Barron%27s&npa=0&us_privacy=1YNN&gdpr=0&gdpr_consent=tcempty&pscdl=noapi&auid=1118083100.1739033720&fdr=QA&data=event%3Dgtag.config&rfmt=3&fmt=4:1:4445
+
+Dynamically enable window occlusion 1

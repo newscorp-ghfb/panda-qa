@@ -1,0 +1,20 @@
+1738954543850	geckodriver	INFO	Listening on 127.0.0.1:60277
+1738954546874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileTublaW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738954547597	Marionette	INFO	Marionette enabled
+1738954547863	Marionette	INFO	Listening on port 60301
+WebDriver BiDi listening on ws://127.0.0.1:60278
+Read port: 60301
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738954548120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60278/devtools/browser/2af99b1f-8675-4691-b510-745dc959530e
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v4n7tlwh2qy7eb&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1738954557279&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v4n82qp1yl7ohc&ckp=m6v4n7tlfcpbdak8&glb=&cp_userState=anon&cp_testGroup=87&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=6&cp_ab_bucket=56&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 3837 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 2406 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738954570099	Marionette	INFO	Stopped listening on port 60301
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/2Od_BXY8Vjqn5MycIv0XMSA24h9E-qr9j5xv73dxnSQ.js line 2 > eval line 7021 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: !CanvasManagerChild::Get()
+JavaScript error: , line 0: AbortError: The operation was aborted. 

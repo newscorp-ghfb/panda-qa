@@ -20,7 +20,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T2
 Validate the author follow button from articles page
     [Documentation]  This test case validates the author follow button from articles page
-    [Tags]  Smoke  Follow  Article     TagBarronsAF
+    [Tags]  Smoke  Follow  Article  BarronsUS-T1
 
     Set Selenium Speed  0.5 seconds
     DefinedKeywords.Barrons Article Sign in Process
@@ -64,7 +64,7 @@ Validate the follow button from authors page
 #US-T51
 Validate the stock pick follow button from articles page
     [Documentation]  This test case validates the stock pick follow button from articles page
-    [Tags]  Smoke  Follow  CustomTopic        TagBarronsSP
+    [Tags]  Smoke  Follow  CustomTopic        US-T51
     CommonFunctionality.Start Barrons Stock Picks for Stock Picks in article
     DefinedKeywords.Barrons Article Sign in Process
     Set Selenium Implicit Wait  40
@@ -82,7 +82,7 @@ Validate the stock pick follow button from articles page
 #US-T254
 Validate the Barrons Preference Center page
     [Documentation]  This test case validates the barrons preference center page
-    [Tags]  Smoke  PreferenceCenter  US-T188
+    [Tags]  Smoke  PreferenceCenter  US-T79
     Set Selenium Speed  0.2 seconds
     BarronsPreferenceCenterPage.Navigate Preference Center page
     DefinedKeywords.Sign In Process

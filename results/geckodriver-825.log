@@ -1,0 +1,23 @@
+1738956066932	geckodriver	INFO	Listening on 127.0.0.1:61495
+1738956069941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61496" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilelKg7zE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738956072677	Marionette	INFO	Marionette enabled
+1738956073844	Marionette	INFO	Listening on port 61625
+WebDriver BiDi listening on ws://127.0.0.1:61496
+Read port: 61625
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738956074944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61496/devtools/browser/3e479353-9ae1-4c05-a649-58096206fe98
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1738956079865	Marionette	INFO	Stopped listening on port 61625
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/fingerprinting-protection-overrides list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/tracking-protection-lists list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/search-categorization list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
