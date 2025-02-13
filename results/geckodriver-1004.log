@@ -1,0 +1,85 @@
+1739269979263	geckodriver	INFO	Listening on 127.0.0.1:61666
+1739269982537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileexjVcQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739269983728	Marionette	INFO	Marionette enabled
+1739269984043	Marionette	INFO	Listening on port 61685
+Read port: 61685
+WebDriver BiDi listening on ws://127.0.0.1:61667
+1739269984185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:61667/devtools/browser/63b04795-ad84-4b31-bf65-56d3f85808d2
+JavaScript error: https://www.s.dev.barrons.com/, line 154: ReferenceError: djSharedFunctions is not defined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739270004507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://cdn.parsely.com/keys/barrons.com/p.js, line 7: Script terminated by timeout at:
+n._getCacheFromString@https://cdn.parsely.com/keys/barrons.com/p.js:7:29573
+n._renewCache@https://cdn.parsely.com/keys/barrons.com/p.js:7:30030
+n.get@https://cdn.parsely.com/keys/barrons.com/p.js:7:27898
+t._migrateCookie@https://cdn.parsely.com/keys/barrons.com/p.js:7:32395
+t.get@https://cdn.parsely.com/keys/barrons.com/p.js:7:31085
+getVisitorInfo@https://cdn.parsely.com/keys/barrons.com/p.js:7:33929
+getSession@https://cdn.parsely.com/keys/barrons.com/p.js:7:35584
+beacon@https://cdn.parsely.com/keys/barrons.com/p.js:7:64086
+e.engagedTime.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:43415
+i.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:41440
+i._sendHeartbeats@https://cdn.parsely.com/keys/barrons.com/p.js:7:41594
+i._setUnloadListeners/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:41747
+value/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:22304
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:22277
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24351
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24771
+
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+o@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18291
+104/e.onLCP/</c<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18393
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11636
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.int.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 6669 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739270033213	Marionette	INFO	Stopped listening on port 61685
+JavaScript warning: https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js, line 1: Script terminated by timeout at:
+95384/O/</T<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:4514
+2929/T/</describeSeries/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:40473
+describeSeries@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:40288
+2929/T/</onChartRender/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:50105
+onChartRender@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:50010
+2929/T/</</<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:114374
+2929/T/</<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:114338
+95384/O/</J/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:4274
+J@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:4244
+95384/O/</b.prototype.redraw@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:181863
+95384/O/</c.prototype.update@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:113303
+updateChartExtremes@https://www.s.dev.barrons.com/market-data/_next/static/chunks/3550-54d3038da93c4ca5.js:1:8388
+redraw@https://www.s.dev.barrons.com/market-data/_next/static/chunks/3550-54d3038da93c4ca5.js:1:8797
+95384/O/</J/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:4274
+J@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:4244
+95384/O/</b.prototype.redraw@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:181845
+95384/O/</b.prototype.update@https://www.s.dev.barrons.com/market-data/_next/static/chunks/260fb190-d5a413ae11779170.js:1:199082
+75708/i.exports</P</<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/8749-fa14a2ba23902788.js:1:2202
+Rj@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:84453
+lk@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:90893
+jk@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:111561
+64448/Qk/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:111572
+Qk@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:112086
+Hk@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:25:95386
+J@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:49:1381
+R@https://www.s.dev.barrons.com/market-data/_next/static/chunks/framework-918963c1d31953b8.js:49:1923
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 

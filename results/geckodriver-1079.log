@@ -1,0 +1,70 @@
+1739433350326	geckodriver	INFO	Listening on 127.0.0.1:63820
+1739433353384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilekxijXT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739433354009	Marionette	INFO	Marionette enabled
+1739433354254	Marionette	INFO	Listening on port 63834
+WebDriver BiDi listening on ws://127.0.0.1:63821
+Read port: 63834
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739433354515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63821/devtools/browser/af986e83-403b-45f3-8bfb-34e7706349bb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 4813 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.parsely.com/keys/fnlondon.com/p.js, line 7: Script terminated by timeout at:
+n._getCacheFromString@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:29545
+n._renewCache@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:30030
+n.get@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:27898
+t._migrateCookie@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:32395
+t.get@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:31085
+getVisitorInfo@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:33929
+getSession@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:35584
+beacon@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:62284
+e.engagedTime.sendHeartbeat@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:40449
+i.sendHeartbeat@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:38474
+i._sendHeartbeats@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:38628
+i._setUnloadListeners/<@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:38781
+value/<@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:22304
+value@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:22277
+value@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:24351
+value@https://cdn.parsely.com/keys/fnlondon.com/p.js:7:24771
+nrWrapper@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:17759
+
+JavaScript warning: https://fpt.live.com/?session_id=962d6de791304ab9a7317f03b01898e7&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1739433383230	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_e5798062a96aa59d6c33.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 7339 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 6718 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.adnxs.com/v/s/249/trk.js, line 8: Script terminated by timeout at:
+zn@https://cdn.adnxs.com/v/s/249/trk.js:8:15
+_.B@https://cdn.adnxs.com/v/s/249/trk.js:560:3283
+_.C@https://cdn.adnxs.com/v/s/249/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/249/trk.js:560:5629
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.7044160207511421%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.7044160207511421%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.7044160207511421%22}:13:3642
+
+JavaScript warning: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js, line 52: Script terminated by timeout at:
+O@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:52:2096
+qe@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:52:2489
+gf@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:58:244
+b@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:56:297
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 5519 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739433405462	Marionette	INFO	Stopped listening on port 63834
+JavaScript warning: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js, line 80: Script terminated by timeout at:
+lg.prototype.C@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:80:651
+
+JavaScript warning: https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.mailindex.60fccaa5.js, line 1: Script terminated by timeout at:
+u@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.mailindex.60fccaa5.js:1:154387
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: FetchEvent.respondWith() Promise rejected
+JavaScript error: , line 0: NetworkError: AutoCancel
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 

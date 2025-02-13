@@ -1,0 +1,26 @@
+1738930395395	geckodriver	INFO	Listening on 127.0.0.1:49739
+1738930398446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49740" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilewvmOnJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738930399063	Marionette	INFO	Marionette enabled
+1738930399323	Marionette	INFO	Listening on port 49754
+WebDriver BiDi listening on ws://127.0.0.1:49740
+Read port: 49754
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738930399568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49740/devtools/browser/db0a13aa-57ae-4bbe-815a-9f4044775fdb
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uq9k0ct2xgg09r&sid=1133979867428110118&loc=https%3A%2F%2Fwww.penews.com%2F&new=1&arf=0&ltm=1738930405267&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uq9k1ya8ih555n&ckp=m6uq9k0cy1h97um2&glb=&cp_userState=anon&cp_testGroup=22&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=7&cp_ab_bucket=97&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 4871 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 5446 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js?cb=31090249, line 33: Script terminated by timeout at:
+_.Aa@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js?cb=31090249:33:162694
+Fn/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502040101/pubads_impl.js?cb=31090249:33:75549
+nrWrapper@https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622:124:14322
+
+1738930455204	Marionette	INFO	Stopped listening on port 49754
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 

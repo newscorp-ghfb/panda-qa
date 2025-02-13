@@ -1,0 +1,41 @@
+1738290292455	geckodriver	INFO	Listening on 127.0.0.1:58890
+1738290295496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileGZDDF1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738290296078	Marionette	INFO	Marionette enabled
+1738290296327	Marionette	INFO	Listening on port 58903
+WebDriver BiDi listening on ws://127.0.0.1:58891
+Read port: 58903
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738290296590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58891/devtools/browser/db86537a-f494-4c46-ad74-3d280ded987b
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6k55yvp6tb48ed6&sid=1133979867428110118&loc=https%3A%2F%2Fwww.s.dev.penews.com%2F&new=1&arf=0&ltm=1738290304217&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6k55yxhvsd86tmi&ckp=m6k55yvp8m72vypj&glb=&cp_userState=anon&cp_testGroup=54&cp_env=staging&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=9&cp_ab_bucket=9&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 7791 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 40 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.parsely.com/keys/penews.com/p.js, line 7: Script terminated by timeout at:
+value/n<@https://cdn.parsely.com/keys/penews.com/p.js:7:24273
+value@https://cdn.parsely.com/keys/penews.com/p.js:7:24274
+value@https://cdn.parsely.com/keys/penews.com/p.js:7:24771
+
+JavaScript warning: https://fpt.live.com/?session_id=ba72947a4bfb4c47af22f7e5ed212601&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1738290332358	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_de58183f036cd011a04a.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 8: Script terminated by timeout at:
+zn@https://cdn.adnxs.com/v/s/247/trk.js:8:15
+_.B@https://cdn.adnxs.com/v/s/247/trk.js:560:3283
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+JavaScript error: https://gum.criteo.com/sync?c=72&r=2&j=TRC.getRTUS&us_privacy=&gdpr=0&gdpr_consent=, line 1: TypeError: window.CONFIG_JS_CALLBACK is not a function
+1738290380761	Marionette	INFO	Stopped listening on port 58903
+Dynamically enable window occlusion 1

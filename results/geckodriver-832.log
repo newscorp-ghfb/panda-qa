@@ -1,0 +1,40 @@
+1739026887978	geckodriver	INFO	Listening on 127.0.0.1:63382
+1739026891030	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileHmNtcE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739026891716	Marionette	INFO	Marionette enabled
+1739026891999	Marionette	INFO	Listening on port 63397
+WebDriver BiDi listening on ws://127.0.0.1:63383
+Read port: 63397
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739026892275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63383/devtools/browser/f7c976a3-f5c7-4ab4-8e44-1547658ba546
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.barrons.com/asset/dj-watchlist/v1.14.3/p-0633e57d.entry.js, line 11: TypeError: Error.captureStackTrace is not a function
+console.error: ({})
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: Error: Received error when requesting API response from URL: https://piano.vx.barrons.com/api/v3/anon/template/loadTemplateContext?aid=ETbHfCPwpu
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wbpsjzeol8rr64&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Farticles%2Fwendys-wen-stock-earnings-51652268634&new=1&arf=0&ltm=1739026900952&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wbpsvyfmm2y1ws&ckp=m6wbpsjzhb3cxxnj&glb=&amo=1652281620&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+i@https://cdn.cxense.com/cx.js:6:2299
+get@https://cdn.cxense.com/cx.js:6:2653
+bi@https://cdn.cxense.com/cx.js:6:47682
+ua@https://cdn.cxense.com/cx.js:6:70666
+fa/<@https://cdn.cxense.com/cx.js:6:71076
+nrWrapper@https://www.barrons.com/articles/wendys-wen-stock-earnings-51652268634:129:17759
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 7625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:157812
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:152554
+y@https://sso.accounts.dowjones.com/datadome/tags.js:2:159491
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:161225
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+1739026975389	Marionette	INFO	Stopped listening on port 63397
+Dynamically enable window occlusion 1

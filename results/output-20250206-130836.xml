@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.5 on win32)" generated="20250206 13:08:37.760" rpa="false" schemaversion="4">
+<suite id="s1" name="Userservices-Qa-Automation" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation">
+<suite id="s1-s1" name="Panda-Qa" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa">
+<suite id="s1-s1-s1" name="Tests" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests">
+<suite id="s1-s1-s1-s1" name="FollowWidget" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget">
+<suite id="s1-s1-s1-s1-s1" name="Regression" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression">
+<suite id="s1-s1-s1-s1-s1-s1" name="API Automation" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\API_Automation.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Validate delete subscription API for Barrons Brand" line="29">
+<kw name="Start Barrons Article" library="CommonFunctionality" type="SETUP">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.783"/>
+</kw>
+<kw name="Set Browser Options" library="CommonFunctionality">
+<var>${options}</var>
+<if>
+<branch type="IF" condition="&quot;${Browser}&quot; == &quot;firefox&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.FirefoxOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.783"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--CreateProfile</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.783"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.783"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.783"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.force-local</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.remote-enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.chrome.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.prompt-connection</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--browser.dom.window.dump.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.784"/>
+</return>
+<status status="NOT RUN" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.784"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Browser}&quot; == &quot;chrome&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.ChromeOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20250206 13:08:38.785" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x00000249B4205520&gt;</msg>
+<status status="PASS" starttime="20250206 13:08:38.785" endtime="20250206 13:08:38.785"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.785" endtime="20250206 13:08:38.785"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.786"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.786"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.786"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.786"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--ignore-certificate-errors</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.786"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.786" endtime="20250206 13:08:38.787"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-user-gesture-required</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.787" endtime="20250206 13:08:38.787"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-first-run</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.787" endtime="20250206 13:08:38.787"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-ui-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.787" endtime="20250206 13:08:38.788"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-device-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.788" endtime="20250206 13:08:38.788"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-sync</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" starttime="20250206 13:08:38.788" endtime="20250206 13:08:38.788"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="PASS" starttime="20250206 13:08:38.788" endtime="20250206 13:08:38.788"/>
+</return>
+<status status="PASS" starttime="20250206 13:08:38.784" endtime="20250206 13:08:38.788"/>
+</branch>
+<status status="PASS" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.788"/>
+</if>
+<msg timestamp="20250206 13:08:38.788" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x00000249B4205520&gt;</msg>
+<status status="PASS" starttime="20250206 13:08:38.783" endtime="20250206 13:08:38.788"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.barrons.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20250206 13:08:38.789" level="INFO">Opening browser 'chrome' to base url 'https://www.barrons.com'.</msg>
+<msg timestamp="20250206 13:08:39.936" level="WARN">The chromedriver version (129.0.6668.100) detected in PATH at D:\Users\sasikumarj\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg timestamp="20250206 13:08:45.296" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20250206 13:08:45.296" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 132.0.6834.160 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF661D5B095+29557]
+	(No symbol) [0x00007FF661CCFA50]
+	(No symbol) [0x00007FF661B8B56A]
+	(No symbol) [0x00007FF661BCDDF7]
+	(No symbol) [0x00007FF661BCCE8B]
+	(No symbol) [0x00007FF661BC79AE]
+	(No symbol) [0x00007FF661BC251E]
+	(No symbol) [0x00007FF661C12F90]
+	(No symbol) [0x00007FF661C12620]
+	(No symbol) [0x00007FF661C06F33]
+	(No symbol) [0x00007FF661BD116F]
+	(No symbol) [0x00007FF661BD22D1]
+	GetHandleVerifier [0x00007FF66208C96D+3378253]
+	GetHandleVerifier [0x00007FF6620D8497+3688311]
+	GetHandleVerifier [0x00007FF6620CD1CB+3642539]
+	GetHandleVerifier [0x00007FF661E1A6B6+813462]
+	(No symbol) [0x00007FF661CDAB5F]
+	(No symbol) [0x00007FF661CD6B74]
+	(No symbol) [0x00007FF661CD6D10]
+	(No symbol) [0x00007FF661CC5C1F]
+	BaseThreadInitThunk [0x00007FFB433B7374+20]
+	RtlUserThreadStart [0x00007FFB4367CC91+33]
+</msg>
+<status status="FAIL" starttime="20250206 13:08:38.789" endtime="20250206 13:08:45.306"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.barrons.com/articles/wendys-wen-stock-earnings-51652268634</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:45.306" endtime="20250206 13:08:45.306"/>
+</kw>
+<status status="FAIL" starttime="20250206 13:08:38.788" endtime="20250206 13:08:45.306"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.barrons.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:45.306" endtime="20250206 13:08:45.306"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.s.dev.barrons.com/articles/buy-under-armour-stock-pick-51650672000</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:45.307" endtime="20250206 13:08:45.307"/>
+</kw>
+<status status="NOT RUN" starttime="20250206 13:08:45.306" endtime="20250206 13:08:45.307"/>
+</branch>
+<status status="FAIL" starttime="20250206 13:08:38.788" endtime="20250206 13:08:45.307"/>
+</if>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>dom:${JSFollowButtonBarronsPath}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:45.307" endtime="20250206 13:08:45.307"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20250206 13:08:45.307" endtime="20250206 13:08:45.307"/>
+</kw>
+<status status="FAIL" starttime="20250206 13:08:38.783" endtime="20250206 13:08:45.307"/>
+</kw>
+<kw name="Finish Testcase" library="CommonFunctionality" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20250206 13:08:45.308" endtime="20250206 13:08:45.308"/>
+</kw>
+<status status="PASS" starttime="20250206 13:08:45.308" endtime="20250206 13:08:45.308"/>
+</kw>
+<doc>This test case validates the delete subscription API Call and validdate the updated data</doc>
+<tag>API</tag>
+<tag>API1</tag>
+<tag>Regression</tag>
+<status status="FAIL" starttime="20250206 13:08:38.780" endtime="20250206 13:08:45.308">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 129
+Current browser version is 132.0.6834.160 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF661D5B095+29557]
+	(No symbol) [0x00007FF661CCFA50]
+	(No symbol) [0x00007FF661B8B56A]
+	(No symbol) [0x00007FF661BCDDF7]
+	(No symbol) [0x00007FF661BCCE8B]
+	(No symbol) [0x00007FF661BC79AE]
+	(No symbol) [0x00007FF661BC251E]
+	(No symbol) [0x00007FF661C12F90]
+	(No symbol) [0x00007FF661C12620]
+	(No symbol) [0x00007FF661C06F33]
+	(No symbol) [0x00007FF661BD116F]
+	(No symbol) [0x00007FF661BD22D1]
+	GetHandleVerifier [0x00007FF66208C96D+3378253]
+	GetHandleVerifier [0x00007FF6620D8497+3688311]
+	GetHandleVerifier [0x00007FF6620CD1CB+3642539]
+	GetHandleVerifier [0x00007FF661E1A6B6+813462]
+	(No symbol) [0x00007FF661CDAB5F]
+	(No symbol) [0x00007FF661CD6B74]
+	(No symbol) [0x00007FF661CD6D10]
+	(No symbol) [0x00007FF661CC5C1F]
+	BaseThreadInitThunk [0x00007FFB433B7374+20]
+	RtlUserThreadStart [0x00007FFB4367CC91+33]
+</status>
+</test>
+<doc>PANDA API Regression Tests</doc>
+<status status="FAIL" starttime="20250206 13:08:37.821" endtime="20250206 13:08:45.310"/>
+</suite>
+<status status="FAIL" starttime="20250206 13:08:37.816" endtime="20250206 13:08:45.313"/>
+</suite>
+<status status="FAIL" starttime="20250206 13:08:37.813" endtime="20250206 13:08:45.314"/>
+</suite>
+<status status="FAIL" starttime="20250206 13:08:37.810" endtime="20250206 13:08:45.316"/>
+</suite>
+<status status="FAIL" starttime="20250206 13:08:37.807" endtime="20250206 13:08:45.318"/>
+</suite>
+<status status="FAIL" starttime="20250206 13:08:37.764" endtime="20250206 13:08:45.319"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">API</stat>
+<stat pass="0" fail="1" skip="0">API1</stat>
+<stat pass="0" fail="1" skip="0">Regression</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Userservices-Qa-Automation">Userservices-Qa-Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Panda-Qa">Userservices-Qa-Automation.Panda-Qa</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tests">Userservices-Qa-Automation.Panda-Qa.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="FollowWidget">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Regression">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1" name="API Automation">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.API Automation</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20250206 13:08:39.936" level="WARN">The chromedriver version (129.0.6668.100) detected in PATH at D:\Users\sasikumarj\AppData\Local\Programs\Python\Python312\Scripts\chromedriver.exe might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>

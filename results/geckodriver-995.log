@@ -1,0 +1,65 @@
+1739269147754	geckodriver	INFO	Listening on 127.0.0.1:58353
+1739269151160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofiledPFinI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739269151808	Marionette	INFO	Marionette enabled
+1739269152085	Marionette	INFO	Listening on port 58367
+Read port: 58367
+WebDriver BiDi listening on ws://127.0.0.1:58354
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739269152249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58354/devtools/browser/50285f82-97cd-418c-92c2-56f432a7c42a
+JavaScript error: https://www.s.dev.barrons.com/, line 154: ReferenceError: djSharedFunctions is not defined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 6232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739269176583	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://cdn.parsely.com/keys/barrons.com/p.js, line 7: Script terminated by timeout at:
+t.get@https://cdn.parsely.com/keys/barrons.com/p.js:7:31352
+getVisitorInfo@https://cdn.parsely.com/keys/barrons.com/p.js:7:33929
+getSession@https://cdn.parsely.com/keys/barrons.com/p.js:7:35584
+beacon@https://cdn.parsely.com/keys/barrons.com/p.js:7:64086
+e.engagedTime.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:43415
+i.sendHeartbeat@https://cdn.parsely.com/keys/barrons.com/p.js:7:41440
+i._sendHeartbeats@https://cdn.parsely.com/keys/barrons.com/p.js:7:41594
+i._setUnloadListeners/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:41747
+value/<@https://cdn.parsely.com/keys/barrons.com/p.js:7:22304
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:22277
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24351
+value@https://cdn.parsely.com/keys/barrons.com/p.js:7:24771
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.int.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7094 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22bundle%22:%22cCxG2l9EMnRkMUpkZU16UGhQbElqN1BycElnMHlJRGZpZjBLWWN3WG11NkNWdDFTYlVoT3QzWkglMkZ4dTJJMDhhQ3hSJTJCa1p6cHpMZW0wbWtSS2c4ZFZub2JnSlN4b3hNRGxpZmx1THU3WmZzdWZhQlBlVEF3NldmMzE2YUklMkJGMk4zMmxBakF5ZTByT0gwY0NQd3NBWEtHa2YwVVElM0QlM0Q%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6970288314782882%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.logPixel@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22bundle%22:%22cCxG2l9EMnRkMUpkZU16UGhQbElqN1BycElnMHlJRGZpZjBLWWN3WG11NkNWdDFTYlVoT3QzWkglMkZ4dTJJMDhhQ3hSJTJCa1p6cHpMZW0wbWtSS2c4ZFZub2JnSlN4b3hNRGxpZmx1THU3WmZzdWZhQlBlVEF3NldmMzE2YUklMkJGMk4zMmxBakF5ZTByT0gwY0NQd3NBWEtHa2YwVVElM0QlM0Q%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6970288314782882%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3418
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22bundle%22:%22cCxG2l9EMnRkMUpkZU16UGhQbElqN1BycElnMHlJRGZpZjBLWWN3WG11NkNWdDFTYlVoT3QzWkglMkZ4dTJJMDhhQ3hSJTJCa1p6cHpMZW0wbWtSS2c4ZFZub2JnSlN4b3hNRGxpZmx1THU3WmZzdWZhQlBlVEF3NldmMzE2YUklMkJGMk4zMmxBakF5ZTByT0gwY0NQd3NBWEtHa2YwVVElM0QlM0Q%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6970288314782882%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3152
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22bundle%22:%22cCxG2l9EMnRkMUpkZU16UGhQbElqN1BycElnMHlJRGZpZjBLWWN3WG11NkNWdDFTYlVoT3QzWkglMkZ4dTJJMDhhQ3hSJTJCa1p6cHpMZW0wbWtSS2c4ZFZub2JnSlN4b3hNRGxpZmx1THU3WmZzdWZhQlBlVEF3NldmMzE2YUklMkJGMk4zMmxBakF5ZTByT0gwY0NQd3NBWEtHa2YwVVElM0QlM0Q%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.6970288314782882%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+1739269207233	Marionette	INFO	Stopped listening on port 58367
+JavaScript warning: https://www.dianomi.com/js/contextfeed.js, line 1: Script terminated by timeout at:
+A@https://www.dianomi.com/js/contextfeed.js:1:6553
+Up/e/<@https://www.dianomi.com/js/contextfeed.js:1:308760
+Ap/a/</<@https://www.dianomi.com/js/contextfeed.js:1:305785
+Ap/a/<@https://www.dianomi.com/js/contextfeed.js:1:305890
+Pp@https://www.dianomi.com/js/contextfeed.js:1:304635
+u@https://www.dianomi.com/js/contextfeed.js:1:309076
+Up/Up/<@https://www.dianomi.com/js/contextfeed.js:1:309136
+Up@https://www.dianomi.com/js/contextfeed.js:1:309014
+Up@https://www.dianomi.com/js/contextfeed.js:1:309152
+Mp@https://www.dianomi.com/js/contextfeed.js:1:308478
+Lp/u/c.onload@https://www.dianomi.com/js/contextfeed.js:1:308217
+
+Dynamically enable window occlusion 1

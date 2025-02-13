@@ -22,10 +22,10 @@ Validate the follow button from articles page
     [Documentation]  This test case validates the follow button from articles page
     [Tags]  Smoke  Follow  Article  21
     IF  "${Env}" == "prod"
-        DefinedKeywords.Market Watch Sign In Process
+        DefinedKeywords.WSJ Sign In Process
     ELSE IF  "${Env}" == "dev"
        DefinedKeywords.WSJ Sign In Process
-        DefinedKeywords.Sign In Process
+        #DefinedKeywords.Sign In Process
     END
     WSJArticlePage.Validate Follow Button
     WSJArticlePage.Click Follow Button
@@ -62,13 +62,14 @@ Validate the follow button from articles page
 
 Validate the follow button from authors page
     [Documentation]  This test case validates the follow button from authors page
-    [Tags]  Smoke  Follow  Authors  47
+    [Tags]  Smoke  Follow  Authors  US-T47
 
     WSJArticlePage.Validate author hyperlink
     WSJArticlePage.Click author hyperlink
     DefinedKeywords.Set Implicit Wait
     WSJAuthorsPage.Validate Authors Page
     #WSJAuthorsPage.Validate Follow Button
+
 #US-T159
 #US-T97
 #US-T255

@@ -1,0 +1,52 @@
+1739085787510	geckodriver	INFO	Listening on 127.0.0.1:57659
+1739085791106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileYAmlYZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739085792252	Marionette	INFO	Marionette enabled
+1739085792556	Marionette	INFO	Listening on port 52389
+WebDriver BiDi listening on ws://127.0.0.1:57660
+Read port: 52389
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739085792897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57660/devtools/browser/7d0b3c4c-06ec-45db-8fba-82672c65327d
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xas85snz1vgxkd&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1739085802790&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xas9k3k51jj6nb&ckp=m6xas9i4g8e8kz89&glb=&amo=1720057500&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=43&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=89&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js, line 1: Script terminated by timeout at:
+78018/y/<@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:120500
+r@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:119996
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2030670385, line 456: Script terminated by timeout at:
+gD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2030670385:456:310
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_2030670385:454:29
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 196: Script terminated by timeout at:
+h.set@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:1349
+e@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:234:85
+f@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:234:297
+gd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:236:70
+r@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:232:905
+aD@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:696:149
+ZC/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:694:189
+hb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+ZC/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:694:168
+hb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+ZC@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:694:135
+$C/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:694:111
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 7219 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739085830741	Marionette	INFO	Stopped listening on port 52389
+Dynamically enable window occlusion 1

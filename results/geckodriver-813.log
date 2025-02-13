@@ -1,0 +1,125 @@
+1738955032545	geckodriver	INFO	Listening on 127.0.0.1:54573
+1738955035575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileiynUaO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738955036611	Marionette	INFO	Marionette enabled
+1738955036978	Marionette	INFO	Listening on port 54597
+WebDriver BiDi listening on ws://127.0.0.1:54574
+Read port: 54597
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738955037394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54574/devtools/browser/78265c1b-f082-4bee-8fd8-ab41b44cc7cc
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v4xqj5sn1kvgbh&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1738955050200&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v4xsdmyr97gd1e&ckp=m6v4xs5twap9g7z9&glb=&amo=1720057500&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=53&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=27&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1738955055982	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1738955062259	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+po@https://cdn.cxense.com/cx.js:6:54986
+ua@https://cdn.cxense.com/cx.js:6:70769
+fa/<@https://cdn.cxense.com/cx.js:6:71076
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830, line 97: Script terminated by timeout at:
+Pf@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:97:852
+fD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:452:40
+mD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:457:336
+kD.prototype.sendBeacon@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:458:118
+hD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:457:144
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1900264830:454:342
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 294: Script terminated by timeout at:
+_.xp@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:294:1601
+_.yp@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:294:2012
+Op@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:301:415
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:252
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 194: Script terminated by timeout at:
+h.has@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:194:415
+h.has@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:228:348
+qd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:244:264
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Yc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:230:429
+Sd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:257:88
+Td@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:257:227
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Yc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:230:429
+Ud@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:257:275
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Ud@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:257:338
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Md/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:254:468
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Yc.prototype.evaluate@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:230:429
+vd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:247:351
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+sd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:247:60
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Cd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:249:63
+Id@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:252:137
+Jd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:251:234
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+sd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:247:60
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Ud@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:257:338
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+Ka@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:668
+Ia@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:196:428
+Md/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:254:468
+h.invoke@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:229:314
+xL/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:855:835
+Ut@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:539:281
+h.un@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:823:277
+h.tn/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:820:531
+Bl@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:404:151
+zm@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:412:434
+h.tn/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:820:517
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:576:22
+bw@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:576:349
+h.tn@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:820:503
+c@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:837:673
+w@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:427:370
+jo@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:427:470
+io.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:430:357
+io.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:428:337
+ao@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:424:1702
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:838:187
+h.Jl/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:776:126
+h.Jl/c/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:775:418
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v4yfaxm4ldz7t5&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001&new=0&arf=0&ltm=1738955083605&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v4yi71okylun58&ckp=m6v4xs5twap9g7z9&glb=&amo=1658316780&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=53&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=27&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 2893 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738955085871	Marionette	INFO	Stopped listening on port 54597
+JavaScript warning: https://js.datadome.co/tags.js, line 2: Script terminated by timeout at:
+@https://js.datadome.co/tags.js:2:164851
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001:246:17759
+
+Dynamically enable window occlusion 1

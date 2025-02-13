@@ -1,0 +1,18 @@
+1738930568412	geckodriver	INFO	Listening on 127.0.0.1:65210
+1738930571386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileOqSSxg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738930572248	Marionette	INFO	Marionette enabled
+1738930572564	Marionette	INFO	Listening on port 65225
+WebDriver BiDi listening on ws://127.0.0.1:65211
+Read port: 65225
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738930572895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65211/devtools/browser/dbe47bef-29ac-4773-a55a-606920efd899
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 2201 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uqdbyovqgn4twb&sid=1133979867428110118&loc=https%3A%2F%2Fwww.penews.com%2Farticles%2Flp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622&new=1&arf=0&ltm=1738930581459&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uqdc0k8tc213cn&ckp=m6uqdbyo4npohiw2&glb=&amo=1655890080&cp_userState=anon&cp_testGroup=66&cp_topDomain=penews.com&cp_type=Analysis&cp_template=preview&cp_access=paid&cp_section=Analysis&cp_subsection=Analysis&cp_cms_name=Wordpress&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=7&cp_ab_bucket=47&cp_pageContentSource=Private%20Equity%20News&cp_pageContentType=Article&cp_pageContentTypeDetai=article&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1738930584666	Marionette	INFO	Stopped listening on port 65225
+Dynamically enable window occlusion 1

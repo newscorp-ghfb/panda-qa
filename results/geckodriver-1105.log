@@ -1,0 +1,31 @@
+1739463827949	geckodriver	INFO	Listening on 127.0.0.1:59468
+1739463830653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileoXGwsO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739463832231	Marionette	INFO	Marionette enabled
+1739463832887	Marionette	INFO	Listening on port 59582
+WebDriver BiDi listening on ws://127.0.0.1:59469
+Read port: 59582
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739463833530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59469/devtools/browser/0dfff021-d692-4653-a264-2ded508c9301
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+getRequestURL@https://sso.accounts.dowjones.com/datadome/tags.js:2:29568
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:168933
+Bc@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:201:286
+Ax@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:593:277
+pJ@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:774:225
+rJ.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:780:116
+h.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:798:243
+NK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:811:210
+h.Il/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:749:126
+h.Il/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:748:418
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m73jv6koqk6y6v2c&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Ffollow&new=1&arf=0&ltm=1739463852555&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m73jv6m6qgyqxuez&ckp=m73jv6kou2svuwmh&glb=&eid0=5616740b5300a7250d12bc50017020dee93adf3b70eb11dbe71d4504b2bf9962&eit0=wsj&cp_userState=anon&cp_testGroup=14&cp_topDomain=barrons.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=&cp_cms_name=&cp_subscriber=subscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=22&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=BARRONS-SUB&cp_sessionState=ca&cp_u_knownSubscriber=1, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+1739463857737	Marionette	INFO	Stopped listening on port 59582
+Dynamically enable window occlusion 1

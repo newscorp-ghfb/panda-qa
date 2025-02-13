@@ -1,0 +1,32 @@
+1738956875853	geckodriver	INFO	Listening on 127.0.0.1:57555
+1738956878863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57556" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile07z32p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738956879642	Marionette	INFO	Marionette enabled
+1738956879948	Marionette	INFO	Listening on port 57569
+WebDriver BiDi listening on ws://127.0.0.1:57556
+Read port: 57569
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738956880268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57556/devtools/browser/e407dd0b-2081-42a5-8a37-610b31853414
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1738956890995	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v617az8i5pkqz8&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1738956889431&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v617kggquoxu7l&ckp=m6v617az1k41dld8&glb=&cp_userState=anon&cp_testGroup=99&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=22&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 983 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1738956907985	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1738956908784	Marionette	INFO	Stopped listening on port 57569
+JavaScript warning: https://video-api.wsj.com/api-video/player/v3/js/video.min.js, line 14: Script terminated by timeout at:
+f@https://video-api.wsj.com/api-video/player/v3/js/video.min.js:14:19007
+k@https://video-api.wsj.com/api-video/player/v3/js/video.min.js:14:20308
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17759
+
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UpdateService.sys.mjs, line 5398: 
+1738956910164	addons.xpi	ERROR	System addon update list error [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 126"  data: no]
+console.error: (new Error("Polling for changes failed: .", "resource://services-settings/remote-settings.sys.mjs", 430))
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))

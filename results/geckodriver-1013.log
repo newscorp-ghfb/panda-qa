@@ -1,0 +1,40 @@
+1739413598252	geckodriver	INFO	Listening on 127.0.0.1:62072
+1739413601302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62073" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileqXxDIV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739413601923	Marionette	INFO	Marionette enabled
+1739413602231	Marionette	INFO	Listening on port 62085
+WebDriver BiDi listening on ws://127.0.0.1:62073
+Read port: 62085
+1739413602452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:62073/devtools/browser/639a3c36-ce89-4796-bbc9-9a4522dc93d6
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72pyai0q0bcu4pg&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1739413609136&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72pyak0ead1dnvf&ckp=m72pyai0qdjqvzd6&glb=&cp_userState=anon&cp_testGroup=55&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=5&cp_ab_bucket=85&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+console.error: (new TypeError("this.contentWindow is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1193))
+console.error: (new TypeError("this.contentWindow is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1193))
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 4401 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 377: TypeError: can't access dead object
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_455518799, line 11: Script terminated by timeout at:
+v@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_455518799:11:367
+jD/this.T@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_455518799:454:37
+
+JavaScript warning: https://www.youtube-nocookie.com/s/player/e7567ecf/www-embed-player.vflset/www-embed-player.js, line 960: Script terminated by timeout at:
+R@https://www.youtube-nocookie.com/s/player/e7567ecf/www-embed-player.vflset/www-embed-player.js:960:226
+@https://www.youtube-nocookie.com/s/player/e7567ecf/www-embed-player.vflset/www-embed-player.js:2009:52
+km/<@https://www.youtube-nocookie.com/s/player/e7567ecf/www-embed-player.vflset/www-embed-player.js:939:63
+
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js, line 114: Script terminated by timeout at:
+i.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:4276
+C@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:1597
+i._initialize/<@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:4912
+d@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:30:158
+
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 7396 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739413635655	Marionette	INFO	Stopped listening on port 62085
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/2OLqLGNr0zHDpmEvPVsLweQktEaAqFW_L2mqSHTdR30.js line 2 > eval line 7522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

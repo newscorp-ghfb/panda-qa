@@ -1,0 +1,48 @@
+1738919996839	geckodriver	INFO	Listening on 127.0.0.1:57933
+1738919999895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57934" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilejLwAYC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738920000524	Marionette	INFO	Marionette enabled
+1738920000838	Marionette	INFO	Listening on port 57948
+WebDriver BiDi listening on ws://127.0.0.1:57934
+Read port: 57948
+1738920000963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:57934/devtools/browser/5517e1ed-ce15-41b6-80ac-c868dfeee628
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 5863 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uk2qcdp9e553sw&sid=1139592114930554183&loc=https%3A%2F%2Fwww.fnlondon.com%2Farticles%2Fcomplaints-commissioner-fca-transparency-20220615&new=1&arf=0&ltm=1738920009187&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uk2qh39y4qqc4x&ckp=m6uk2qcdoqnwh67d&glb=&amo=1677944280&cp_userState=anon&cp_testGroup=35&cp_topDomain=fnlondon.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=6&cp_type=Politics&cp_template=preview&cp_access=paid&cp_section=Politics&cp_subsection=Politics&cp_cms_name=Wordpress&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=8&cp_ab_bucket=98&cp_pageContentSource=FN%20London&cp_pageContentType=Article&cp_pageContentTypeDetai=article&cp_pageSiteProduct=FN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 131: Script terminated by timeout at:
+hh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:286
+tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+pg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Tb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+pg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+pg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Tb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+pg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-1.281.0.min.js, line 2: Script terminated by timeout at:
+F@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:94840
+3922/triggerHarvestFor/</<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:97583
+3922/triggerHarvestFor/<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:98167
+triggerHarvestFor@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95802
+3922/C/t/<@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95089
+t@https://js-agent.newrelic.com/nr-spa-1.281.0.min.js:2:95072
+2843/i/<@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:15847
+nrWrapper@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:17759
+
+1738920526893	Marionette	INFO	Stopped listening on port 57948
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

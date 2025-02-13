@@ -1,0 +1,45 @@
+1738955992534	geckodriver	INFO	Listening on 127.0.0.1:64665
+1738955995795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileUISdwY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738955996648	Marionette	INFO	Marionette enabled
+1738955996911	Marionette	INFO	Listening on port 54315
+WebDriver BiDi listening on ws://127.0.0.1:64666
+Read port: 54315
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738955997186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64666/devtools/browser/aa37bf36-0f84-4315-adb5-3923f458ebfd
+JavaScript error: https://www.s.dev.barrons.com/, line 154: ReferenceError: djSharedFunctions is not defined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6v5iaipnm2yt3ak&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2F&new=1&arf=0&ltm=1738956007116&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6v5idhp5ltuyz8u&ckp=m6v5iaipeufuq6fk&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://pbcs.barrons.com/s/dj/barrons/pb.js, line 827: TypeError: can't convert undefined to object
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.4826071172002968%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.4826071172002968%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.4826071172002968%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript error: https://www.s.dev.barrons.com/articles/buy-rockwell-automation-stock-pick-price-cc120733?mod=stock_picks_lp, line 162: ReferenceError: djSharedFunctions is not defined
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 7ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 4487 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738956024126	Marionette	INFO	Stopped listening on port 54315
+JavaScript warning: https://www.dianomi.com/cdn-cgi/challenge-platform/scripts/jsd/main.js, line 1: Script terminated by timeout at:
+a@https://www.dianomi.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:6638
+@https://www.dianomi.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:93
+@https://www.dianomi.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:354
+@https://www.dianomi.com/cdn-cgi/challenge-platform/scripts/jsd/main.js:1:8391
+
+JavaScript warning: https://cdn.ampproject.org/rtv/032502032353000/amp4ads-v0.mjs, line 2: Script terminated by timeout at:
+km@https://cdn.ampproject.org/rtv/032502032353000/amp4ads-v0.mjs:2:139320
+ar@https://cdn.ampproject.org/rtv/032502032353000/amp4ads-v0.mjs:2:83342
+Or/this.cr@https://cdn.ampproject.org/rtv/032502032353000/amp4ads-v0.mjs:2:83088
+Do/delay/<@https://cdn.ampproject.org/rtv/032502032353000/amp4ads-v0.mjs:2:107338
+
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

@@ -1,0 +1,29 @@
+1739268497229	geckodriver	INFO	Listening on 127.0.0.1:55431
+1739268500285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55432" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileFnnY2E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739268501182	Marionette	INFO	Marionette enabled
+1739268501446	Marionette	INFO	Listening on port 55459
+Read port: 55459
+WebDriver BiDi listening on ws://127.0.0.1:55432
+1739268501582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:55432/devtools/browser/66a4ee03-e11e-47cc-a4d1-4da1b6f003ea
+JavaScript warning: https://pbc.marketwatch.com/p/dj/marketwatch/pb.js, line 14: Script terminated by timeout at:
+o@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:135284
+resolve@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:136338
+@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:138442
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:138628
+add@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:138707
+5023/t.emit/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:65574
+5023/t.emit@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:65794
+T@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:120368
+G@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:122647
+8044/timeout/i<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:30848
+nrWrapper@https://www.marketwatch.com/:358:17759
+
+1739268602855	Marionette	INFO	Stopped listening on port 55459
+Dynamically enable window occlusion 1
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown

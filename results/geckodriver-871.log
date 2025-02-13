@@ -1,0 +1,54 @@
+1739033888399	geckodriver	INFO	Listening on 127.0.0.1:52169
+1739033891460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilec9wWKR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739033892107	Marionette	INFO	Marionette enabled
+1739033892355	Marionette	INFO	Listening on port 52184
+WebDriver BiDi listening on ws://127.0.0.1:52170
+Read port: 52184
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739033892515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52170/devtools/browser/c9befe15-d9c0-41b1-a022-3e26543f3f30
+JavaScript error: https://www.s.dev.barrons.com/, line 154: ReferenceError: djSharedFunctions is not defined
+console.error: ({})
+console.error: ({})
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wfvvvv9dc3c21z&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2F&new=1&arf=0&ltm=1739033903661&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wfvw9jeahjbrgs&ckp=m6wfvvvvnhkt60bg&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://cdn.tinypass.com/api/tinypass.min.js, line 1: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 11ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 6639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 377: TypeError: can't access dead object
+1739033924069	Marionette	INFO	Stopped listening on port 52184
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":30,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":29,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":29,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":665,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":665,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":665,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":665,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":665,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":27,"lineNumber":730,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54|
+  - prototype Object
+console.warn: services.settings: main/nimbus-secure-experiments sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.warn: services.settings: main/url-parser-default-unknown-schemes-interventions sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/language-dictionaries getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

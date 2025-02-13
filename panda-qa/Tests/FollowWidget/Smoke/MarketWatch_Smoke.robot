@@ -53,7 +53,7 @@ Validate the follow button from authors page
 #US-T258
 Validate the Market Watch Preference Center page
     [Documentation]  This test case validates the barrons preference center page
-    [Tags]  Smoke  PreferenceCenter        TagMWPC
+    [Tags]  Smoke  PreferenceCenter        US-T90
 
     MarketWatchPreferenceCenterPage.Navigate Preference Center page
     Set Selenium Implicit Wait  20

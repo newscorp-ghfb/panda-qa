@@ -1,0 +1,40 @@
+1739268923534	geckodriver	INFO	Listening on 127.0.0.1:57521
+1739268926569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57522" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilepmPMeD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739268927214	Marionette	INFO	Marionette enabled
+1739268927484	Marionette	INFO	Listening on port 57534
+Read port: 57534
+WebDriver BiDi listening on ws://127.0.0.1:57522
+1739268927606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:57522/devtools/browser/0fe8d93a-ca78-4b6c-b1e0-4c3ee87c3291
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m70btdfpljbnxbok&sid=1134002947328204066&loc=https%3A%2F%2Fwww.s.dev.wsj.com%2F&new=1&arf=0&ltm=1739268932680&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m70btdjte72dojuk&ckp=m70btdfpfwmpl7fx&glb=&cp_userState=anon&cp_testGroup=77&cp_env=staging&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=3&cp_ab_bucket=63&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+1739268940732	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 4897 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.wsj.com/election/_next/static/chunks/main-c0569e4635de2e62.js, line 1: unreachable code after return statement
+JavaScript warning: https://secure-us.imrworldwide.com/v60.js, line 1: Script terminated by timeout at:
+NolTracker.prototype.pause@https://secure-us.imrworldwide.com/v60.js:1:23885
+NolTracker.prototype.postLinkTrack@https://secure-us.imrworldwide.com/v60.js:1:17653
+NolTracker.prototype.linkTrack@https://secure-us.imrworldwide.com/v60.js:1:18191
+u.send@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.312.js?utv=ut4.46.202308021508:7:180
+sendTag@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:86:175
+trigger@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:87:347
+track@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:77:52
+link@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:76:220
+CQAi/t.exports/<@https://www.s.dev.wsj.com/__CDN_PLACEHOLDER__/df75ecbe-d976-4cce-ab9c-206ce94bfd81.e446b0c9f21a93.js:1:9466
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.int.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m70bu37w1gw158ko&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Fpreference-center%2Falerts%3Falert%3Dsection%26id%3Dtech%252Fai&new=0&arf=0&ltm=1739268966098&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m70bu3cbfpzw6g59&ckp=m70btdfpfwmpl7fx&glb=&eid0=e4cefa22ef027cc0132f0c218da37da39cdb3228234af4df969b5c463592e123&eit0=wsj&cp_userState=anon&cp_testGroup=77&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-candybar&cp_pwCampaign=116&cp_pwType=free&cp_template=full&cp_access=paid&cp_section=Preference%20Center&cp_subsection=Alerts&cp_cms_name=servo&cp_subscriber=registered&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=WSJ%20Online&cp_pageContentType=CustomerResources&cp_pageContentTypeDetai=preference-center&cp_pageSiteProduct=WSJ&cp_userTags=BARRONS-SUB&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1739268967857	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1739268971412	Marionette	INFO	Stopped listening on port 57534
+Dynamically enable window occlusion 1

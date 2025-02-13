@@ -224,10 +224,10 @@ Validate Watchlist for non-logged user
 
 
 Validate Quote Page
-    Page Should Contain Element  //html/body/div[3]/div/div/div[4]/div[1]/div[1]/h1
+    Page Should Contain Element  //*[@id="__next"]/div/div/div[4]/div[1]/div[2]/div[1]/dj-add-to-watchlist  #//html/body/div[3]/div/div/div[4]/div[1]/div[1]/h1
 #    Execute javascript  window.scrollTo(0,500)
-    Set Focus To Element  dom:${JSAddToListButtonBarronsPath}
-    Click Element  dom:${JSAddToListButtonBarronsPath}
+    #Set Focus To Element  dom:${JSAddToListButtonBarronsPath}
+    Click Element  //*[@id="__next"]/div/div/div[4]/div[1]/div[2]/div[1]/dj-add-to-watchlist  #dom:${JSAddToListButtonBarronsPath}
 
 #Click Create Button
 #  Click Button  dom:${JSCreateListButtonBarronsPath}

@@ -1,0 +1,22 @@
+1738918526367	geckodriver	INFO	Listening on 127.0.0.1:49408
+1738918529439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilePLVMEQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738918530063	Marionette	INFO	Marionette enabled
+1738918530333	Marionette	INFO	Listening on port 49423
+WebDriver BiDi listening on ws://127.0.0.1:49409
+Read port: 49423
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1738918530477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49409/devtools/browser/af4ecad6-f173-4d1a-891b-97125e4ce617
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6uj762wmurbgi5f&sid=1139592114930554183&loc=https%3A%2F%2Fwww.fnlondon.com%2F&new=1&arf=0&ltm=1738918536588&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6uj76d9b6wu3yrn&ckp=m6uj762w9dtw291c&glb=&cp_userState=anon&cp_testGroup=17&cp_topDomain=fnlondon.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=6&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=2&cp_ab_bucket=22&cp_pageContentSource=FN%20London&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=FN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dKsKVnRDvnN7x3_VHBWCXOB1uWbHu1pWqkNfYXa-ZYg.js line 2 > eval line 947 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615, line 306: Script terminated by timeout at:
+nrWrapper@https://www.fnlondon.com/articles/complaints-commissioner-fca-transparency-20220615:306:17609
+
+1738920526751	Marionette	INFO	Stopped listening on port 49423
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: AbortError: The operation was aborted. 

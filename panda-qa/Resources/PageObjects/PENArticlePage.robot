@@ -59,13 +59,13 @@ Click Following Button
     Wait Until Element Contains  dom:${JSFollowButtonPENPath}  Follow  timeout=15
 
 Validate Sign In Modal
-    Wait Until Element is Visible  dom:${JSFollowSignInHeaderPath}
-    Page Should Contain Element  dom:${JSFollowSignInHeaderPath}
+    Wait Until Element is Visible  //*[@id="signin-link"]  #dom:${JSFollowSignInHeaderPath}
+    Page Should Contain Element  //*[@id="signin-link"]  #dom:${JSFollowSignInHeaderPath}
 
 Click Sign In Button Modal
-    Wait Until Element is Visible  dom:${JSFollowSignInHeaderPath}
-    Wait Until Element is Visible  dom:${JSFollowSignInButtonPath}
-    Click Element  dom:${JSFollowSignInButtonPath}
+    Wait Until Element is Visible  //*[@id="signin-link"]  #dom:${JSFollowSignInHeaderPath}
+    Wait Until Element is Visible  //*[@id="signin-link"]  #dom:${JSFollowSignInButtonPath}
+    Click Element  //*[@id="signin-link"]  #dom:${JSFollowSignInButtonPath}
 
 Click Undo Link
     Wait Until Element is Visible  dom:${JSUndoButtonPENPath}

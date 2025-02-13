@@ -1,0 +1,81 @@
+1739264871953	geckodriver	INFO	Listening on 127.0.0.1:57565
+1739264874999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileYuiP3c"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739264875622	Marionette	INFO	Marionette enabled
+1739264875899	Marionette	INFO	Listening on port 57578
+WebDriver BiDi listening on ws://127.0.0.1:57566
+Read port: 57578
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739264876132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57566/devtools/browser/31ddc5ef-e06a-4b11-8adf-8fc4e8594d63
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m709emzqn7f8olld&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2F&new=1&arf=0&ltm=1739264885995&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m709en60ov7c4hw3&ckp=m709emzqnwzhn3vi&glb=&cp_userState=anon&cp_testGroup=25&cp_topDomain=wsj.com&cp_template=full&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=20&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+1739264889196	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.48030587720606643%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.48030587720606643%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.wsj.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.48030587720606643%22,%22tld%22:%22www.wsj.com%22,%22topUrl%22:%22www.wsj.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7772 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 1870 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 3464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 4338 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7777 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 3754 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 3969 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+JavaScript error: https://www.wsj.com/static_html_files/bluegrass/2.2.119/bluegrass2.min.js, line 1: TypeError: e.xhrFields is undefined
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://www.wsj.com/" ({})
+[GFX1-]: CompositorBridgeChild receives IPC close with[G[GFX1-]: CompositorBridgeChild[GFX1-]: Composito[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShu[GFX1-]: CompositorBridgeChil[GFX1-]: Composito[GF[GFX1-]: CompositorB[GFX1-]: Compo[GFX1-]: CompsitorBridgeChild receives IPC close with reason=AbnormalShutdown
+  [GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+FrBridgeChild receives IPC close with reason=AbnormalShutdown
+X[d receives IPC close with reason=AbnormalShutdown
+ridgeChild receives IPC close[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+reason=AbnormalShutdown
+rBridgeChild receives IPC close with reason=AbnormalShutdown
+ with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+tdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+ositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

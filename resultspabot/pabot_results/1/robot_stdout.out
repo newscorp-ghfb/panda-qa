@@ -1,7 +1,7 @@
 
-20:38:15 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:21:43 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-20:38:17 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+13:21:44 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Userservices-Qa-Automation                                                    
 ==============================================================================
@@ -13,127 +13,56 @@ Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget
 ==============================================================================
 Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression             
 ==============================================================================
-Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.MarketWat...
+Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.PEN Regre...
 ==============================================================================
-Validate the Market Watch Preference Center page :: This test case... 
-20:38:23 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Setup failed:
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate Authors for MarketWatch Article page without byline :: Th... 
-20:38:58 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:39:32 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Page should have contained element '//div[1]/div[1]/div[1]/div/header/h1[contains(., 'Catey Hill')]' but did not.
-------------------------------------------------------------------------------
-Validate the Watchlist widget from Watchlist page :: This test cas... 
-20:40:18 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Setup failed:
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate the MarketWatch price and volume on the alerts page :: Th... 
-20:40:57 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
-------------------------------------------------------------------------------
-Validate the MarketWatch price and volume alert in Quote page :: T... 
-20:42:12 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
-------------------------------------------------------------------------------
-Validate the MarketWatch price and volume alert deletion on Quote ... 
-20:43:08 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Element '//*[@id="__next"]/div[2]/div/div/div/div/a/span' not visible after 5 seconds.
-------------------------------------------------------------------------------
-Validate the MW digest notification :: This test case validates th... 
-20:43:57 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the PEN Preference Center page :: This test case validate... 
+13:21:48 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:45:31 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate Authors for PEN Article page without byline :: This test ... 
+13:23:59 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:46:11 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter MwTheMoneyist :: This test cas... 
-20:46:31 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:47:16 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:47:35 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Setup failed:
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:48:16 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Setup failed:
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:49:05 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:49:44 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:50:02 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:51:19 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the MarketWatch Newsletter :: This test case validates th... 
-20:51:42 [browserstack_sdk.__init__][INFO] - Completed setup!
-
-20:52:43 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-WebDriverException: Message: Session not started or terminated
-------------------------------------------------------------------------------
-Validate the MW real-time author notification :: This test case va... 
-20:53:03 [browserstack_sdk.__init__][INFO] - Completed setup!
+13:24:25 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
-Validate the MW real-time company notification :: This test case v... 
-20:55:12 [browserstack_sdk.__init__][INFO] - Completed setup!
+Validate the PEN digest notification :: This test case validates t... 
+13:26:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+| FAIL |
+Setup failed:
+TimeoutException: Message: script timeout
+  (Session info: chrome=132.0.6834.84)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7AF03FBE5+28741]
+	(No symbol) [0x00007FF7AEFA7890]
+	(No symbol) [0x00007FF7AEE44E09]
+	(No symbol) [0x00007FF7AEEE13C6]
+	(No symbol) [0x00007FF7AEEBFF0A]
+	(No symbol) [0x00007FF7AEEE00B4]
+	(No symbol) [0x00007FF7AEEBFCB3]
+	(No symbol) [0x00007FF7AEE89FB3]
+	(No symbol) [0x00007FF7AEE8B331]
+	GetHandleVerifier [0x00007FF7AF37A73D+3414941]
+	GetHandleVerifier [0x00007FF7AF38E64A+3496618]
+	GetHandleVerifier [0x00007FF7AF38413D+3454365]
+	GetHandleVerifier [0x00007FF7AF10848B+850155]
+	(No symbol) [0x00007FF7AEFB37FF]
+	(No symbol) [0x00007FF7AEFAF0C4]
+	(No symbol) [0x00007FF7AEFAF25D]
+	(No symbol) [0x00007FF7AEF9E079]
+	BaseThreadInitThunk [0x00007FFE975F7034+20]
+	RtlUserThreadStart [0x00007FFE994C2651+33]
+------------------------------------------------------------------------------
+Validate the PEN real-time author notification :: This test case v... 
+13:27:34 [browserstack_sdk.__init__][INFO] - Completed setup!
+| PASS |
+------------------------------------------------------------------------------
+Validate the PEN real-time company notification :: This test case ... 
+13:29:43 [browserstack_sdk.__init__][INFO] - Completed setup!
 | PASS |
 ------------------------------------------------------------------------------
 Validate Postback on Preference Center :: This test case validates... 
-20:57:00 [browserstack_sdk.__init__][INFO] - Completed setup!
-| FAIL |
-Setup failed:
-TimeoutException: Message: A script did not complete before its timeout expired.
-------------------------------------------------------------------------------
-Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.... | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression     | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget                | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Userservices-Qa-Automation.Panda-Qa.Tests                             | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Userservices-Qa-Automation.Panda-Qa                                   | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Userservices-Qa-Automation                                            | FAIL |
-17 tests, 3 passed, 14 failed
-==============================================================================
-Output:  D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\resultspabot\pabot_results\1\output.xml
+13:31:46 [browserstack_sdk.__init__][INFO] - Completed setup!
 
-20:57:34 [browserstack_sdk.__init__][INFO] - Handling session close
+13:36:31 [browserstack_sdk.__init__][INFO] - Handling session close
 
-20:57:40 [browserstack_sdk.__init__][INFO] - All done!
+13:36:32 [browserstack_sdk.__init__][INFO] - All done!

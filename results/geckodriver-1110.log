@@ -1,0 +1,29 @@
+1739463989046	geckodriver	INFO	Listening on 127.0.0.1:53685
+1739463992282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileiPlytQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739463995838	Marionette	INFO	Marionette enabled
+1739463996477	Marionette	INFO	Listening on port 53810
+WebDriver BiDi listening on ws://127.0.0.1:53686
+Read port: 53810
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739463996854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53686/devtools/browser/e3595d89-3871-44b8-8a81-bb118175d5b0
+console.error: ({})
+console.error: ({})
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m73jyg1d3wl0ayr2&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2F&new=1&arf=0&ltm=1739464004788&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m73jyi50wffvhcds&ckp=m73jyg1dslxdok1r&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://cdn.tinypass.com/api/tinypass.min.js, line 1: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://js-agent.newrelic.com/nr-1044.min.js, line 1: Script terminated by timeout at:
+r@https://js-agent.newrelic.com/nr-1044.min.js:1:22526
+[15]</r/<@https://js-agent.newrelic.com/nr-1044.min.js:1:9115
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.09665810811098785%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.09665810811098785%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.09665810811098785%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 5ms)
+1739464030511	Marionette	INFO	Stopped listening on port 53810
+Dynamically enable window occlusion 1

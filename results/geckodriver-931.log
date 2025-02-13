@@ -1,0 +1,33 @@
+1739093906969	geckodriver	INFO	Listening on 127.0.0.1:61306
+1739093910015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilemyk14l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739093910627	Marionette	INFO	Marionette enabled
+1739093910882	Marionette	INFO	Listening on port 61319
+WebDriver BiDi listening on ws://127.0.0.1:61307
+Read port: 61319
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739093911158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61307/devtools/browser/fc984a1c-e118-4ef8-b821-45d823335adf
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js, line 1: Script terminated by timeout at:
+78018/y/<@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:120500
+r@https://www.dev.wsj.com/_next/static/chunks/main-f71735cd0fa4d778.js:1:119996
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_69712842, line 456: Script terminated by timeout at:
+gD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_69712842:456:310
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_69712842:454:29
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+1739093930704	Marionette	INFO	Stopped listening on port 61319
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function

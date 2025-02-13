@@ -1,0 +1,23 @@
+1739264753972	geckodriver	INFO	Listening on 127.0.0.1:57159
+1739264757298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57160" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileWwErIO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739264759057	Marionette	INFO	Marionette enabled
+1739264759558	Marionette	INFO	Listening on port 57301
+WebDriver BiDi listening on ws://127.0.0.1:57160
+Read port: 57301
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739264760099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57160/devtools/browser/4bd4f775-9ed2-4fc3-88d0-157d93ac1901
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.wsj.com/, line 194: Script terminated by timeout at:
+emit@https://www.wsj.com/:194:9509
+Me/i.prototype.then@https://www.wsj.com/:194:53058
+
+JavaScript warning: https://newscorp.okta.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://newscorp.okta.com."
+1739264815511	Marionette	INFO	Stopped listening on port 57301
+Dynamically enable window occlusion 1

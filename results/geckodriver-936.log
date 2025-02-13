@@ -1,0 +1,69 @@
+1739094615726	geckodriver	INFO	Listening on 127.0.0.1:58653
+1739094618796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58654" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileaJXGF4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739094619434	Marionette	INFO	Marionette enabled
+1739094619679	Marionette	INFO	Listening on port 58665
+WebDriver BiDi listening on ws://127.0.0.1:58654
+Read port: 58665
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739094619912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58654/devtools/browser/223637c7-04d4-4870-a774-b51858bac44a
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: XHR Failed fetching (https://news.google.com/...): (Note: a CORS error above may indicate that this publisher or domain is not configured in Publisher Center. The CORS error happens because 4xx responses do not set CORS headers.)
+
+TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xg1fbpj35n2bkv&sid=1134002947328204066&loc=https%3A%2F%2Fwww.dev.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1739094630014&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xg1go0ldl6gea8&ckp=m6xg1gmyq3047jrr&glb=&amo=1720057500&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=79&cp_env=staging&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=5&cp_ab_bucket=55&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://news.google.com/swg/js/v1/swg.js, line 17: Error: Error: not allowed
+JavaScript warning: https://pbcs.wsj.com/s/dj/wsj/pb.js, line 2632: Script terminated by timeout at:
+setHbKeyValue@https://pbcs.wsj.com/s/dj/wsj/pb.js:2632:23
+./src/common/Utils.js/setHbKeyValue/<@https://pbcs.wsj.com/s/dj/wsj/pb.js:2643:20
+
+JavaScript warning: https://fpt.live.com/?session_id=ea3e299262bb4fdfb9284951edbf28d0&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1739094652739	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_44cd24035cb31cfc94c2.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 396: Script terminated by timeout at:
+ad@https://cdn.adnxs.com/v/s/247/trk.js:396:16
+_c@https://cdn.adnxs.com/v/s/247/trk.js:184:31
+yi@https://cdn.adnxs.com/v/s/247/trk.js:299:20
+_.lb@https://cdn.adnxs.com/v/s/247/trk.js:560:16866
+nh@https://cdn.adnxs.com/v/s/247/trk.js:404:85
+Th@https://cdn.adnxs.com/v/s/247/trk.js:450:65
+uc@https://cdn.adnxs.com/v/s/247/trk.js:248:34
+oc@https://cdn.adnxs.com/v/s/247/trk.js:539:181
+_.L@https://cdn.adnxs.com/v/s/247/trk.js:560:3759
+Cc@https://cdn.adnxs.com/v/s/247/trk.js:449:27
+_.B@https://cdn.adnxs.com/v/s/247/trk.js:560:3303
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.29281178664940133%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.29281178664940133%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.29281178664940133%22}:13:3642
+
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.B@https://cdn.adnxs.com/v/s/247/trk.js:560:3283
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1376
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+1739094707249	Marionette	INFO	Stopped listening on port 58665
+JavaScript warning: https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js, line 1: Script terminated by timeout at:
+386666/</a9/</<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:121411
+er@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:31461
+386666/</a9/<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:121319
+er@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:31552
+a9@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:121300
+386666/</rr.refresh@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:127381
+62167/refresh/<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:6772
+386666/</rr.anq.push@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.5232.m.d529f0e1.js:1:124039
+refresh@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:6562
+62167/et/ee</<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:8625
+62167/et/ee<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:8665
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NetworkError: AutoCancel

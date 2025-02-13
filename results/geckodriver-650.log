@@ -1,0 +1,86 @@
+1738238745068	geckodriver	INFO	Listening on 127.0.0.1:60526
+1738238748146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilelwVV1K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738238748712	Marionette	INFO	Marionette enabled
+1738238748945	Marionette	INFO	Listening on port 60551
+Read port: 60551
+WebDriver BiDi listening on ws://127.0.0.1:60527
+1738238749079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:60527/devtools/browser/34c12812-b89b-460b-b9ee-8d6c24d2b0c2
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 41ms)
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6jah6yqadgtw9r5&sid=9222325317970825875&loc=https%3A%2F%2Fwww.s.dev.barrons.com%2F&new=1&arf=0&ltm=1738238759813&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6jah7zdjd1mx3ga&ckp=m6jah6yqmgplpawc&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 8ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 5233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1738238770073	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 80: Script terminated by timeout at:
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:601
+Re/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1079
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+ih/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:320
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:127
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+ih/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:131:292
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+T/</</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:102:355
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Re/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1063
+L/this.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:888
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+qg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Sa.prototype.Ub/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+qg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Fd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:903
+cd.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:89:1293
+e@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:141:132
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:136:111
+Dh/v@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:136:434
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://sso.int.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.int.accounts.dowjones.com/datadome/tags.js:2:161129
+
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/f89w5pQmj55lM9pppFafBIlbrgB1IQ820KqNheYv9Co.js line 2 > eval line 5597 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.08428475361485821%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.08428475361485821%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.08428475361485821%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+o@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18291
+104/e.onLCP/</c<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18393
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11636
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D, line 1: Script terminated by timeout at:
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:13833
+t@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:13850
+N@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:18318
+B@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:15082
+
+1738238798085	Marionette	INFO	Stopped listening on port 60551
+Dynamically enable window occlusion 1

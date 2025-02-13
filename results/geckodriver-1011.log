@@ -1,0 +1,73 @@
+1739413435836	geckodriver	INFO	Listening on 127.0.0.1:59398
+1739413438893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2K4CcI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739413439641	Marionette	INFO	Marionette enabled
+1739413439952	Marionette	INFO	Listening on port 59413
+WebDriver BiDi listening on ws://127.0.0.1:59399
+Read port: 59413
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739413440328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59399/devtools/browser/de7d3c0e-4921-4ca1-a616-44412bb60af9
+JavaScript error: https://www.barrons.com/asset/dj-watchlist/v1.14.3/p-0633e57d.entry.js, line 11: TypeError: Error.captureStackTrace is not a function
+JavaScript warning: https://js-agent.newrelic.com/nr-1044.min.js, line 1: Script terminated by timeout at:
+r@https://js-agent.newrelic.com/nr-1044.min.js:1:22526
+[15]</r/<@https://js-agent.newrelic.com/nr-1044.min.js:1:9115
+
+console.error: ({})
+console.error: ({})
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72pux06yxxs3ak4&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Farticles%2Fwendys-wen-stock-earnings-51652268634&new=1&arf=0&ltm=1739413451674&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72puxd0t9rabcrq&ckp=m72pux06z1pgwtc1&glb=&amo=1652281620&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 3965 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1739413456220	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1739413456271	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1739413456428	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js, line 33: Script terminated by timeout at:
+_.w@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:159851
+IU.prototype.dispatchEvent/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:335531
+XB@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:161562
+ZB/this.next@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:161861
+$B/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:162274
+nrWrapper@https://www.barrons.com/articles/wendys-wen-stock-earnings-51652268634:129:17759
+e@https://www.barrons.com/articles/wendys-wen-stock-earnings-51652268634:129:52209
+$B@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:162159
+_.Gg@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:162309
+IU.prototype.dispatchEvent@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:335233
+VA@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:153972
+eT.prototype.g@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:299060
+WS.prototype.start/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:297822
+XB@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:161562
+ZB/this.next@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:161861
+b@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202502060101/pubads_impl.js:33:162112
+nrWrapper@https://www.barrons.com/articles/wendys-wen-stock-earnings-51652268634:129:17759
+
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015, line 1: Script terminated by timeout at:
+o@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18291
+104/e.onLCP/</c<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:18393
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11636
+t@https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015:1:11507
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14965698601001964%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14965698601001964%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1---&gpp=DBAA&gpp_sid=-1#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.14965698601001964%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:155799
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:152429
+y@https://sso.accounts.dowjones.com/datadome/tags.js:2:159491
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:161225
+
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 5212 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 7457 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739413479270	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1739413483814	Marionette	INFO	Stopped listening on port 59413
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

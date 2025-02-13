@@ -1,0 +1,55 @@
+1739093961776	geckodriver	INFO	Listening on 127.0.0.1:53287
+1739093964816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53288" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileUXkkEu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739093965493	Marionette	INFO	Marionette enabled
+1739093965742	Marionette	INFO	Listening on port 53302
+Read port: 53302
+WebDriver BiDi listening on ws://127.0.0.1:53288
+1739093965886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:53288/devtools/browser/fb4dc464-1bc1-44d7-b243-08788e5c3c48
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xfne8m7jatrbml&sid=9222318613852486900&loc=https%3A%2F%2Fwww.wsj.com%2Farticles%2Ftwitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001%3Fcx_testId%3D3%26cx_testVariant%3Dcx_5%26cx_artPos%3D6%26mod%3DWTRN%23cxrecs_s&new=1&arf=0&ltm=1739093975869&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xfnfyhd2ywnzwn&ckp=m6xfnfw4sa47dgqq&glb=&amo=1658316780&cp_userState=anon&cp_testId=3&cp_testVariant=cx_5&cp_artPos=6&cp_testGroup=8&cp_topDomain=wsj.com&cp_pwTag=default&cp_pwPlacement=cx-snippetad&cp_pwCampaign=28324&cp_pwType=personalized&cp_navSource=WTRN&cp_type=Technology&cp_template=preview&cp_access=paid&cp_section=Tech&cp_subsection=Tech&cp_cms_name=Methode&cp_vix=&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=1&cp_ab_bucket=21&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Article&cp_pageContentTypeDetai=standard&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s, line 246: Script terminated by timeout at:
+nrWrapper@https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&cx_testVariant=cx_5&cx_artPos=6&mod=WTRN#cxrecs_s:246:17638
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1910147811, line 52: Script terminated by timeout at:
+Ta@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1910147811:52:205
+kD.prototype.sendBeacon@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1910147811:458:288
+hD@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1910147811:457:144
+kD/this.ba@https://imasdk.googleapis.com/js/core/bridge3.684.0_en.html#fid=goog_1910147811:454:342
+
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS, line 777: Script terminated by timeout at:
+SJ@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:777:446
+dK@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:795:200
+h.un@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:783:214
+h.tn/</<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:781:531
+Bl@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:388:151
+zm@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:396:434
+h.tn/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:781:517
+c@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:560:22
+bw@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:560:349
+h.tn@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:781:503
+c@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:798:673
+w@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:411:370
+jo@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:411:470
+io.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:414:357
+io.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:412:337
+ao@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:408:1702
+LK/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:799:187
+h.Jl/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:737:126
+h.Jl/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:736:418
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0XaOFjBKFoXDKL9VF6MVp869Uwh55gMl2rSabIW1nBU.js line 2 > eval line 3388 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1739093999842	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1739094058777	Marionette	INFO	Stopped listening on port 53302
+Dynamically enable window occlusion 1

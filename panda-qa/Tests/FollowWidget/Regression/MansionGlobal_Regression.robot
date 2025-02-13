@@ -19,7 +19,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T100
 Validate the Mansion GLobal Preference Center page
     [Documentation]  This test case validates the Mansion Global preference center page
-    [Tags]  Regression  PrefrenceCenter   MG
+    [Tags]  Regression  PrefrenceCenter   US-T100
 
     MansionGLobalPreferenceCenterPage.Add Author By Hotlink
     DefinedKeywords.Sign In Process
@@ -59,7 +59,7 @@ Validate Authors for Mansion Global Article page without byline
 #US-T148
 Validate the Mansion Global digest notification
     [Documentation]  This test case validates the Mansion Global digest notification
-    [Tags]  Regression  Notifications   Follow1
+    [Tags]  Regression  Notifications   US-T148
     MansionGlobalMailboxPage.Navigate Mailbox page
     MansionGlobalMailboxPage.Login
     MansionGlobalMailboxPage.Select Inbox
@@ -69,7 +69,7 @@ Validate the Mansion Global digest notification
 #US-T121
 Validate the Mansion Global real-time author notification
     [Documentation]  This test case validates the Mansion Global real-time author notification
-    [Tags]  Regression  Notifications  Author        Follow1
+    [Tags]  Regression  Notifications  Author        US-T121
     MansionGlobalMailboxPage.Navigate Mailbox page
     MansionGlobalMailboxPage.Login
     MansionGlobalMailboxPage.Select Inbox
@@ -89,7 +89,7 @@ Validate the Mansion Global weekly saved search notification
 #US-T359
 Validate Postback on Preference Center
     [Documentation]  This test case vabrlidates the Mansion Global Postback on Preference Center
-    [Tags]  Regression  Postback        359
+    [Tags]  Regression  Postback        US-T359
     MansionGlobalPreferenceCenterPage.Add Breaking News By Hotlink
     DefinedKeywords.Sign In Process
     MansionGlobalPreferenceCenterPage.Validate Followed Breaking News

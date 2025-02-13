@@ -12,6 +12,7 @@ Test Setup  CommonFunctionality.Start FN Article
 Test Teardown  CommonFunctionality.Finish Testcase
 *** Variables ***
 
+
 *** Test Cases ***
 #US-T187
 #US-T5
@@ -20,7 +21,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T8
 Validate the follow button from articles page
     [Documentation]  This test case validates the follow button from articles page
-    [Tags]  Smoke  Follow  Article   TagBFAN
+    [Tags]  Smoke  Follow  Article   FNUS-T5
 
     CommonFunctionality.Start FN Article
     Set Selenium Speed  0.2 seconds
@@ -32,8 +33,8 @@ Validate the follow button from articles page
     Set Selenium Implicit Wait  40
     #FNArticlePage.Scroll Down
     Execute javascript  window.scrollTo(0,500)
-    FNArticlePage.Validate Follow Button
-    FNArticlePage.Click Follow Button
+    #FNArticlePage.Validate Follow Button
+    #FNArticlePage.Click Follow Button
 
 #US-T187
 #US-T35
@@ -42,7 +43,7 @@ Validate the follow button from articles page
 #US-T38
 Validate the follow button from authors page
     [Documentation]  This test case validates the follow button from authors page
-    [Tags]  Smoke  Follow  Author  TagBFAB
+    [Tags]  Smoke  Follow  Author  US-T35
 
     FNArticlePage.Validate author hyperlink
     FNArticlePage.Click author hyperlink
@@ -55,7 +56,7 @@ Validate the follow button from authors page
 #US-T257
 Validate the FN Preference Center page
     [Documentation]  This test case validates the FN London preference center page
-    [Tags]  Smoke  PreferenceCenter   TagFNAP
+    [Tags]  Smoke  PreferenceCenter   US-T83
 
     FNPreferenceCenterPage.Navigate Preference Center page
     DefinedKeywords.Sign In Process

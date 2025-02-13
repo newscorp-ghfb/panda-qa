@@ -1,0 +1,57 @@
+1739032668934	geckodriver	INFO	Listening on 127.0.0.1:62979
+1739032671971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62980" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile0ViGE9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739032672751	Marionette	INFO	Marionette enabled
+1739032673032	Marionette	INFO	Listening on port 62992
+Read port: 62992
+WebDriver BiDi listening on ws://127.0.0.1:62980
+1739032673162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:62980/devtools/browser/10b9a368-2bfa-4ffd-a4f3-4a4a16bd258f
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wf5mwhjo516fze&sid=1133979867428110118&loc=https%3A%2F%2Fwww.penews.com%2F&new=1&arf=0&ltm=1739032678965&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wf5n0qs0y2mqhp&ckp=m6wf5mwh89vpf1sa&glb=&cp_userState=anon&cp_testGroup=21&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=6&cp_ab_bucket=26&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 511 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 3805 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622, line 124: Script terminated by timeout at:
+nrWrapper@https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622:124:14172
+
+JavaScript warning: https://int-prod-capabilities-dashboard.vir.onservo.com/_next/static/chunks/main-5f3df17621beaffa.js, line 1: Script terminated by timeout at:
+38745/106/p/<@https://int-prod-capabilities-dashboard.vir.onservo.com/_next/static/chunks/main-5f3df17621beaffa.js:1:79742
+r@https://int-prod-capabilities-dashboard.vir.onservo.com/_next/static/chunks/main-5f3df17621beaffa.js:1:79245
+
+JavaScript warning: https://newscorp.okta.com/assets/js/vendor/lib/fingerprint2.min.68ab45bd98459cb766f3ab26d086e5f5.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://newscorp.okta.com/assets/js/mvc/sentry-wrapper/sentry-wrapper.pack.2e080a109dbfd00f748e7dab5f49a815.js, line 1: Script terminated by timeout at:
+91053/a/<@https://newscorp.okta.com/assets/js/mvc/sentry-wrapper/sentry-wrapper.pack.2e080a109dbfd00f748e7dab5f49a815.js:1:31923
+n@https://newscorp.okta.com/assets/js/mvc/sentry-wrapper/sentry-wrapper.pack.2e080a109dbfd00f748e7dab5f49a815.js:1:32885
+
+1739032706207	Marionette	INFO	Stopped listening on port 62992
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":30,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":29,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":29,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch/<","sourceId":680,"lineNumber":569,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"timedFetch","sourceId":680,"lineNumber":544,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"request","sourceId":680,"lineNumber":634,"columnNumber":33,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"execute","sourceId":680,"lineNumber":2643,"columnNumber":36,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-common/kinto-http-client.sys.mjs","name":"getData","sourceId":680,"lineNumber":1119,"columnNumber":40,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":27,"lineNumber":730,"columnNumber":54,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"getData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"execute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"request@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\ntimedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12\ntimedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12\nrequest@resource://services-common/kinto-http-client.sys.mjs:634:33\nexecute@resource://services-common/kinto-http-client.sys.mjs:2643:36\ngetData@resource://services-common/kinto-http-client.sys.mjs:1119:40\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|timedFetch/<@resource://services-common/kinto-http-client.sys.mjs:569:12|timedFetch@resource://services-common/kinto-http-client.sys.mjs:544:12|request@resource://services-common/kinto-http-client.sys.mjs:634:33|execute@resource://services-common/kinto-http-client.sys.mjs:2643:36|getData@resource://services-common/kinto-http-client.sys.mjs:1119:40|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:730:54|
+  - prototype Object
+console.warn: services.settings: main/nimbus-secure-experiments sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/newtab-wallpapers-v2 sync interrupted by shutdown
+console.warn: services.settings: main/url-parser-default-unknown-schemes-interventions sync interrupted by shutdown
+console.warn: services.settings: main/search-categorization sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/urlbar-persisted-search-terms sync interrupted by shutdown
+console.warn: services.settings: main/search-config-icons sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/search-config-overrides getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))

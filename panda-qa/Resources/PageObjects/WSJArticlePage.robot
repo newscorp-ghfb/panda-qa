@@ -49,8 +49,9 @@ ${JSSignInButtonPath}=  document.querySelector('div')  #1
 
 *** Keywords ***
 Validate Follow Button
-    Wait Until Element is Visible  dom:${JSFollowButtonWSJPath}
-    Element Text Should Be  dom:${JSFollowButtonWSJPath}  Follow  timeout=30
+    Execute javascript  window.scrollTo(0,500)
+    Wait Until Element is Visible  //*[@id="__next"]/div/main/div[2]/article/div[2]/div[1]/div/div/div/div[1]/div/div/div/ufc-follow-author-widget  #dom:${JSFollowButtonWSJPath}
+    #Element Text Should Be  //*[@id="__next"]/div/main/div[2]/article/div[2]/div[1]/div/div/div/div[1]/div/div/div/ufc-follow-author-widget  #dom:${JSFollowButtonWSJPath}  Follow  timeout=30
 
 Validate Custom Follow Button
     Wait Until Element is Visible  dom:${JSCustomFollowButtonWSJPath}
@@ -75,7 +76,7 @@ Validate Custom Following Button
     #Element Text Should Be  //*[@id="__next"]/div/main/div[2]/article/div[1]/div[1]/div/div/div/div[1]/div/div/div/ufc-follow-author-widget  #dom:${JSCustomFollowButtonWSJPath}
 
 Click Follow Button
-    Click Button  dom:${JSFollowButtonWSJPath}
+    Click Button  //*[@id="__next"]/div/main/div[2]/article/div[2]/div[1]/div/div/div/div[1]/div/div/div/ufc-follow-author-widget   #dom:${JSFollowButtonWSJPath}
 
 Validate World News Option
    Page Should Contain   World

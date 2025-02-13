@@ -1,0 +1,62 @@
+1739033651528	geckodriver	INFO	Listening on 127.0.0.1:54053
+1739033654608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54054" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilebpkPjO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739033655511	Marionette	INFO	Marionette enabled
+1739033655776	Marionette	INFO	Listening on port 54065
+WebDriver BiDi listening on ws://127.0.0.1:54054
+Read port: 54065
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739033656092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54054/devtools/browser/3c321023-29db-43c4-a03a-6047cc66f77f
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.barrons.com/asset/dj-watchlist/v1.14.3/p-0633e57d.entry.js, line 11: TypeError: Error.captureStackTrace is not a function
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 71ms)
+JavaScript warning: https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp, line 309: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:309:187
+b@https://www.gstatic.com/_/mss/boq-subscribewithgoogle/_/js/k=boq-subscribewithgoogle.SubscribewithgoogleClientUi.en_US.tZhg3nKY5-E.es5.O/am=GAy4AQ/d=1/excm=_b,_tp,serviceiframeview/ed=1/dg=0/wt=2/ujg=1/rs=ABXTjI5OlFsYJ0iU8gv_vSavbw00ZEP4OA/m=_b,_tp:300:48
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 3964 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wfqvq7wl6xcplj&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Fmarket-data&new=1&arf=0&ltm=1739033670179&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wfqys163uhz5k6&ckp=m6wfqvq71nasnjjr&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+1739033677091	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1739033680254	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://www.barrons.com/market-data, line 1131: Script terminated by timeout at:
+nrWrapper@https://www.barrons.com/market-data:1131:17609
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 13: Script terminated by timeout at:
+C@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:13:325
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:449
+
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.datadoghq-browser-agent.com/datadog-logs-v4.js, line 1: Script terminated by timeout at:
+d@https://www.datadoghq-browser-agent.com/datadog-logs-v4.js:1:884
+l/<@https://www.datadoghq-browser-agent.com/datadog-logs-v4.js:1:853
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D, line 1: Script terminated by timeout at:
+t@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:13850
+B@https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=pbs-ozone&predirect=https%3A%2F%2Felb.the-ozone-project.com%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D0%26gdpr_consent%3D%26us_privacy%3Dpbs-ozone%26uid%3D:1:15290
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 15ms)
+1739033698920	Marionette	INFO	Stopped listening on port 54065
+JavaScript warning: https://www.barrons.com/market-data, line 1139: Script terminated by timeout at:
+nrWrapper@https://www.barrons.com/market-data:1139:17609
+v@https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=787755dc-4a56-4dd1-9341-d101143c2799&toploc=www.barrons.com:3:951
+f/r<@https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=787755dc-4a56-4dd1-9341-d101143c2799&toploc=www.barrons.com:3:1235
+
+Dynamically enable window occlusion 1

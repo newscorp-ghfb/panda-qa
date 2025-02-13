@@ -1,0 +1,91 @@
+1739084515713	geckodriver	INFO	Listening on 127.0.0.1:52251
+1739084518778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52252" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileqOlR5w"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739084519402	Marionette	INFO	Marionette enabled
+1739084519654	Marionette	INFO	Listening on port 52263
+WebDriver BiDi listening on ws://127.0.0.1:52252
+Read port: 52263
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739084519908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52252/devtools/browser/1a2c9365-83f0-4333-973b-ca2410ad242e
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6xa0x3tbolyiwks&sid=1138573015853471556&loc=https%3A%2F%2Fwww.dev.marketwatch.com%2F&new=1&arf=0&ltm=1739084527024&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6xa0x7torqh0a38&ckp=m6xa0x3tajfd1dtu&glb=&cp_userState=anon&cp_testGroup=26&cp_env=staging&cp_topDomain=marketwatch.com&cp_template=full&cp_access=free&cp_section=Home%20Page&cp_cms_name=Peavey&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=0&cp_ab_bucket=90&cp_pageContentSource=MarketWatch&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MW&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 2507 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.027153167852215443%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.027153167852215443%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.dev.marketwatch.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.027153167852215443%22,%22tld%22:%22www.dev.marketwatch.com%22,%22topUrl%22:%22www.dev.marketwatch.com%22,%22version%22:%229_12_0%22}:13:3642
+
+JavaScript warning: https://pbc.marketwatch.com/p/dj/marketwatch/pb.js, line 14: Script terminated by timeout at:
+Ke@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:129881
+Ke@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:130082
+Ke@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:130082
+C@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:14536
+1445/R.makeBidRequests</<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:15962
+1445/R.makeBidRequests<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:15916
+8128/u/h/</y/o[n]@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:3129
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:2982
+3294/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:65:2026
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:2982
+I@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:43:1874
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:2982
+y@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:3160
+6881/N/callBids/e<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:41661
+6894/d/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:133600
+measureTime@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:132555
+callBids@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:41612
+9671/te<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:97098
+8128/u/h/</y/o[n]@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:3129
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:2982
+6894/d/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:133600
+8178/i</<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:42:695
+s@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:135602
+5555/then/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:135652
+o@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:135417
+then@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:135490
+8178/i<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:42:649
+6894/h/</</<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:134874
+measureHookTime@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:132611
+6894/h/</<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:134830
+p@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:13:2982
+6894/d/<@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:14:133600
+f@https://pbc.marketwatch.com/p/dj/marketwatch/pb.js:70:1528
+
+JavaScript warning: https://fpt.live.com/?session_id=6a139ce6518344d5a14c81690b29f5e7&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1739084544051	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_44cd24035cb31cfc94c2.js, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 2124 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1358
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.24211679108009587%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.24211679108009587%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.24211679108009587%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 2937 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js, line 52: Script terminated by timeout at:
+O@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:52:2096
+qe@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:52:2489
+gf@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:58:244
+b@https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_281.js:56:297
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 1281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 4467 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739084601555	Marionette	INFO	Stopped listening on port 52263
+JavaScript warning: https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.mailindex.60fccaa5.js, line 1: Script terminated by timeout at:
+$6@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.mailindex.60fccaa5.js:1:84185
+endInternal@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js:13:176240
+end@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js:13:174235
+g@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:2479
+refresh@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:5481
+62167/et/ee</<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:8625
+62167/et/ee<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.62167.m.647f18c1.js:1:8665
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

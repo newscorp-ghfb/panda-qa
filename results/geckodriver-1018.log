@@ -1,0 +1,24 @@
+1739414783357	geckodriver	INFO	Listening on 127.0.0.1:63077
+1739414786413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63078" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofile2UxzsX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739414787023	Marionette	INFO	Marionette enabled
+1739414787277	Marionette	INFO	Listening on port 63090
+WebDriver BiDi listening on ws://127.0.0.1:63078
+Read port: 63090
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739414787531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63078/devtools/browser/485175e0-321e-4dd6-82b5-c3093d409532
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72qnozqulwryrj5&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1739414794316&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72qnp1ayuu0bjmu&ckp=m72qnozq7ovdm29d&glb=&cp_userState=anon&cp_testGroup=85&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=9&cp_ab_bucket=99&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 6661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848, line 114: Script terminated by timeout at:
+nrWrapper@https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848:114:17609
+
+1739414929551	Marionette	INFO	Stopped listening on port 63090
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript warning: https://www.google.com/js/th/2OLqLGNr0zHDpmEvPVsLweQktEaAqFW_L2mqSHTdR30.js line 2 > eval line 693 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

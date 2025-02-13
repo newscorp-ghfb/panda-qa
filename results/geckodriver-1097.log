@@ -1,0 +1,30 @@
+1739463552063	geckodriver	INFO	Listening on 127.0.0.1:60538
+1739463554961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilekERxPb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739463556427	Marionette	INFO	Marionette enabled
+1739463556855	Marionette	INFO	Listening on port 60574
+WebDriver BiDi listening on ws://127.0.0.1:60539
+Read port: 60574
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739463557247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60539/devtools/browser/0ff9f8c0-a203-4773-8281-90e2aa8f23d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m73jp908ie9ozepd&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Ffollow&new=1&arf=0&ltm=1739463575771&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m73jp91mhqc2wdqf&ckp=m73jp908wqw9nx5l&glb=&eid0=5616740b5300a7250d12bc50017020dee93adf3b70eb11dbe71d4504b2bf9962&eit0=wsj&cp_userState=anon&cp_testGroup=23&cp_topDomain=barrons.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=&cp_cms_name=&cp_subscriber=subscriber&cp_edition=naus&cp_bucket=9&cp_ab_bucket=59&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=BARRONS-SUB&cp_sessionState=ca&cp_u_knownSubscriber=1, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: ChunkLoadError: Loading chunk 92 failed.
+(error: https://cdn.gbqofs.com/sv/b/detector-lazy.min.js)
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS, line 748: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:748:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:748:87
+h.Il/c/<@https://www.googletagmanager.com/gtag/js?id=G-K2H7B9JRSS:748:410
+
+1739463597912	Marionette	INFO	Stopped listening on port 60574
+JavaScript warning: https://www.barrons.com/follow, line 555: Script terminated by timeout at:
+nrWrapper@https://www.barrons.com/follow:555:17609
+
+Dynamically enable window occlusion 1

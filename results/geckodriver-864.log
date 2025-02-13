@@ -1,0 +1,50 @@
+1739033389048	geckodriver	INFO	Listening on 127.0.0.1:56168
+1739033392104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileVK3a9U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739033392715	Marionette	INFO	Marionette enabled
+1739033392963	Marionette	INFO	Listening on port 56181
+WebDriver BiDi listening on ws://127.0.0.1:56169
+Read port: 56181
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739033393221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56169/devtools/browser/b0ce9204-b1bd-4781-b299-0c21189449e8
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m6wfl2g87jle98p0&sid=1133979867428110118&loc=https%3A%2F%2Fwww.penews.com%2F&new=1&arf=0&ltm=1739033398955&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m6wfl2ked7gsuy8h&ckp=m6wfl2g8h5myrkmh&glb=&cp_userState=anon&cp_testGroup=48&cp_topDomain=penews.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=europe%252Cgb&cp_bucket=3&cp_ab_bucket=43&cp_pageContentSource=Private%20Equity%20News%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=PEN&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 6632 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 5122 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622, line 124: Script terminated by timeout at:
+nrWrapper@https://www.penews.com/articles/lp-survey-warns-brace-for-some-high-profile-fundraising-failures-20220622:124:14172
+
+JavaScript warning: https://fpt.live.com/?session_id=d6f9db4ca4264dd8a8b84be7c3fe54c3&CustomerId=33e01921-4d64-4f8c-a055-5bdaffd5e33d&PageId=SI, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.live.com."
+console.error: ({})
+1739033426448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://res-1.cdn.office.net/midgard/versionless/livepersonacard_without-react_44cd24035cb31cfc94c2.js, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.adnxs.com/v/s/247/trk.js, line 560: Script terminated by timeout at:
+_.C@https://cdn.adnxs.com/v/s/247/trk.js:560:1358
+md/<@https://cdn.adnxs.com/v/s/247/trk.js:560:5629
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.22448516806674668%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.22448516806674668%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=rtus&topUrl=outlook.live.com&gdpr=0&gdpr_consent=#{%22lwid%22:{%22value%22:null,%22origin%22:0},%22bundle%22:{%22value%22:null,%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22tld%22:%22adnxs-simple.com%22,%22topUrl%22:%22outlook.live.com%22,%22cw%22:true,%22lsw%22:true,%22origin%22:%22rtus%22,%22rtusCallerId%22:30,%22requestId%22:%220.22448516806674668%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vbSiC3rXZjPvfLONVMSWfstygVHLPM3jd4I4vl9RjYk.js line 2 > eval line 5230 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739033465850	Marionette	INFO	Stopped listening on port 56181
+JavaScript warning: https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js, line 13: Script terminated by timeout at:
+f@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js:13:257486
+u@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js:13:264542
+eq@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.AppBoot.m.b0f636bc.js:13:271198
+logSubstrateConnectionStateTimes@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.Notification.m.3cb64170.js:1:7053
+logSubstrateConnectionStateChange@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.Notification.m.3cb64170.js:1:7602
+connectionStateChangedHandler@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.Notification.m.3cb64170.js:1:33873
+249580/stateChanged/<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.JquerySignalR.m.29b5b166.js:1:16425
+249580/r/t.triggerHandler@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.JquerySignalR.m.29b5b166.js:1:298
+u@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.JquerySignalR.m.29b5b166.js:1:6138
+stop@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.JquerySignalR.m.29b5b166.js:1:18027
+366872/eR/h.stop@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.Notification.m.3cb64170.js:1:55030
+249580/start/l/</</<@https://res.public.onecdn.static.microsoft/owamail/hashed-v1/scripts/owa.JquerySignalR.m.29b5b166.js:1:12963
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.5 on win32)" generated="20250209 12:57:56.514" rpa="false" schemaversion="4">
+<suite id="s1" name="Userservices-Qa-Automation" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation">
+<suite id="s1-s1" name="Panda-Qa" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa">
+<suite id="s1-s1-s1" name="Tests" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests">
+<suite id="s1-s1-s1-s1" name="FollowWidget" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget">
+<suite id="s1-s1-s1-s1-s1" name="Regression" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression">
+<suite id="s1-s1-s1-s1-s1-s1" name="WSJ Regression" source="D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\panda-qa\Tests\FollowWidget\Regression\WSJ_Regression.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Validate the follow button for Letters breadcrumb from Letters page" line="395">
+<kw name="Start WSJ Article" library="CommonFunctionality" type="SETUP">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20250209 12:57:57.181" endtime="20250209 12:57:57.181"/>
+</kw>
+<kw name="Set Browser Options" library="CommonFunctionality">
+<var>${options}</var>
+<if>
+<branch type="IF" condition="&quot;${Browser}&quot; == &quot;firefox&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.FirefoxOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--CreateProfile</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.182"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.183"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.force-local</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.remote-enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.chrome.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.prompt-connection</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--browser.dom.window.dump.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</return>
+<status status="NOT RUN" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.184"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Browser}&quot; == &quot;chrome&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.ChromeOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.184"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--ignore-certificate-errors</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-user-gesture-required</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-first-run</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-ui-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-device-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-sync</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.185" endtime="20250209 12:57:57.185"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250209 12:57:57.186" endtime="20250209 12:57:57.186"/>
+</return>
+<status status="NOT RUN" starttime="20250209 12:57:57.184" endtime="20250209 12:57:57.186"/>
+</branch>
+<status status="PASS" starttime="20250209 12:57:57.182" endtime="20250209 12:57:57.186"/>
+</if>
+<msg timestamp="20250209 12:57:57.186" level="INFO">${options} = None</msg>
+<status status="PASS" starttime="20250209 12:57:57.181" endtime="20250209 12:57:57.186"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.wsj.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.186" endtime="20250209 12:57:57.186"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&amp;cx_testVariant=cx_5&amp;cx_artPos=6&amp;mod=WTRN#cxrecs_s</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20250209 12:57:57.186" endtime="20250209 12:57:57.186"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:57:57.186" endtime="20250209 12:57:57.186"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.dev.wsj.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20250209 12:57:57.187" level="INFO">Opening browser 'ff' to base url 'https://www.dev.wsj.com'.</msg>
+<status status="PASS" starttime="20250209 12:57:57.186" endtime="20250209 12:58:17.212"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.dev.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&amp;cx_testVariant=cx_5&amp;cx_artPos=6&amp;mod=WTRN#cxrecs_s</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20250209 12:58:17.212" level="INFO">Opening url 'https://www.dev.wsj.com/articles/twitter-elon-musk-to-argue-over-trial-timetable-to-force-44-billion-takeover-11658223001?cx_testId=3&amp;cx_testVariant=cx_5&amp;cx_artPos=6&amp;mod=WTRN#cxrecs_s'</msg>
+<status status="PASS" starttime="20250209 12:58:17.212" endtime="20250209 12:58:22.295"/>
+</kw>
+<status status="PASS" starttime="20250209 12:57:57.186" endtime="20250209 12:58:22.295"/>
+</branch>
+<status status="PASS" starttime="20250209 12:57:57.186" endtime="20250209 12:58:22.295"/>
+</if>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20250209 12:58:22.295" endtime="20250209 12:58:22.799"/>
+</kw>
+<status status="PASS" starttime="20250209 12:57:57.181" endtime="20250209 12:58:22.799"/>
+</kw>
+<kw name="Start WSJ Letters for Letters breadcrumb" library="CommonFunctionality">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20250209 12:58:22.809" endtime="20250209 12:58:22.810"/>
+</kw>
+<kw name="Set Browser Options" library="CommonFunctionality">
+<var>${options}</var>
+<if>
+<branch type="IF" condition="&quot;${Browser}&quot; == &quot;firefox&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.FirefoxOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.810" endtime="20250209 12:58:22.810"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--CreateProfile</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.810" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.811" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.811" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.811" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.811" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.811" endtime="20250209 12:58:22.811"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.force-local</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.812" endtime="20250209 12:58:22.812"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.remote-enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.812" endtime="20250209 12:58:22.812"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.chrome.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.812" endtime="20250209 12:58:22.812"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--devtools.debugger.prompt-connection</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.813" endtime="20250209 12:58:22.813"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--browser.dom.window.dump.enabled</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.813" endtime="20250209 12:58:22.813"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250209 12:58:22.813" endtime="20250209 12:58:22.813"/>
+</return>
+<status status="NOT RUN" starttime="20250209 12:58:22.810" endtime="20250209 12:58:22.813"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Browser}&quot; == &quot;chrome&quot;">
+<kw name="Evaluate" library="BuiltIn">
+<var>${options}</var>
+<arg>selenium.webdriver.ChromeOptions()</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.814" endtime="20250209 12:58:22.814"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.814" endtime="20250209 12:58:22.814"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-dev-shm-usage</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.815" endtime="20250209 12:58:22.815"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-sandbox</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.815" endtime="20250209 12:58:22.815"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--headless</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.815" endtime="20250209 12:58:22.815"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-gpu</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.815" endtime="20250209 12:58:22.816"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--ignore-certificate-errors</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.816" endtime="20250209 12:58:22.816"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.816" endtime="20250209 12:58:22.816"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-user-gesture-required</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.816" endtime="20250209 12:58:22.816"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--no-first-run</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.817" endtime="20250209 12:58:22.817"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-ui-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.817" endtime="20250209 12:58:22.817"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--use-fake-device-for-media-stream</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.818" endtime="20250209 12:58:22.818"/>
+</kw>
+<kw name="Call Method" library="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-sync</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.818" endtime="20250209 12:58:22.818"/>
+</kw>
+<return>
+<value>${options}</value>
+<status status="NOT RUN" starttime="20250209 12:58:22.818" endtime="20250209 12:58:22.818"/>
+</return>
+<status status="NOT RUN" starttime="20250209 12:58:22.813" endtime="20250209 12:58:22.818"/>
+</branch>
+<status status="PASS" starttime="20250209 12:58:22.810" endtime="20250209 12:58:22.818"/>
+</if>
+<msg timestamp="20250209 12:58:22.818" level="INFO">${options} = None</msg>
+<status status="PASS" starttime="20250209 12:58:22.810" endtime="20250209 12:58:22.818"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.wsj.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.819" endtime="20250209 12:58:22.819"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:22.819" endtime="20250209 12:58:22.819"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:58:22.818" endtime="20250209 12:58:22.819"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.dev.wsj.com</arg>
+<arg>${Browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20250209 12:58:22.820" level="INFO">Opening browser 'ff' to base url 'https://www.dev.wsj.com'.</msg>
+<status status="PASS" starttime="20250209 12:58:22.819" endtime="20250209 12:58:37.462"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20250209 12:58:37.462" level="INFO">Opening url 'https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843'</msg>
+<status status="PASS" starttime="20250209 12:58:37.462" endtime="20250209 12:58:42.434"/>
+</kw>
+<status status="PASS" starttime="20250209 12:58:22.819" endtime="20250209 12:58:42.434"/>
+</branch>
+<status status="PASS" starttime="20250209 12:58:22.818" endtime="20250209 12:58:42.434"/>
+</if>
+<status status="PASS" starttime="20250209 12:58:22.808" endtime="20250209 12:58:42.434"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<arg>10s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20250209 12:58:42.547" endtime="20250209 12:58:43.557"/>
+</kw>
+<kw name="Click Custom Follow Button" library="WSJArticlePage">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>dom:${JSCustomFollowButtonWSJPath}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20250209 12:58:43.563" level="INFO">Clicking button 'dom:document.querySelector("#__next &gt; div &gt; main &gt; div.article-container.css-5u49c7.e1ja801i8 &gt; article &gt; div.crawler.css-j6808u.etunnkc9 &gt; div.enimwd21.css-hb9xd5 &gt; div &gt; div &gt; div &gt; div.css-1mfi1zu &gt; div &gt; div &gt; div &gt; ufc-follow-author-widget").shadowRoot.querySelector("ufc-follow-widget &gt; ufc-follow-button").shadowRoot.querySelector("button")'.</msg>
+<msg timestamp="20250209 12:58:44.508" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-417.png"&gt;&lt;img src="selenium-screenshot-417.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20250209 12:58:44.508" level="FAIL">JavascriptException: Message: TypeError: document.querySelector(...) is null
+Stacktrace:
+@https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843:2:23
+@https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843:3:8
+</msg>
+<status status="FAIL" starttime="20250209 12:58:43.562" endtime="20250209 12:58:44.520"/>
+</kw>
+<status status="FAIL" starttime="20250209 12:58:43.562" endtime="20250209 12:58:44.520"/>
+</kw>
+<kw name="Validate Sign In Modal" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:44.797" endtime="20250209 12:58:44.797"/>
+</kw>
+<kw name="Click Sign In Button Modal" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:44.969" endtime="20250209 12:58:44.970"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Market Watch Sign In Process" library="DefinedKeywords">
+<status status="NOT RUN" starttime="20250209 12:58:45.106" endtime="20250209 12:58:45.106"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:58:45.106" endtime="20250209 12:58:45.106"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Sign In Process" library="DefinedKeywords">
+<status status="NOT RUN" starttime="20250209 12:58:45.107" endtime="20250209 12:58:45.107"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:58:45.106" endtime="20250209 12:58:45.107"/>
+</branch>
+<status status="NOT RUN" starttime="20250209 12:58:45.105" endtime="20250209 12:58:45.107"/>
+</if>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.2 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:45.138" endtime="20250209 12:58:45.138"/>
+</kw>
+<kw name="Validate Custom Following Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:45.162" endtime="20250209 12:58:45.162"/>
+</kw>
+<if>
+<branch type="IF" condition="&quot;${Env}&quot; == &quot;prod&quot;">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.05 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:45.235" endtime="20250209 12:58:45.235"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:58:45.235" endtime="20250209 12:58:45.235"/>
+</branch>
+<branch type="ELSE IF" condition="&quot;${Env}&quot; == &quot;dev&quot;">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.35 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" starttime="20250209 12:58:45.235" endtime="20250209 12:58:45.236"/>
+</kw>
+<status status="NOT RUN" starttime="20250209 12:58:45.235" endtime="20250209 12:58:45.236"/>
+</branch>
+<status status="NOT RUN" starttime="20250209 12:58:45.235" endtime="20250209 12:58:45.236"/>
+</if>
+<kw name="Click Custom Following Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:45.378" endtime="20250209 12:58:45.378"/>
+</kw>
+<kw name="Click Undo Link" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:45.706" endtime="20250209 12:58:45.706"/>
+</kw>
+<kw name="Validate Custom Following Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:46.108" endtime="20250209 12:58:46.108"/>
+</kw>
+<kw name="Click Custom Following Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:46.158" endtime="20250209 12:58:46.158"/>
+</kw>
+<kw name="Validate Custom Follow Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:46.226" endtime="20250209 12:58:46.226"/>
+</kw>
+<kw name="Click Custom Follow Button" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:46.297" endtime="20250209 12:58:46.297"/>
+</kw>
+<kw name="Click Preference Center Link" library="WSJArticlePage">
+<status status="NOT RUN" starttime="20250209 12:58:46.320" endtime="20250209 12:58:46.320"/>
+</kw>
+<kw name="Validate Preference Center page" library="WSJPreferenceCenterPage">
+<status status="NOT RUN" starttime="20250209 12:58:46.321" endtime="20250209 12:58:46.321"/>
+</kw>
+<kw name="Finish Testcase" library="CommonFunctionality" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20250209 12:58:46.322" endtime="20250209 12:58:50.678"/>
+</kw>
+<status status="PASS" starttime="20250209 12:58:46.321" endtime="20250209 12:58:50.678"/>
+</kw>
+<doc>This test case validates the follow button from Letters page</doc>
+<tag>Breadcrumb</tag>
+<tag>Follow</tag>
+<tag>Regression</tag>
+<tag>US-T168</tag>
+<tag>WSJ</tag>
+<status status="FAIL" starttime="20250209 12:57:57.180" endtime="20250209 12:58:50.679">JavascriptException: Message: TypeError: document.querySelector(...) is null
+Stacktrace:
+@https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843:2:23
+@https://www.dev.wsj.com/articles/test-oil-demand-will-fall-by-a-fifth-in-april-opec-forecasts-11587072843:3:8
+</status>
+</test>
+<doc>WSJ Regression Tests</doc>
+<status status="FAIL" starttime="20250209 12:57:56.575" endtime="20250209 12:58:50.680"/>
+</suite>
+<status status="FAIL" starttime="20250209 12:57:56.572" endtime="20250209 12:58:50.681"/>
+</suite>
+<status status="FAIL" starttime="20250209 12:57:56.569" endtime="20250209 12:58:50.682"/>
+</suite>
+<status status="FAIL" starttime="20250209 12:57:56.564" endtime="20250209 12:58:50.684"/>
+</suite>
+<status status="FAIL" starttime="20250209 12:57:56.562" endtime="20250209 12:58:50.685"/>
+</suite>
+<status status="FAIL" starttime="20250209 12:57:56.517" endtime="20250209 12:58:50.686"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Breadcrumb</stat>
+<stat pass="0" fail="1" skip="0">Follow</stat>
+<stat pass="0" fail="1" skip="0">Regression</stat>
+<stat pass="0" fail="1" skip="0">US-T168</stat>
+<stat pass="0" fail="1" skip="0">WSJ</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Userservices-Qa-Automation">Userservices-Qa-Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Panda-Qa">Userservices-Qa-Automation.Panda-Qa</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Tests">Userservices-Qa-Automation.Panda-Qa.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="FollowWidget">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Regression">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1" name="WSJ Regression">Userservices-Qa-Automation.Panda-Qa.Tests.FollowWidget.Regression.WSJ Regression</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

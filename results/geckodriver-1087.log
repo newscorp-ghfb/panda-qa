@@ -1,0 +1,59 @@
+1739434553285	geckodriver	INFO	Listening on 127.0.0.1:50141
+1739434556346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileviJUeG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739434556951	Marionette	INFO	Marionette enabled
+1739434557205	Marionette	INFO	Listening on port 50155
+WebDriver BiDi listening on ws://127.0.0.1:50142
+Read port: 50155
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739434557468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50142/devtools/browser/9537dbe6-3128-49ed-b463-3949577c3362
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.barrons.com/asset/dj-watchlist/v1.14.3/p-0633e57d.entry.js, line 11: TypeError: Error.captureStackTrace is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7X-uH5y0gJvnB4v7ISI4IqoVijK-ve8_b-uQfZfzdL4.js line 2 > eval line 2862 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://js-agent.newrelic.com/nr-1044.min.js, line 1: Script terminated by timeout at:
+r@https://js-agent.newrelic.com/nr-1044.min.js:1:22526
+[15]</r/<@https://js-agent.newrelic.com/nr-1044.min.js:1:9115
+
+JavaScript error: https://pbcs.barrons.com/s/dj/barrons/pb.js, line 827: TypeError: can't convert undefined to object
+console.error: ({})
+console.error: ({})
+JavaScript error: https://www.s.dev.barrons.com/articles/buy-under-armour-stock-pick-51650672000, line 162: ReferenceError: djSharedFunctions is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7X-uH5y0gJvnB4v7ISI4IqoVijK-ve8_b-uQfZfzdL4.js line 2 > eval line 5549 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7X-uH5y0gJvnB4v7ISI4IqoVijK-ve8_b-uQfZfzdL4.js line 2 > eval line 3582 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739434583607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://www.s.dev.barrons.com/market-data/_next/static/chunks/main-775879817cb0032d.js, line 1: Script terminated by timeout at:
+78018/O/<@https://www.s.dev.barrons.com/market-data/_next/static/chunks/main-775879817cb0032d.js:1:140968
+t@https://www.s.dev.barrons.com/market-data/_next/static/chunks/main-775879817cb0032d.js:1:140464
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.866479922732045%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.866479922732045%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.s.dev.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.866479922732045%22,%22tld%22:%22www.s.dev.barrons.com%22,%22topUrl%22:%22www.s.dev.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7X-uH5y0gJvnB4v7ISI4IqoVijK-ve8_b-uQfZfzdL4.js line 2 > eval line 3177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739434608901	Marionette	INFO	Stopped listening on port 50155
+JavaScript warning: https://static.adsafeprotected.com/main.19.8.571.js, line 1: Script terminated by timeout at:
+__IASScope.__IntegralASExec["19.8.571"].initialize/z.prototype.each@https://static.adsafeprotected.com/main.19.8.571.js:1:27380
+send@https://static.adsafeprotected.com/main.19.8.571.js:1:56610
+sendToOtherTags@https://static.adsafeprotected.com/main.19.8.571.js:1:239410
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

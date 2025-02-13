@@ -16,7 +16,7 @@ ${ExpectedCookieValue2}=   5Nnx9DUR7NQg8XPwvztud7o0OivfiKth
 
 ${Browser}=  ff  #headless, ff, chrome, edge, safari
 
-${Env}=  dev  #dev, prod, stg
+${Env}=  prod  #dev, prod, stg
 
 ${Email_prod}=  barronsadvisorcs@gmail.com
 
@@ -96,8 +96,8 @@ Start Mansion Global Article
         Open Browser  https://www.mansionglobal.com  ${Browser}  options=${options}
         Go To  https://www.mansionglobal.com/articles/are-there-tax-breaks-on-agricultural-land-in-pennsylvania-01648119848
     ELSE IF  "${Env}" == "dev"
-        Open Browser  https://www.stg.mansionglobal.com  ${Browser}  options=${options}
-        Go To  https://www.stg.mansionglobal.com/articles/article-long-text-01643043212
+        Open Browser  https://www.dev.mansionglobal.com  ${Browser}  options=${options}
+        Go To  https://www.dev.mansionglobal.com/articles/article-long-text-01643043212
     END
     Wait Until Page Contains Element  dom:${JSFollowButtonMGPath}
     Maximize Browser Window
@@ -113,8 +113,8 @@ Start FN Article
         Go To  https://www.dev.fnlondon.com/articles/testing-article-timestamp-20231102
         Execute javascript  window.scrollTo(0,500)
     END
-    Execute javascript  window.scrollTo(0,500)
-    Wait Until Element Is Visible  //ufc-follow-author-widget[@author-id='8680_FN']
+    #Execute javascript  window.scrollTo(0,500)
+    #Wait Until Element Is Visible  //ufc-follow-author-widget[@author-id='8680_FN']
     Maximize Browser Window
 
 Start Sailthru Page

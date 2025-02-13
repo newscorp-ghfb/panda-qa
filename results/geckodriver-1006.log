@@ -1,0 +1,48 @@
+1739270089340	geckodriver	INFO	Listening on 127.0.0.1:49519
+1739270092370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49520" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileWlzOmd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739270093174	Marionette	INFO	Marionette enabled
+1739270093485	Marionette	INFO	Listening on port 49533
+WebDriver BiDi listening on ws://127.0.0.1:49520
+Read port: 49533
+1739270093663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:49520/devtools/browser/2e760ede-6ee5-4744-a29b-2f1710f0390b
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m70cidmt45bumyxn&sid=1134002947328204066&loc=https%3A%2F%2Fwww.s.dev.wsj.com%2F&new=1&arf=0&ltm=1739270099337&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m70cidppkogsz0bp&ckp=m70cidmt40nm1pew&glb=&cp_userState=anon&cp_testGroup=31&cp_env=staging&cp_topDomain=wsj.com&cp_access=free&cp_section=US%20Home%20Page&cp_subsection=&cp_cms_name=CAPS&cp_subscriber=nonsubscriber&cp_edition=naus&cp_bucket=7&cp_ab_bucket=7&cp_pageContentSource=WSJ%20Online&cp_pageContentType=Home&cp_pageContentTypeDetai=desktopweb&cp_pageSiteProduct=WSJ&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+1739270105825	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 3560 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: ChunkLoadError: Loading chunk 715 failed.
+(error: https://www.s.dev.wsj.com/__CDN_PLACEHOLDER__/c8b2d263-28a6-4058-89de-03b72cbd94fd.f0e5d9bc4c1f87.js)
+JavaScript warning: https://secure-us.imrworldwide.com/v60.js, line 1: Script terminated by timeout at:
+NolTracker.prototype.pause@https://secure-us.imrworldwide.com/v60.js:1:23885
+NolTracker.prototype.postLinkTrack@https://secure-us.imrworldwide.com/v60.js:1:17653
+NolTracker.prototype.linkTrack@https://secure-us.imrworldwide.com/v60.js:1:18191
+u.send@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.312.js?utv=ut4.46.202308021508:7:180
+sendTag@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:86:175
+trigger@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:87:347
+track@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:77:52
+link@https://tags.tiqcdn.com/utag/wsjdn/wsj/qa/utag.js:76:220
+CQAi/t.exports/<@https://www.s.dev.wsj.com/__CDN_PLACEHOLDER__/df75ecbe-d976-4cce-ab9c-206ce94bfd81.e446b0c9f21a93.js:1:9466
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.int.accounts.dowjones.com."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT, line 224: Script terminated by timeout at:
+Pc@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:224:124
+Rc@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:224:307
+f@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:234:263
+gd@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:234:693
+r@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:232:903
+YC@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:705:149
+WC/</<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:703:189
+hb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+WC/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:703:168
+hb@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:198:204
+WC@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:703:135
+XC/<@https://www.googletagmanager.com/gtag/js?id=G-GJ5S1GJYKT:703:111
+
+1739270139640	Marionette	INFO	Stopped listening on port 49533
+Dynamically enable window occlusion 1

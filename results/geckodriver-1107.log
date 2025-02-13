@@ -1,0 +1,25 @@
+1739463892799	geckodriver	INFO	Listening on 127.0.0.1:52980
+1739463895935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileMHD9dY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739463896870	Marionette	INFO	Marionette enabled
+1739463897349	Marionette	INFO	Listening on port 53023
+WebDriver BiDi listening on ws://127.0.0.1:52981
+Read port: 53023
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739463897704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52981/devtools/browser/156891b4-7e94-4b15-b72a-4d2cf959b351
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+JavaScript warning: https://sso.accounts.dowjones.com/datadome/tags.js, line 2: Script terminated by timeout at:
+@https://sso.accounts.dowjones.com/datadome/tags.js:2:160473
+
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m73jwisivz3tkaqi&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2Ffollow&new=1&arf=0&ltm=1739463915045&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m73jwivmmzu9c0vf&ckp=m73jwisievqzhodr&glb=&eid0=5616740b5300a7250d12bc50017020dee93adf3b70eb11dbe71d4504b2bf9962&eit0=wsj&cp_userState=anon&cp_testGroup=4&cp_topDomain=barrons.com&cp_template=full&cp_access=free&cp_section=Follow&cp_subsection=&cp_cms_name=&cp_subscriber=subscriber&cp_edition=naus&cp_bucket=6&cp_ab_bucket=26&cp_pageContentSource=Barrons%20Online&cp_pageContentType=Summaries&cp_pageContentTypeDetai=default&cp_pageSiteProduct=BOL&cp_userTags=BARRONS-SUB&cp_sessionState=ca&cp_u_knownSubscriber=1, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 2ms)
+1739463921271	Marionette	INFO	Stopped listening on port 53023
+JavaScript warning: https://www.barrons.com/follow, line 555: Script terminated by timeout at:
+nrWrapper@https://www.barrons.com/follow:555:17609
+
+Dynamically enable window occlusion 1
