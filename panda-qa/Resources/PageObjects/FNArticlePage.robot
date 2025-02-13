@@ -77,7 +77,7 @@ Click Preference Center Link
     Click Element  dom:${JSPreferenceCenterLinkFNPath}
 
 Validate author hyperlink
-    Page Should Contain Element  //*[@id="fn-pre-body-article-wrap"]/div[3]/div/div/div/span/a
+    Page Should Contain Element  //*[@id="__next"]/layout/div[4]/div[1]/div[1]/div/div/div[2]/a/span/span  #//*[@id="fn-pre-body-article-wrap"]/div[3]/div/div/div/span/a
 
 Validate author without byline
     IF  "${Env}" == "prod"

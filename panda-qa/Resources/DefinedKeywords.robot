@@ -86,8 +86,8 @@ Barrons Table Alignment Sign in Process
    Click Element  //html/body/div/section/div/div[2]/form/button  #//html/body/main/div[2]/section[16]/div/form/div[5]/button
 
 Barrons Quote Page Sign in Process
-   Wait Until Element is Visible  //html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
-   Click Element  //html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
+   Wait Until Element is Visible  //*[@id="__next"]/div/div/header/div/div[1]/div[3]/div/a  #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
+   Click Element  //*[@id="__next"]/div/div/header/div/div[1]/div[3]/div/a  #//html/body/div[3]/div/div/header/div/div[1]/div[3]/div/a
    Wait Until Element Is Visible  //*[@id="emailOrUsername"]
    Click Element   //*[@id="emailOrUsername"]
    Input Text  //*[@id="emailOrUsername"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #//*[@id=":r5:-form-item"]  QABARRONSONLY  #akhilesh.khanduri@dowjones.com
@@ -144,17 +144,19 @@ WSJ Postback Sign In Process
     Wait Until Element Is Not Visible  //*[@id="password-login"]/div/form/div/div[5]/div[1]/button
 
 Mansion Global Sign In Process
-    Click Button  //input[@type='email']
-    Input Text  //input[@type='email']   QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #priyanka.bhoomraogari@dowjones.com  #isaias.iniguez@dowjones.com
+    Wait Until Element Is Visible  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a
+    Click Element  //*[@id="header-wrapper"]/div[1]/div/div[3]/div/div/a
+    Click Button  //*[@id="emailOrUsername"]  #//input[@type='email']
+    Input Text  //*[@id="emailOrUsername"]   QABARRONSONLY  #akhilesh.khanduri@dowjones.com  #priyanka.bhoomraogari@dowjones.com  #isaias.iniguez@dowjones.com
     Set Selenium Implicit Wait  10s
-    Click Button  //*[@id="basic-login"]/div[1]/form/div[2]/div[6]/div[1]/button[2]
+    Click Button  //*[@id="signin-continue-btn"]  #//*[@id="basic-login"]/div[1]/form/div[2]/div[6]/div[1]/button[2]
     Set Selenium Implicit Wait  10s
-    Wait Until Element Is Visible  //*[@id="password-login-password"]
-    Input Text  //*[@id="password-login-password"]   password1  #AKpolarzx@2594  #January2024  #Cuceis19841234!
+    Wait Until Element Is Visible  //*[@id="password"]  #//*[@id="password-login-password"]
+    Input Text  //*[@id="password"]   password1  #AKpolarzx@2594  #January2024  #Cuceis19841234!
     Set Selenium Implicit Wait  10s
-    Click Button  //*[@id="password-login"]/div/form/div/div[5]/div[1]/button
+    Click Button  //*[@id="signin-pass-submit-btn"]  #//*[@id="password-login"]/div/form/div/div[5]/div[1]/button
     Set Selenium Implicit Wait  10s
-    Wait Until Element Is Not Visible  //*[@id="password-login"]/div/form/div/div[5]/div[1]/button
+    Wait Until Element Is Not Visible  //*[@id="signin-pass-submit-btn"]  #//*[@id="password-login"]/div/form/div/div[5]/div[1]/button
 
 Barrons Article Sign in Process
    Wait Until Element is Visible  //*[@id="__next"]/header/div/div[1]/div[3]/div/a

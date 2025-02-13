@@ -1,0 +1,39 @@
+1739415234858	geckodriver	INFO	Listening on 127.0.0.1:62667
+1739415237913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofilenJL06e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739415238911	Marionette	INFO	Marionette enabled
+1739415239379	Marionette	INFO	Listening on port 62683
+Read port: 62683
+WebDriver BiDi listening on ws://127.0.0.1:62669
+1739415239578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+DevTools listening on ws://127.0.0.1:62669/devtools/browser/67952b45-e4b5-4563-8cbf-5d593d2d4c4d
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72qxdrxc96uzyvb&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1739415246346&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72qxdw5xh2h8mog&ckp=m72qxdrxueal4nyr&glb=&cp_userState=anon&cp_testGroup=19&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=1&cp_ab_bucket=21&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 2198 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.cxense.com/cx.js, line 6: Script terminated by timeout at:
+$i@https://cdn.cxense.com/cx.js:6:52727
+po@https://cdn.cxense.com/cx.js:6:55125
+ua@https://cdn.cxense.com/cx.js:6:70769
+fa/<@https://cdn.cxense.com/cx.js:6:71076
+nrWrapper@https://www.mansionglobal.com/articles/what-property-tax-changes-are-in-store-for-luxury-home-owners-in-edmonton-canada-e0d92933:112:17759
+
+JavaScript warning: https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_532074231, line 11: Script terminated by timeout at:
+v@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_532074231:11:367
+jD/this.T@https://imasdk.googleapis.com/js/core/bridge3.685.0_en.html#fid=goog_532074231:454:37
+
+JavaScript warning: https://www.youtube-nocookie.com/s/player/074a8365/www-embed-player.vflset/www-embed-player.js, line 936: Script terminated by timeout at:
+hm/<@https://www.youtube-nocookie.com/s/player/074a8365/www-embed-player.vflset/www-embed-player.js:936:47
+
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js, line 114: Script terminated by timeout at:
+i.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:4276
+C@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:1597
+i._initialize/<@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:114:4912
+d@https://static.cdninstagram.com/rsrc.php/v4iy674/yD/l/en_US/HwP1JyajcHm.js:30:158
+
+1739415260835	Marionette	INFO	Stopped listening on port 62683
+Dynamically enable window occlusion 1

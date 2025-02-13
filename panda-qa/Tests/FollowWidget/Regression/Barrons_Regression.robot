@@ -197,7 +197,7 @@ Validate the Watchlist widget from Watchlist
 #US-T250
 Validate the Watchlist widget from Quotes page
     [Documentation]  This test case validates the watchlist widget from quotes page
-    [Tags]  Regression  Watchlist  QuotesPage     US-T248
+    [Tags]  Regression  Watchlist  QuotesPage    US-T248
 
     CommonFunctionality.Start Barrons for Quotes page
     DefinedKeywords.Barrons Quote Page Sign in Process

@@ -1,0 +1,86 @@
+1739420691770	geckodriver	INFO	Listening on 127.0.0.1:56973
+1739420695059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56974" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileG2XgrS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739420696871	Marionette	INFO	Marionette enabled
+1739420697244	Marionette	INFO	Listening on port 57097
+WebDriver BiDi listening on ws://127.0.0.1:56974
+Read port: 57097
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739420697598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56974/devtools/browser/5e40e856-5fac-4de9-97f0-06f12a13b206
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 4ms)
+JavaScript error: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 10: Error: Piano SDK is loaded twice on same page. Try to fix that to prevent the message.
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72u6erw3pg9l4hn&sid=9222325317970825875&loc=https%3A%2F%2Fwww.barrons.com%2F&new=1&arf=0&ltm=1739420706423&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72u6howgstcnyhl&ckp=m72u6erwuruuf7p0&glb=&cp_userState=anon, line 1: TypeError: cX.loadScript is not a function
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 2697 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js, line 14: Script terminated by timeout at:
+c._setState@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:29969
+c._resolveState@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:29762
+b.setPosition@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:19:1503
+c._updateTimeline@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:29260
+c.advance@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:28504
+c._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:28796
+b._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:11081
+c._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:28821
+b._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:11081
+c._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:28821
+b._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:11081
+c._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:14:28821
+b._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:11081
+b.tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:14742
+b.update@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:13:14088
+handleLoadComplete/<@https://s0.2mdn.net/sadbundle/11705947930167564499/index.html?ev=01_253:116:25
+b._dispatchEvent@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:12:4090
+b._dispatchEvent@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:12:4158
+b.dispatchEvent@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:12:3479
+a._tick@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:12:7459
+a._handleTimeout@https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js:12:6772
+
+JavaScript warning: https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.25029014600152766%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.25029014600152766%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=www.barrons.com&us_privacy=1YNN&gpp=DBABRg~BVoAACA&gpp_sid=9#{%22cw%22:true,%22lsw%22:true,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.25029014600152766%22,%22tld%22:%22www.barrons.com%22,%22topUrl%22:%22www.barrons.com%22,%22version%22:%229_12_0%22}:13:3642
+
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 536 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200, line 313: Script terminated by timeout at:
+sn@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:313:400
+un@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:314:359
+Ww@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:482:3
+VF@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:617:344
+f@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:618:495
+XF/<@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:620:410
+Dl@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:298:151
+Cm@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:306:434
+XF@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:620:398
+w@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:322:370
+vo@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:322:470
+uo.prototype.flush@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:325:382
+uo.prototype.push@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:323:337
+no@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:319:1318
+event@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:568:253
+uB@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:574:469
+wB@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:576:45
+@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:692:242
+c@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:687:130
+@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:689:382
+@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:689:387
+@https://www.googletagmanager.com/gtag/js?id=AW-1067154206&l=dataLayer&cx=c&gtm=45je52b0v9177788093za200:695:3
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sso.accounts.dowjones.com."
+console.error: ({})
+console.error: ({})
+JavaScript warning: https://cdn.gbqofs.com/sv/b/detector-bootstrap.min.js, line 0: Successfully compiled asm.js code (total compilation time 3ms)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 2274 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 4778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739420745262	Marionette	INFO	Stopped listening on port 57097
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

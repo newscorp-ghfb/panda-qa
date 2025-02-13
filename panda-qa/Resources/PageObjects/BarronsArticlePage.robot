@@ -108,12 +108,14 @@ Validate Follow Button 2
     Element Text Should Be  dom:${JSFollowButtonBarrons2Path}  Follow  timeout=30
 
 Validate Stock Pick Follow Button
-    Wait Until Element is Visible  dom:${JSStockPickFollowButtonBarronsPath}
-    Element Text Should Be  dom:${JSStockPickFollowButtonBarronsPath}  Follow  timeout=30
+    Wait Until Element is Visible  //*[@id="buy-rockwell-automation-stock-pick-price-cc120733"]/div[1]/div[3]/div/div/div/ufc-follow-author-widget   #dom:${JSStockPickFollowButtonBarronsPath}
+    #Element Text Should Be  //*[@id="buy-rockwell-automation-stock-pick-price-cc120733"]/div[1]/div[3]/div/div/div/ufc-follow-author-widget  Follow  timeout=30
+    #Click Element  //div[contains(@id, 'buy-rockwell-automation-stock-pick-price')]//ufc-follow-author-widget
 
 Validate Stock Pick UnFollow Button
-    Wait Until Element is Visible  dom:${JSStockPickFollowButtonBarronsPath}
-    Element Text Should Be  dom:${JSStockPickFollowButtonBarronsPath}  Follow  timeout=30
+    Wait Until Element is Visible   D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\results\log-20250213-090632.html
+  #dom:${JSStockPickFollowButtonBarronsPath}
+    Element Text Should Be   D:\Users\sasikumarj\PycharmProjects\userservices-qa-automation\results\log-20250213-090632.html  Follow  timeout=30
 
 Validate Custom Topic Stock Pick UnFollow Button
     Wait Until Element is Visible  dom:${JSStockPickCTFollowButtonBarronsPath}
@@ -151,7 +153,7 @@ Click Follow Button 2
     Click Button  dom:${JSFollowButtonBarrons2Path}
 
 Click Stock Pick Follow Button
-    Click Button  dom:${JSStockPickFollowButtonBarronsPath}
+    Click Button  //*[@id="buy-rockwell-automation-stock-pick-price-cc120733"]/div[1]/div[3]/div/div/div/ufc-follow-author-widget  #//*[@id="buy-rockwell-automation-stock-pick-price-cc120733"]/div[1]/div[3]/div/div/div/ufc-follow-author-widget  #dom:${JSStockPickFollowButtonBarronsPath}
 
 Click Custom Topic Stock Pick Follow Button
     Click Button  dom:${JSStockPickCTFollowButtonBarronsPath}

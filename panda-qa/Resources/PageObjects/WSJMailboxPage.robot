@@ -91,6 +91,7 @@ Search Your WSJ real-time custom topic notification
 Validate WSJ real-time custom topic notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //div[text()="Latest in Film"]
     Page Should Contain Element  //a[text()="Read More "]

@@ -44,6 +44,7 @@ Search Your Daily Digest from FN
 Validate FN Digest notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in web browser')]
     Page Should Contain Element  //table[@role="presentation"]//span[text()="Daily"]/../span[text()="Digest"]
 #    Page Should Contain Element  //a[text()="Preferences"]
@@ -61,6 +62,7 @@ Search Your FN real-time author notification
 Validate FN real-time author notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //a[.='David Wighton']
     Page Should Contain Element  //*[contains(text(),'Read More')]
@@ -78,6 +80,7 @@ Search Your FN real-time company notification
 Validate FN real-time company notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //*[text()='BlackRock']  #//*[text()="BLK (U.S.: NYSE)"]
     Page Should Contain Element  //*[contains(text(),'Read More')]

@@ -45,7 +45,7 @@ Search Your Daily Digest from Barron's
 Validate Barron's Digest notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
-    Set Selenium Speed  5 seconds
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //table[@role="presentation"]//span[text()="Daily"]/../span[text()="Digest"]
     Page Should Contain Element  //a[text()="Preferences"]
     Page Should Contain Element  //a[text()="Unsubscribe"]
@@ -59,8 +59,10 @@ Search Your Barrons real-time author notification
     Click Element  //button[@aria-label="Search"]
 
 Validate Barrons real-time author notification
+
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //*[contains(text(),'Read More')]
     Page Should Contain Element  //a[text()="Alerts Center"]
@@ -75,8 +77,10 @@ Search Your Barrons real-time company notification
     Click Element  //button[@aria-label="Search"]
 
 Validate Barrons real-time company notification
+
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  20s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //div/span[text()='Amazon.com']
     Page Should Contain Element  //div/span[text()='Inc']
@@ -96,6 +100,7 @@ Search Your Barrons real-time stock picks notification
 Validate Barrons real-time stock picks notification
     Wait Until Page Contains Element  //div[@id="groupHeaderTop results"]/../div[2]
     Click Element  //div[@id="groupHeaderTop results"]/../div[2]
+    Set Selenium Implicit Wait  10s
     Page Should Contain Element  //a[contains(text(),'View in browser')]
     Page Should Contain Element  //span[text()='Picks']  #//*contains[text()="Barron's Stock Picks"]
     Page Should Contain Element  //*[contains(text(),'Read More')]

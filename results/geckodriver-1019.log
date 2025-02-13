@@ -1,0 +1,23 @@
+1739414803014	geckodriver	INFO	Listening on 127.0.0.1:63240
+1739414806032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "D:\\Users\\sasikumarj\\AppData\\Local\\Temp\\rust_mozprofileGJvqAC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739414806710	Marionette	INFO	Marionette enabled
+1739414806996	Marionette	INFO	Listening on port 63255
+WebDriver BiDi listening on ws://127.0.0.1:63241
+Read port: 63255
+console.error: Policies: 
+  Download failed - ERROR_CORRUPT_FILE - file://C:\Program Files\Snow Software\Inventory\Agent\FFCloudmetering.xpi
+1739414807254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63241/devtools/browser/f5e86072-9a70-47e1-a62b-41ab0e59ed7a
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript error: https://cdn.cxense.com/sp1.html#ver=2.8.90&typ=pgv&rnd=m72qo4llb71o952k&sid=1134007940894473081&loc=https%3A%2F%2Fwww.mansionglobal.com%2F&new=1&arf=0&ltm=1739414814544&ref=&tzo=-330&wsz=1280x595&res=1280x720&dpr=1&col=24&bln=en-US&chs=UTF-8&cks=m72qo4p6ytd9qtgr&ckp=m72qo4llclh1hfn2&glb=&cp_userState=anon&cp_testGroup=98&cp_topDomain=mansionglobal.com&cp_template=full&cp_access=free&cp_section=Home&cp_subsection=&cp_cms_name=CMS%20Wordpress&cp_subscriber=nonsubscriber&cp_edition=na%252Cus&cp_bucket=8&cp_ab_bucket=68&cp_pageContentSource=Mansion%20Global&cp_pageContentType=Home&cp_pageContentTypeDetai=default&cp_pageSiteProduct=MG&cp_userTags=&cp_sessionState=none, line 1: TypeError: cX.loadScript is not a function
+JavaScript error: https://us.tags.newscgp.com/prod/ncg/ncg.js, line 10: TypeError: window.GlobalSnowplowNamespace is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/8ZaB7jRsaaU-biZOJz6O6mNB_fDMtsHVeu7uD0tG4og.js line 2 > eval line 710 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1739414824282	Marionette	INFO	Stopped listening on port 63255
+JavaScript warning: https://asset.barrons.com/article/public/mg_full_article.d8fbd9f1e0ad.js, line 100: Script terminated by timeout at:
+p@https://asset.barrons.com/article/public/mg_full_article.d8fbd9f1e0ad.js:100:58411
+
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/2OLqLGNr0zHDpmEvPVsLweQktEaAqFW_L2mqSHTdR30.js line 2 > eval line 1792 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: !CanvasManagerChild::Get()

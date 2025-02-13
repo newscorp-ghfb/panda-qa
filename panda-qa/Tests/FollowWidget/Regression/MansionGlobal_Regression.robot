@@ -19,7 +19,7 @@ Test Teardown  CommonFunctionality.Finish Testcase
 #US-T100
 Validate the Mansion GLobal Preference Center page
     [Documentation]  This test case validates the Mansion Global preference center page
-    [Tags]  Regression  PrefrenceCenter   US-T87
+    [Tags]  Regression  PrefrenceCenter   US-T100
 
     MansionGLobalPreferenceCenterPage.Add Author By Hotlink
     DefinedKeywords.Sign In Process
